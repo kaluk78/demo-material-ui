@@ -1,0 +1,560 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:47:37.787Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "Pagination",
+      "path": "packages/mui-material/src/Pagination",
+      "purpose": "Enhanced directory analysis of Pagination",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "paginationClasses.ts",
+        "path": "packages/mui-material/src/Pagination/paginationClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 29,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Pagination/paginationClasses.ts",
+            "functionName": "getPaginationUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 17,
+              "endLine": 19
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "PaginationClasses",
+            "type": "interface"
+          },
+          {
+            "name": "PaginationClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getPaginationUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getPaginationUtilityClass",
+            "type": "function",
+            "signature": "function getPaginationUtilityClass()"
+          },
+          {
+            "name": "PaginationClasses",
+            "type": "interface",
+            "signature": "interface PaginationClasses"
+          },
+          {
+            "name": "PaginationClassKey",
+            "type": "type",
+            "signature": "type PaginationClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.js",
+        "path": "packages/mui-material/src/Pagination/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "paginationClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-material/src/Pagination/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "paginationClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "Pagination.test.js",
+        "path": "packages/mui-material/src/Pagination/Pagination.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 101,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "spy",
+            "sourceModule": "sinon",
+            "isDefault": false,
+            "namedImports": [
+              "spy"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen"
+            ]
+          },
+          {
+            "name": "createTheme",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "createTheme",
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "Pagination",
+            "sourceModule": "@mui/material/Pagination",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "paginationItemClasses",
+            "sourceModule": "@mui/material/PaginationItem",
+            "isDefault": false,
+            "namedImports": [
+              "paginationItemClasses"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "Pagination.js",
+        "path": "packages/mui-material/src/Pagination/Pagination.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 257,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Pagination/Pagination.js",
+            "functionName": "defaultGetAriaLabel",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 46,
+              "endLine": 51
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -45,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Pagination/Pagination.js",
+            "functionName": "Pagination",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score; Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Pagination/Pagination.js",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "integerPropType",
+            "sourceModule": "@mui/utils/integerPropType",
+            "isDefault": true
+          },
+          {
+            "name": "getPaginationUtilityClass",
+            "sourceModule": "./paginationClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getPaginationUtilityClass"
+            ]
+          },
+          {
+            "name": "usePagination",
+            "sourceModule": "../usePagination",
+            "isDefault": true
+          },
+          {
+            "name": "PaginationItem",
+            "sourceModule": "../PaginationItem",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../zero-styled",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "useDefaultProps",
+            "sourceModule": "../DefaultPropsProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useDefaultProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "defaultGetAriaLabel",
+            "type": "function",
+            "signature": "function defaultGetAriaLabel()"
+          },
+          {
+            "name": "Pagination",
+            "type": "function",
+            "signature": "function Pagination()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "P",
+            "type": "const",
+            "signature": "const P"
+          },
+          {
+            "name": "P",
+            "type": "const",
+            "signature": "const P"
+          },
+          {
+            "name": "P",
+            "type": "const",
+            "signature": "const P"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          },
+          {
+            "name": "The",
+            "type": "type",
+            "signature": "type The"
+          },
+          {
+            "name": "to",
+            "type": "type",
+            "signature": "type to"
+          }
+        ]
+      },
+      {
+        "name": "Pagination.d.ts",
+        "path": "packages/mui-material/src/Pagination/Pagination.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 94,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "Theme",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "Theme"
+            ]
+          },
+          {
+            "name": "StandardProps",
+            "sourceModule": "../internal",
+            "isDefault": false,
+            "namedImports": [
+              "StandardProps"
+            ]
+          },
+          {
+            "name": "UsePaginationItem",
+            "sourceModule": "../usePagination/usePagination",
+            "isDefault": false,
+            "namedImports": [
+              "UsePaginationItem",
+              "UsePaginationProps"
+            ]
+          },
+          {
+            "name": "PaginationClasses",
+            "sourceModule": "./paginationClasses",
+            "isDefault": false,
+            "namedImports": [
+              "PaginationClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "PaginationRenderItemParams",
+            "type": "interface"
+          },
+          {
+            "name": "PaginationPropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "PaginationPropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "PaginationPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "PaginationProps",
+            "type": "interface"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Pagination",
+            "type": "function",
+            "signature": "function Pagination()"
+          },
+          {
+            "name": "PaginationRenderItemParams",
+            "type": "interface",
+            "signature": "interface PaginationRenderItemParams"
+          },
+          {
+            "name": "PaginationPropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface PaginationPropsVariantOverrides"
+          },
+          {
+            "name": "PaginationPropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface PaginationPropsSizeOverrides"
+          },
+          {
+            "name": "PaginationPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface PaginationPropsColorOverrides"
+          },
+          {
+            "name": "PaginationProps",
+            "type": "interface",
+            "signature": "interface PaginationProps"
+          },
+          {
+            "name": "The",
+            "type": "type",
+            "signature": "type The"
+          },
+          {
+            "name": "to",
+            "type": "type",
+            "signature": "type to"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

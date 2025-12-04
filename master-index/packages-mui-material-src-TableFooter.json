@@ -1,0 +1,475 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:47:51.485Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "TableFooter",
+      "path": "packages/mui-material/src/TableFooter",
+      "purpose": "Enhanced directory analysis of TableFooter",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "tableFooterClasses.ts",
+        "path": "packages/mui-material/src/TableFooter/tableFooterClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 18,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/TableFooter/tableFooterClasses.ts",
+            "functionName": "getTableFooterUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 11,
+              "endLine": 13
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TableFooterClasses",
+            "type": "interface"
+          },
+          {
+            "name": "TableFooterClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getTableFooterUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getTableFooterUtilityClass",
+            "type": "function",
+            "signature": "function getTableFooterUtilityClass()"
+          },
+          {
+            "name": "TableFooterClasses",
+            "type": "interface",
+            "signature": "interface TableFooterClasses"
+          },
+          {
+            "name": "TableFooterClassKey",
+            "type": "type",
+            "signature": "type TableFooterClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.js",
+        "path": "packages/mui-material/src/TableFooter/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "tableFooterClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-material/src/TableFooter/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "tableFooterClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "TableFooter.test.js",
+        "path": "packages/mui-material/src/TableFooter/TableFooter.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 61,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/TableFooter/TableFooter.test.js",
+            "functionName": "renderInTable",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Moderate context score; Returns computed value from external calls or processing; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 10,
+              "endLine": 12
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen"
+            ]
+          },
+          {
+            "name": "TableFooter",
+            "sourceModule": "@mui/material/TableFooter",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "Tablelvl2Context",
+            "sourceModule": "../Table/Tablelvl2Context",
+            "isDefault": true
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "renderInTable",
+            "type": "function",
+            "signature": "function renderInTable()"
+          }
+        ]
+      },
+      {
+        "name": "TableFooter.js",
+        "path": "packages/mui-material/src/TableFooter/TableFooter.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 92,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/TableFooter/TableFooter.js",
+            "functionName": "TableFooter",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/TableFooter/TableFooter.js",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "Tablelvl2Context",
+            "sourceModule": "../Table/Tablelvl2Context",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../zero-styled",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "useDefaultProps",
+            "sourceModule": "../DefaultPropsProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useDefaultProps"
+            ]
+          },
+          {
+            "name": "getTableFooterUtilityClass",
+            "sourceModule": "./tableFooterClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getTableFooterUtilityClass"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TableFooter",
+            "type": "function",
+            "signature": "function TableFooter()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "TableFooter.d.ts",
+        "path": "packages/mui-material/src/TableFooter/TableFooter.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 49,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "Theme",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "Theme"
+            ]
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "../OverridableComponent",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "TableFooterClasses",
+            "sourceModule": "./tableFooterClasses",
+            "isDefault": false,
+            "namedImports": [
+              "TableFooterClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TableFooterOwnProps",
+            "type": "interface"
+          },
+          {
+            "name": "TableFooterTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "TableFooterProps",
+            "type": "type"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "TableFooterOwnProps",
+            "type": "interface",
+            "signature": "interface TableFooterOwnProps"
+          },
+          {
+            "name": "TableFooterTypeMap",
+            "type": "interface",
+            "signature": "interface TableFooterTypeMap"
+          },
+          {
+            "name": "TableFooterProps",
+            "type": "type",
+            "signature": "type TableFooterProps"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

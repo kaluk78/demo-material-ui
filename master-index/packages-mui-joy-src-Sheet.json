@@ -1,0 +1,536 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:46:57.713Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "Sheet",
+      "path": "packages/mui-joy/src/Sheet",
+      "purpose": "Enhanced directory analysis of Sheet",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "sheetClasses.ts",
+        "path": "packages/mui-joy/src/Sheet/sheetClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 49,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Sheet/sheetClasses.ts",
+            "functionName": "getSheetUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 30,
+              "endLine": 32
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "../className",
+            "isDefault": false,
+            "namedImports": [
+              "generateUtilityClass",
+              "generateUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "SheetClasses",
+            "type": "interface"
+          },
+          {
+            "name": "SheetClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getSheetUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getSheetUtilityClass",
+            "type": "function",
+            "signature": "function getSheetUtilityClass()"
+          },
+          {
+            "name": "SheetClasses",
+            "type": "interface",
+            "signature": "interface SheetClasses"
+          },
+          {
+            "name": "SheetClassKey",
+            "type": "type",
+            "signature": "type SheetClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/Sheet/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "sheetClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "SheetProps.ts",
+        "path": "packages/mui-joy/src/Sheet/SheetProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 61,
+        "importedModules": [
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "ColorPaletteProp",
+            "sourceModule": "../styles/types",
+            "isDefault": false,
+            "namedImports": [
+              "ColorPaletteProp",
+              "SxProps",
+              "VariantProp",
+              "ApplyColorInversion"
+            ]
+          },
+          {
+            "name": "SlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "SlotProps",
+              "CreateSlotsAndSlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "SheetSlot",
+            "type": "type"
+          },
+          {
+            "name": "SheetSlots",
+            "type": "interface"
+          },
+          {
+            "name": "SheetSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "SheetPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "SheetPropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "SheetTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "SheetProps",
+            "type": "type"
+          },
+          {
+            "name": "SheetOwnerState",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "SheetSlots",
+            "type": "interface",
+            "signature": "interface SheetSlots"
+          },
+          {
+            "name": "SheetPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface SheetPropsColorOverrides"
+          },
+          {
+            "name": "SheetPropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface SheetPropsVariantOverrides"
+          },
+          {
+            "name": "SheetTypeMap",
+            "type": "interface",
+            "signature": "interface SheetTypeMap"
+          },
+          {
+            "name": "SheetOwnerState",
+            "type": "interface",
+            "signature": "interface SheetOwnerState"
+          },
+          {
+            "name": "SheetSlot",
+            "type": "type",
+            "signature": "type SheetSlot"
+          },
+          {
+            "name": "SheetSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type SheetSlotsAndSlotProps"
+          },
+          {
+            "name": "SheetProps",
+            "type": "type",
+            "signature": "type SheetProps"
+          }
+        ]
+      },
+      {
+        "name": "Sheet.tsx",
+        "path": "packages/mui-joy/src/Sheet/Sheet.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 201,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Sheet/Sheet.tsx",
+            "functionName": "Sheet",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/Sheet/Sheet.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/base",
+            "isDefault": false,
+            "namedImports": [
+              "composeClasses"
+            ]
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent"
+            ]
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "getPath",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "getPath"
+            ]
+          },
+          {
+            "name": "useThemeProps",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "useThemeProps"
+            ]
+          },
+          {
+            "name": "applySoftInversion",
+            "sourceModule": "../colorInversion",
+            "isDefault": false,
+            "namedImports": [
+              "applySoftInversion",
+              "applySolidInversion"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../styles/styled",
+            "isDefault": true
+          },
+          {
+            "name": "resolveSxValue",
+            "sourceModule": "../styles/styleUtils",
+            "isDefault": false,
+            "namedImports": [
+              "resolveSxValue"
+            ]
+          },
+          {
+            "name": "getSheetUtilityClass",
+            "sourceModule": "./sheetClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getSheetUtilityClass"
+            ]
+          },
+          {
+            "name": "SheetProps",
+            "sourceModule": "./SheetProps",
+            "isDefault": false,
+            "namedImports": [
+              "SheetProps",
+              "SheetOwnerState",
+              "SheetTypeMap"
+            ]
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "SheetRoot",
+            "type": "const"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Sheet",
+            "type": "function",
+            "signature": "function Sheet()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "Sheet.test.tsx",
+        "path": "packages/mui-joy/src/Sheet/Sheet.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 73,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen"
+            ]
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "Sheet",
+            "sourceModule": "@mui/joy/Sheet",
+            "isDefault": true,
+            "namedImports": [
+              "classes",
+              "SheetClassKey"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "by",
+            "type": "class",
+            "signature": "class by"
+          }
+        ]
+      },
+      {
+        "name": "Sheet.spec.tsx",
+        "path": "packages/mui-joy/src/Sheet/Sheet.spec.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 25,
+        "importedModules": [
+          {
+            "name": "Sheet",
+            "sourceModule": "@mui/joy/Sheet",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": []
+  }
+}

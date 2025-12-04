@@ -1,0 +1,651 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:46:48.653Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "FormControl",
+      "path": "packages/mui-joy/src/FormControl",
+      "purpose": "Enhanced directory analysis of FormControl",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/FormControl/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "formControlClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "formControlClasses.ts",
+        "path": "packages/mui-joy/src/FormControl/formControlClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 55,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/FormControl/formControlClasses.ts",
+            "functionName": "getFormControlUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 34,
+              "endLine": 36
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "../className",
+            "isDefault": false,
+            "namedImports": [
+              "generateUtilityClass",
+              "generateUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "FormControlClasses",
+            "type": "interface"
+          },
+          {
+            "name": "FormControlClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getFormControlUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getFormControlUtilityClass",
+            "type": "function",
+            "signature": "function getFormControlUtilityClass()"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "FormControlClasses",
+            "type": "interface",
+            "signature": "interface FormControlClasses"
+          },
+          {
+            "name": "FormControlClassKey",
+            "type": "type",
+            "signature": "type FormControlClassKey"
+          }
+        ]
+      },
+      {
+        "name": "FormControlProps.ts",
+        "path": "packages/mui-joy/src/FormControl/FormControlProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 76,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverrideProps",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverrideProps",
+              "OverridableStringUnion"
+            ]
+          },
+          {
+            "name": "ApplyColorInversion",
+            "sourceModule": "../styles/types",
+            "isDefault": false,
+            "namedImports": [
+              "ApplyColorInversion",
+              "ColorPaletteProp",
+              "SxProps"
+            ]
+          },
+          {
+            "name": "SlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "SlotProps",
+              "CreateSlotsAndSlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "FormControlSlot",
+            "type": "type"
+          },
+          {
+            "name": "FormControlSlots",
+            "type": "interface"
+          },
+          {
+            "name": "FormControlSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "FormControlPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "FormControlPropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "FormControlTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "FormControlProps",
+            "type": "type"
+          },
+          {
+            "name": "FormControlOwnerState",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "FormControlSlots",
+            "type": "interface",
+            "signature": "interface FormControlSlots"
+          },
+          {
+            "name": "FormControlPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface FormControlPropsColorOverrides"
+          },
+          {
+            "name": "FormControlPropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface FormControlPropsSizeOverrides"
+          },
+          {
+            "name": "FormControlTypeMap",
+            "type": "interface",
+            "signature": "interface FormControlTypeMap"
+          },
+          {
+            "name": "FormControlOwnerState",
+            "type": "interface",
+            "signature": "interface FormControlOwnerState"
+          },
+          {
+            "name": "FormControlSlot",
+            "type": "type",
+            "signature": "type FormControlSlot"
+          },
+          {
+            "name": "FormControlSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type FormControlSlotsAndSlotProps"
+          },
+          {
+            "name": "FormControlProps",
+            "type": "type",
+            "signature": "type FormControlProps"
+          }
+        ]
+      },
+      {
+        "name": "FormControlContext.ts",
+        "path": "packages/mui-joy/src/FormControl/FormControlContext.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 24,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "FormControlProps",
+            "sourceModule": "./FormControlProps",
+            "isDefault": false,
+            "namedImports": [
+              "FormControlProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "FormControlContextValue",
+            "type": "type"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "F",
+            "type": "const",
+            "signature": "const F"
+          },
+          {
+            "name": "FormControlContextValue",
+            "type": "type",
+            "signature": "type FormControlContextValue"
+          }
+        ]
+      },
+      {
+        "name": "FormControl.tsx",
+        "path": "packages/mui-joy/src/FormControl/FormControl.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 268,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/FormControl/FormControl.tsx",
+            "functionName": "FormControl",
+            "classification": "likely-placeholder",
+            "confidence": 70,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\"",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 85,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/FormControl/FormControl.tsx",
+            "functionName": "registerEffect",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (0 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/FormControl/FormControl.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent"
+            ]
+          },
+          {
+            "name": "useId",
+            "sourceModule": "@mui/utils/useId",
+            "isDefault": true
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/base/composeClasses",
+            "isDefault": false,
+            "namedImports": [
+              "composeClasses"
+            ]
+          },
+          {
+            "name": "useThemeProps",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "useThemeProps"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../styles/styled",
+            "isDefault": true
+          },
+          {
+            "name": "FormControlContext",
+            "sourceModule": "./FormControlContext",
+            "isDefault": true
+          },
+          {
+            "name": "formControlClasses",
+            "sourceModule": "./formControlClasses",
+            "isDefault": true,
+            "namedImports": [
+              "getFormControlUtilityClass"
+            ]
+          },
+          {
+            "name": "FormControlProps",
+            "sourceModule": "./FormControlProps",
+            "isDefault": false,
+            "namedImports": [
+              "FormControlProps",
+              "FormControlOwnerState",
+              "FormControlTypeMap"
+            ]
+          },
+          {
+            "name": "switchClasses",
+            "sourceModule": "../Switch/switchClasses",
+            "isDefault": true
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "FormControlRoot",
+            "type": "const"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "FormControl",
+            "type": "function",
+            "signature": "function FormControl()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "F",
+            "type": "const",
+            "signature": "const F"
+          },
+          {
+            "name": "F",
+            "type": "const",
+            "signature": "const F"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "FormControl.test.tsx",
+        "path": "packages/mui-joy/src/FormControl/FormControl.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 531,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen"
+            ]
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "FormControl",
+            "sourceModule": "@mui/joy/FormControl",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "FormLabel",
+            "sourceModule": "@mui/joy/FormLabel",
+            "isDefault": true
+          },
+          {
+            "name": "FormHelperText",
+            "sourceModule": "@mui/joy/FormHelperText",
+            "isDefault": true
+          },
+          {
+            "name": "Checkbox",
+            "sourceModule": "@mui/joy/Checkbox",
+            "isDefault": true,
+            "namedImports": [
+              "checkboxClasses"
+            ]
+          },
+          {
+            "name": "Input",
+            "sourceModule": "@mui/joy/Input",
+            "isDefault": true,
+            "namedImports": [
+              "inputClasses"
+            ]
+          },
+          {
+            "name": "Select",
+            "sourceModule": "@mui/joy/Select",
+            "isDefault": true,
+            "namedImports": [
+              "selectClasses"
+            ]
+          },
+          {
+            "name": "Textarea",
+            "sourceModule": "@mui/joy/Textarea",
+            "isDefault": true,
+            "namedImports": [
+              "textareaClasses"
+            ]
+          },
+          {
+            "name": "RadioGroup",
+            "sourceModule": "@mui/joy/RadioGroup",
+            "isDefault": true
+          },
+          {
+            "name": "Radio",
+            "sourceModule": "@mui/joy/Radio",
+            "isDefault": true,
+            "namedImports": [
+              "radioClasses"
+            ]
+          },
+          {
+            "name": "Switch",
+            "sourceModule": "@mui/joy/Switch",
+            "isDefault": true,
+            "namedImports": [
+              "switchClasses"
+            ]
+          },
+          {
+            "name": "Autocomplete",
+            "sourceModule": "@mui/joy/Autocomplete",
+            "isDefault": true,
+            "namedImports": [
+              "autocompleteClasses"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": []
+  }
+}

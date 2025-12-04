@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:51:35.600Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "TextareaAutosize",
+      "path": "test/e2e/fixtures/TextareaAutosize",
+      "purpose": "Enhanced directory analysis of TextareaAutosize",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "TextareaAutosizeSuspense.tsx",
+        "path": "test/e2e/fixtures/TextareaAutosize/TextareaAutosizeSuspense.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 31,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/e2e/fixtures/TextareaAutosize/TextareaAutosizeSuspense.tsx",
+            "functionName": "LazyRoute",
+            "classification": "definite-legitimate",
+            "confidence": 6,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 17
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 6,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/test/e2e/fixtures/TextareaAutosize/TextareaAutosizeSuspense.tsx",
+            "functionName": "TextareaAutosizeSuspense",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 19,
+              "endLine": 30
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "TextareaAutosize",
+            "sourceModule": "@mui/material/TextareaAutosize",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TextareaAutosizeSuspense",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "LazyRoute",
+            "type": "function",
+            "signature": "function LazyRoute()"
+          },
+          {
+            "name": "TextareaAutosizeSuspense",
+            "type": "function",
+            "signature": "function TextareaAutosizeSuspense()"
+          }
+        ]
+      },
+      {
+        "name": "BasicTextareaAutosize.tsx",
+        "path": "test/e2e/fixtures/TextareaAutosize/BasicTextareaAutosize.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 9,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/e2e/fixtures/TextareaAutosize/BasicTextareaAutosize.tsx",
+            "functionName": "BasicTextareaAutosize",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 6
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "TextareaAutosize",
+            "sourceModule": "@mui/material/TextareaAutosize",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "BasicTextareaAutosize",
+            "type": "function",
+            "signature": "function BasicTextareaAutosize()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

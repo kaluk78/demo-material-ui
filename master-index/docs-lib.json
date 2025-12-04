@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:37:48.958Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "lib",
+      "path": "docs/lib",
+      "purpose": "Enhanced directory analysis of lib",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "sourcing.ts",
+        "path": "docs/lib/sourcing.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 82,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/lib/sourcing.ts",
+            "functionName": "getAllBlogPosts",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Contains throw statement",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 6,
+              "commentAnalysis": 0,
+              "contextFilter": -55,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/docs/lib/sourcing.ts",
+            "functionName": "getBlogFilePaths",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/docs/lib/sourcing.ts",
+            "functionName": "getBlogPost",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 21,
+              "endLine": 31
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -55,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "fs",
+            "sourceModule": "fs",
+            "isDefault": true
+          },
+          {
+            "name": "path",
+            "sourceModule": "path",
+            "isDefault": true
+          },
+          {
+            "name": "getHeaders",
+            "sourceModule": "@mui/internal-markdown",
+            "isDefault": false,
+            "namedImports": [
+              "getHeaders"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "getBlogFilePaths",
+            "type": "const"
+          },
+          {
+            "name": "BlogPost",
+            "type": "interface"
+          },
+          {
+            "name": "getBlogPost",
+            "type": "function"
+          },
+          {
+            "name": "getAllBlogPosts",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getBlogPost",
+            "type": "function",
+            "signature": "function getBlogPost()"
+          },
+          {
+            "name": "getBlogFilePaths",
+            "type": "function",
+            "signature": "const getBlogFilePaths = () =>"
+          },
+          {
+            "name": "getAllBlogPosts",
+            "type": "function",
+            "signature": "const getAllBlogPosts = () =>"
+          },
+          {
+            "name": "ALLOWED_TAGS",
+            "type": "const",
+            "signature": "const ALLOWED_TAGS"
+          },
+          {
+            "name": "BlogPost",
+            "type": "interface",
+            "signature": "interface BlogPost"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

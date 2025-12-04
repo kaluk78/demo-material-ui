@@ -1,0 +1,228 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:48:34.414Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "useControlled",
+      "path": "packages/mui-utils/src/useControlled",
+      "purpose": "Enhanced directory analysis of useControlled",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "useControlled.ts",
+        "path": "packages/mui-utils/src/useControlled/useControlled.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 79,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-utils/src/useControlled/useControlled.ts",
+            "functionName": "useControlled",
+            "classification": "definite-placeholder",
+            "confidence": 85,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\""
+            ],
+            "location": {
+              "startLine": 25,
+              "endLine": 78
+            },
+            "detectionMethods": {
+              "explicitMarkers": 85,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "UseControlledProps",
+            "type": "interface"
+          },
+          {
+            "name": "useControlled",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "UseControlledProps",
+            "type": "interface",
+            "signature": "interface UseControlledProps"
+          },
+          {
+            "name": "should",
+            "type": "type",
+            "signature": "type should"
+          }
+        ]
+      },
+      {
+        "name": "useControlled.test.tsx",
+        "path": "packages/mui-utils/src/useControlled/useControlled.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 146,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-utils/src/useControlled/useControlled.test.tsx",
+            "functionName": "TestComponent",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Returns computed value from external calls or processing; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 20,
+              "endLine": 27
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -32,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-utils/src/useControlled/useControlled.test.tsx",
+            "functionName": "TestComponentArray",
+            "classification": "likely-legitimate",
+            "confidence": 23,
+            "isPlaceholder": true,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected"
+            ],
+            "location": {
+              "startLine": 131,
+              "endLine": 138
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 28,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "act",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "act",
+              "createRenderer"
+            ]
+          },
+          {
+            "name": "useControlled",
+            "sourceModule": "./useControlled",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TestComponentArray",
+            "type": "function",
+            "signature": "function TestComponentArray()"
+          },
+          {
+            "name": "TestProps",
+            "type": "type",
+            "signature": "type TestProps"
+          },
+          {
+            "name": "TestComponentProps",
+            "type": "type",
+            "signature": "type TestComponentProps"
+          },
+          {
+            "name": "SetProps",
+            "type": "type",
+            "signature": "type SetProps"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-utils/src/useControlled/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 3,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": []
+  }
+}

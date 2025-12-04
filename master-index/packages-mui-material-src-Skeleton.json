@@ -1,0 +1,489 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:47:43.477Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "Skeleton",
+      "path": "packages/mui-material/src/Skeleton",
+      "purpose": "Enhanced directory analysis of Skeleton",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "skeletonClasses.ts",
+        "path": "packages/mui-material/src/Skeleton/skeletonClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 47,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Skeleton/skeletonClasses.ts",
+            "functionName": "getSkeletonUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 29,
+              "endLine": 31
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "SkeletonClasses",
+            "type": "interface"
+          },
+          {
+            "name": "SkeletonClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getSkeletonUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getSkeletonUtilityClass",
+            "type": "function",
+            "signature": "function getSkeletonUtilityClass()"
+          },
+          {
+            "name": "SkeletonClasses",
+            "type": "interface",
+            "signature": "interface SkeletonClasses"
+          },
+          {
+            "name": "SkeletonClassKey",
+            "type": "type",
+            "signature": "type SkeletonClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.js",
+        "path": "packages/mui-material/src/Skeleton/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "skeletonClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-material/src/Skeleton/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "skeletonClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "Skeleton.test.js",
+        "path": "packages/mui-material/src/Skeleton/Skeleton.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 71,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer"
+            ]
+          },
+          {
+            "name": "Skeleton",
+            "sourceModule": "@mui/material/Skeleton",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "when",
+            "type": "class",
+            "signature": "class when"
+          },
+          {
+            "name": "when",
+            "type": "class",
+            "signature": "class when"
+          },
+          {
+            "name": "when",
+            "type": "class",
+            "signature": "class when"
+          }
+        ]
+      },
+      {
+        "name": "Skeleton.js",
+        "path": "packages/mui-material/src/Skeleton/Skeleton.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 308,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Skeleton/Skeleton.js",
+            "functionName": "Skeleton",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Skeleton/Skeleton.js",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "getUnit",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "getUnit",
+              "toUnitless"
+            ]
+          },
+          {
+            "name": "keyframes",
+            "sourceModule": "../zero-styled",
+            "isDefault": false,
+            "namedImports": [
+              "keyframes",
+              "css",
+              "styled"
+            ]
+          },
+          {
+            "name": "memoTheme",
+            "sourceModule": "../utils/memoTheme",
+            "isDefault": true
+          },
+          {
+            "name": "useDefaultProps",
+            "sourceModule": "../DefaultPropsProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useDefaultProps"
+            ]
+          },
+          {
+            "name": "getSkeletonUtilityClass",
+            "sourceModule": "./skeletonClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getSkeletonUtilityClass"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Skeleton",
+            "type": "function",
+            "signature": "function Skeleton()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          },
+          {
+            "name": "of",
+            "type": "type",
+            "signature": "type of"
+          }
+        ]
+      },
+      {
+        "name": "Skeleton.d.ts",
+        "path": "packages/mui-material/src/Skeleton/Skeleton.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 77,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion"
+            ]
+          },
+          {
+            "name": "Theme",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "Theme"
+            ]
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "../OverridableComponent",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "SkeletonClasses",
+            "sourceModule": "./skeletonClasses",
+            "isDefault": false,
+            "namedImports": [
+              "SkeletonClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "SkeletonPropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "SkeletonOwnProps",
+            "type": "interface"
+          },
+          {
+            "name": "SkeletonTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "SkeletonProps",
+            "type": "type"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "SkeletonPropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface SkeletonPropsVariantOverrides"
+          },
+          {
+            "name": "SkeletonOwnProps",
+            "type": "interface",
+            "signature": "interface SkeletonOwnProps"
+          },
+          {
+            "name": "SkeletonTypeMap",
+            "type": "interface",
+            "signature": "interface SkeletonTypeMap"
+          },
+          {
+            "name": "of",
+            "type": "type",
+            "signature": "type of"
+          },
+          {
+            "name": "SkeletonProps",
+            "type": "type",
+            "signature": "type SkeletonProps"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

@@ -1,0 +1,1987 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:51:25.852Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "src",
+      "path": "packages-internal/scripts/typescript-to-proptypes/src",
+      "purpose": "Enhanced directory analysis of src",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "models.ts",
+        "path": "packages-internal/scripts/typescript-to-proptypes/src/models.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 103,
+        "importedModules": [
+          {
+            "name": "ts",
+            "sourceModule": "typescript",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "PropTypeDefinition",
+            "type": "interface"
+          },
+          {
+            "name": "PropTypesComponent",
+            "type": "interface"
+          },
+          {
+            "name": "PropType",
+            "type": "type"
+          },
+          {
+            "name": "BasePropType",
+            "type": "interface"
+          },
+          {
+            "name": "UndefinedType",
+            "type": "interface"
+          },
+          {
+            "name": "AnyType",
+            "type": "interface"
+          },
+          {
+            "name": "ArrayType",
+            "type": "interface"
+          },
+          {
+            "name": "BooleanType",
+            "type": "interface"
+          },
+          {
+            "name": "DOMElementType",
+            "type": "interface"
+          },
+          {
+            "name": "ElementType",
+            "type": "interface"
+          },
+          {
+            "name": "FunctionType",
+            "type": "interface"
+          },
+          {
+            "name": "InstanceOfType",
+            "type": "interface"
+          },
+          {
+            "name": "InterfaceType",
+            "type": "interface"
+          },
+          {
+            "name": "LiteralType",
+            "type": "interface"
+          },
+          {
+            "name": "NumericType",
+            "type": "interface"
+          },
+          {
+            "name": "ObjectType",
+            "type": "interface"
+          },
+          {
+            "name": "StringType",
+            "type": "interface"
+          },
+          {
+            "name": "UnionType",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "PropTypeDefinition",
+            "type": "interface",
+            "signature": "interface PropTypeDefinition"
+          },
+          {
+            "name": "PropTypesComponent",
+            "type": "interface",
+            "signature": "interface PropTypesComponent"
+          },
+          {
+            "name": "BasePropType",
+            "type": "interface",
+            "signature": "interface BasePropType"
+          },
+          {
+            "name": "UndefinedType",
+            "type": "interface",
+            "signature": "interface UndefinedType"
+          },
+          {
+            "name": "AnyType",
+            "type": "interface",
+            "signature": "interface AnyType"
+          },
+          {
+            "name": "ArrayType",
+            "type": "interface",
+            "signature": "interface ArrayType"
+          },
+          {
+            "name": "BooleanType",
+            "type": "interface",
+            "signature": "interface BooleanType"
+          },
+          {
+            "name": "DOMElementType",
+            "type": "interface",
+            "signature": "interface DOMElementType"
+          },
+          {
+            "name": "ElementType",
+            "type": "interface",
+            "signature": "interface ElementType"
+          },
+          {
+            "name": "FunctionType",
+            "type": "interface",
+            "signature": "interface FunctionType"
+          },
+          {
+            "name": "InstanceOfType",
+            "type": "interface",
+            "signature": "interface InstanceOfType"
+          },
+          {
+            "name": "InterfaceType",
+            "type": "interface",
+            "signature": "interface InterfaceType"
+          },
+          {
+            "name": "LiteralType",
+            "type": "interface",
+            "signature": "interface LiteralType"
+          },
+          {
+            "name": "NumericType",
+            "type": "interface",
+            "signature": "interface NumericType"
+          },
+          {
+            "name": "ObjectType",
+            "type": "interface",
+            "signature": "interface ObjectType"
+          },
+          {
+            "name": "StringType",
+            "type": "interface",
+            "signature": "interface StringType"
+          },
+          {
+            "name": "UnionType",
+            "type": "interface",
+            "signature": "interface UnionType"
+          },
+          {
+            "name": "PropType",
+            "type": "type",
+            "signature": "type PropType"
+          }
+        ]
+      },
+      {
+        "name": "injectPropTypesInFile.ts",
+        "path": "packages-internal/scripts/typescript-to-proptypes/src/injectPropTypesInFile.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 503,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/injectPropTypesInFile.ts",
+            "functionName": "createBabelPlugin",
+            "classification": "likely-placeholder",
+            "confidence": 60,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\"",
+              "Returns hardcoded value: \"return false;\"",
+              "Moderate context score; Intentionally unused parameter/variable (prefixed with _)"
+            ],
+            "location": {
+              "startLine": 135,
+              "endLine": 452
+            },
+            "detectionMethods": {
+              "explicitMarkers": 100,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -40,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/injectPropTypesInFile.ts",
+            "functionName": "flattenTsAsExpression",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 127,
+              "endLine": 133
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/injectPropTypesInFile.ts",
+            "functionName": "getFromProp",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 377,
+              "endLine": 391
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -45,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/injectPropTypesInFile.ts",
+            "functionName": "getUsedProps",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns simple/hardcoded value",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score; Properly uses assigned variables; Mutates state or has side effects",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 58,
+              "endLine": 125
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/injectPropTypesInFile.ts",
+            "functionName": "getUsedPropsInternal",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Mutates state or has side effects",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 64,
+              "endLine": 121
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -70,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/injectPropTypesInFile.ts",
+            "functionName": "injectPropTypes",
+            "classification": "likely-legitimate",
+            "confidence": 25,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"placeholder\"",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 179,
+              "endLine": 235
+            },
+            "detectionMethods": {
+              "explicitMarkers": 40,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/injectPropTypesInFile.ts",
+            "functionName": "injectPropTypesInFile",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Contains explicit placeholder marker: \"placeholder\"",
+              "Returns hardcoded value: \"return null;\"",
+              "High context score suggests legitimate implementation; Properly uses assigned variables"
+            ],
+            "location": {
+              "startLine": 460,
+              "endLine": 502
+            },
+            "detectionMethods": {
+              "explicitMarkers": 55,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -60,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/injectPropTypesInFile.ts",
+            "functionName": "shouldInclude",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return false;\"",
+              "Legitimate simple function pattern (getter/setter/utility)"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as babel",
+            "sourceModule": "@babel/core",
+            "isDefault": false,
+            "namedImports": [
+              "* as babel"
+            ]
+          },
+          {
+            "name": "* as babelTypes",
+            "sourceModule": "@babel/types",
+            "isDefault": false,
+            "namedImports": [
+              "* as babelTypes"
+            ]
+          },
+          {
+            "name": "randomUUID",
+            "sourceModule": "node:crypto",
+            "isDefault": false,
+            "namedImports": [
+              "randomUUID"
+            ]
+          },
+          {
+            "name": "generatePropTypes",
+            "sourceModule": "./generatePropTypes",
+            "isDefault": false,
+            "namedImports": [
+              "generatePropTypes",
+              "GeneratePropTypesOptions"
+            ]
+          },
+          {
+            "name": "PropTypesComponent",
+            "sourceModule": "./models",
+            "isDefault": false,
+            "namedImports": [
+              "PropTypesComponent",
+              "PropTypeDefinition",
+              "LiteralType"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "InjectPropTypesInFileOptions",
+            "type": "interface"
+          },
+          {
+            "name": "injectPropTypesInFile",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getUsedProps",
+            "type": "function",
+            "signature": "function getUsedProps()"
+          },
+          {
+            "name": "getUsedPropsInternal",
+            "type": "function",
+            "signature": "function getUsedPropsInternal()"
+          },
+          {
+            "name": "Modal",
+            "type": "function",
+            "signature": "function Modal()"
+          },
+          {
+            "name": "flattenTsAsExpression",
+            "type": "function",
+            "signature": "function flattenTsAsExpression()"
+          },
+          {
+            "name": "createBabelPlugin",
+            "type": "function",
+            "signature": "function createBabelPlugin()"
+          },
+          {
+            "name": "injectPropTypes",
+            "type": "function",
+            "signature": "function injectPropTypes()"
+          },
+          {
+            "name": "Component",
+            "type": "function",
+            "signature": "function Component()"
+          },
+          {
+            "name": "Component",
+            "type": "function",
+            "signature": "function Component()"
+          },
+          {
+            "name": "Component",
+            "type": "function",
+            "signature": "function Component()"
+          },
+          {
+            "name": "Component",
+            "type": "function",
+            "signature": "function Component()"
+          },
+          {
+            "name": "getFromProp",
+            "type": "function",
+            "signature": "function getFromProp()"
+          },
+          {
+            "name": "injectPropTypesInFile",
+            "type": "function",
+            "signature": "function injectPropTypesInFile()"
+          },
+          {
+            "name": "InjectPropTypesInFileOptions",
+            "type": "interface",
+            "signature": "interface InjectPropTypesInFileOptions"
+          },
+          {
+            "name": "checker",
+            "type": "type",
+            "signature": "type checker"
+          },
+          {
+            "name": "checker",
+            "type": "type",
+            "signature": "type checker"
+          },
+          {
+            "name": "if",
+            "type": "type",
+            "signature": "type if"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages-internal/scripts/typescript-to-proptypes/src/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 8,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "getPropTypesFromFile",
+            "type": "const"
+          },
+          {
+            "name": "GetPropTypesFromFileOptions",
+            "type": "const"
+          },
+          {
+            "name": "injectPropTypesInFile",
+            "type": "const"
+          },
+          {
+            "name": "InjectPropTypesInFileOptions",
+            "type": "const"
+          },
+          {
+            "name": "generatePropTypes",
+            "type": "const"
+          },
+          {
+            "name": "GeneratePropTypesOptions",
+            "type": "const"
+          },
+          {
+            "name": "LiteralType",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "getTypeHash.ts",
+        "path": "packages-internal/scripts/typescript-to-proptypes/src/getTypeHash.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 25,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/getTypeHash.ts",
+            "functionName": "getTypeHash",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 3,
+              "endLine": 24
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "PropType",
+            "sourceModule": "./models",
+            "isDefault": false,
+            "namedImports": [
+              "PropType"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "getTypeHash",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getTypeHash",
+            "type": "function",
+            "signature": "function getTypeHash()"
+          }
+        ]
+      },
+      {
+        "name": "getPropTypesFromFile.ts",
+        "path": "packages-internal/scripts/typescript-to-proptypes/src/getPropTypesFromFile.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 676,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/getPropTypesFromFile.ts",
+            "functionName": "checkSymbol",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 394,
+              "endLine": 484
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -57,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/getPropTypesFromFile.ts",
+            "functionName": "checkType",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return false;\"",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Properly uses assigned variables; Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 100,
+              "endLine": 392
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/getPropTypesFromFile.ts",
+            "functionName": "createPropTypeId",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 579,
+              "endLine": 585
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -45,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/getPropTypesFromFile.ts",
+            "functionName": "generatePropTypesFromNode",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Moderate context score; Properly uses assigned variables; Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 529,
+              "endLine": 561
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -62,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/getPropTypesFromFile.ts",
+            "functionName": "getPropTypesFromFile",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return false;\"",
+              "Contains throw statement",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Mutates state or has side effects"
+            ],
+            "location": {
+              "startLine": 563,
+              "endLine": 642
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -70,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/getPropTypesFromFile.ts",
+            "functionName": "getSymbolDocumentation",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return undefined;\"",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score; Properly uses assigned variables; Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 31,
+              "endLine": 56
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/getPropTypesFromFile.ts",
+            "functionName": "getSymbolFileNames",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score; Properly uses assigned variables",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 25,
+              "endLine": 29
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/getPropTypesFromFile.ts",
+            "functionName": "getType",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns simple/hardcoded value",
+              "Contains throw statement",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 58,
+              "endLine": 98
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 14,
+              "commentAnalysis": 0,
+              "contextFilter": -45,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/getPropTypesFromFile.ts",
+            "functionName": "shouldInclude",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return false;\"",
+              "Legitimate simple function pattern (getter/setter/utility)"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/getPropTypesFromFile.ts",
+            "functionName": "shouldResolveObject",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/getPropTypesFromFile.ts",
+            "functionName": "squashPropTypeDefinitions",
+            "classification": "likely-placeholder",
+            "confidence": 70,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\"",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 492,
+              "endLine": 527
+            },
+            "detectionMethods": {
+              "explicitMarkers": 85,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "ts",
+            "sourceModule": "typescript",
+            "isDefault": true
+          },
+          {
+            "name": "* as doctrine",
+            "sourceModule": "doctrine",
+            "isDefault": false,
+            "namedImports": [
+              "* as doctrine"
+            ]
+          },
+          {
+            "name": "GetPropsFromComponentDeclarationOptions",
+            "sourceModule": "@mui/internal-docs-utils",
+            "isDefault": false,
+            "namedImports": [
+              "GetPropsFromComponentDeclarationOptions",
+              "getPropsFromComponentNode",
+              "TypeScriptProject"
+            ]
+          },
+          {
+            "name": "createUnionType",
+            "sourceModule": "./createType",
+            "isDefault": false,
+            "namedImports": [
+              "createUnionType",
+              "createUndefinedType",
+              "createAnyType",
+              "createElementType",
+              "createDOMElementType",
+              "createArrayType",
+              "createFunctionType",
+              "createInstanceOfType",
+              "createLiteralType",
+              "createInterfaceType",
+              "createNumericType",
+              "createObjectType",
+              "createStringType"
+            ]
+          },
+          {
+            "name": "PropTypeDefinition",
+            "sourceModule": "./models",
+            "isDefault": false,
+            "namedImports": [
+              "PropTypeDefinition",
+              "PropTypesComponent",
+              "PropType"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "getPropTypesFromFile",
+            "type": "function"
+          },
+          {
+            "name": "GetPropTypesFromFileOptions",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getSymbolFileNames",
+            "type": "function",
+            "signature": "function getSymbolFileNames()"
+          },
+          {
+            "name": "getSymbolDocumentation",
+            "type": "function",
+            "signature": "function getSymbolDocumentation()"
+          },
+          {
+            "name": "getType",
+            "type": "function",
+            "signature": "function getType()"
+          },
+          {
+            "name": "checkType",
+            "type": "function",
+            "signature": "function checkType()"
+          },
+          {
+            "name": "checkSymbol",
+            "type": "function",
+            "signature": "function checkSymbol()"
+          },
+          {
+            "name": "squashPropTypeDefinitions",
+            "type": "function",
+            "signature": "function squashPropTypeDefinitions()"
+          },
+          {
+            "name": "generatePropTypesFromNode",
+            "type": "function",
+            "signature": "function generatePropTypesFromNode()"
+          },
+          {
+            "name": "getPropTypesFromFile",
+            "type": "function",
+            "signature": "function getPropTypesFromFile()"
+          },
+          {
+            "name": "createPropTypeId",
+            "type": "function",
+            "signature": "function createPropTypeId()"
+          },
+          {
+            "name": "GetPropTypesFromFileOptions",
+            "type": "interface",
+            "signature": "interface GetPropTypesFromFileOptions"
+          },
+          {
+            "name": "PropTypesProject",
+            "type": "interface",
+            "signature": "interface PropTypesProject"
+          },
+          {
+            "name": "as",
+            "type": "type",
+            "signature": "type as"
+          },
+          {
+            "name": "as",
+            "type": "type",
+            "signature": "type as"
+          },
+          {
+            "name": "as",
+            "type": "type",
+            "signature": "type as"
+          },
+          {
+            "name": "as",
+            "type": "type",
+            "signature": "type as"
+          },
+          {
+            "name": "as",
+            "type": "type",
+            "signature": "type as"
+          },
+          {
+            "name": "jsDoc",
+            "type": "type",
+            "signature": "type jsDoc"
+          },
+          {
+            "name": "of",
+            "type": "type",
+            "signature": "type of"
+          },
+          {
+            "name": "checker",
+            "type": "type",
+            "signature": "type checker"
+          },
+          {
+            "name": "if",
+            "type": "type",
+            "signature": "type if"
+          }
+        ]
+      },
+      {
+        "name": "generatePropTypes.ts",
+        "path": "packages-internal/scripts/typescript-to-proptypes/src/generatePropTypes.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 348,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/generatePropTypes.ts",
+            "functionName": "defaultSortLiteralUnions",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score; Simple arithmetic helper; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 77,
+              "endLine": 93
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -72,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/generatePropTypes.ts",
+            "functionName": "generatePropType",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Contains throw statement",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Mutates state or has side effects; Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 126,
+              "endLine": 284
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/generatePropTypes.ts",
+            "functionName": "generatePropTypeDefinition",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 286,
+              "endLine": 310
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/generatePropTypes.ts",
+            "functionName": "generatePropTypes",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Contains throw statement",
+              "High context score suggests legitimate implementation; Intentionally unused parameter/variable (prefixed with _); Mutates state or has side effects; Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 100,
+              "endLine": 347
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -77,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/generatePropTypes.ts",
+            "functionName": "jsDoc",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return '';\"",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 117,
+              "endLine": 124
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/generatePropTypes.ts",
+            "functionName": "nodeToStringName",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "partition",
+            "sourceModule": "es-toolkit/compat/partition",
+            "isDefault": true
+          },
+          {
+            "name": "PropTypeDefinition",
+            "sourceModule": "./models",
+            "isDefault": false,
+            "namedImports": [
+              "PropTypeDefinition",
+              "PropTypesComponent",
+              "PropType",
+              "LiteralType"
+            ]
+          },
+          {
+            "name": "createDOMElementType",
+            "sourceModule": "./createType",
+            "isDefault": false,
+            "namedImports": [
+              "createDOMElementType",
+              "createBooleanType",
+              "uniqueUnionTypes"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "GeneratePropTypesOptions",
+            "type": "interface"
+          },
+          {
+            "name": "generatePropTypes",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "defaultSortLiteralUnions",
+            "type": "function",
+            "signature": "function defaultSortLiteralUnions()"
+          },
+          {
+            "name": "generatePropTypes",
+            "type": "function",
+            "signature": "function generatePropTypes()"
+          },
+          {
+            "name": "jsDoc",
+            "type": "function",
+            "signature": "function jsDoc()"
+          },
+          {
+            "name": "generatePropType",
+            "type": "function",
+            "signature": "function generatePropType()"
+          },
+          {
+            "name": "generatePropTypeDefinition",
+            "type": "function",
+            "signature": "function generatePropTypeDefinition()"
+          },
+          {
+            "name": "GeneratePropTypesOptions",
+            "type": "interface",
+            "signature": "interface GeneratePropTypesOptions"
+          },
+          {
+            "name": "is",
+            "type": "interface",
+            "signature": "interface is"
+          },
+          {
+            "name": "The",
+            "type": "type",
+            "signature": "type The"
+          },
+          {
+            "name": "Element",
+            "type": "type",
+            "signature": "type Element"
+          },
+          {
+            "name": "is",
+            "type": "type",
+            "signature": "type is"
+          }
+        ]
+      },
+      {
+        "name": "createType.ts",
+        "path": "packages-internal/scripts/typescript-to-proptypes/src/createType.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 175,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/createType.ts",
+            "functionName": "createAnyType",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Factory function pattern; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 22,
+              "endLine": 27
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/createType.ts",
+            "functionName": "createArrayType",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Factory function pattern; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 29,
+              "endLine": 38
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/createType.ts",
+            "functionName": "createBooleanType",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Factory function pattern; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 40,
+              "endLine": 45
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/createType.ts",
+            "functionName": "createDOMElementType",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Factory function pattern; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 47,
+              "endLine": 56
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/createType.ts",
+            "functionName": "createElementType",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Factory function pattern; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 58,
+              "endLine": 67
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/createType.ts",
+            "functionName": "createFunctionType",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Factory function pattern; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 69,
+              "endLine": 74
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/createType.ts",
+            "functionName": "createInstanceOfType",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Factory function pattern; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 76,
+              "endLine": 85
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/createType.ts",
+            "functionName": "createInterfaceType",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Factory function pattern; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 87,
+              "endLine": 96
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/createType.ts",
+            "functionName": "createLiteralType",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Factory function pattern; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 98,
+              "endLine": 107
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/createType.ts",
+            "functionName": "createNumericType",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Factory function pattern; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 109,
+              "endLine": 114
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/createType.ts",
+            "functionName": "createObjectType",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Factory function pattern; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 116,
+              "endLine": 121
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/createType.ts",
+            "functionName": "createStringType",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Factory function pattern; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 123,
+              "endLine": 128
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/createType.ts",
+            "functionName": "createUndefinedType",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Factory function pattern; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 134,
+              "endLine": 139
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/createType.ts",
+            "functionName": "createUnionType",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Mutates state or has side effects; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 151,
+              "endLine": 174
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/createType.ts",
+            "functionName": "flattenTypes",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "High context score suggests legitimate implementation; Mutates state or has side effects",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 157,
+              "endLine": 165
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -40,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/src/createType.ts",
+            "functionName": "uniqueUnionTypes",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 141,
+              "endLine": 149
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -37,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "ts",
+            "sourceModule": "typescript",
+            "isDefault": true
+          },
+          {
+            "name": "uniqBy",
+            "sourceModule": "es-toolkit/array",
+            "isDefault": false,
+            "namedImports": [
+              "uniqBy"
+            ]
+          },
+          {
+            "name": "PropType",
+            "sourceModule": "./models",
+            "isDefault": false,
+            "namedImports": [
+              "PropType",
+              "ArrayType",
+              "LiteralType",
+              "BooleanType",
+              "AnyType",
+              "UnionType",
+              "BasePropType",
+              "ElementType",
+              "DOMElementType",
+              "InstanceOfType",
+              "InterfaceType",
+              "FunctionType",
+              "StringType",
+              "ObjectType",
+              "NumericType"
+            ]
+          },
+          {
+            "name": "getTypeHash",
+            "sourceModule": "./getTypeHash",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "createAnyType",
+            "type": "function"
+          },
+          {
+            "name": "createArrayType",
+            "type": "function"
+          },
+          {
+            "name": "createBooleanType",
+            "type": "function"
+          },
+          {
+            "name": "createDOMElementType",
+            "type": "function"
+          },
+          {
+            "name": "createElementType",
+            "type": "function"
+          },
+          {
+            "name": "createFunctionType",
+            "type": "function"
+          },
+          {
+            "name": "createInstanceOfType",
+            "type": "function"
+          },
+          {
+            "name": "createInterfaceType",
+            "type": "function"
+          },
+          {
+            "name": "createLiteralType",
+            "type": "function"
+          },
+          {
+            "name": "createNumericType",
+            "type": "function"
+          },
+          {
+            "name": "createObjectType",
+            "type": "function"
+          },
+          {
+            "name": "createStringType",
+            "type": "function"
+          },
+          {
+            "name": "UndefinedType",
+            "type": "interface"
+          },
+          {
+            "name": "createUndefinedType",
+            "type": "function"
+          },
+          {
+            "name": "uniqueUnionTypes",
+            "type": "function"
+          },
+          {
+            "name": "createUnionType",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "createAnyType",
+            "type": "function",
+            "signature": "function createAnyType()"
+          },
+          {
+            "name": "createArrayType",
+            "type": "function",
+            "signature": "function createArrayType()"
+          },
+          {
+            "name": "createBooleanType",
+            "type": "function",
+            "signature": "function createBooleanType()"
+          },
+          {
+            "name": "createDOMElementType",
+            "type": "function",
+            "signature": "function createDOMElementType()"
+          },
+          {
+            "name": "createElementType",
+            "type": "function",
+            "signature": "function createElementType()"
+          },
+          {
+            "name": "createFunctionType",
+            "type": "function",
+            "signature": "function createFunctionType()"
+          },
+          {
+            "name": "createInstanceOfType",
+            "type": "function",
+            "signature": "function createInstanceOfType()"
+          },
+          {
+            "name": "createInterfaceType",
+            "type": "function",
+            "signature": "function createInterfaceType()"
+          },
+          {
+            "name": "createLiteralType",
+            "type": "function",
+            "signature": "function createLiteralType()"
+          },
+          {
+            "name": "createNumericType",
+            "type": "function",
+            "signature": "function createNumericType()"
+          },
+          {
+            "name": "createObjectType",
+            "type": "function",
+            "signature": "function createObjectType()"
+          },
+          {
+            "name": "createStringType",
+            "type": "function",
+            "signature": "function createStringType()"
+          },
+          {
+            "name": "createUndefinedType",
+            "type": "function",
+            "signature": "function createUndefinedType()"
+          },
+          {
+            "name": "uniqueUnionTypes",
+            "type": "function",
+            "signature": "function uniqueUnionTypes()"
+          },
+          {
+            "name": "createUnionType",
+            "type": "function",
+            "signature": "function createUnionType()"
+          },
+          {
+            "name": "flattenTypes",
+            "type": "function",
+            "signature": "function flattenTypes()"
+          },
+          {
+            "name": "UndefinedType",
+            "type": "interface",
+            "signature": "interface UndefinedType"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

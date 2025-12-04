@@ -1,0 +1,1572 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:48:22.019Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "Grid",
+      "path": "packages/mui-system/src/Grid",
+      "purpose": "Enhanced directory analysis of Grid",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "traverseBreakpoints.ts",
+        "path": "packages/mui-system/src/Grid/traverseBreakpoints.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 59,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/traverseBreakpoints.ts",
+            "functionName": "filterBreakpointKeys",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (2 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/traverseBreakpoints.ts",
+            "functionName": "traverseBreakpoints",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Breakpoints",
+            "sourceModule": "../createBreakpoints/createBreakpoints",
+            "isDefault": false,
+            "namedImports": [
+              "Breakpoints",
+              "Breakpoint"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "filterBreakpointKeys",
+            "type": "const"
+          },
+          {
+            "name": "traverseBreakpoints",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "filterBreakpointKeys",
+            "type": "function",
+            "signature": "const filterBreakpointKeys = () =>"
+          },
+          {
+            "name": "Iterator",
+            "type": "interface",
+            "signature": "interface Iterator"
+          }
+        ]
+      },
+      {
+        "name": "traverseBreakpoints.test.ts",
+        "path": "packages/mui-system/src/Grid/traverseBreakpoints.test.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 226,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createBreakpoints",
+            "sourceModule": "../createBreakpoints/createBreakpoints",
+            "isDefault": true
+          },
+          {
+            "name": "traverseBreakpoints",
+            "sourceModule": "./traverseBreakpoints",
+            "isDefault": false,
+            "namedImports": [
+              "traverseBreakpoints",
+              "filterBreakpointKeys"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-system/src/Grid/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 12,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "createGrid",
+            "type": "const"
+          },
+          {
+            "name": "gridClasses",
+            "type": "const"
+          },
+          {
+            "name": "unstable_traverseBreakpoints",
+            "type": "const"
+          },
+          {
+            "name": "unstable_generateDirectionClasses",
+            "type": "const"
+          },
+          {
+            "name": "unstable_generateSizeClassNames",
+            "type": "const"
+          },
+          {
+            "name": "unstable_generateSpacingClassNames",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "gridGenerator.ts",
+        "path": "packages/mui-system/src/Grid/gridGenerator.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 228,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/gridGenerator.ts",
+            "functionName": "generateDirectionClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return [];\"",
+              "High context score suggests legitimate implementation; Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -37,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/gridGenerator.ts",
+            "functionName": "generateGridColumnSpacingStyles",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return {};\"",
+              "High context score suggests legitimate implementation; Properly uses assigned variables; Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -72,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/gridGenerator.ts",
+            "functionName": "generateGridColumnsStyles",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return {};\"",
+              "High context score suggests legitimate implementation; Properly uses assigned variables; Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -72,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/gridGenerator.ts",
+            "functionName": "generateGridDirectionStyles",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return {};\"",
+              "High context score suggests legitimate implementation; Properly uses assigned variables; Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -72,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/gridGenerator.ts",
+            "functionName": "generateGridOffsetStyles",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns simple/hardcoded value",
+              "High context score suggests legitimate implementation; Properly uses assigned variables",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -60,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/gridGenerator.ts",
+            "functionName": "generateGridRowSpacingStyles",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return {};\"",
+              "High context score suggests legitimate implementation; Properly uses assigned variables; Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -72,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/gridGenerator.ts",
+            "functionName": "generateGridSizeStyles",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns simple/hardcoded value",
+              "High context score suggests legitimate implementation; Properly uses assigned variables",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -60,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/gridGenerator.ts",
+            "functionName": "generateGridStyles",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -37,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/gridGenerator.ts",
+            "functionName": "generateSizeClassNames",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns simple/hardcoded value",
+              "High context score suggests legitimate implementation; Properly uses assigned variables; Mutates state or has side effects",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -75,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/gridGenerator.ts",
+            "functionName": "generateSpacingClassNames",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return false;\"",
+              "High context score suggests legitimate implementation; Properly uses assigned variables; Mutates state or has side effects"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -75,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/gridGenerator.ts",
+            "functionName": "getParentSpacingVar",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 16,
+              "endLine": 18
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -45,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/gridGenerator.ts",
+            "functionName": "getSelfSpacingVar",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 12,
+              "endLine": 14
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -45,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/gridGenerator.ts",
+            "functionName": "isValidSpacing",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return false;\"",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score"
+            ],
+            "location": {
+              "startLine": 192,
+              "endLine": 200
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -45,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Breakpoints",
+            "sourceModule": "../createBreakpoints/createBreakpoints",
+            "isDefault": false,
+            "namedImports": [
+              "Breakpoints"
+            ]
+          },
+          {
+            "name": "Spacing",
+            "sourceModule": "../createTheme/createSpacing",
+            "isDefault": false,
+            "namedImports": [
+              "Spacing"
+            ]
+          },
+          {
+            "name": "ResponsiveStyleValue",
+            "sourceModule": "../styleFunctionSx",
+            "isDefault": false,
+            "namedImports": [
+              "ResponsiveStyleValue"
+            ]
+          },
+          {
+            "name": "GridDirection",
+            "sourceModule": "./GridProps",
+            "isDefault": false,
+            "namedImports": [
+              "GridDirection",
+              "GridOwnerState"
+            ]
+          },
+          {
+            "name": "traverseBreakpoints",
+            "sourceModule": "./traverseBreakpoints",
+            "isDefault": false,
+            "namedImports": [
+              "traverseBreakpoints"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "generateGridSizeStyles",
+            "type": "const"
+          },
+          {
+            "name": "generateGridOffsetStyles",
+            "type": "const"
+          },
+          {
+            "name": "generateGridColumnsStyles",
+            "type": "const"
+          },
+          {
+            "name": "generateGridRowSpacingStyles",
+            "type": "const"
+          },
+          {
+            "name": "generateGridColumnSpacingStyles",
+            "type": "const"
+          },
+          {
+            "name": "generateGridDirectionStyles",
+            "type": "const"
+          },
+          {
+            "name": "generateGridStyles",
+            "type": "const"
+          },
+          {
+            "name": "generateSizeClassNames",
+            "type": "const"
+          },
+          {
+            "name": "generateSpacingClassNames",
+            "type": "const"
+          },
+          {
+            "name": "generateDirectionClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getSelfSpacingVar",
+            "type": "function",
+            "signature": "function getSelfSpacingVar()"
+          },
+          {
+            "name": "getParentSpacingVar",
+            "type": "function",
+            "signature": "function getParentSpacingVar()"
+          },
+          {
+            "name": "isValidSpacing",
+            "type": "function",
+            "signature": "function isValidSpacing()"
+          },
+          {
+            "name": "generateGridSizeStyles",
+            "type": "function",
+            "signature": "const generateGridSizeStyles = () =>"
+          },
+          {
+            "name": "generateGridOffsetStyles",
+            "type": "function",
+            "signature": "const generateGridOffsetStyles = () =>"
+          },
+          {
+            "name": "generateGridColumnsStyles",
+            "type": "function",
+            "signature": "const generateGridColumnsStyles = () =>"
+          },
+          {
+            "name": "generateGridRowSpacingStyles",
+            "type": "function",
+            "signature": "const generateGridRowSpacingStyles = () =>"
+          },
+          {
+            "name": "generateGridColumnSpacingStyles",
+            "type": "function",
+            "signature": "const generateGridColumnSpacingStyles = () =>"
+          },
+          {
+            "name": "generateGridDirectionStyles",
+            "type": "function",
+            "signature": "const generateGridDirectionStyles = () =>"
+          },
+          {
+            "name": "generateSizeClassNames",
+            "type": "function",
+            "signature": "const generateSizeClassNames = () =>"
+          },
+          {
+            "name": "generateSpacingClassNames",
+            "type": "function",
+            "signature": "const generateSpacingClassNames = () =>"
+          },
+          {
+            "name": "Props",
+            "type": "interface",
+            "signature": "interface Props"
+          }
+        ]
+      },
+      {
+        "name": "gridGenerator.test.js",
+        "path": "packages/mui-system/src/Grid/gridGenerator.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 412,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "sinon",
+            "sourceModule": "sinon",
+            "isDefault": true
+          },
+          {
+            "name": "createSpacing",
+            "sourceModule": "../createTheme/createSpacing",
+            "isDefault": true
+          },
+          {
+            "name": "createBreakpoints",
+            "sourceModule": "../createBreakpoints/createBreakpoints",
+            "isDefault": true
+          },
+          {
+            "name": "generateGridStyles",
+            "sourceModule": "./gridGenerator",
+            "isDefault": false,
+            "namedImports": [
+              "generateGridStyles",
+              "generateGridSizeStyles",
+              "generateGridColumnsStyles",
+              "generateGridRowSpacingStyles",
+              "generateGridColumnSpacingStyles",
+              "generateGridOffsetStyles",
+              "generateSizeClassNames",
+              "generateSpacingClassNames",
+              "generateDirectionClasses"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "names",
+            "type": "class",
+            "signature": "class names"
+          },
+          {
+            "name": "names",
+            "type": "class",
+            "signature": "class names"
+          },
+          {
+            "name": "names",
+            "type": "class",
+            "signature": "class names"
+          },
+          {
+            "name": "name",
+            "type": "class",
+            "signature": "class name"
+          },
+          {
+            "name": "names",
+            "type": "class",
+            "signature": "class names"
+          }
+        ]
+      },
+      {
+        "name": "gridClasses.ts",
+        "path": "packages/mui-system/src/Grid/gridClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 53,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/gridClasses.ts",
+            "functionName": "getGridUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 23,
+              "endLine": 25
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "GridClasses",
+            "type": "interface"
+          },
+          {
+            "name": "GridClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getGridUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getGridUtilityClass",
+            "type": "function",
+            "signature": "function getGridUtilityClass()"
+          },
+          {
+            "name": "SPACINGS",
+            "type": "const",
+            "signature": "const SPACINGS"
+          },
+          {
+            "name": "DIRECTIONS",
+            "type": "const",
+            "signature": "const DIRECTIONS"
+          },
+          {
+            "name": "WRAPS",
+            "type": "const",
+            "signature": "const WRAPS"
+          },
+          {
+            "name": "GRID_SIZES",
+            "type": "const",
+            "signature": "const GRID_SIZES"
+          },
+          {
+            "name": "GridClasses",
+            "type": "interface",
+            "signature": "interface GridClasses"
+          },
+          {
+            "name": "GridClassKey",
+            "type": "type",
+            "signature": "type GridClassKey"
+          }
+        ]
+      },
+      {
+        "name": "deleteLegacyGridProps.ts",
+        "path": "packages/mui-system/src/Grid/deleteLegacyGridProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 55,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/deleteLegacyGridProps.ts",
+            "functionName": "deleteLegacyGridProps",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Mutates state or has side effects",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 20,
+              "endLine": 54
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/deleteLegacyGridProps.ts",
+            "functionName": "getLegacyGridWarning",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Breakpoint",
+            "sourceModule": "../createTheme",
+            "isDefault": false,
+            "namedImports": [
+              "Breakpoint",
+              "Breakpoints"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "deleteLegacyGridProps",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "deleteLegacyGridProps",
+            "type": "function",
+            "signature": "function deleteLegacyGridProps()"
+          },
+          {
+            "name": "getLegacyGridWarning",
+            "type": "function",
+            "signature": "const getLegacyGridWarning = () =>"
+          }
+        ]
+      },
+      {
+        "name": "createGrid.tsx",
+        "path": "packages/mui-system/src/Grid/createGrid.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 254,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/createGrid.tsx",
+            "functionName": "createGrid",
+            "classification": "likely-placeholder",
+            "confidence": 70,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\"",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 46,
+              "endLine": 253
+            },
+            "detectionMethods": {
+              "explicitMarkers": 85,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/createGrid.tsx",
+            "functionName": "Grid",
+            "classification": "likely-placeholder",
+            "confidence": 70,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\"",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 85,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/createGrid.tsx",
+            "functionName": "parseResponsiveProp",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 78,
+              "endLine": 107
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/createGrid.tsx",
+            "functionName": "useThemePropsDefault",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 38,
+              "endLine": 44
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/createGrid.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent"
+            ]
+          },
+          {
+            "name": "isMuiElement",
+            "sourceModule": "@mui/utils/isMuiElement",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "systemStyled",
+            "sourceModule": "../styled",
+            "isDefault": true
+          },
+          {
+            "name": "useThemePropsSystem",
+            "sourceModule": "../useThemeProps",
+            "isDefault": true
+          },
+          {
+            "name": "useThemeSystem",
+            "sourceModule": "../useTheme",
+            "isDefault": true
+          },
+          {
+            "name": "extendSxProp",
+            "sourceModule": "../styleFunctionSx",
+            "isDefault": false,
+            "namedImports": [
+              "extendSxProp"
+            ]
+          },
+          {
+            "name": "createTheme",
+            "sourceModule": "../createTheme",
+            "isDefault": true,
+            "namedImports": [
+              "Breakpoint",
+              "Breakpoints"
+            ]
+          },
+          {
+            "name": "generateGridStyles",
+            "sourceModule": "./gridGenerator",
+            "isDefault": false,
+            "namedImports": [
+              "generateGridStyles",
+              "generateGridSizeStyles",
+              "generateGridColumnsStyles",
+              "generateGridColumnSpacingStyles",
+              "generateGridRowSpacingStyles",
+              "generateGridDirectionStyles",
+              "generateGridOffsetStyles",
+              "generateSizeClassNames",
+              "generateSpacingClassNames",
+              "generateDirectionClasses"
+            ]
+          },
+          {
+            "name": "CreateMUIStyled",
+            "sourceModule": "../createStyled",
+            "isDefault": false,
+            "namedImports": [
+              "CreateMUIStyled"
+            ]
+          },
+          {
+            "name": "GridTypeMap",
+            "sourceModule": "./GridProps",
+            "isDefault": false,
+            "namedImports": [
+              "GridTypeMap",
+              "GridOwnerState",
+              "GridProps",
+              "GridOffset",
+              "GridSize"
+            ]
+          },
+          {
+            "name": "deleteLegacyGridProps",
+            "sourceModule": "./deleteLegacyGridProps",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "createGrid",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "createGrid",
+            "type": "function",
+            "signature": "function createGrid()"
+          },
+          {
+            "name": "Grid",
+            "type": "function",
+            "signature": "function Grid()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "G",
+            "type": "const",
+            "signature": "const G"
+          },
+          {
+            "name": "G",
+            "type": "const",
+            "signature": "const G"
+          },
+          {
+            "name": "conflicts",
+            "type": "type",
+            "signature": "type conflicts"
+          }
+        ]
+      },
+      {
+        "name": "GridProps.ts",
+        "path": "packages/mui-system/src/Grid/GridProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 117,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverrideProps",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverrideProps",
+              "PartiallyRequired"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "../styleFunctionSx",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "Theme",
+            "sourceModule": "../createTheme",
+            "isDefault": false,
+            "namedImports": [
+              "Theme",
+              "Breakpoint"
+            ]
+          },
+          {
+            "name": "SystemProps",
+            "sourceModule": "../Box",
+            "isDefault": false,
+            "namedImports": [
+              "SystemProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "GridDirection",
+            "type": "type"
+          },
+          {
+            "name": "GridSpacing",
+            "type": "type"
+          },
+          {
+            "name": "GridWrap",
+            "type": "type"
+          },
+          {
+            "name": "GridSize",
+            "type": "type"
+          },
+          {
+            "name": "GridOffset",
+            "type": "type"
+          },
+          {
+            "name": "GridBaseProps",
+            "type": "interface"
+          },
+          {
+            "name": "GridOwnerState",
+            "type": "type"
+          },
+          {
+            "name": "GridTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "GridProps",
+            "type": "type"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "GridBaseProps",
+            "type": "interface",
+            "signature": "interface GridBaseProps"
+          },
+          {
+            "name": "GridTypeMap",
+            "type": "interface",
+            "signature": "interface GridTypeMap"
+          },
+          {
+            "name": "ResponsiveStyleValue",
+            "type": "type",
+            "signature": "type ResponsiveStyleValue"
+          },
+          {
+            "name": "GridDirection",
+            "type": "type",
+            "signature": "type GridDirection"
+          },
+          {
+            "name": "GridSpacing",
+            "type": "type",
+            "signature": "type GridSpacing"
+          },
+          {
+            "name": "GridWrap",
+            "type": "type",
+            "signature": "type GridWrap"
+          },
+          {
+            "name": "GridSize",
+            "type": "type",
+            "signature": "type GridSize"
+          },
+          {
+            "name": "GridOffset",
+            "type": "type",
+            "signature": "type GridOffset"
+          },
+          {
+            "name": "GridOwnerState",
+            "type": "type",
+            "signature": "type GridOwnerState"
+          },
+          {
+            "name": "GridProps",
+            "type": "type",
+            "signature": "type GridProps"
+          }
+        ]
+      },
+      {
+        "name": "Grid.tsx",
+        "path": "packages/mui-system/src/Grid/Grid.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 146,
+        "importedModules": [
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "createGrid",
+            "sourceModule": "./createGrid",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "G",
+            "type": "const",
+            "signature": "const G"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "Grid.test.js",
+        "path": "packages/mui-system/src/Grid/Grid.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 284,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/Grid.test.js",
+            "functionName": "test",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Utility function with clear purpose; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -38,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Grid/Grid.test.js",
+            "functionName": "test",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Utility function with clear purpose; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -38,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen",
+              "isJsdom"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "createTheme",
+            "sourceModule": "@mui/system/createTheme",
+            "isDefault": true
+          },
+          {
+            "name": "Grid",
+            "sourceModule": "@mui/system/Grid",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "test",
+            "type": "function",
+            "signature": "function test()"
+          },
+          {
+            "name": "test",
+            "type": "function",
+            "signature": "function test()"
+          },
+          {
+            "name": "and",
+            "type": "class",
+            "signature": "class and"
+          },
+          {
+            "name": "and",
+            "type": "class",
+            "signature": "class and"
+          },
+          {
+            "name": "for",
+            "type": "class",
+            "signature": "class for"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

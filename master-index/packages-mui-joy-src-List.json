@@ -1,0 +1,836 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:46:52.283Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "List",
+      "path": "packages/mui-joy/src/List",
+      "purpose": "Enhanced directory analysis of List",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "listClasses.ts",
+        "path": "packages/mui-joy/src/List/listClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 70,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/List/listClasses.ts",
+            "functionName": "getListUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 44,
+              "endLine": 46
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "../className",
+            "isDefault": false,
+            "namedImports": [
+              "generateUtilityClass",
+              "generateUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ListClasses",
+            "type": "interface"
+          },
+          {
+            "name": "ListClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getListUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getListUtilityClass",
+            "type": "function",
+            "signature": "function getListUtilityClass()"
+          },
+          {
+            "name": "ListClasses",
+            "type": "interface",
+            "signature": "interface ListClasses"
+          },
+          {
+            "name": "ListClassKey",
+            "type": "type",
+            "signature": "type ListClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/List/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "listClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "WrapListContext.ts",
+        "path": "packages/mui-joy/src/List/WrapListContext.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 10,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "W",
+            "type": "const",
+            "signature": "const W"
+          }
+        ]
+      },
+      {
+        "name": "RowListContext.ts",
+        "path": "packages/mui-joy/src/List/RowListContext.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 10,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "R",
+            "type": "const",
+            "signature": "const R"
+          }
+        ]
+      },
+      {
+        "name": "NestedListContext.ts",
+        "path": "packages/mui-joy/src/List/NestedListContext.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 10,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "N",
+            "type": "const",
+            "signature": "const N"
+          }
+        ]
+      },
+      {
+        "name": "ListProvider.tsx",
+        "path": "packages/mui-joy/src/List/ListProvider.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 77,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/List/ListProvider.tsx",
+            "functionName": "ListProvider",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 53,
+              "endLine": 74
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "RowListContext",
+            "sourceModule": "./RowListContext",
+            "isDefault": true
+          },
+          {
+            "name": "WrapListContext",
+            "sourceModule": "./WrapListContext",
+            "isDefault": true
+          },
+          {
+            "name": "NestedListContext",
+            "sourceModule": "./NestedListContext",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "scopedVariables",
+            "type": "const"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ListProvider",
+            "type": "function",
+            "signature": "function ListProvider()"
+          },
+          {
+            "name": "baseProviders",
+            "type": "function",
+            "signature": "const baseProviders = () =>"
+          },
+          {
+            "name": "ListProviderProps",
+            "type": "interface",
+            "signature": "interface ListProviderProps"
+          }
+        ]
+      },
+      {
+        "name": "ListProps.ts",
+        "path": "packages/mui-joy/src/List/ListProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 94,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "ColorPaletteProp",
+            "sourceModule": "../styles/types",
+            "isDefault": false,
+            "namedImports": [
+              "ColorPaletteProp",
+              "VariantProp",
+              "SxProps",
+              "ApplyColorInversion"
+            ]
+          },
+          {
+            "name": "SlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "SlotProps",
+              "CreateSlotsAndSlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ListSlot",
+            "type": "type"
+          },
+          {
+            "name": "ListSlots",
+            "type": "interface"
+          },
+          {
+            "name": "ListSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "ListPropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "ListPropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "ListPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "ListTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "ListProps",
+            "type": "type"
+          },
+          {
+            "name": "ListOwnerState",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ListSlots",
+            "type": "interface",
+            "signature": "interface ListSlots"
+          },
+          {
+            "name": "ListPropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface ListPropsSizeOverrides"
+          },
+          {
+            "name": "ListPropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface ListPropsVariantOverrides"
+          },
+          {
+            "name": "ListPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface ListPropsColorOverrides"
+          },
+          {
+            "name": "ListTypeMap",
+            "type": "interface",
+            "signature": "interface ListTypeMap"
+          },
+          {
+            "name": "ListOwnerState",
+            "type": "interface",
+            "signature": "interface ListOwnerState"
+          },
+          {
+            "name": "ListSlot",
+            "type": "type",
+            "signature": "type ListSlot"
+          },
+          {
+            "name": "ListSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type ListSlotsAndSlotProps"
+          },
+          {
+            "name": "page",
+            "type": "type",
+            "signature": "type page"
+          },
+          {
+            "name": "ListProps",
+            "type": "type",
+            "signature": "type ListProps"
+          }
+        ]
+      },
+      {
+        "name": "List.tsx",
+        "path": "packages/mui-joy/src/List/List.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 351,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/List/List.tsx",
+            "functionName": "applySizeVars",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return {};\"",
+              "Moderate context score; Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 43,
+              "endLine": 78
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/List/List.tsx",
+            "functionName": "List",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/List/List.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent"
+            ]
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/base/composeClasses",
+            "isDefault": false,
+            "namedImports": [
+              "composeClasses"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "styled",
+              "useThemeProps"
+            ]
+          },
+          {
+            "name": "resolveSxValue",
+            "sourceModule": "../styles/styleUtils",
+            "isDefault": false,
+            "namedImports": [
+              "resolveSxValue"
+            ]
+          },
+          {
+            "name": "ListProps",
+            "sourceModule": "./ListProps",
+            "isDefault": false,
+            "namedImports": [
+              "ListProps",
+              "ListOwnerState",
+              "ListTypeMap"
+            ]
+          },
+          {
+            "name": "getListUtilityClass",
+            "sourceModule": "./listClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getListUtilityClass"
+            ]
+          },
+          {
+            "name": "NestedListContext",
+            "sourceModule": "./NestedListContext",
+            "isDefault": true
+          },
+          {
+            "name": "ComponentListContext",
+            "sourceModule": "./ComponentListContext",
+            "isDefault": true
+          },
+          {
+            "name": "GroupListContext",
+            "sourceModule": "./GroupListContext",
+            "isDefault": true
+          },
+          {
+            "name": "ListProvider",
+            "sourceModule": "./ListProvider",
+            "isDefault": true
+          },
+          {
+            "name": "RadioGroupContext",
+            "sourceModule": "../RadioGroup/RadioGroupContext",
+            "isDefault": true
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "StyledList",
+            "type": "const"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "applySizeVars",
+            "type": "function",
+            "signature": "function applySizeVars()"
+          },
+          {
+            "name": "List",
+            "type": "function",
+            "signature": "function List()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "L",
+            "type": "const",
+            "signature": "const L"
+          },
+          {
+            "name": "L",
+            "type": "const",
+            "signature": "const L"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          },
+          {
+            "name": "page",
+            "type": "type",
+            "signature": "type page"
+          }
+        ]
+      },
+      {
+        "name": "List.test.tsx",
+        "path": "packages/mui-joy/src/List/List.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 185,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "List",
+            "sourceModule": "@mui/joy/List",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "ListItem",
+            "sourceModule": "@mui/joy/ListItem",
+            "isDefault": true
+          },
+          {
+            "name": "MenuList",
+            "sourceModule": "@mui/joy/MenuList",
+            "isDefault": true
+          },
+          {
+            "name": "Menu",
+            "sourceModule": "@mui/joy/Menu",
+            "isDefault": true
+          },
+          {
+            "name": "Select",
+            "sourceModule": "@mui/joy/Select",
+            "isDefault": true
+          },
+          {
+            "name": "RadioGroup",
+            "sourceModule": "@mui/joy/RadioGroup",
+            "isDefault": true
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "GroupListContext.ts",
+        "path": "packages/mui-joy/src/List/GroupListContext.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 10,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "G",
+            "type": "const",
+            "signature": "const G"
+          }
+        ]
+      },
+      {
+        "name": "ComponentListContext.ts",
+        "path": "packages/mui-joy/src/List/ComponentListContext.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 10,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

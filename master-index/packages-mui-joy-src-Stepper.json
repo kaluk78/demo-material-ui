@@ -1,0 +1,463 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:46:58.819Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "Stepper",
+      "path": "packages/mui-joy/src/Stepper",
+      "purpose": "Enhanced directory analysis of Stepper",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "stepperClasses.ts",
+        "path": "packages/mui-joy/src/Stepper/stepperClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 34,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Stepper/stepperClasses.ts",
+            "functionName": "getStepperUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 20,
+              "endLine": 22
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "../className",
+            "isDefault": false,
+            "namedImports": [
+              "generateUtilityClass",
+              "generateUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "StepperClasses",
+            "type": "interface"
+          },
+          {
+            "name": "StepperClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getStepperUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getStepperUtilityClass",
+            "type": "function",
+            "signature": "function getStepperUtilityClass()"
+          },
+          {
+            "name": "StepperClasses",
+            "type": "interface",
+            "signature": "interface StepperClasses"
+          },
+          {
+            "name": "StepperClassKey",
+            "type": "type",
+            "signature": "type StepperClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/Stepper/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "stepperClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "StepperProps.ts",
+        "path": "packages/mui-joy/src/Stepper/StepperProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 57,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "../styles/types",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "SlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "SlotProps",
+              "CreateSlotsAndSlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "StepperSlot",
+            "type": "type"
+          },
+          {
+            "name": "StepperSlots",
+            "type": "interface"
+          },
+          {
+            "name": "StepperSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "StepperPropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "StepperTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "StepperProps",
+            "type": "type"
+          },
+          {
+            "name": "StepperOwnerState",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "StepperSlots",
+            "type": "interface",
+            "signature": "interface StepperSlots"
+          },
+          {
+            "name": "StepperPropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface StepperPropsSizeOverrides"
+          },
+          {
+            "name": "StepperTypeMap",
+            "type": "interface",
+            "signature": "interface StepperTypeMap"
+          },
+          {
+            "name": "StepperOwnerState",
+            "type": "interface",
+            "signature": "interface StepperOwnerState"
+          },
+          {
+            "name": "StepperSlot",
+            "type": "type",
+            "signature": "type StepperSlot"
+          },
+          {
+            "name": "StepperSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type StepperSlotsAndSlotProps"
+          },
+          {
+            "name": "StepperProps",
+            "type": "type",
+            "signature": "type StepperProps"
+          }
+        ]
+      },
+      {
+        "name": "Stepper.tsx",
+        "path": "packages/mui-joy/src/Stepper/Stepper.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 198,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Stepper/Stepper.tsx",
+            "functionName": "Stepper",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/Stepper/Stepper.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/base",
+            "isDefault": false,
+            "namedImports": [
+              "composeClasses"
+            ]
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent"
+            ]
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "useThemeProps",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "useThemeProps"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../styles/styled",
+            "isDefault": true
+          },
+          {
+            "name": "getStepperUtilityClass",
+            "sourceModule": "./stepperClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getStepperUtilityClass"
+            ]
+          },
+          {
+            "name": "StepperProps",
+            "sourceModule": "./StepperProps",
+            "isDefault": false,
+            "namedImports": [
+              "StepperProps",
+              "StepperOwnerState",
+              "StepperTypeMap"
+            ]
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Stepper",
+            "type": "function",
+            "signature": "function Stepper()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "Stepper.test.tsx",
+        "path": "packages/mui-joy/src/Stepper/Stepper.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 50,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "Stepper",
+            "sourceModule": "@mui/joy/Stepper",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": []
+  }
+}

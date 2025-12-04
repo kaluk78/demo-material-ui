@@ -1,0 +1,215 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:48:23.836Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "compose",
+      "path": "packages/mui-system/src/compose",
+      "purpose": "Enhanced directory analysis of compose",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.ts",
+        "path": "packages/mui-system/src/compose/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 2,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "ComposedStyleFunction",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ComposedStyleFunction",
+            "type": "type",
+            "signature": "type ComposedStyleFunction"
+          }
+        ]
+      },
+      {
+        "name": "compose.test.js",
+        "path": "packages/mui-system/src/compose/compose.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 32,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "compose",
+            "sourceModule": "./compose",
+            "isDefault": true
+          },
+          {
+            "name": "style",
+            "sourceModule": "../style",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "compose.js",
+        "path": "packages/mui-system/src/compose/compose.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 35,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-system/src/compose/compose.js",
+            "functionName": "compose",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Utility function with clear purpose; Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 3,
+              "endLine": 32
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -65,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/compose/compose.js",
+            "functionName": "fn",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Very generic function name",
+              "Utility function with clear purpose; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 7,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "merge",
+            "sourceModule": "../merge",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "compose",
+            "type": "function",
+            "signature": "function compose()"
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "signature": "const fn = () =>"
+          }
+        ]
+      },
+      {
+        "name": "compose.d.ts",
+        "path": "packages/mui-system/src/compose/compose.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 20,
+        "importedModules": [
+          {
+            "name": "StyleFunction",
+            "sourceModule": "../style",
+            "isDefault": false,
+            "namedImports": [
+              "StyleFunction"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ComposedStyleFunction",
+            "type": "type"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ComposedArg",
+            "type": "type",
+            "signature": "type ComposedArg"
+          },
+          {
+            "name": "ComposedOwnerState",
+            "type": "type",
+            "signature": "type ComposedOwnerState"
+          },
+          {
+            "name": "ComposedStyleFunction",
+            "type": "type",
+            "signature": "type ComposedStyleFunction"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

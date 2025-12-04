@@ -1,0 +1,574 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:47:29.850Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "List",
+      "path": "packages/mui-material/src/List",
+      "purpose": "Enhanced directory analysis of List",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "listClasses.ts",
+        "path": "packages/mui-material/src/List/listClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 29,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/List/listClasses.ts",
+            "functionName": "getListUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 17,
+              "endLine": 19
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ListClasses",
+            "type": "interface"
+          },
+          {
+            "name": "ListClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getListUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getListUtilityClass",
+            "type": "function",
+            "signature": "function getListUtilityClass()"
+          },
+          {
+            "name": "ListClasses",
+            "type": "interface",
+            "signature": "interface ListClasses"
+          },
+          {
+            "name": "ListClassKey",
+            "type": "type",
+            "signature": "type ListClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.js",
+        "path": "packages/mui-material/src/List/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "listClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-material/src/List/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "listClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "ListContext.js",
+        "path": "packages/mui-material/src/List/ListContext.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 14,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "L",
+            "type": "const",
+            "signature": "const L"
+          }
+        ]
+      },
+      {
+        "name": "ListContext.d.ts",
+        "path": "packages/mui-material/src/List/ListContext.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "L",
+            "type": "const",
+            "signature": "const L"
+          }
+        ]
+      },
+      {
+        "name": "List.test.js",
+        "path": "packages/mui-material/src/List/List.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 83,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer"
+            ]
+          },
+          {
+            "name": "ListSubheader",
+            "sourceModule": "@mui/material/ListSubheader",
+            "isDefault": true,
+            "namedImports": [
+              "listSubheaderClasses"
+            ]
+          },
+          {
+            "name": "ListItem",
+            "sourceModule": "@mui/material/ListItem",
+            "isDefault": true,
+            "namedImports": [
+              "listItemClasses"
+            ]
+          },
+          {
+            "name": "List",
+            "sourceModule": "@mui/material/List",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          }
+        ]
+      },
+      {
+        "name": "List.spec.tsx",
+        "path": "packages/mui-material/src/List/List.spec.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 15,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "List",
+            "sourceModule": "@mui/material/List",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "List.js",
+        "path": "packages/mui-material/src/List/List.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 144,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/List/List.js",
+            "functionName": "List",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/List/List.js",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../zero-styled",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "useDefaultProps",
+            "sourceModule": "../DefaultPropsProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useDefaultProps"
+            ]
+          },
+          {
+            "name": "ListContext",
+            "sourceModule": "./ListContext",
+            "isDefault": true
+          },
+          {
+            "name": "getListUtilityClass",
+            "sourceModule": "./listClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getListUtilityClass"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "List",
+            "type": "function",
+            "signature": "function List()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "L",
+            "type": "const",
+            "signature": "const L"
+          },
+          {
+            "name": "L",
+            "type": "const",
+            "signature": "const L"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "List.d.ts",
+        "path": "packages/mui-material/src/List/List.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 76,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "Theme",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "Theme"
+            ]
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "../OverridableComponent",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent",
+              "OverridableTypeMap",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "ListClasses",
+            "sourceModule": "./listClasses",
+            "isDefault": false,
+            "namedImports": [
+              "ListClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ListOwnProps",
+            "type": "interface"
+          },
+          {
+            "name": "ListTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "ExtendListTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "ExtendList",
+            "type": "type"
+          },
+          {
+            "name": "ListProps",
+            "type": "type"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "L",
+            "type": "const",
+            "signature": "const L"
+          },
+          {
+            "name": "ListOwnProps",
+            "type": "interface",
+            "signature": "interface ListOwnProps"
+          },
+          {
+            "name": "ListTypeMap",
+            "type": "interface",
+            "signature": "interface ListTypeMap"
+          },
+          {
+            "name": "ExtendListTypeMap",
+            "type": "interface",
+            "signature": "interface ExtendListTypeMap"
+          },
+          {
+            "name": "ExtendList",
+            "type": "type",
+            "signature": "type ExtendList"
+          },
+          {
+            "name": "ListProps",
+            "type": "type",
+            "signature": "type ListProps"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

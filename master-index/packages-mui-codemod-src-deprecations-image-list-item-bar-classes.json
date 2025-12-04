@@ -1,0 +1,258 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:41:23.079Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "image-list-item-bar-classes",
+      "path": "packages/mui-codemod/src/deprecations/image-list-item-bar-classes",
+      "purpose": "Enhanced directory analysis of image-list-item-bar-classes",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "postcss.config.js",
+        "path": "packages/mui-codemod/src/deprecations/image-list-item-bar-classes/postcss.config.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "postcss-plugin.js",
+        "path": "packages/mui-codemod/src/deprecations/image-list-item-bar-classes/postcss-plugin.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 44,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-codemod/src/deprecations/image-list-item-bar-classes/postcss-plugin.js",
+            "functionName": "plugin",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Utility function with clear purpose; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "plugin",
+            "type": "function",
+            "signature": "const plugin = () =>"
+          }
+        ]
+      },
+      {
+        "name": "index.js",
+        "path": "packages/mui-codemod/src/deprecations/image-list-item-bar-classes/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 2,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "image-list-item-bar-classes.test.js",
+        "path": "packages/mui-codemod/src/deprecations/image-list-item-bar-classes/image-list-item-bar-classes.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 106,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-codemod/src/deprecations/image-list-item-bar-classes/image-list-item-bar-classes.test.js",
+            "functionName": "read",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Utility function with clear purpose; Intentionally unused parameter/variable (prefixed with _); Returns computed value from external calls or processing; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 9,
+              "endLine": 11
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -75,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "path",
+            "sourceModule": "path",
+            "isDefault": true
+          },
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "postcss",
+            "sourceModule": "postcss",
+            "isDefault": true
+          },
+          {
+            "name": "jscodeshift",
+            "sourceModule": "../../../testUtils",
+            "isDefault": false,
+            "namedImports": [
+              "jscodeshift"
+            ]
+          },
+          {
+            "name": "jsTransform",
+            "sourceModule": "./image-list-item-bar-classes",
+            "isDefault": true
+          },
+          {
+            "name": "postcssPlugin",
+            "sourceModule": "./postcss-plugin",
+            "isDefault": false,
+            "namedImports": [
+              "postcssPlugin"
+            ]
+          },
+          {
+            "name": "readFile",
+            "sourceModule": "../../util/readFile",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "read",
+            "type": "function",
+            "signature": "function read()"
+          }
+        ]
+      },
+      {
+        "name": "image-list-item-bar-classes.js",
+        "path": "packages/mui-codemod/src/deprecations/image-list-item-bar-classes/image-list-item-bar-classes.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 132,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-codemod/src/deprecations/image-list-item-bar-classes/image-list-item-bar-classes.js",
+            "functionName": "transformer",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Properly uses assigned variables; Mutates state or has side effects; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 7,
+              "endLine": 131
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -62,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "classes",
+            "sourceModule": "./postcss-plugin",
+            "isDefault": false,
+            "namedImports": [
+              "classes"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "transformer",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "transformer",
+            "type": "function",
+            "signature": "function transformer()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "test-cases",
+        "relativePath": "test-cases",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of test-cases",
+        "keyElementsFromChild": []
+      }
+    ]
+  }
+}

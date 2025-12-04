@@ -1,0 +1,359 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:46:58.390Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "Stack",
+      "path": "packages/mui-joy/src/Stack",
+      "purpose": "Enhanced directory analysis of Stack",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "stackClasses.ts",
+        "path": "packages/mui-joy/src/Stack/stackClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 14,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Stack/stackClasses.ts",
+            "functionName": "getStackUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 7,
+              "endLine": 9
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "StackClasses",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "StackClasses"
+            ]
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "../className",
+            "isDefault": false,
+            "namedImports": [
+              "generateUtilityClass",
+              "generateUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "StackClassKey",
+            "type": "const"
+          },
+          {
+            "name": "StackClasses",
+            "type": "const"
+          },
+          {
+            "name": "getStackUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getStackUtilityClass",
+            "type": "function",
+            "signature": "function getStackUtilityClass()"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/Stack/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "stackClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "StackProps.ts",
+        "path": "packages/mui-joy/src/Stack/StackProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 70,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverrideProps",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "ResponsiveStyleValue",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "ResponsiveStyleValue"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "../styles/types",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps",
+              "SystemProps"
+            ]
+          },
+          {
+            "name": "SlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "SlotProps",
+              "CreateSlotsAndSlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "StackSlot",
+            "type": "type"
+          },
+          {
+            "name": "StackSlots",
+            "type": "interface"
+          },
+          {
+            "name": "StackSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "StackTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "StackProps",
+            "type": "type"
+          },
+          {
+            "name": "StackOwnerState",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "StackSlots",
+            "type": "interface",
+            "signature": "interface StackSlots"
+          },
+          {
+            "name": "StackTypeMap",
+            "type": "interface",
+            "signature": "interface StackTypeMap"
+          },
+          {
+            "name": "StackOwnerState",
+            "type": "interface",
+            "signature": "interface StackOwnerState"
+          },
+          {
+            "name": "StackSlot",
+            "type": "type",
+            "signature": "type StackSlot"
+          },
+          {
+            "name": "StackSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type StackSlotsAndSlotProps"
+          },
+          {
+            "name": "StackProps",
+            "type": "type",
+            "signature": "type StackProps"
+          }
+        ]
+      },
+      {
+        "name": "Stack.tsx",
+        "path": "packages/mui-joy/src/Stack/Stack.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 87,
+        "importedModules": [
+          {
+            "name": "createStack",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "createStack"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../styles/styled",
+            "isDefault": true
+          },
+          {
+            "name": "useThemeProps",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "useThemeProps"
+            ]
+          },
+          {
+            "name": "StackTypeMap",
+            "sourceModule": "./StackProps",
+            "isDefault": false,
+            "namedImports": [
+              "StackTypeMap"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "Stack.test.tsx",
+        "path": "packages/mui-joy/src/Stack/Stack.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 30,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/joy/Stack",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": []
+  }
+}

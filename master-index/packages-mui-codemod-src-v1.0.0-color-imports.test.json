@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:41:50.449Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "color-imports.test",
+      "path": "packages/mui-codemod/src/v1.0.0/color-imports.test",
+      "purpose": "Enhanced directory analysis of color-imports.test",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "expected.js",
+        "path": "packages/mui-codemod/src/v1.0.0/color-imports.test/expected.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 15,
+        "importedModules": [
+          {
+            "name": "blue",
+            "sourceModule": "@material-ui/core/colors/blue",
+            "isDefault": true
+          },
+          {
+            "name": "teal",
+            "sourceModule": "@material-ui/core/colors/teal",
+            "isDefault": true
+          },
+          {
+            "name": "common",
+            "sourceModule": "@material-ui/core/colors/common",
+            "isDefault": true
+          },
+          {
+            "name": "lightBlue",
+            "sourceModule": "@material-ui/core/colors/lightBlue",
+            "isDefault": true
+          },
+          {
+            "name": "orange",
+            "sourceModule": "@material-ui/core/colors/orange",
+            "isDefault": true
+          },
+          {
+            "name": "* as muiColors",
+            "sourceModule": "@material-ui/core/colors",
+            "isDefault": false,
+            "namedImports": [
+              "* as muiColors"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "actual.js",
+        "path": "packages/mui-codemod/src/v1.0.0/color-imports.test/actual.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 7,
+        "importedModules": [
+          {
+            "name": "blue",
+            "sourceModule": "material-ui/styles/colors",
+            "isDefault": false,
+            "namedImports": [
+              "blue",
+              "teal500",
+              "fullWhite",
+              "fullBlack"
+            ]
+          },
+          {
+            "name": "primaryColor",
+            "sourceModule": "material-ui/styles/colors",
+            "isDefault": false,
+            "namedImports": [
+              "primaryColor",
+              "orangeA200"
+            ]
+          },
+          {
+            "name": "* as muiColors",
+            "sourceModule": "material-ui/styles/colors",
+            "isDefault": false,
+            "namedImports": [
+              "* as muiColors"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": []
+  }
+}

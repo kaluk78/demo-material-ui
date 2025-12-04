@@ -1,0 +1,561 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:46:59.488Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "TabPanel",
+      "path": "packages/mui-joy/src/TabPanel",
+      "purpose": "Enhanced directory analysis of TabPanel",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "tabPanelClasses.ts",
+        "path": "packages/mui-joy/src/TabPanel/tabPanelClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 67,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/TabPanel/tabPanelClasses.ts",
+            "functionName": "getTabPanelUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 42,
+              "endLine": 44
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "../className",
+            "isDefault": false,
+            "namedImports": [
+              "generateUtilityClass",
+              "generateUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TabPanelClasses",
+            "type": "interface"
+          },
+          {
+            "name": "TabPanelClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getTabPanelUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getTabPanelUtilityClass",
+            "type": "function",
+            "signature": "function getTabPanelUtilityClass()"
+          },
+          {
+            "name": "TabPanelClasses",
+            "type": "interface",
+            "signature": "interface TabPanelClasses"
+          },
+          {
+            "name": "TabPanelClassKey",
+            "type": "type",
+            "signature": "type TabPanelClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/TabPanel/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "tabPanelClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "TabPanelProps.ts",
+        "path": "packages/mui-joy/src/TabPanel/TabPanelProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 80,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "TabPanelOwnProps",
+            "sourceModule": "@mui/base/TabPanel",
+            "isDefault": false,
+            "namedImports": [
+              "TabPanelOwnProps"
+            ]
+          },
+          {
+            "name": "ColorPaletteProp",
+            "sourceModule": "../styles/types",
+            "isDefault": false,
+            "namedImports": [
+              "ColorPaletteProp",
+              "SxProps",
+              "VariantProp",
+              "ApplyColorInversion"
+            ]
+          },
+          {
+            "name": "SlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "SlotProps",
+              "CreateSlotsAndSlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TabPanelSlot",
+            "type": "type"
+          },
+          {
+            "name": "TabPanelSlots",
+            "type": "interface"
+          },
+          {
+            "name": "TabPanelSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "TabPanelPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TabPanelPropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TabPanelPropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TabPanelTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "TabPanelProps",
+            "type": "type"
+          },
+          {
+            "name": "TabPanelOwnerState",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TabPanelSlots",
+            "type": "interface",
+            "signature": "interface TabPanelSlots"
+          },
+          {
+            "name": "TabPanelPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface TabPanelPropsColorOverrides"
+          },
+          {
+            "name": "TabPanelPropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface TabPanelPropsVariantOverrides"
+          },
+          {
+            "name": "TabPanelPropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface TabPanelPropsSizeOverrides"
+          },
+          {
+            "name": "TabPanelTypeMap",
+            "type": "interface",
+            "signature": "interface TabPanelTypeMap"
+          },
+          {
+            "name": "TabPanelOwnerState",
+            "type": "interface",
+            "signature": "interface TabPanelOwnerState"
+          },
+          {
+            "name": "TabPanelSlot",
+            "type": "type",
+            "signature": "type TabPanelSlot"
+          },
+          {
+            "name": "TabPanelSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type TabPanelSlotsAndSlotProps"
+          },
+          {
+            "name": "TabPanelProps",
+            "type": "type",
+            "signature": "type TabPanelProps"
+          }
+        ]
+      },
+      {
+        "name": "TabPanel.tsx",
+        "path": "packages/mui-joy/src/TabPanel/TabPanel.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 187,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/TabPanel/TabPanel.tsx",
+            "functionName": "TabPanel",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/TabPanel/TabPanel.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/base",
+            "isDefault": false,
+            "namedImports": [
+              "composeClasses"
+            ]
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent"
+            ]
+          },
+          {
+            "name": "useTabPanel",
+            "sourceModule": "@mui/base/useTabPanel",
+            "isDefault": false,
+            "namedImports": [
+              "useTabPanel"
+            ]
+          },
+          {
+            "name": "useTabsContext",
+            "sourceModule": "@mui/base/Tabs",
+            "isDefault": false,
+            "namedImports": [
+              "useTabsContext"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "styled",
+              "useThemeProps"
+            ]
+          },
+          {
+            "name": "SizeTabsContext",
+            "sourceModule": "../Tabs/SizeTabsContext",
+            "isDefault": true
+          },
+          {
+            "name": "getTabPanelUtilityClass",
+            "sourceModule": "./tabPanelClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getTabPanelUtilityClass"
+            ]
+          },
+          {
+            "name": "TabPanelOwnerState",
+            "sourceModule": "./TabPanelProps",
+            "isDefault": false,
+            "namedImports": [
+              "TabPanelOwnerState",
+              "TabPanelTypeMap"
+            ]
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TabPanel",
+            "type": "function",
+            "signature": "function TabPanel()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "TabPanel.test.tsx",
+        "path": "packages/mui-joy/src/TabPanel/TabPanel.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 55,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/TabPanel/TabPanel.test.tsx",
+            "functionName": "TabsProvider",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (4 lines)",
+              "Moderate context score; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 10,
+              "endLine": 13
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen"
+            ]
+          },
+          {
+            "name": "TabsProps",
+            "sourceModule": "@mui/base/Tabs",
+            "isDefault": false,
+            "namedImports": [
+              "TabsProps"
+            ]
+          },
+          {
+            "name": "useTabs",
+            "sourceModule": "@mui/base/useTabs",
+            "isDefault": false,
+            "namedImports": [
+              "useTabs",
+              "BaseTabsProvider"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "Tabs",
+            "sourceModule": "@mui/joy/Tabs",
+            "isDefault": true
+          },
+          {
+            "name": "TabPanel",
+            "sourceModule": "@mui/joy/TabPanel",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TabsProvider",
+            "type": "function",
+            "signature": "function TabsProvider()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

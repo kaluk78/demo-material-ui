@@ -1,0 +1,665 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:46:49.648Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "Input",
+      "path": "packages/mui-joy/src/Input",
+      "purpose": "Enhanced directory analysis of Input",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "useForwardedInput.ts",
+        "path": "packages/mui-joy/src/Input/useForwardedInput.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 95,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Input/useForwardedInput.ts",
+            "functionName": "useForwardedInput",
+            "classification": "likely-legitimate",
+            "confidence": 28,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"placeholder\"",
+              "Low cyclomatic complexity (1)",
+              "Event handler or callback function; Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 6,
+              "endLine": 94
+            },
+            "detectionMethods": {
+              "explicitMarkers": 40,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -24,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "useInput",
+            "sourceModule": "@mui/base/useInput",
+            "isDefault": false,
+            "namedImports": [
+              "useInput"
+            ]
+          },
+          {
+            "name": "FormControlContext",
+            "sourceModule": "../FormControl/FormControlContext",
+            "isDefault": true,
+            "namedImports": [
+              "FormControlContextValue"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "useForwardedInput",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "inputClasses.ts",
+        "path": "packages/mui-joy/src/Input/inputClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 84,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Input/inputClasses.ts",
+            "functionName": "getInputUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 52,
+              "endLine": 54
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "../className",
+            "isDefault": false,
+            "namedImports": [
+              "generateUtilityClass",
+              "generateUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "InputClasses",
+            "type": "interface"
+          },
+          {
+            "name": "InputClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getInputUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getInputUtilityClass",
+            "type": "function",
+            "signature": "function getInputUtilityClass()"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "InputClasses",
+            "type": "interface",
+            "signature": "interface InputClasses"
+          },
+          {
+            "name": "InputClassKey",
+            "type": "type",
+            "signature": "type InputClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/Input/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "inputClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "InputProps.ts",
+        "path": "packages/mui-joy/src/Input/InputProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 132,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "ApplyColorInversion",
+            "sourceModule": "../styles/types",
+            "isDefault": false,
+            "namedImports": [
+              "ApplyColorInversion",
+              "ColorPaletteProp",
+              "SxProps",
+              "VariantProp"
+            ]
+          },
+          {
+            "name": "CreateSlotsAndSlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "CreateSlotsAndSlotProps",
+              "SlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "InputSlot",
+            "type": "type"
+          },
+          {
+            "name": "InputSlots",
+            "type": "interface"
+          },
+          {
+            "name": "InputPropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "InputPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "InputPropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "InputSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "InputTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "InputProps",
+            "type": "type"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "InputOwnerState",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "InputSlots",
+            "type": "interface",
+            "signature": "interface InputSlots"
+          },
+          {
+            "name": "InputPropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface InputPropsVariantOverrides"
+          },
+          {
+            "name": "InputPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface InputPropsColorOverrides"
+          },
+          {
+            "name": "InputPropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface InputPropsSizeOverrides"
+          },
+          {
+            "name": "InputTypeMap",
+            "type": "interface",
+            "signature": "interface InputTypeMap"
+          },
+          {
+            "name": "InputOwnerState",
+            "type": "interface",
+            "signature": "interface InputOwnerState"
+          },
+          {
+            "name": "InputSlot",
+            "type": "type",
+            "signature": "type InputSlot"
+          },
+          {
+            "name": "InputSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type InputSlotsAndSlotProps"
+          },
+          {
+            "name": "InputProps",
+            "type": "type",
+            "signature": "type InputProps"
+          }
+        ]
+      },
+      {
+        "name": "Input.tsx",
+        "path": "packages/mui-joy/src/Input/Input.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 473,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Input/Input.tsx",
+            "functionName": "Input",
+            "classification": "definite-placeholder",
+            "confidence": 85,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\"",
+              "Returns hardcoded value: \"return undefined;\"",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 100,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/Input/Input.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent"
+            ]
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/base/composeClasses",
+            "isDefault": false,
+            "namedImports": [
+              "composeClasses"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "styled",
+              "useThemeProps"
+            ]
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          },
+          {
+            "name": "InputTypeMap",
+            "sourceModule": "./InputProps",
+            "isDefault": false,
+            "namedImports": [
+              "InputTypeMap",
+              "InputProps",
+              "InputOwnerState"
+            ]
+          },
+          {
+            "name": "inputClasses",
+            "sourceModule": "./inputClasses",
+            "isDefault": true,
+            "namedImports": [
+              "getInputUtilityClass"
+            ]
+          },
+          {
+            "name": "useForwardedInput",
+            "sourceModule": "./useForwardedInput",
+            "isDefault": true
+          },
+          {
+            "name": "INVERTED_COLORS_ATTR",
+            "sourceModule": "../colorInversion/colorInversionUtils",
+            "isDefault": false,
+            "namedImports": [
+              "INVERTED_COLORS_ATTR"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "StyledInputRoot",
+            "type": "const"
+          },
+          {
+            "name": "StyledInputHtml",
+            "type": "const"
+          },
+          {
+            "name": "StyledInputStartDecorator",
+            "type": "const"
+          },
+          {
+            "name": "StyledInputEndDecorator",
+            "type": "const"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Input",
+            "type": "function",
+            "signature": "function Input()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "I",
+            "type": "const",
+            "signature": "const I"
+          },
+          {
+            "name": "I",
+            "type": "const",
+            "signature": "const I"
+          },
+          {
+            "name": "I",
+            "type": "const",
+            "signature": "const I"
+          },
+          {
+            "name": "I",
+            "type": "const",
+            "signature": "const I"
+          },
+          {
+            "name": "I",
+            "type": "const",
+            "signature": "const I"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "Input.test.tsx",
+        "path": "packages/mui-joy/src/Input/Input.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 155,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "spy",
+            "sourceModule": "sinon",
+            "isDefault": false,
+            "namedImports": [
+              "spy"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen",
+              "act",
+              "fireEvent"
+            ]
+          },
+          {
+            "name": "Input",
+            "sourceModule": "@mui/joy/Input",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider",
+              "extendTheme"
+            ]
+          },
+          {
+            "name": "FormControl",
+            "sourceModule": "@mui/joy/FormControl",
+            "isDefault": true
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "Input.spec.tsx",
+        "path": "packages/mui-joy/src/Input/Input.spec.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 66,
+        "importedModules": [
+          {
+            "name": "expectType",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "expectType"
+            ]
+          },
+          {
+            "name": "Input",
+            "sourceModule": "@mui/joy/Input",
+            "isDefault": true,
+            "namedImports": [
+              "InputOwnerState"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": []
+  }
+}

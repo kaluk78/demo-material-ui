@@ -1,0 +1,536 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:47:48.871Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "StepButton",
+      "path": "packages/mui-material/src/StepButton",
+      "purpose": "Enhanced directory analysis of StepButton",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "stepButtonClasses.ts",
+        "path": "packages/mui-material/src/StepButton/stepButtonClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 29,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/StepButton/stepButtonClasses.ts",
+            "functionName": "getStepButtonUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 17,
+              "endLine": 19
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "StepButtonClasses",
+            "type": "interface"
+          },
+          {
+            "name": "StepButtonClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getStepButtonUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getStepButtonUtilityClass",
+            "type": "function",
+            "signature": "function getStepButtonUtilityClass()"
+          },
+          {
+            "name": "StepButtonClasses",
+            "type": "interface",
+            "signature": "interface StepButtonClasses"
+          },
+          {
+            "name": "StepButtonClassKey",
+            "type": "type",
+            "signature": "type StepButtonClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.js",
+        "path": "packages/mui-material/src/StepButton/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "stepButtonClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-material/src/StepButton/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "stepButtonClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "StepButton.test.js",
+        "path": "packages/mui-material/src/StepButton/StepButton.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 146,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/StepButton/StepButton.test.js",
+            "functionName": "touchTests",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -50,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "spy",
+            "sourceModule": "sinon",
+            "isDefault": false,
+            "namedImports": [
+              "spy"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen",
+              "fireEvent",
+              "supportsTouch"
+            ]
+          },
+          {
+            "name": "StepButton",
+            "sourceModule": "@mui/material/StepButton",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "Step",
+            "sourceModule": "@mui/material/Step",
+            "isDefault": true
+          },
+          {
+            "name": "StepLabel",
+            "sourceModule": "@mui/material/StepLabel",
+            "isDefault": true,
+            "namedImports": [
+              "stepLabelClasses"
+            ]
+          },
+          {
+            "name": "ButtonBase",
+            "sourceModule": "@mui/material/ButtonBase",
+            "isDefault": true
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "touchTests",
+            "type": "function",
+            "signature": "function touchTests()"
+          }
+        ]
+      },
+      {
+        "name": "StepButton.js",
+        "path": "packages/mui-material/src/StepButton/StepButton.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 132,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/StepButton/StepButton.js",
+            "functionName": "StepButton",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/StepButton/StepButton.js",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../zero-styled",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "useDefaultProps",
+            "sourceModule": "../DefaultPropsProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useDefaultProps"
+            ]
+          },
+          {
+            "name": "ButtonBase",
+            "sourceModule": "../ButtonBase",
+            "isDefault": true
+          },
+          {
+            "name": "StepLabel",
+            "sourceModule": "../StepLabel",
+            "isDefault": true
+          },
+          {
+            "name": "isMuiElement",
+            "sourceModule": "../utils/isMuiElement",
+            "isDefault": true
+          },
+          {
+            "name": "StepperContext",
+            "sourceModule": "../Stepper/StepperContext",
+            "isDefault": true
+          },
+          {
+            "name": "StepContext",
+            "sourceModule": "../Step/StepContext",
+            "isDefault": true
+          },
+          {
+            "name": "stepButtonClasses",
+            "sourceModule": "./stepButtonClasses",
+            "isDefault": true,
+            "namedImports": [
+              "getStepButtonUtilityClass"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "StepButton",
+            "type": "function",
+            "signature": "function StepButton()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "StepButton.d.ts",
+        "path": "packages/mui-material/src/StepButton/StepButton.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 66,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "ButtonBaseTypeMap",
+            "sourceModule": "../ButtonBase",
+            "isDefault": false,
+            "namedImports": [
+              "ButtonBaseTypeMap",
+              "ExtendButtonBase",
+              "ExtendButtonBaseTypeMap"
+            ]
+          },
+          {
+            "name": "OverrideProps",
+            "sourceModule": "../OverridableComponent",
+            "isDefault": false,
+            "namedImports": [
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "Theme",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "Theme"
+            ]
+          },
+          {
+            "name": "StepButtonClasses",
+            "sourceModule": "./stepButtonClasses",
+            "isDefault": false,
+            "namedImports": [
+              "StepButtonClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "StepButtonOwnProps",
+            "type": "interface"
+          },
+          {
+            "name": "StepButtonTypeMap",
+            "type": "type"
+          },
+          {
+            "name": "StepButtonClasskey",
+            "type": "type"
+          },
+          {
+            "name": "StepButtonProps",
+            "type": "type"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "StepButtonOwnProps",
+            "type": "interface",
+            "signature": "interface StepButtonOwnProps"
+          },
+          {
+            "name": "StepButtonTypeMap",
+            "type": "type",
+            "signature": "type StepButtonTypeMap"
+          },
+          {
+            "name": "StepButtonClasskey",
+            "type": "type",
+            "signature": "type StepButtonClasskey"
+          },
+          {
+            "name": "StepButtonProps",
+            "type": "type",
+            "signature": "type StepButtonProps"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

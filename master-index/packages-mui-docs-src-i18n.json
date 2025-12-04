@@ -1,0 +1,441 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:42:32.306Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "i18n",
+      "path": "packages/mui-docs/src/i18n",
+      "purpose": "Enhanced directory analysis of i18n",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.ts",
+        "path": "packages/mui-docs/src/i18n/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 2,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "i18n.tsx",
+        "path": "packages/mui-docs/src/i18n/i18n.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 163,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-docs/src/i18n/i18n.tsx",
+            "functionName": "getPath",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score"
+            ],
+            "location": {
+              "startLine": 26,
+              "endLine": 43
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -45,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-docs/src/i18n/i18n.tsx",
+            "functionName": "mapTranslations",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns simple/hardcoded value",
+              "High context score suggests legitimate implementation; Properly uses assigned variables",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 150,
+              "endLine": 162
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -60,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-docs/src/i18n/i18n.tsx",
+            "functionName": "translate",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Properly uses assigned variables",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-docs/src/i18n/i18n.tsx",
+            "functionName": "TranslationsProvider",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 13,
+              "endLine": 24
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-docs/src/i18n/i18n.tsx",
+            "functionName": "UserLanguageProvider",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 64,
+              "endLine": 78
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-docs/src/i18n/i18n.tsx",
+            "functionName": "useSetUserLanguage",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 89,
+              "endLine": 91
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-docs/src/i18n/i18n.tsx",
+            "functionName": "useTranslate",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "High context score suggests legitimate implementation; Properly uses assigned variables",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 112,
+              "endLine": 141
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -60,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-docs/src/i18n/i18n.tsx",
+            "functionName": "useUserLanguage",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 85,
+              "endLine": 87
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-docs/src/i18n/i18n.tsx",
+            "functionName": "warn",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -18,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "deepmerge",
+            "sourceModule": "@mui/utils/deepmerge",
+            "isDefault": true
+          },
+          {
+            "name": "defaultTranslations",
+            "sourceModule": "../translations",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "UserLanguageProviderProps",
+            "type": "interface"
+          },
+          {
+            "name": "UserLanguageProvider",
+            "type": "function"
+          },
+          {
+            "name": "useUserLanguage",
+            "type": "function"
+          },
+          {
+            "name": "useSetUserLanguage",
+            "type": "function"
+          },
+          {
+            "name": "TranslateOptions",
+            "type": "interface"
+          },
+          {
+            "name": "Translate",
+            "type": "type"
+          },
+          {
+            "name": "useTranslate",
+            "type": "function"
+          },
+          {
+            "name": "Translations",
+            "type": "type"
+          },
+          {
+            "name": "RequireContext",
+            "type": "interface"
+          },
+          {
+            "name": "mapTranslations",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TranslationsProvider",
+            "type": "function",
+            "signature": "function TranslationsProvider()"
+          },
+          {
+            "name": "getPath",
+            "type": "function",
+            "signature": "function getPath()"
+          },
+          {
+            "name": "UserLanguageProvider",
+            "type": "function",
+            "signature": "function UserLanguageProvider()"
+          },
+          {
+            "name": "useUserLanguage",
+            "type": "function",
+            "signature": "function useUserLanguage()"
+          },
+          {
+            "name": "useSetUserLanguage",
+            "type": "function",
+            "signature": "function useSetUserLanguage()"
+          },
+          {
+            "name": "useTranslate",
+            "type": "function",
+            "signature": "function useTranslate()"
+          },
+          {
+            "name": "translate",
+            "type": "function",
+            "signature": "function translate()"
+          },
+          {
+            "name": "mapTranslations",
+            "type": "function",
+            "signature": "function mapTranslations()"
+          },
+          {
+            "name": "warn",
+            "type": "function",
+            "signature": "const warn = () =>"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "U",
+            "type": "const",
+            "signature": "const U"
+          },
+          {
+            "name": "TranslationsProviderProps",
+            "type": "interface",
+            "signature": "interface TranslationsProviderProps"
+          },
+          {
+            "name": "UserLanguageContextValue",
+            "type": "interface",
+            "signature": "interface UserLanguageContextValue"
+          },
+          {
+            "name": "UserLanguageProviderProps",
+            "type": "interface",
+            "signature": "interface UserLanguageProviderProps"
+          },
+          {
+            "name": "TranslateOptions",
+            "type": "interface",
+            "signature": "interface TranslateOptions"
+          },
+          {
+            "name": "RequireContext",
+            "type": "interface",
+            "signature": "interface RequireContext"
+          },
+          {
+            "name": "Translate",
+            "type": "type",
+            "signature": "type Translate"
+          },
+          {
+            "name": "Translations",
+            "type": "type",
+            "signature": "type Translations"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

@@ -1,0 +1,950 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:47:18.629Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "Badge",
+      "path": "packages/mui-material/src/Badge",
+      "purpose": "Enhanced directory analysis of Badge",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "useBadge.types.ts",
+        "path": "packages/mui-material/src/Badge/useBadge.types.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 41,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "UseBadgeParameters",
+            "type": "interface"
+          },
+          {
+            "name": "UseBadgeReturnValue",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "UseBadgeParameters",
+            "type": "interface",
+            "signature": "interface UseBadgeParameters"
+          },
+          {
+            "name": "UseBadgeReturnValue",
+            "type": "interface",
+            "signature": "interface UseBadgeReturnValue"
+          }
+        ]
+      },
+      {
+        "name": "useBadge.ts",
+        "path": "packages/mui-material/src/Badge/useBadge.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 39,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Badge/useBadge.ts",
+            "functionName": "useBadge",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 6,
+              "endLine": 36
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "usePreviousProps",
+            "sourceModule": "@mui/utils/usePreviousProps",
+            "isDefault": true
+          },
+          {
+            "name": "UseBadgeParameters",
+            "sourceModule": "./useBadge.types",
+            "isDefault": false,
+            "namedImports": [
+              "UseBadgeParameters",
+              "UseBadgeReturnValue"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "useBadge",
+            "type": "function",
+            "signature": "function useBadge()"
+          }
+        ]
+      },
+      {
+        "name": "index.js",
+        "path": "packages/mui-material/src/Badge/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "badgeClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-material/src/Badge/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "badgeClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "badgeClasses.ts",
+        "path": "packages/mui-material/src/Badge/badgeClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 93,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Badge/badgeClasses.ts",
+            "functionName": "getBadgeUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 59,
+              "endLine": 61
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "BadgeClasses",
+            "type": "interface"
+          },
+          {
+            "name": "BadgeClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getBadgeUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getBadgeUtilityClass",
+            "type": "function",
+            "signature": "function getBadgeUtilityClass()"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "keys",
+            "type": "class",
+            "signature": "class keys"
+          },
+          {
+            "name": "BadgeClasses",
+            "type": "interface",
+            "signature": "interface BadgeClasses"
+          },
+          {
+            "name": "BadgeClassKey",
+            "type": "type",
+            "signature": "type BadgeClassKey"
+          }
+        ]
+      },
+      {
+        "name": "Badge.test.js",
+        "path": "packages/mui-material/src/Badge/Badge.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 410,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Badge/Badge.test.js",
+            "functionName": "findBadge",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Moderate context score; Returns computed value from external calls or processing; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 11,
+              "endLine": 13
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Badge/Badge.test.js",
+            "functionName": "findBadgeRoot",
+            "classification": "definite-legitimate",
+            "confidence": 3,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Moderate context score; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 7,
+              "endLine": 9
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen"
+            ]
+          },
+          {
+            "name": "Badge",
+            "sourceModule": "@mui/material/Badge",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "findBadgeRoot",
+            "type": "function",
+            "signature": "function findBadgeRoot()"
+          },
+          {
+            "name": "findBadge",
+            "type": "function",
+            "signature": "function findBadge()"
+          },
+          {
+            "name": "when",
+            "type": "class",
+            "signature": "class when"
+          },
+          {
+            "name": "when",
+            "type": "class",
+            "signature": "class when"
+          },
+          {
+            "name": "when",
+            "type": "class",
+            "signature": "class when"
+          },
+          {
+            "name": "when",
+            "type": "class",
+            "signature": "class when"
+          },
+          {
+            "name": "when",
+            "type": "class",
+            "signature": "class when"
+          },
+          {
+            "name": "when",
+            "type": "class",
+            "signature": "class when"
+          },
+          {
+            "name": "when",
+            "type": "class",
+            "signature": "class when"
+          },
+          {
+            "name": "when",
+            "type": "class",
+            "signature": "class when"
+          },
+          {
+            "name": "when",
+            "type": "class",
+            "signature": "class when"
+          },
+          {
+            "name": "when",
+            "type": "class",
+            "signature": "class when"
+          },
+          {
+            "name": "when",
+            "type": "class",
+            "signature": "class when"
+          },
+          {
+            "name": "when",
+            "type": "class",
+            "signature": "class when"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          }
+        ]
+      },
+      {
+        "name": "Badge.spec.tsx",
+        "path": "packages/mui-material/src/Badge/Badge.spec.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 22,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Badge/Badge.spec.tsx",
+            "functionName": "classesTest",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 3,
+              "endLine": 9
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Badge",
+            "sourceModule": "@mui/material/Badge",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "classesTest",
+            "type": "function",
+            "signature": "function classesTest()"
+          }
+        ]
+      },
+      {
+        "name": "Badge.js",
+        "path": "packages/mui-material/src/Badge/Badge.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 486,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Badge/Badge.js",
+            "functionName": "Badge",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Badge/Badge.js",
+            "functionName": "getAnchorOrigin",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 244,
+              "endLine": 249
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -57,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Badge/Badge.js",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "usePreviousProps",
+            "sourceModule": "@mui/utils/usePreviousProps",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "useBadge",
+            "sourceModule": "./useBadge",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../zero-styled",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "memoTheme",
+            "sourceModule": "../utils/memoTheme",
+            "isDefault": true
+          },
+          {
+            "name": "createSimplePaletteValueFilter",
+            "sourceModule": "../utils/createSimplePaletteValueFilter",
+            "isDefault": true
+          },
+          {
+            "name": "useDefaultProps",
+            "sourceModule": "../DefaultPropsProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useDefaultProps"
+            ]
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "../utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "badgeClasses",
+            "sourceModule": "./badgeClasses",
+            "isDefault": true,
+            "namedImports": [
+              "getBadgeUtilityClass"
+            ]
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getAnchorOrigin",
+            "type": "function",
+            "signature": "function getAnchorOrigin()"
+          },
+          {
+            "name": "Badge",
+            "type": "function",
+            "signature": "function Badge()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "RADIUS_STANDARD",
+            "type": "const",
+            "signature": "const RADIUS_STANDARD"
+          },
+          {
+            "name": "RADIUS_DOT",
+            "type": "const",
+            "signature": "const RADIUS_DOT"
+          },
+          {
+            "name": "B",
+            "type": "const",
+            "signature": "const B"
+          },
+          {
+            "name": "B",
+            "type": "const",
+            "signature": "const B"
+          },
+          {
+            "name": "B",
+            "type": "const",
+            "signature": "const B"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "Badge.d.ts",
+        "path": "packages/mui-material/src/Badge/Badge.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 186,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion",
+              "Simplify"
+            ]
+          },
+          {
+            "name": "CreateSlotsAndSlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "CreateSlotsAndSlotProps",
+              "SlotProps"
+            ]
+          },
+          {
+            "name": "Theme",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "Theme"
+            ]
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "../OverridableComponent",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "BadgeClasses",
+            "sourceModule": "./badgeClasses",
+            "isDefault": false,
+            "namedImports": [
+              "BadgeClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "BadgePropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "BadgePropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "BadgeRootSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "BadgeBadgeSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "BadgeSlots",
+            "type": "interface"
+          },
+          {
+            "name": "BadgeSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "BadgeOwnerState",
+            "type": "type"
+          },
+          {
+            "name": "BadgeOrigin",
+            "type": "interface"
+          },
+          {
+            "name": "BadgeOwnProps",
+            "type": "interface"
+          },
+          {
+            "name": "BadgeTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "BadgeRoot",
+            "type": "const"
+          },
+          {
+            "name": "BadgeMark",
+            "type": "const"
+          },
+          {
+            "name": "BadgeProps",
+            "type": "type"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "B",
+            "type": "const",
+            "signature": "const B"
+          },
+          {
+            "name": "B",
+            "type": "const",
+            "signature": "const B"
+          },
+          {
+            "name": "B",
+            "type": "const",
+            "signature": "const B"
+          },
+          {
+            "name": "BadgePropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface BadgePropsVariantOverrides"
+          },
+          {
+            "name": "BadgePropsColorOverrides",
+            "type": "interface",
+            "signature": "interface BadgePropsColorOverrides"
+          },
+          {
+            "name": "BadgeRootSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface BadgeRootSlotPropsOverrides"
+          },
+          {
+            "name": "BadgeBadgeSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface BadgeBadgeSlotPropsOverrides"
+          },
+          {
+            "name": "BadgeSlots",
+            "type": "interface",
+            "signature": "interface BadgeSlots"
+          },
+          {
+            "name": "BadgeOrigin",
+            "type": "interface",
+            "signature": "interface BadgeOrigin"
+          },
+          {
+            "name": "BadgeOwnProps",
+            "type": "interface",
+            "signature": "interface BadgeOwnProps"
+          },
+          {
+            "name": "BadgeTypeMap",
+            "type": "interface",
+            "signature": "interface BadgeTypeMap"
+          },
+          {
+            "name": "BadgeSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type BadgeSlotsAndSlotProps"
+          },
+          {
+            "name": "BadgeOwnerState",
+            "type": "type",
+            "signature": "type BadgeOwnerState"
+          },
+          {
+            "name": "BadgeRootProps",
+            "type": "type",
+            "signature": "type BadgeRootProps"
+          },
+          {
+            "name": "BadgeBadgeProps",
+            "type": "type",
+            "signature": "type BadgeBadgeProps"
+          },
+          {
+            "name": "BadgeProps",
+            "type": "type",
+            "signature": "type BadgeProps"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

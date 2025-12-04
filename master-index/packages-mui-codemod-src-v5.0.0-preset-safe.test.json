@@ -1,0 +1,640 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:42:00.642Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "preset-safe.test",
+      "path": "packages/mui-codemod/src/v5.0.0/preset-safe.test",
+      "purpose": "Enhanced directory analysis of preset-safe.test",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "expected.js",
+        "path": "packages/mui-codemod/src/v5.0.0/preset-safe.test/expected.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 204,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-codemod/src/v5.0.0/preset-safe.test/expected.js",
+            "functionName": "App",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 117,
+              "endLine": 177
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-codemod/src/v5.0.0/preset-safe.test/expected.js",
+            "functionName": "handleClose",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-codemod/src/v5.0.0/preset-safe.test/expected.js",
+            "functionName": "Header",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-codemod/src/v5.0.0/preset-safe.test/expected.js",
+            "functionName": "withThemeProvider",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-codemod/src/v5.0.0/preset-safe.test/expected.js",
+            "functionName": "withWidth",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider",
+              "StyledEngineProvider",
+              "createTheme",
+              "alpha",
+              "adaptV4Theme"
+            ]
+          },
+          {
+            "name": "makeStyles",
+            "sourceModule": "@mui/styles/makeStyles",
+            "isDefault": true
+          },
+          {
+            "name": "StylesProvider",
+            "sourceModule": "@mui/styles/StylesProvider",
+            "isDefault": true
+          },
+          {
+            "name": "CssBaseline",
+            "sourceModule": "@mui/material/CssBaseline",
+            "isDefault": true
+          },
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/material/CircularProgress",
+            "isDefault": true
+          },
+          {
+            "name": "Dialog",
+            "sourceModule": "@mui/material/Dialog",
+            "isDefault": true
+          },
+          {
+            "name": "DialogTitle",
+            "sourceModule": "@mui/material/DialogTitle",
+            "isDefault": true
+          },
+          {
+            "name": "DialogActions",
+            "sourceModule": "@mui/material/DialogActions",
+            "isDefault": true
+          },
+          {
+            "name": "DialogContent",
+            "sourceModule": "@mui/material/DialogContent",
+            "isDefault": true
+          },
+          {
+            "name": "DialogContentText",
+            "sourceModule": "@mui/material/DialogContentText",
+            "isDefault": true
+          },
+          {
+            "name": "Autocomplete",
+            "sourceModule": "@mui/material/Autocomplete",
+            "isDefault": true
+          },
+          {
+            "name": "Avatar",
+            "sourceModule": "@mui/material/Avatar",
+            "isDefault": true
+          },
+          {
+            "name": "Badge",
+            "sourceModule": "@mui/material/Badge",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Container",
+            "sourceModule": "@mui/material/Container",
+            "isDefault": true
+          },
+          {
+            "name": "AppBar",
+            "sourceModule": "@mui/material/AppBar",
+            "isDefault": true
+          },
+          {
+            "name": "Toolbar",
+            "sourceModule": "@mui/material/Toolbar",
+            "isDefault": true
+          },
+          {
+            "name": "Grid",
+            "sourceModule": "@mui/material/Grid",
+            "isDefault": true
+          },
+          {
+            "name": "Switch",
+            "sourceModule": "@mui/material/Switch",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "TextField",
+            "sourceModule": "@mui/material/TextField",
+            "isDefault": true
+          },
+          {
+            "name": "yellow",
+            "sourceModule": "@mui/material/colors",
+            "isDefault": false,
+            "namedImports": [
+              "yellow"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "App",
+            "type": "function",
+            "signature": "function App()"
+          },
+          {
+            "name": "withWidth",
+            "type": "function",
+            "signature": "const withWidth = () =>"
+          },
+          {
+            "name": "Header",
+            "type": "function",
+            "signature": "const Header = () =>"
+          },
+          {
+            "name": "handleClose",
+            "type": "function",
+            "signature": "const handleClose = () =>"
+          },
+          {
+            "name": "withThemeProvider",
+            "type": "function",
+            "signature": "const withThemeProvider = () =>"
+          },
+          {
+            "name": "D",
+            "type": "const",
+            "signature": "const D"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "H",
+            "type": "const",
+            "signature": "const H"
+          }
+        ]
+      },
+      {
+        "name": "actual.js",
+        "path": "packages/mui-codemod/src/v5.0.0/preset-safe.test/actual.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 205,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-codemod/src/v5.0.0/preset-safe.test/actual.js",
+            "functionName": "App",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 119,
+              "endLine": 180
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-codemod/src/v5.0.0/preset-safe.test/actual.js",
+            "functionName": "handleClose",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-codemod/src/v5.0.0/preset-safe.test/actual.js",
+            "functionName": "Header",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-codemod/src/v5.0.0/preset-safe.test/actual.js",
+            "functionName": "withThemeProvider",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "MuiThemeProvider",
+            "sourceModule": "@material-ui/core/styles",
+            "isDefault": false,
+            "namedImports": [
+              "MuiThemeProvider",
+              "createMuiTheme",
+              "makeStyles",
+              "fade",
+              "StylesProvider"
+            ]
+          },
+          {
+            "name": "CssBaseline",
+            "sourceModule": "@material-ui/core/CssBaseline",
+            "isDefault": true
+          },
+          {
+            "name": "yellow",
+            "sourceModule": "@material-ui/core/colors/yellow",
+            "isDefault": true
+          },
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@material-ui/core/CircularProgress",
+            "isDefault": true
+          },
+          {
+            "name": "Dialog",
+            "sourceModule": "@material-ui/core/Dialog",
+            "isDefault": true
+          },
+          {
+            "name": "DialogTitle",
+            "sourceModule": "@material-ui/core/DialogTitle",
+            "isDefault": true
+          },
+          {
+            "name": "DialogActions",
+            "sourceModule": "@material-ui/core/DialogActions",
+            "isDefault": true
+          },
+          {
+            "name": "DialogContent",
+            "sourceModule": "@material-ui/core/DialogContent",
+            "isDefault": true
+          },
+          {
+            "name": "DialogContentText",
+            "sourceModule": "@material-ui/core/DialogContentText",
+            "isDefault": true
+          },
+          {
+            "name": "Autocomplete",
+            "sourceModule": "@material-ui/lab/Autocomplete",
+            "isDefault": true
+          },
+          {
+            "name": "Avatar",
+            "sourceModule": "@material-ui/core/Avatar",
+            "isDefault": true
+          },
+          {
+            "name": "Badge",
+            "sourceModule": "@material-ui/core/Badge",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@material-ui/core/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@material-ui/core/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Container",
+            "sourceModule": "@material-ui/core/Container",
+            "isDefault": true
+          },
+          {
+            "name": "AppBar",
+            "sourceModule": "@material-ui/core/AppBar",
+            "isDefault": true
+          },
+          {
+            "name": "Toolbar",
+            "sourceModule": "@material-ui/core/Toolbar",
+            "isDefault": true
+          },
+          {
+            "name": "Grid",
+            "sourceModule": "@material-ui/core/Grid",
+            "isDefault": true
+          },
+          {
+            "name": "Switch",
+            "sourceModule": "@material-ui/core/Switch",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@material-ui/core/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "TextField",
+            "sourceModule": "@material-ui/core/TextField",
+            "isDefault": true
+          },
+          {
+            "name": "withWidth",
+            "sourceModule": "@material-ui/core/withWidth",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "App",
+            "type": "function",
+            "signature": "function App()"
+          },
+          {
+            "name": "Header",
+            "type": "function",
+            "signature": "const Header = () =>"
+          },
+          {
+            "name": "handleClose",
+            "type": "function",
+            "signature": "const handleClose = () =>"
+          },
+          {
+            "name": "withThemeProvider",
+            "type": "function",
+            "signature": "const withThemeProvider = () =>"
+          },
+          {
+            "name": "D",
+            "type": "const",
+            "signature": "const D"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "H",
+            "type": "const",
+            "signature": "const H"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

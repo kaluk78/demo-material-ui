@@ -1,0 +1,566 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:47:25.225Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "FormControlLabel",
+      "path": "packages/mui-material/src/FormControlLabel",
+      "purpose": "Enhanced directory analysis of FormControlLabel",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.js",
+        "path": "packages/mui-material/src/FormControlLabel/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "formControlLabelClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-material/src/FormControlLabel/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "formControlLabelClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "formControlLabelClasses.ts",
+        "path": "packages/mui-material/src/FormControlLabel/formControlLabelClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 47,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/FormControlLabel/formControlLabelClasses.ts",
+            "functionName": "getFormControlLabelUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 27,
+              "endLine": 29
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "FormControlLabelClasses",
+            "type": "interface"
+          },
+          {
+            "name": "FormControlLabelClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getFormControlLabelUtilityClasses",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getFormControlLabelUtilityClasses",
+            "type": "function",
+            "signature": "function getFormControlLabelUtilityClasses()"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "FormControlLabelClasses",
+            "type": "interface",
+            "signature": "interface FormControlLabelClasses"
+          },
+          {
+            "name": "FormControlLabelClassKey",
+            "type": "type",
+            "signature": "type FormControlLabelClassKey"
+          }
+        ]
+      },
+      {
+        "name": "FormControlLabel.test.js",
+        "path": "packages/mui-material/src/FormControlLabel/FormControlLabel.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 333,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/FormControlLabel/FormControlLabel.test.js",
+            "functionName": "Control",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Moderate context score; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 319,
+              "endLine": 321
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen"
+            ]
+          },
+          {
+            "name": "FormControlLabel",
+            "sourceModule": "@mui/material/FormControlLabel",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "Checkbox",
+            "sourceModule": "@mui/material/Checkbox",
+            "isDefault": true
+          },
+          {
+            "name": "FormControl",
+            "sourceModule": "@mui/material/FormControl",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Control",
+            "type": "function",
+            "signature": "function Control()"
+          }
+        ]
+      },
+      {
+        "name": "FormControlLabel.js",
+        "path": "packages/mui-material/src/FormControlLabel/FormControlLabel.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 308,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/FormControlLabel/FormControlLabel.js",
+            "functionName": "FormControlLabel",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/FormControlLabel/FormControlLabel.js",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "refType",
+            "sourceModule": "@mui/utils/refType",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "useFormControl",
+            "sourceModule": "../FormControl",
+            "isDefault": false,
+            "namedImports": [
+              "useFormControl"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../zero-styled",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "memoTheme",
+            "sourceModule": "../utils/memoTheme",
+            "isDefault": true
+          },
+          {
+            "name": "useDefaultProps",
+            "sourceModule": "../DefaultPropsProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useDefaultProps"
+            ]
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "../Typography",
+            "isDefault": true
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "../utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "formControlLabelClasses",
+            "sourceModule": "./formControlLabelClasses",
+            "isDefault": true,
+            "namedImports": [
+              "getFormControlLabelUtilityClasses"
+            ]
+          },
+          {
+            "name": "formControlState",
+            "sourceModule": "../FormControl/formControlState",
+            "isDefault": true
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "FormControlLabelRoot",
+            "type": "const"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "FormControlLabel",
+            "type": "function",
+            "signature": "function FormControlLabel()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "F",
+            "type": "const",
+            "signature": "const F"
+          },
+          {
+            "name": "A",
+            "type": "const",
+            "signature": "const A"
+          },
+          {
+            "name": "F",
+            "type": "const",
+            "signature": "const F"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "FormControlLabel.d.ts",
+        "path": "packages/mui-material/src/FormControlLabel/FormControlLabel.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 111,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "Theme",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "Theme"
+            ]
+          },
+          {
+            "name": "StandardProps",
+            "sourceModule": "../internal",
+            "isDefault": false,
+            "namedImports": [
+              "StandardProps"
+            ]
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "../Typography",
+            "isDefault": true,
+            "namedImports": [
+              "TypographyProps"
+            ]
+          },
+          {
+            "name": "FormControlLabelClasses",
+            "sourceModule": "./formControlLabelClasses",
+            "isDefault": false,
+            "namedImports": [
+              "FormControlLabelClasses"
+            ]
+          },
+          {
+            "name": "CreateSlotsAndSlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "CreateSlotsAndSlotProps",
+              "SlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "FormControlLabelSlots",
+            "type": "interface"
+          },
+          {
+            "name": "FormControlLabelSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "FormControlLabelProps",
+            "type": "interface"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "FormControlLabel",
+            "type": "function",
+            "signature": "function FormControlLabel()"
+          },
+          {
+            "name": "FormControlLabelSlots",
+            "type": "interface",
+            "signature": "interface FormControlLabelSlots"
+          },
+          {
+            "name": "FormControlLabelProps",
+            "type": "interface",
+            "signature": "interface FormControlLabelProps"
+          },
+          {
+            "name": "FormControlLabelSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type FormControlLabelSlotsAndSlotProps"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

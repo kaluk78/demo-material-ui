@@ -1,0 +1,675 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:51:37.347Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "Autocomplete",
+      "path": "test/regressions/fixtures/Autocomplete",
+      "purpose": "Enhanced directory analysis of Autocomplete",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "Virtualize.js",
+        "path": "test/regressions/fixtures/Autocomplete/Virtualize.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 207,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Autocomplete/Virtualize.js",
+            "functionName": "getChildSize",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/test/regressions/fixtures/Autocomplete/Virtualize.js",
+            "functionName": "getHeight",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/test/regressions/fixtures/Autocomplete/Virtualize.js",
+            "functionName": "handleHighlightChange",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/test/regressions/fixtures/Autocomplete/Virtualize.js",
+            "functionName": "ListboxComponent",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Mutates state or has side effects; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/test/regressions/fixtures/Autocomplete/Virtualize.js",
+            "functionName": "RowComponent",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 14,
+              "endLine": 36
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/test/regressions/fixtures/Autocomplete/Virtualize.js",
+            "functionName": "Virtualize",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 162,
+              "endLine": 206
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "TextField",
+            "sourceModule": "@mui/material/TextField",
+            "isDefault": true
+          },
+          {
+            "name": "Autocomplete",
+            "sourceModule": "@mui/material/Autocomplete",
+            "isDefault": true,
+            "namedImports": [
+              "autocompleteClasses"
+            ]
+          },
+          {
+            "name": "useMediaQuery",
+            "sourceModule": "@mui/material/useMediaQuery",
+            "isDefault": true
+          },
+          {
+            "name": "ListSubheader",
+            "sourceModule": "@mui/material/ListSubheader",
+            "isDefault": true
+          },
+          {
+            "name": "Popper",
+            "sourceModule": "@mui/material/Popper",
+            "isDefault": true
+          },
+          {
+            "name": "useTheme",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "useTheme",
+              "styled"
+            ]
+          },
+          {
+            "name": "List",
+            "sourceModule": "react-window",
+            "isDefault": false,
+            "namedImports": [
+              "List",
+              "useListRef"
+            ]
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "Virtualize",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "RowComponent",
+            "type": "function",
+            "signature": "function RowComponent()"
+          },
+          {
+            "name": "ListboxComponent",
+            "type": "function",
+            "signature": "function ListboxComponent()"
+          },
+          {
+            "name": "Virtualize",
+            "type": "function",
+            "signature": "function Virtualize()"
+          },
+          {
+            "name": "getChildSize",
+            "type": "function",
+            "signature": "const getChildSize = () =>"
+          },
+          {
+            "name": "getHeight",
+            "type": "function",
+            "signature": "const getHeight = () =>"
+          },
+          {
+            "name": "handleHighlightChange",
+            "type": "function",
+            "signature": "const handleHighlightChange = () =>"
+          },
+          {
+            "name": "LISTBOX_PADDING",
+            "type": "const",
+            "signature": "const LISTBOX_PADDING"
+          },
+          {
+            "name": "L",
+            "type": "const",
+            "signature": "const L"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "OPTIONS",
+            "type": "const",
+            "signature": "const OPTIONS"
+          }
+        ]
+      },
+      {
+        "name": "TextboxExpandsOnListboxOpen.js",
+        "path": "test/regressions/fixtures/Autocomplete/TextboxExpandsOnListboxOpen.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 19,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Autocomplete/TextboxExpandsOnListboxOpen.js",
+            "functionName": "StandardAutocomplete",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 18
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "TextField",
+            "sourceModule": "@mui/material/TextField",
+            "isDefault": true
+          },
+          {
+            "name": "Autocomplete",
+            "sourceModule": "@mui/material/Autocomplete",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "StandardAutocomplete",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "StandardAutocomplete",
+            "type": "function",
+            "signature": "function StandardAutocomplete()"
+          }
+        ]
+      },
+      {
+        "name": "StandardAutocomplete.js",
+        "path": "test/regressions/fixtures/Autocomplete/StandardAutocomplete.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 17,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Autocomplete/StandardAutocomplete.js",
+            "functionName": "StandardAutocomplete",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 16
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "TextField",
+            "sourceModule": "@mui/material/TextField",
+            "isDefault": true
+          },
+          {
+            "name": "Autocomplete",
+            "sourceModule": "@mui/material/Autocomplete",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "StandardAutocomplete",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "StandardAutocomplete",
+            "type": "function",
+            "signature": "function StandardAutocomplete()"
+          }
+        ]
+      },
+      {
+        "name": "SmallAutocompleteWithStartAdornment.js",
+        "path": "test/regressions/fixtures/Autocomplete/SmallAutocompleteWithStartAdornment.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 50,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Autocomplete/SmallAutocompleteWithStartAdornment.js",
+            "functionName": "SmallAutocompleteWithStartAdornment",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 13,
+              "endLine": 49
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Autocomplete",
+            "sourceModule": "@mui/material/Autocomplete",
+            "isDefault": true
+          },
+          {
+            "name": "SvgIcon",
+            "sourceModule": "@mui/material/SvgIcon",
+            "isDefault": true
+          },
+          {
+            "name": "TextField",
+            "sourceModule": "@mui/material/TextField",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "SmallAutocompleteWithStartAdornment",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "SmallAutocompleteWithStartAdornment",
+            "type": "function",
+            "signature": "function SmallAutocompleteWithStartAdornment()"
+          }
+        ]
+      },
+      {
+        "name": "SizeSmallValueOverflow.js",
+        "path": "test/regressions/fixtures/Autocomplete/SizeSmallValueOverflow.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 110,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Autocomplete/SizeSmallValueOverflow.js",
+            "functionName": "Sizes",
+            "classification": "uncertain",
+            "confidence": 56,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"placeholder\"",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters"
+            ],
+            "location": {
+              "startLine": 14,
+              "endLine": 109
+            },
+            "detectionMethods": {
+              "explicitMarkers": 40,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          },
+          {
+            "name": "Chip",
+            "sourceModule": "@mui/material/Chip",
+            "isDefault": true
+          },
+          {
+            "name": "Autocomplete",
+            "sourceModule": "@mui/material/Autocomplete",
+            "isDefault": true
+          },
+          {
+            "name": "TextField",
+            "sourceModule": "@mui/material/TextField",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "Sizes",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Sizes",
+            "type": "function",
+            "signature": "function Sizes()"
+          }
+        ]
+      },
+      {
+        "name": "FilledHiddenLabelAutoComplete.js",
+        "path": "test/regressions/fixtures/Autocomplete/FilledHiddenLabelAutoComplete.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 22,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Autocomplete/FilledHiddenLabelAutoComplete.js",
+            "functionName": "Demo",
+            "classification": "uncertain",
+            "confidence": 56,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"placeholder\"",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 21
+            },
+            "detectionMethods": {
+              "explicitMarkers": 40,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Autocomplete",
+            "sourceModule": "@mui/material/Autocomplete",
+            "isDefault": true
+          },
+          {
+            "name": "TextField",
+            "sourceModule": "@mui/material/TextField",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "Demo",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Demo",
+            "type": "function",
+            "signature": "function Demo()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

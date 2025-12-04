@@ -1,0 +1,544 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:47:51.202Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "TableCell",
+      "path": "packages/mui-material/src/TableCell",
+      "purpose": "Enhanced directory analysis of TableCell",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "tableCellClasses.ts",
+        "path": "packages/mui-material/src/TableCell/tableCellClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 56,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/TableCell/tableCellClasses.ts",
+            "functionName": "getTableCellUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 35,
+              "endLine": 37
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TableCellClasses",
+            "type": "interface"
+          },
+          {
+            "name": "TableCellClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getTableCellUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getTableCellUtilityClass",
+            "type": "function",
+            "signature": "function getTableCellUtilityClass()"
+          },
+          {
+            "name": "TableCellClasses",
+            "type": "interface",
+            "signature": "interface TableCellClasses"
+          },
+          {
+            "name": "TableCellClassKey",
+            "type": "type",
+            "signature": "type TableCellClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.js",
+        "path": "packages/mui-material/src/TableCell/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "tableCellClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-material/src/TableCell/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "tableCellClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "TableCell.test.js",
+        "path": "packages/mui-material/src/TableCell/TableCell.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 103,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/TableCell/TableCell.test.js",
+            "functionName": "renderInTable",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score; Returns computed value from external calls or processing; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 11,
+              "endLine": 19
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen"
+            ]
+          },
+          {
+            "name": "TableCell",
+            "sourceModule": "@mui/material/TableCell",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "TableHead",
+            "sourceModule": "@mui/material/TableHead",
+            "isDefault": true
+          },
+          {
+            "name": "TableRow",
+            "sourceModule": "@mui/material/TableRow",
+            "isDefault": true
+          },
+          {
+            "name": "Table",
+            "sourceModule": "@mui/material/Table",
+            "isDefault": true
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "renderInTable",
+            "type": "function",
+            "signature": "function renderInTable()"
+          },
+          {
+            "name": "for",
+            "type": "class",
+            "signature": "class for"
+          },
+          {
+            "name": "when",
+            "type": "class",
+            "signature": "class when"
+          },
+          {
+            "name": "when",
+            "type": "class",
+            "signature": "class when"
+          },
+          {
+            "name": "when",
+            "type": "class",
+            "signature": "class when"
+          }
+        ]
+      },
+      {
+        "name": "TableCell.js",
+        "path": "packages/mui-material/src/TableCell/TableCell.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 312,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/TableCell/TableCell.js",
+            "functionName": "TableCell",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/TableCell/TableCell.js",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "../utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "TableContext",
+            "sourceModule": "../Table/TableContext",
+            "isDefault": true
+          },
+          {
+            "name": "Tablelvl2Context",
+            "sourceModule": "../Table/Tablelvl2Context",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../zero-styled",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "memoTheme",
+            "sourceModule": "../utils/memoTheme",
+            "isDefault": true
+          },
+          {
+            "name": "useDefaultProps",
+            "sourceModule": "../DefaultPropsProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useDefaultProps"
+            ]
+          },
+          {
+            "name": "tableCellClasses",
+            "sourceModule": "./tableCellClasses",
+            "isDefault": true,
+            "namedImports": [
+              "getTableCellUtilityClass"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TableCell",
+            "type": "function",
+            "signature": "function TableCell()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "TableCell.d.ts",
+        "path": "packages/mui-material/src/TableCell/TableCell.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 88,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "Theme",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "Theme"
+            ]
+          },
+          {
+            "name": "StandardProps",
+            "sourceModule": "../internal",
+            "isDefault": false,
+            "namedImports": [
+              "StandardProps"
+            ]
+          },
+          {
+            "name": "TableCellClasses",
+            "sourceModule": "./tableCellClasses",
+            "isDefault": false,
+            "namedImports": [
+              "TableCellClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TableCellPropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TableCellPropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TableCellProps",
+            "type": "interface"
+          },
+          {
+            "name": "TableCellBaseProps",
+            "type": "type"
+          },
+          {
+            "name": "SortDirection",
+            "type": "type"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TableCell",
+            "type": "function",
+            "signature": "function TableCell()"
+          },
+          {
+            "name": "TableCellPropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface TableCellPropsSizeOverrides"
+          },
+          {
+            "name": "TableCellPropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface TableCellPropsVariantOverrides"
+          },
+          {
+            "name": "TableCellProps",
+            "type": "interface",
+            "signature": "interface TableCellProps"
+          },
+          {
+            "name": "TableCellBaseProps",
+            "type": "type",
+            "signature": "type TableCellBaseProps"
+          },
+          {
+            "name": "SortDirection",
+            "type": "type",
+            "signature": "type SortDirection"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

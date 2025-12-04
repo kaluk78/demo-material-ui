@@ -1,0 +1,249 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:48:27.689Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "useMediaQuery",
+      "path": "packages/mui-system/src/useMediaQuery",
+      "purpose": "Enhanced directory analysis of useMediaQuery",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "useMediaQuery.ts",
+        "path": "packages/mui-system/src/useMediaQuery/useMediaQuery.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 192,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-system/src/useMediaQuery/useMediaQuery.ts",
+            "functionName": "unstable_createUseMediaQuery",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 121,
+              "endLine": 187
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/useMediaQuery/useMediaQuery.ts",
+            "functionName": "updateMatch",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/useMediaQuery/useMediaQuery.ts",
+            "functionName": "useMediaQuery",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns simple/hardcoded value",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/useMediaQuery/useMediaQuery.ts",
+            "functionName": "useMediaQueryNew",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Event handler or callback function; Properly uses assigned variables",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 79,
+              "endLine": 118
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -62,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/useMediaQuery/useMediaQuery.ts",
+            "functionName": "useMediaQueryOld",
+            "classification": "likely-legitimate",
+            "confidence": 38,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\"",
+              "Returns hardcoded value: \"return undefined;\"",
+              "Moderate context score; Event handler or callback function; Properly uses assigned variables"
+            ],
+            "location": {
+              "startLine": 34,
+              "endLine": 73
+            },
+            "detectionMethods": {
+              "explicitMarkers": 100,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -62,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "useEnhancedEffect",
+            "sourceModule": "@mui/utils/useEnhancedEffect",
+            "isDefault": true
+          },
+          {
+            "name": "getThemeProps",
+            "sourceModule": "../useThemeProps",
+            "isDefault": false,
+            "namedImports": [
+              "getThemeProps"
+            ]
+          },
+          {
+            "name": "useTheme",
+            "sourceModule": "../useThemeWithoutDefault",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "UseMediaQueryOptions",
+            "type": "interface"
+          },
+          {
+            "name": "unstable_createUseMediaQuery",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "useMediaQueryOld",
+            "type": "function",
+            "signature": "function useMediaQueryOld()"
+          },
+          {
+            "name": "useMediaQueryNew",
+            "type": "function",
+            "signature": "function useMediaQueryNew()"
+          },
+          {
+            "name": "unstable_createUseMediaQuery",
+            "type": "function",
+            "signature": "function unstable_createUseMediaQuery()"
+          },
+          {
+            "name": "updateMatch",
+            "type": "function",
+            "signature": "const updateMatch = () =>"
+          },
+          {
+            "name": "UseMediaQueryOptions",
+            "type": "interface",
+            "signature": "interface UseMediaQueryOptions"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-system/src/useMediaQuery/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 3,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": []
+  }
+}

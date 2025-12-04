@@ -1,0 +1,773 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:47:16.340Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "Alert",
+      "path": "packages/mui-material/src/Alert",
+      "purpose": "Enhanced directory analysis of Alert",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.js",
+        "path": "packages/mui-material/src/Alert/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "alertClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-material/src/Alert/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "alertClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "alertClasses.ts",
+        "path": "packages/mui-material/src/Alert/alertClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 134,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Alert/alertClasses.ts",
+            "functionName": "getAlertUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 103,
+              "endLine": 105
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "AlertClasses",
+            "type": "interface"
+          },
+          {
+            "name": "AlertClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getAlertUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getAlertUtilityClass",
+            "type": "function",
+            "signature": "function getAlertUtilityClass()"
+          },
+          {
+            "name": "AlertClasses",
+            "type": "interface",
+            "signature": "interface AlertClasses"
+          },
+          {
+            "name": "AlertClassKey",
+            "type": "type",
+            "signature": "type AlertClassKey"
+          }
+        ]
+      },
+      {
+        "name": "Alert.test.js",
+        "path": "packages/mui-material/src/Alert/Alert.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 230,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Alert/Alert.test.js",
+            "functionName": "MyCloseButton",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 114,
+              "endLine": 116
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Alert/Alert.test.js",
+            "functionName": "MyCloseIcon",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 100,
+              "endLine": 102
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider",
+              "createTheme"
+            ]
+          },
+          {
+            "name": "Alert",
+            "sourceModule": "@mui/material/Alert",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "Paper",
+            "sourceModule": "@mui/material/Paper",
+            "isDefault": true,
+            "namedImports": [
+              "paperClasses"
+            ]
+          },
+          {
+            "name": "iconButtonClasses",
+            "sourceModule": "@mui/material/IconButton",
+            "isDefault": false,
+            "namedImports": [
+              "iconButtonClasses"
+            ]
+          },
+          {
+            "name": "svgIconClasses",
+            "sourceModule": "@mui/material/SvgIcon",
+            "isDefault": false,
+            "namedImports": [
+              "svgIconClasses"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "../utils/capitalize",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "MyCloseIcon",
+            "type": "function",
+            "signature": "function MyCloseIcon()"
+          },
+          {
+            "name": "MyCloseButton",
+            "type": "function",
+            "signature": "function MyCloseButton()"
+          },
+          {
+            "name": "to",
+            "type": "class",
+            "signature": "class to"
+          }
+        ]
+      },
+      {
+        "name": "Alert.spec.tsx",
+        "path": "packages/mui-material/src/Alert/Alert.spec.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 39,
+        "importedModules": [
+          {
+            "name": "CloseRounded",
+            "sourceModule": "@mui/icons-material/CloseRounded",
+            "isDefault": true
+          },
+          {
+            "name": "createTheme",
+            "sourceModule": "@mui/material",
+            "isDefault": false,
+            "namedImports": [
+              "createTheme"
+            ]
+          },
+          {
+            "name": "Alert",
+            "sourceModule": "@mui/material/Alert",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "Alert.js",
+        "path": "packages/mui-material/src/Alert/Alert.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 417,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Alert/Alert.js",
+            "functionName": "Alert",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Alert/Alert.js",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../zero-styled",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "memoTheme",
+            "sourceModule": "../utils/memoTheme",
+            "isDefault": true
+          },
+          {
+            "name": "useDefaultProps",
+            "sourceModule": "../DefaultPropsProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useDefaultProps"
+            ]
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "../utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "createSimplePaletteValueFilter",
+            "sourceModule": "../utils/createSimplePaletteValueFilter",
+            "isDefault": true
+          },
+          {
+            "name": "Paper",
+            "sourceModule": "../Paper",
+            "isDefault": true
+          },
+          {
+            "name": "alertClasses",
+            "sourceModule": "./alertClasses",
+            "isDefault": true,
+            "namedImports": [
+              "getAlertUtilityClass"
+            ]
+          },
+          {
+            "name": "IconButton",
+            "sourceModule": "../IconButton",
+            "isDefault": true
+          },
+          {
+            "name": "SuccessOutlinedIcon",
+            "sourceModule": "../internal/svg-icons/SuccessOutlined",
+            "isDefault": true
+          },
+          {
+            "name": "ReportProblemOutlinedIcon",
+            "sourceModule": "../internal/svg-icons/ReportProblemOutlined",
+            "isDefault": true
+          },
+          {
+            "name": "ErrorOutlineIcon",
+            "sourceModule": "../internal/svg-icons/ErrorOutline",
+            "isDefault": true
+          },
+          {
+            "name": "InfoOutlinedIcon",
+            "sourceModule": "../internal/svg-icons/InfoOutlined",
+            "isDefault": true
+          },
+          {
+            "name": "CloseIcon",
+            "sourceModule": "../internal/svg-icons/Close",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Alert",
+            "type": "function",
+            "signature": "function Alert()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "A",
+            "type": "const",
+            "signature": "const A"
+          },
+          {
+            "name": "A",
+            "type": "const",
+            "signature": "const A"
+          },
+          {
+            "name": "A",
+            "type": "const",
+            "signature": "const A"
+          },
+          {
+            "name": "A",
+            "type": "const",
+            "signature": "const A"
+          },
+          {
+            "name": "A",
+            "type": "const",
+            "signature": "const A"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "Alert.d.ts",
+        "path": "packages/mui-material/src/Alert/Alert.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 206,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "SvgIconProps",
+            "sourceModule": "../SvgIcon",
+            "isDefault": false,
+            "namedImports": [
+              "SvgIconProps"
+            ]
+          },
+          {
+            "name": "Theme",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "Theme"
+            ]
+          },
+          {
+            "name": "StandardProps",
+            "sourceModule": "../internal",
+            "isDefault": false,
+            "namedImports": [
+              "StandardProps"
+            ]
+          },
+          {
+            "name": "IconButtonProps",
+            "sourceModule": "../IconButton",
+            "isDefault": false,
+            "namedImports": [
+              "IconButtonProps"
+            ]
+          },
+          {
+            "name": "PaperProps",
+            "sourceModule": "../Paper",
+            "isDefault": false,
+            "namedImports": [
+              "PaperProps"
+            ]
+          },
+          {
+            "name": "AlertClasses",
+            "sourceModule": "./alertClasses",
+            "isDefault": false,
+            "namedImports": [
+              "AlertClasses"
+            ]
+          },
+          {
+            "name": "CreateSlotsAndSlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "CreateSlotsAndSlotProps",
+              "SlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "AlertColor",
+            "type": "type"
+          },
+          {
+            "name": "AlertPropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "AlertPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "AlertRootSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "AlertIconSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "AlertMessageSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "AlertActionSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "AlertCloseButtonSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "AlertCloseIconSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "AlertSlots",
+            "type": "interface"
+          },
+          {
+            "name": "AlertSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "AlertProps",
+            "type": "interface"
+          },
+          {
+            "name": "AlertOwnerState",
+            "type": "interface"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Alert",
+            "type": "function",
+            "signature": "function Alert()"
+          },
+          {
+            "name": "AlertPropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface AlertPropsVariantOverrides"
+          },
+          {
+            "name": "AlertPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface AlertPropsColorOverrides"
+          },
+          {
+            "name": "AlertRootSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface AlertRootSlotPropsOverrides"
+          },
+          {
+            "name": "AlertIconSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface AlertIconSlotPropsOverrides"
+          },
+          {
+            "name": "AlertMessageSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface AlertMessageSlotPropsOverrides"
+          },
+          {
+            "name": "AlertActionSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface AlertActionSlotPropsOverrides"
+          },
+          {
+            "name": "AlertCloseButtonSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface AlertCloseButtonSlotPropsOverrides"
+          },
+          {
+            "name": "AlertCloseIconSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface AlertCloseIconSlotPropsOverrides"
+          },
+          {
+            "name": "AlertSlots",
+            "type": "interface",
+            "signature": "interface AlertSlots"
+          },
+          {
+            "name": "AlertProps",
+            "type": "interface",
+            "signature": "interface AlertProps"
+          },
+          {
+            "name": "AlertOwnerState",
+            "type": "interface",
+            "signature": "interface AlertOwnerState"
+          },
+          {
+            "name": "AlertColor",
+            "type": "type",
+            "signature": "type AlertColor"
+          },
+          {
+            "name": "AlertSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type AlertSlotsAndSlotProps"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

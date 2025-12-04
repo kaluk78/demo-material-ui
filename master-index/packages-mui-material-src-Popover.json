@@ -1,0 +1,1350 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:47:40.533Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "Popover",
+      "path": "packages/mui-material/src/Popover",
+      "purpose": "Enhanced directory analysis of Popover",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "popoverClasses.ts",
+        "path": "packages/mui-material/src/Popover/popoverClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 20,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Popover/popoverClasses.ts",
+            "functionName": "getPopoverUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 13,
+              "endLine": 15
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "PopoverClasses",
+            "type": "interface"
+          },
+          {
+            "name": "PopoverClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getPopoverUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getPopoverUtilityClass",
+            "type": "function",
+            "signature": "function getPopoverUtilityClass()"
+          },
+          {
+            "name": "PopoverClasses",
+            "type": "interface",
+            "signature": "interface PopoverClasses"
+          },
+          {
+            "name": "PopoverClassKey",
+            "type": "type",
+            "signature": "type PopoverClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.js",
+        "path": "packages/mui-material/src/Popover/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "popoverClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-material/src/Popover/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "popoverClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "Popover.test.js",
+        "path": "packages/mui-material/src/Popover/Popover.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 1103,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Popover/Popover.test.js",
+            "functionName": "CustomTransition",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Popover/Popover.test.js",
+            "functionName": "FakeWidthPaper",
+            "classification": "uncertain",
+            "confidence": 40,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"Mock\"",
+              "Function name suggests placeholder: \"FakeWidthPaper\"",
+              "Moderate context score; Test file - simple test helpers expected"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 75,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Popover/Popover.test.js",
+            "functionName": "getElementStyleOfOpenPopover",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 852,
+              "endLine": 870
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 24,
+              "commentAnalysis": 0,
+              "contextFilter": -65,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Popover/Popover.test.js",
+            "functionName": "openPopover",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 642,
+              "endLine": 657
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Popover/Popover.test.js",
+            "functionName": "openPopover",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 642,
+              "endLine": 657
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Popover/Popover.test.js",
+            "functionName": "TestBackdrop",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Moderate context score; Test file - simple test helpers expected"
+            ],
+            "location": {
+              "startLine": 96,
+              "endLine": 102
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "spy",
+            "sourceModule": "sinon",
+            "isDefault": false,
+            "namedImports": [
+              "spy",
+              "stub",
+              "match"
+            ]
+          },
+          {
+            "name": "act",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "act",
+              "createRenderer",
+              "reactMajor",
+              "screen"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "Modal",
+            "sourceModule": "@mui/material/Modal",
+            "isDefault": true,
+            "namedImports": [
+              "modalClasses"
+            ]
+          },
+          {
+            "name": "Paper",
+            "sourceModule": "@mui/material/Paper",
+            "isDefault": true,
+            "namedImports": [
+              "paperClasses"
+            ]
+          },
+          {
+            "name": "Popover",
+            "sourceModule": "@mui/material/Popover",
+            "isDefault": true,
+            "namedImports": [
+              "classes",
+              "PopoverPaper"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider",
+              "createTheme"
+            ]
+          },
+          {
+            "name": "getOffsetLeft",
+            "sourceModule": "./Popover",
+            "isDefault": false,
+            "namedImports": [
+              "getOffsetLeft",
+              "getOffsetTop"
+            ]
+          },
+          {
+            "name": "useForkRef",
+            "sourceModule": "../utils/useForkRef",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../styles/styled",
+            "isDefault": true
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "FakeWidthPaper",
+            "type": "function",
+            "signature": "function FakeWidthPaper()"
+          },
+          {
+            "name": "CustomTransition",
+            "type": "function",
+            "signature": "function CustomTransition()"
+          },
+          {
+            "name": "TestBackdrop",
+            "type": "function",
+            "signature": "function TestBackdrop()"
+          },
+          {
+            "name": "openPopover",
+            "type": "function",
+            "signature": "function openPopover()"
+          },
+          {
+            "name": "openPopover",
+            "type": "function",
+            "signature": "function openPopover()"
+          },
+          {
+            "name": "getElementStyleOfOpenPopover",
+            "type": "function",
+            "signature": "function getElementStyleOfOpenPopover()"
+          },
+          {
+            "name": "F",
+            "type": "const",
+            "signature": "const F"
+          },
+          {
+            "name": "R",
+            "type": "const",
+            "signature": "const R"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "that",
+            "type": "type",
+            "signature": "type that"
+          }
+        ]
+      },
+      {
+        "name": "Popover.spec.tsx",
+        "path": "packages/mui-material/src/Popover/Popover.spec.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 80,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Popover/Popover.spec.tsx",
+            "functionName": "Custom",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Returns computed value from external calls or processing; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 30,
+              "endLine": 54
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Popover/Popover.spec.tsx",
+            "functionName": "Custom2",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 56,
+              "endLine": 73
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Popover/Popover.spec.tsx",
+            "functionName": "Test",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 12,
+              "endLine": 19
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Popover/Popover.spec.tsx",
+            "functionName": "TestAnchorElementFunctionReturnType",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 75,
+              "endLine": 79
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -50,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "expectType",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "expectType"
+            ]
+          },
+          {
+            "name": "mergeSlotProps",
+            "sourceModule": "@mui/material/utils",
+            "isDefault": false,
+            "namedImports": [
+              "mergeSlotProps"
+            ]
+          },
+          {
+            "name": "Popover",
+            "sourceModule": "@mui/material",
+            "isDefault": false,
+            "namedImports": [
+              "Popover",
+              "PaperProps",
+              "PopoverProps"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Test",
+            "type": "function",
+            "signature": "function Test()"
+          },
+          {
+            "name": "Custom",
+            "type": "function",
+            "signature": "function Custom()"
+          },
+          {
+            "name": "Custom2",
+            "type": "function",
+            "signature": "function Custom2()"
+          },
+          {
+            "name": "TestAnchorElementFunctionReturnType",
+            "type": "function",
+            "signature": "function TestAnchorElementFunctionReturnType()"
+          }
+        ]
+      },
+      {
+        "name": "Popover.js",
+        "path": "packages/mui-material/src/Popover/Popover.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 700,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Popover/Popover.js",
+            "functionName": "getOffsetLeft",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns simple/hardcoded value",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 38,
+              "endLine": 50
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -55,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Popover/Popover.js",
+            "functionName": "getOffsetTop",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns simple/hardcoded value",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 24,
+              "endLine": 36
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -55,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Popover/Popover.js",
+            "functionName": "getTransformOriginValue",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 52,
+              "endLine": 56
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -45,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Popover/Popover.js",
+            "functionName": "handleEntering",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Popover/Popover.js",
+            "functionName": "handleExited",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Popover/Popover.js",
+            "functionName": "Popover",
+            "classification": "definite-placeholder",
+            "confidence": 85,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\"",
+              "Returns hardcoded value: \"return undefined;\"",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 100,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Popover/Popover.js",
+            "functionName": "resolveAnchorEl",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Very short function (3 lines)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 58,
+              "endLine": 60
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 6,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Popover/Popover.js",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "HTMLElementType",
+            "sourceModule": "@mui/utils/HTMLElementType",
+            "isDefault": true
+          },
+          {
+            "name": "refType",
+            "sourceModule": "@mui/utils/refType",
+            "isDefault": true
+          },
+          {
+            "name": "elementTypeAcceptingRef",
+            "sourceModule": "@mui/utils/elementTypeAcceptingRef",
+            "isDefault": true
+          },
+          {
+            "name": "integerPropType",
+            "sourceModule": "@mui/utils/integerPropType",
+            "isDefault": true
+          },
+          {
+            "name": "chainPropTypes",
+            "sourceModule": "@mui/utils/chainPropTypes",
+            "isDefault": true
+          },
+          {
+            "name": "isHostComponent",
+            "sourceModule": "@mui/utils/isHostComponent",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../zero-styled",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "useDefaultProps",
+            "sourceModule": "../DefaultPropsProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useDefaultProps"
+            ]
+          },
+          {
+            "name": "debounce",
+            "sourceModule": "../utils/debounce",
+            "isDefault": true
+          },
+          {
+            "name": "ownerDocument",
+            "sourceModule": "../utils/ownerDocument",
+            "isDefault": true
+          },
+          {
+            "name": "ownerWindow",
+            "sourceModule": "../utils/ownerWindow",
+            "isDefault": true
+          },
+          {
+            "name": "Grow",
+            "sourceModule": "../Grow",
+            "isDefault": true
+          },
+          {
+            "name": "Modal",
+            "sourceModule": "../Modal",
+            "isDefault": true
+          },
+          {
+            "name": "PaperBase",
+            "sourceModule": "../Paper",
+            "isDefault": true
+          },
+          {
+            "name": "getPopoverUtilityClass",
+            "sourceModule": "./popoverClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getPopoverUtilityClass"
+            ]
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          },
+          {
+            "name": "mergeSlotProps",
+            "sourceModule": "../utils",
+            "isDefault": false,
+            "namedImports": [
+              "mergeSlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "getOffsetTop",
+            "type": "function"
+          },
+          {
+            "name": "getOffsetLeft",
+            "type": "function"
+          },
+          {
+            "name": "PopoverRoot",
+            "type": "const"
+          },
+          {
+            "name": "PopoverPaper",
+            "type": "const"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getOffsetTop",
+            "type": "function",
+            "signature": "function getOffsetTop()"
+          },
+          {
+            "name": "getOffsetLeft",
+            "type": "function",
+            "signature": "function getOffsetLeft()"
+          },
+          {
+            "name": "getTransformOriginValue",
+            "type": "function",
+            "signature": "function getTransformOriginValue()"
+          },
+          {
+            "name": "resolveAnchorEl",
+            "type": "function",
+            "signature": "function resolveAnchorEl()"
+          },
+          {
+            "name": "Popover",
+            "type": "function",
+            "signature": "function Popover()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "handleEntering",
+            "type": "function",
+            "signature": "const handleEntering = () =>"
+          },
+          {
+            "name": "handleExited",
+            "type": "function",
+            "signature": "const handleExited = () =>"
+          },
+          {
+            "name": "P",
+            "type": "const",
+            "signature": "const P"
+          },
+          {
+            "name": "P",
+            "type": "const",
+            "signature": "const P"
+          },
+          {
+            "name": "P",
+            "type": "const",
+            "signature": "const P"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "Popover.d.ts",
+        "path": "packages/mui-material/src/Popover/Popover.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 271,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "SlotComponentProps",
+            "sourceModule": "@mui/utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "SlotComponentProps"
+            ]
+          },
+          {
+            "name": "BackdropProps",
+            "sourceModule": "../Backdrop",
+            "isDefault": false,
+            "namedImports": [
+              "BackdropProps"
+            ]
+          },
+          {
+            "name": "Theme",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "Theme"
+            ]
+          },
+          {
+            "name": "StandardProps",
+            "sourceModule": "../internal",
+            "isDefault": false,
+            "namedImports": [
+              "StandardProps"
+            ]
+          },
+          {
+            "name": "Paper",
+            "sourceModule": "../Paper",
+            "isDefault": true,
+            "namedImports": [
+              "PaperProps"
+            ]
+          },
+          {
+            "name": "Modal",
+            "sourceModule": "../Modal",
+            "isDefault": true,
+            "namedImports": [
+              "ModalProps"
+            ]
+          },
+          {
+            "name": "TransitionProps",
+            "sourceModule": "../transitions/transition",
+            "isDefault": false,
+            "namedImports": [
+              "TransitionProps"
+            ]
+          },
+          {
+            "name": "PopoverClasses",
+            "sourceModule": "./popoverClasses",
+            "isDefault": false,
+            "namedImports": [
+              "PopoverClasses"
+            ]
+          },
+          {
+            "name": "CreateSlotsAndSlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "CreateSlotsAndSlotProps",
+              "SlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "PopoverSlots",
+            "type": "interface"
+          },
+          {
+            "name": "PopoverRootSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "PopoverPaperSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "PopoverTransitionSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "PopoverBackdropSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "PopoverSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "PopoverOrigin",
+            "type": "interface"
+          },
+          {
+            "name": "PopoverPosition",
+            "type": "interface"
+          },
+          {
+            "name": "PopoverReference",
+            "type": "type"
+          },
+          {
+            "name": "PopoverProps",
+            "type": "interface"
+          },
+          {
+            "name": "PopoverOwnerState",
+            "type": "interface"
+          },
+          {
+            "name": "PopoverActions",
+            "type": "interface"
+          },
+          {
+            "name": "PopoverRoot",
+            "type": "const"
+          },
+          {
+            "name": "PopoverPaper",
+            "type": "const"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getOffsetTop",
+            "type": "function",
+            "signature": "function getOffsetTop()"
+          },
+          {
+            "name": "getOffsetLeft",
+            "type": "function",
+            "signature": "function getOffsetLeft()"
+          },
+          {
+            "name": "Popover",
+            "type": "function",
+            "signature": "function Popover()"
+          },
+          {
+            "name": "P",
+            "type": "const",
+            "signature": "const P"
+          },
+          {
+            "name": "P",
+            "type": "const",
+            "signature": "const P"
+          },
+          {
+            "name": "PopoverSlots",
+            "type": "interface",
+            "signature": "interface PopoverSlots"
+          },
+          {
+            "name": "PopoverRootSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface PopoverRootSlotPropsOverrides"
+          },
+          {
+            "name": "PopoverPaperSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface PopoverPaperSlotPropsOverrides"
+          },
+          {
+            "name": "PopoverTransitionSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface PopoverTransitionSlotPropsOverrides"
+          },
+          {
+            "name": "PopoverBackdropSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface PopoverBackdropSlotPropsOverrides"
+          },
+          {
+            "name": "PopoverOrigin",
+            "type": "interface",
+            "signature": "interface PopoverOrigin"
+          },
+          {
+            "name": "PopoverPosition",
+            "type": "interface",
+            "signature": "interface PopoverPosition"
+          },
+          {
+            "name": "PopoverVirtualElement",
+            "type": "interface",
+            "signature": "interface PopoverVirtualElement"
+          },
+          {
+            "name": "PopoverProps",
+            "type": "interface",
+            "signature": "interface PopoverProps"
+          },
+          {
+            "name": "PopoverOwnerState",
+            "type": "interface",
+            "signature": "interface PopoverOwnerState"
+          },
+          {
+            "name": "PopoverActions",
+            "type": "interface",
+            "signature": "interface PopoverActions"
+          },
+          {
+            "name": "PopoverSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type PopoverSlotsAndSlotProps"
+          },
+          {
+            "name": "PopoverReference",
+            "type": "type",
+            "signature": "type PopoverReference"
+          },
+          {
+            "name": "PopoverRootProps",
+            "type": "type",
+            "signature": "type PopoverRootProps"
+          },
+          {
+            "name": "PopoverPaperProps",
+            "type": "type",
+            "signature": "type PopoverPaperProps"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

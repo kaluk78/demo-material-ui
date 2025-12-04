@@ -1,0 +1,482 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:40:54.698Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "app",
+      "path": "examples/material-ui-remix-ts/app",
+      "purpose": "Enhanced directory analysis of app",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "root.tsx",
+        "path": "examples/material-ui-remix-ts/app/root.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 129,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/examples/material-ui-remix-ts/app/root.tsx",
+            "functionName": "App",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 71,
+              "endLine": 79
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/examples/material-ui-remix-ts/app/root.tsx",
+            "functionName": "ErrorBoundary",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Contains throw statement",
+              "High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 82,
+              "endLine": 128
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 6,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Links",
+            "sourceModule": "@remix-run/react",
+            "isDefault": false,
+            "namedImports": [
+              "Links",
+              "LiveReload",
+              "Meta",
+              "Outlet",
+              "Scripts",
+              "ScrollRestoration",
+              "useRouteError",
+              "isRouteErrorResponse"
+            ]
+          },
+          {
+            "name": "withEmotionCache",
+            "sourceModule": "@emotion/react",
+            "isDefault": false,
+            "namedImports": [
+              "withEmotionCache"
+            ]
+          },
+          {
+            "name": "useEnhancedEffect",
+            "sourceModule": "@mui/material",
+            "isDefault": false,
+            "namedImports": [
+              "useEnhancedEffect"
+            ]
+          },
+          {
+            "name": "theme",
+            "sourceModule": "./src/theme",
+            "isDefault": true
+          },
+          {
+            "name": "ClientStyleContext",
+            "sourceModule": "./src/ClientStyleContext",
+            "isDefault": true
+          },
+          {
+            "name": "Layout",
+            "sourceModule": "./src/Layout",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "App",
+            "type": "function"
+          },
+          {
+            "name": "ErrorBoundary",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "App",
+            "type": "function",
+            "signature": "function App()"
+          },
+          {
+            "name": "ErrorBoundary",
+            "type": "function",
+            "signature": "function ErrorBoundary()"
+          },
+          {
+            "name": "D",
+            "type": "const",
+            "signature": "const D"
+          },
+          {
+            "name": "DocumentProps",
+            "type": "interface",
+            "signature": "interface DocumentProps"
+          }
+        ]
+      },
+      {
+        "name": "entry.server.tsx",
+        "path": "examples/material-ui-remix-ts/app/entry.server.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 60,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/examples/material-ui-remix-ts/app/entry.server.tsx",
+            "functionName": "handleRequest",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score; Event handler or callback function; Properly uses assigned variables",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 12,
+              "endLine": 59
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/examples/material-ui-remix-ts/app/entry.server.tsx",
+            "functionName": "MuiRemixServer",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 21,
+              "endLine": 31
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "* as ReactDOMServer",
+            "sourceModule": "react-dom/server",
+            "isDefault": false,
+            "namedImports": [
+              "* as ReactDOMServer"
+            ]
+          },
+          {
+            "name": "RemixServer",
+            "sourceModule": "@remix-run/react",
+            "isDefault": false,
+            "namedImports": [
+              "RemixServer"
+            ]
+          },
+          {
+            "name": "EntryContext",
+            "sourceModule": "@remix-run/node",
+            "isDefault": false,
+            "namedImports": [
+              "EntryContext"
+            ]
+          },
+          {
+            "name": "CssBaseline",
+            "sourceModule": "@mui/material/CssBaseline",
+            "isDefault": true
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "CacheProvider",
+            "sourceModule": "@emotion/react",
+            "isDefault": false,
+            "namedImports": [
+              "CacheProvider"
+            ]
+          },
+          {
+            "name": "createEmotionServer",
+            "sourceModule": "@emotion/server/create-instance",
+            "isDefault": true
+          },
+          {
+            "name": "theme",
+            "sourceModule": "./src/theme",
+            "isDefault": true
+          },
+          {
+            "name": "createEmotionCache",
+            "sourceModule": "./src/createEmotionCache",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "handleRequest",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "handleRequest",
+            "type": "function",
+            "signature": "function handleRequest()"
+          },
+          {
+            "name": "MuiRemixServer",
+            "type": "function",
+            "signature": "function MuiRemixServer()"
+          }
+        ]
+      },
+      {
+        "name": "entry.client.tsx",
+        "path": "examples/material-ui-remix-ts/app/entry.client.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 55,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/examples/material-ui-remix-ts/app/entry.client.tsx",
+            "functionName": "ClientCacheProvider",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 14,
+              "endLine": 31
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/examples/material-ui-remix-ts/app/entry.client.tsx",
+            "functionName": "hydrate",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "* as ReactDOM",
+            "sourceModule": "react-dom/client",
+            "isDefault": false,
+            "namedImports": [
+              "* as ReactDOM"
+            ]
+          },
+          {
+            "name": "RemixBrowser",
+            "sourceModule": "@remix-run/react",
+            "isDefault": false,
+            "namedImports": [
+              "RemixBrowser"
+            ]
+          },
+          {
+            "name": "CacheProvider",
+            "sourceModule": "@emotion/react",
+            "isDefault": false,
+            "namedImports": [
+              "CacheProvider"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "CssBaseline",
+            "sourceModule": "@mui/material/CssBaseline",
+            "isDefault": true
+          },
+          {
+            "name": "ClientStyleContext",
+            "sourceModule": "./src/ClientStyleContext",
+            "isDefault": true
+          },
+          {
+            "name": "createEmotionCache",
+            "sourceModule": "./src/createEmotionCache",
+            "isDefault": true
+          },
+          {
+            "name": "theme",
+            "sourceModule": "./src/theme",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ClientCacheProvider",
+            "type": "function",
+            "signature": "function ClientCacheProvider()"
+          },
+          {
+            "name": "hydrate",
+            "type": "function",
+            "signature": "const hydrate = () =>"
+          },
+          {
+            "name": "ClientCacheProviderProps",
+            "type": "interface",
+            "signature": "interface ClientCacheProviderProps"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "routes",
+        "relativePath": "routes",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of routes",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "src",
+        "relativePath": "src",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of src",
+        "keyElementsFromChild": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,601 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:46:46.032Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "Checkbox",
+      "path": "packages/mui-joy/src/Checkbox",
+      "purpose": "Enhanced directory analysis of Checkbox",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/Checkbox/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "checkboxClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "checkboxClasses.ts",
+        "path": "packages/mui-joy/src/Checkbox/checkboxClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 79,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Checkbox/checkboxClasses.ts",
+            "functionName": "getCheckboxUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 50,
+              "endLine": 52
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "../className",
+            "isDefault": false,
+            "namedImports": [
+              "generateUtilityClass",
+              "generateUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CheckboxClasses",
+            "type": "interface"
+          },
+          {
+            "name": "CheckboxClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getCheckboxUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getCheckboxUtilityClass",
+            "type": "function",
+            "signature": "function getCheckboxUtilityClass()"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "CheckboxClasses",
+            "type": "interface",
+            "signature": "interface CheckboxClasses"
+          },
+          {
+            "name": "CheckboxClassKey",
+            "type": "type",
+            "signature": "type CheckboxClassKey"
+          }
+        ]
+      },
+      {
+        "name": "CheckboxProps.ts",
+        "path": "packages/mui-joy/src/Checkbox/CheckboxProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 142,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "UseSwitchParameters",
+            "sourceModule": "@mui/base/useSwitch",
+            "isDefault": false,
+            "namedImports": [
+              "UseSwitchParameters"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "ColorPaletteProp",
+            "sourceModule": "../styles/types",
+            "isDefault": false,
+            "namedImports": [
+              "ColorPaletteProp",
+              "SxProps",
+              "VariantProp",
+              "ApplyColorInversion"
+            ]
+          },
+          {
+            "name": "SlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "SlotProps",
+              "CreateSlotsAndSlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CheckboxSlot",
+            "type": "type"
+          },
+          {
+            "name": "CheckboxSlots",
+            "type": "interface"
+          },
+          {
+            "name": "CheckboxPropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "CheckboxPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "CheckboxPropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "CheckboxSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "CheckboxTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "CheckboxProps",
+            "type": "type"
+          },
+          {
+            "name": "CheckboxOwnerState",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CheckboxSlots",
+            "type": "interface",
+            "signature": "interface CheckboxSlots"
+          },
+          {
+            "name": "CheckboxPropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface CheckboxPropsVariantOverrides"
+          },
+          {
+            "name": "CheckboxPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface CheckboxPropsColorOverrides"
+          },
+          {
+            "name": "CheckboxPropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface CheckboxPropsSizeOverrides"
+          },
+          {
+            "name": "CheckboxTypeMap",
+            "type": "interface",
+            "signature": "interface CheckboxTypeMap"
+          },
+          {
+            "name": "CheckboxOwnerState",
+            "type": "interface",
+            "signature": "interface CheckboxOwnerState"
+          },
+          {
+            "name": "CheckboxSlot",
+            "type": "type",
+            "signature": "type CheckboxSlot"
+          },
+          {
+            "name": "CheckboxSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type CheckboxSlotsAndSlotProps"
+          },
+          {
+            "name": "CheckboxProps",
+            "type": "type",
+            "signature": "type CheckboxProps"
+          }
+        ]
+      },
+      {
+        "name": "Checkbox.tsx",
+        "path": "packages/mui-joy/src/Checkbox/Checkbox.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 543,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Checkbox/Checkbox.tsx",
+            "functionName": "Checkbox",
+            "classification": "definite-placeholder",
+            "confidence": 85,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\"",
+              "Returns hardcoded value: \"return undefined;\"",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 100,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/Checkbox/Checkbox.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent"
+            ]
+          },
+          {
+            "name": "useId",
+            "sourceModule": "@mui/utils/useId",
+            "isDefault": true
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/base",
+            "isDefault": false,
+            "namedImports": [
+              "composeClasses"
+            ]
+          },
+          {
+            "name": "useSwitch",
+            "sourceModule": "@mui/base/useSwitch",
+            "isDefault": false,
+            "namedImports": [
+              "useSwitch"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "styled",
+              "useThemeProps"
+            ]
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          },
+          {
+            "name": "checkboxClasses",
+            "sourceModule": "./checkboxClasses",
+            "isDefault": true,
+            "namedImports": [
+              "getCheckboxUtilityClass"
+            ]
+          },
+          {
+            "name": "CheckboxOwnerState",
+            "sourceModule": "./CheckboxProps",
+            "isDefault": false,
+            "namedImports": [
+              "CheckboxOwnerState",
+              "CheckboxTypeMap"
+            ]
+          },
+          {
+            "name": "CheckIcon",
+            "sourceModule": "../internal/svg-icons/Check",
+            "isDefault": true
+          },
+          {
+            "name": "IndeterminateIcon",
+            "sourceModule": "../internal/svg-icons/HorizontalRule",
+            "isDefault": true
+          },
+          {
+            "name": "TypographyNestedContext",
+            "sourceModule": "../Typography/Typography",
+            "isDefault": false,
+            "namedImports": [
+              "TypographyNestedContext"
+            ]
+          },
+          {
+            "name": "FormControlContext",
+            "sourceModule": "../FormControl/FormControlContext",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Checkbox",
+            "type": "function",
+            "signature": "function Checkbox()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "is",
+            "type": "class",
+            "signature": "class is"
+          },
+          {
+            "name": "to",
+            "type": "class",
+            "signature": "class to"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "Checkbox.test.tsx",
+        "path": "packages/mui-joy/src/Checkbox/Checkbox.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 164,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "act",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "act",
+              "createRenderer",
+              "fireEvent",
+              "screen"
+            ]
+          },
+          {
+            "name": "Checkbox",
+            "sourceModule": "@mui/joy/Checkbox",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "CloseIcon",
+            "sourceModule": "../internal/svg-icons/Close",
+            "isDefault": true
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "Checkbox.spec.tsx",
+        "path": "packages/mui-joy/src/Checkbox/Checkbox.spec.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 105,
+        "importedModules": [
+          {
+            "name": "expectType",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "expectType"
+            ]
+          },
+          {
+            "name": "Checkbox",
+            "sourceModule": "@mui/joy/Checkbox",
+            "isDefault": true,
+            "namedImports": [
+              "CheckboxOwnerState"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": []
+  }
+}

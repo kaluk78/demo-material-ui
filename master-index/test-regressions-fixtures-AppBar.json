@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:51:37.181Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "AppBar",
+      "path": "test/regressions/fixtures/AppBar",
+      "purpose": "Enhanced directory analysis of AppBar",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "AppBarColorTransparent.js",
+        "path": "test/regressions/fixtures/AppBar/AppBarColorTransparent.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 33,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/AppBar/AppBarColorTransparent.js",
+            "functionName": "Demo",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 11,
+              "endLine": 32
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "AppBar",
+            "sourceModule": "@mui/material",
+            "isDefault": false,
+            "namedImports": [
+              "AppBar",
+              "Typography"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider",
+              "createTheme"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "Demo",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Demo",
+            "type": "function",
+            "signature": "function Demo()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

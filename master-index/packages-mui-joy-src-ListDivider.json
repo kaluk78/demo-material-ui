@@ -1,0 +1,487 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:46:52.651Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "ListDivider",
+      "path": "packages/mui-joy/src/ListDivider",
+      "purpose": "Enhanced directory analysis of ListDivider",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "listDividerClasses.ts",
+        "path": "packages/mui-joy/src/ListDivider/listDividerClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 34,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/ListDivider/listDividerClasses.ts",
+            "functionName": "getListDividerUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 20,
+              "endLine": 22
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "../className",
+            "isDefault": false,
+            "namedImports": [
+              "generateUtilityClass",
+              "generateUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ListDividerClasses",
+            "type": "interface"
+          },
+          {
+            "name": "ListDividerClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getListDividerUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getListDividerUtilityClass",
+            "type": "function",
+            "signature": "function getListDividerUtilityClass()"
+          },
+          {
+            "name": "ListDividerClasses",
+            "type": "interface",
+            "signature": "interface ListDividerClasses"
+          },
+          {
+            "name": "ListDividerClassKey",
+            "type": "type",
+            "signature": "type ListDividerClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/ListDivider/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "listDividerClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "ListDividerProps.ts",
+        "path": "packages/mui-joy/src/ListDivider/ListDividerProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 73,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "../styles/types",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "SlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "SlotProps",
+              "CreateSlotsAndSlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ListDividerSlot",
+            "type": "type"
+          },
+          {
+            "name": "ListDividerSlots",
+            "type": "interface"
+          },
+          {
+            "name": "ListDividerSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "ListDividerInsetOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "ListDividerTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "ListDividerProps",
+            "type": "type"
+          },
+          {
+            "name": "ListDividerOwnerState",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ListDividerSlots",
+            "type": "interface",
+            "signature": "interface ListDividerSlots"
+          },
+          {
+            "name": "ListDividerInsetOverrides",
+            "type": "interface",
+            "signature": "interface ListDividerInsetOverrides"
+          },
+          {
+            "name": "ListDividerTypeMap",
+            "type": "interface",
+            "signature": "interface ListDividerTypeMap"
+          },
+          {
+            "name": "ListDividerOwnerState",
+            "type": "interface",
+            "signature": "interface ListDividerOwnerState"
+          },
+          {
+            "name": "ListDividerSlot",
+            "type": "type",
+            "signature": "type ListDividerSlot"
+          },
+          {
+            "name": "ListDividerSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type ListDividerSlotsAndSlotProps"
+          },
+          {
+            "name": "ListDividerProps",
+            "type": "type",
+            "signature": "type ListDividerProps"
+          }
+        ]
+      },
+      {
+        "name": "ListDivider.tsx",
+        "path": "packages/mui-joy/src/ListDivider/ListDivider.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 200,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/ListDivider/ListDivider.tsx",
+            "functionName": "ListDivider",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/ListDivider/ListDivider.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent"
+            ]
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/base/composeClasses",
+            "isDefault": false,
+            "namedImports": [
+              "composeClasses"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "styled",
+              "useThemeProps"
+            ]
+          },
+          {
+            "name": "DividerRoot",
+            "sourceModule": "../Divider/Divider",
+            "isDefault": false,
+            "namedImports": [
+              "DividerRoot"
+            ]
+          },
+          {
+            "name": "ListDividerOwnerState",
+            "sourceModule": "./ListDividerProps",
+            "isDefault": false,
+            "namedImports": [
+              "ListDividerOwnerState",
+              "ListDividerTypeMap"
+            ]
+          },
+          {
+            "name": "getListDividerUtilityClass",
+            "sourceModule": "./listDividerClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getListDividerUtilityClass"
+            ]
+          },
+          {
+            "name": "RowListContext",
+            "sourceModule": "../List/RowListContext",
+            "isDefault": true
+          },
+          {
+            "name": "ComponentListContext",
+            "sourceModule": "../List/ComponentListContext",
+            "isDefault": true
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ListDivider",
+            "type": "function",
+            "signature": "function ListDivider()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "is",
+            "type": "class",
+            "signature": "class is"
+          },
+          {
+            "name": "L",
+            "type": "const",
+            "signature": "const L"
+          },
+          {
+            "name": "L",
+            "type": "const",
+            "signature": "const L"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "ListDivider.test.tsx",
+        "path": "packages/mui-joy/src/ListDivider/ListDivider.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 91,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "List",
+            "sourceModule": "@mui/joy/List",
+            "isDefault": true
+          },
+          {
+            "name": "ListDivider",
+            "sourceModule": "@mui/joy/ListDivider",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": []
+  }
+}

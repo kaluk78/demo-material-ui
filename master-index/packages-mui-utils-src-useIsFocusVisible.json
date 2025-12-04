@@ -1,0 +1,576 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:48:35.571Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "useIsFocusVisible",
+      "path": "packages/mui-utils/src/useIsFocusVisible",
+      "purpose": "Enhanced directory analysis of useIsFocusVisible",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "useIsFocusVisible.ts",
+        "path": "packages/mui-utils/src/useIsFocusVisible/useIsFocusVisible.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 176,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-utils/src/useIsFocusVisible/useIsFocusVisible.ts",
+            "functionName": "focusTriggersKeyboardModality",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return false;\"",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 33,
+              "endLine": 49
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-utils/src/useIsFocusVisible/useIsFocusVisible.ts",
+            "functionName": "handleBlurVisible",
+            "classification": "likely-placeholder",
+            "confidence": 74,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\"",
+              "Returns hardcoded value: \"return false;\"",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility)"
+            ],
+            "location": {
+              "startLine": 139,
+              "endLine": 161
+            },
+            "detectionMethods": {
+              "explicitMarkers": 100,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-utils/src/useIsFocusVisible/useIsFocusVisible.ts",
+            "functionName": "handleFocusVisible",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return false;\"",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score; Event handler or callback function"
+            ],
+            "location": {
+              "startLine": 166,
+              "endLine": 172
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -57,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-utils/src/useIsFocusVisible/useIsFocusVisible.ts",
+            "functionName": "handleKeyDown",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns simple/hardcoded value",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score; Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 58,
+              "endLine": 63
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -57,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-utils/src/useIsFocusVisible/useIsFocusVisible.ts",
+            "functionName": "handlePointerDown",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 72,
+              "endLine": 74
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-utils/src/useIsFocusVisible/useIsFocusVisible.ts",
+            "functionName": "handleVisibilityChange",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score; Event handler or callback function; Mutates state or has side effects",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 76,
+              "endLine": 86
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -72,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-utils/src/useIsFocusVisible/useIsFocusVisible.ts",
+            "functionName": "isFocusVisible",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 104,
+              "endLine": 118
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -57,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-utils/src/useIsFocusVisible/useIsFocusVisible.ts",
+            "functionName": "prepare",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 88,
+              "endLine": 94
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-utils/src/useIsFocusVisible/useIsFocusVisible.ts",
+            "functionName": "teardown",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "High context score suggests legitimate implementation; Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 96,
+              "endLine": 102
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -37,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-utils/src/useIsFocusVisible/useIsFocusVisible.ts",
+            "functionName": "useIsFocusVisible",
+            "classification": "definite-placeholder",
+            "confidence": 100,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\"",
+              "Returns hardcoded value: \"return false;\"",
+              "Function takes no parameters"
+            ],
+            "location": {
+              "startLine": 127,
+              "endLine": 175
+            },
+            "detectionMethods": {
+              "explicitMarkers": 100,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Timeout",
+            "sourceModule": "../useTimeout/useTimeout",
+            "isDefault": false,
+            "namedImports": [
+              "Timeout"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "teardown",
+            "type": "function"
+          },
+          {
+            "name": "UseIsFocusVisibleResult",
+            "type": "interface"
+          },
+          {
+            "name": "useIsFocusVisible",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "focusTriggersKeyboardModality",
+            "type": "function",
+            "signature": "function focusTriggersKeyboardModality()"
+          },
+          {
+            "name": "handleKeyDown",
+            "type": "function",
+            "signature": "function handleKeyDown()"
+          },
+          {
+            "name": "handlePointerDown",
+            "type": "function",
+            "signature": "function handlePointerDown()"
+          },
+          {
+            "name": "handleVisibilityChange",
+            "type": "function",
+            "signature": "function handleVisibilityChange()"
+          },
+          {
+            "name": "prepare",
+            "type": "function",
+            "signature": "function prepare()"
+          },
+          {
+            "name": "teardown",
+            "type": "function",
+            "signature": "function teardown()"
+          },
+          {
+            "name": "isFocusVisible",
+            "type": "function",
+            "signature": "function isFocusVisible()"
+          },
+          {
+            "name": "useIsFocusVisible",
+            "type": "function",
+            "signature": "function useIsFocusVisible()"
+          },
+          {
+            "name": "handleBlurVisible",
+            "type": "function",
+            "signature": "function handleBlurVisible()"
+          },
+          {
+            "name": "handleFocusVisible",
+            "type": "function",
+            "signature": "function handleFocusVisible()"
+          },
+          {
+            "name": "being",
+            "type": "class",
+            "signature": "class being"
+          },
+          {
+            "name": "when",
+            "type": "class",
+            "signature": "class when"
+          },
+          {
+            "name": "UseIsFocusVisibleResult",
+            "type": "interface",
+            "signature": "interface UseIsFocusVisibleResult"
+          }
+        ]
+      },
+      {
+        "name": "useIsFocusVisible.test.tsx",
+        "path": "packages/mui-utils/src/useIsFocusVisible/useIsFocusVisible.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 129,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-utils/src/useIsFocusVisible/useIsFocusVisible.test.tsx",
+            "functionName": "handleBlur",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -62,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-utils/src/useIsFocusVisible/useIsFocusVisible.test.tsx",
+            "functionName": "handleFocus",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -62,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-utils/src/useIsFocusVisible/useIsFocusVisible.test.tsx",
+            "functionName": "SimpleButton",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "* as ReactDOMClient",
+            "sourceModule": "react-dom/client",
+            "isDefault": false,
+            "namedImports": [
+              "* as ReactDOMClient"
+            ]
+          },
+          {
+            "name": "act",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "act",
+              "createRenderer",
+              "focusVisible",
+              "simulatePointerDevice",
+              "programmaticFocusTriggersFocusVisible"
+            ]
+          },
+          {
+            "name": "useIsFocusVisible",
+            "sourceModule": "./useIsFocusVisible",
+            "isDefault": true,
+            "namedImports": [
+              "teardownFocusVisible"
+            ]
+          },
+          {
+            "name": "useForkRef",
+            "sourceModule": "../useForkRef",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "SimpleButton",
+            "type": "function",
+            "signature": "function SimpleButton()"
+          },
+          {
+            "name": "handleBlur",
+            "type": "function",
+            "signature": "const handleBlur = () =>"
+          },
+          {
+            "name": "handleFocus",
+            "type": "function",
+            "signature": "const handleFocus = () =>"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "SimpleButtonProps",
+            "type": "type",
+            "signature": "type SimpleButtonProps"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-utils/src/useIsFocusVisible/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 3,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": []
+  }
+}

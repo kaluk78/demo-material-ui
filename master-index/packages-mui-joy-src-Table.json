@@ -1,0 +1,524 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:46:59.747Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "Table",
+      "path": "packages/mui-joy/src/Table",
+      "purpose": "Enhanced directory analysis of Table",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "tableClasses.ts",
+        "path": "packages/mui-joy/src/Table/tableClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 91,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Table/tableClasses.ts",
+            "functionName": "getTableUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 58,
+              "endLine": 60
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "../className",
+            "isDefault": false,
+            "namedImports": [
+              "generateUtilityClass",
+              "generateUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TableClasses",
+            "type": "interface"
+          },
+          {
+            "name": "TableClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getTableUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getTableUtilityClass",
+            "type": "function",
+            "signature": "function getTableUtilityClass()"
+          },
+          {
+            "name": "TableClasses",
+            "type": "interface",
+            "signature": "interface TableClasses"
+          },
+          {
+            "name": "TableClassKey",
+            "type": "type",
+            "signature": "type TableClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/Table/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "tableClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "TableProps.ts",
+        "path": "packages/mui-joy/src/Table/TableProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 99,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "ColorPaletteProp",
+            "sourceModule": "../styles/types",
+            "isDefault": false,
+            "namedImports": [
+              "ColorPaletteProp",
+              "VariantProp",
+              "SxProps",
+              "ApplyColorInversion"
+            ]
+          },
+          {
+            "name": "SlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "SlotProps",
+              "CreateSlotsAndSlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TableSlot",
+            "type": "type"
+          },
+          {
+            "name": "TableSlots",
+            "type": "interface"
+          },
+          {
+            "name": "TableSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "TablePropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TablePropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TablePropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TablePropsBorderAxisOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TableTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "TableProps",
+            "type": "type"
+          },
+          {
+            "name": "TableOwnerState",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TableSlots",
+            "type": "interface",
+            "signature": "interface TableSlots"
+          },
+          {
+            "name": "TablePropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface TablePropsSizeOverrides"
+          },
+          {
+            "name": "TablePropsColorOverrides",
+            "type": "interface",
+            "signature": "interface TablePropsColorOverrides"
+          },
+          {
+            "name": "TablePropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface TablePropsVariantOverrides"
+          },
+          {
+            "name": "TablePropsBorderAxisOverrides",
+            "type": "interface",
+            "signature": "interface TablePropsBorderAxisOverrides"
+          },
+          {
+            "name": "TableTypeMap",
+            "type": "interface",
+            "signature": "interface TableTypeMap"
+          },
+          {
+            "name": "TableOwnerState",
+            "type": "interface",
+            "signature": "interface TableOwnerState"
+          },
+          {
+            "name": "TableSlot",
+            "type": "type",
+            "signature": "type TableSlot"
+          },
+          {
+            "name": "TableSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type TableSlotsAndSlotProps"
+          },
+          {
+            "name": "TableProps",
+            "type": "type",
+            "signature": "type TableProps"
+          }
+        ]
+      },
+      {
+        "name": "Table.tsx",
+        "path": "packages/mui-joy/src/Table/Table.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 455,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Table/Table.tsx",
+            "functionName": "Table",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/Table/Table.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/base",
+            "isDefault": false,
+            "namedImports": [
+              "composeClasses"
+            ]
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent"
+            ]
+          },
+          {
+            "name": "useThemeProps",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "useThemeProps"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../styles/styled",
+            "isDefault": true
+          },
+          {
+            "name": "getTableUtilityClass",
+            "sourceModule": "./tableClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getTableUtilityClass"
+            ]
+          },
+          {
+            "name": "TableProps",
+            "sourceModule": "./TableProps",
+            "isDefault": false,
+            "namedImports": [
+              "TableProps",
+              "TableOwnerState",
+              "TableTypeMap"
+            ]
+          },
+          {
+            "name": "TypographyInheritContext",
+            "sourceModule": "../Typography/Typography",
+            "isDefault": false,
+            "namedImports": [
+              "TypographyInheritContext"
+            ]
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Table",
+            "type": "function",
+            "signature": "function Table()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "is",
+            "type": "type",
+            "signature": "type is"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "Table.test.tsx",
+        "path": "packages/mui-joy/src/Table/Table.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 132,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen"
+            ]
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "Table",
+            "sourceModule": "@mui/joy/Table",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "by",
+            "type": "class",
+            "signature": "class by"
+          },
+          {
+            "name": "by",
+            "type": "class",
+            "signature": "class by"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

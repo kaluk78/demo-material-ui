@@ -1,0 +1,517 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:46:57.841Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "Skeleton",
+      "path": "packages/mui-joy/src/Skeleton",
+      "purpose": "Enhanced directory analysis of Skeleton",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "skeletonClasses.ts",
+        "path": "packages/mui-joy/src/Skeleton/skeletonClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 67,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Skeleton/skeletonClasses.ts",
+            "functionName": "getSkeletonUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 42,
+              "endLine": 44
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "../className",
+            "isDefault": false,
+            "namedImports": [
+              "generateUtilityClass",
+              "generateUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "SkeletonClasses",
+            "type": "interface"
+          },
+          {
+            "name": "SkeletonClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getSkeletonUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getSkeletonUtilityClass",
+            "type": "function",
+            "signature": "function getSkeletonUtilityClass()"
+          },
+          {
+            "name": "SkeletonClasses",
+            "type": "interface",
+            "signature": "interface SkeletonClasses"
+          },
+          {
+            "name": "SkeletonClassKey",
+            "type": "type",
+            "signature": "type SkeletonClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/Skeleton/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "skeletonClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "SkeletonProps.ts",
+        "path": "packages/mui-joy/src/Skeleton/SkeletonProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 89,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Breakpoint",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "Breakpoint"
+            ]
+          },
+          {
+            "name": "OverrideProps",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverrideProps",
+              "OverridableStringUnion"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "../styles/types",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps",
+              "TypographySystem"
+            ]
+          },
+          {
+            "name": "SlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "SlotProps",
+              "CreateSlotsAndSlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "SkeletonSlot",
+            "type": "type"
+          },
+          {
+            "name": "SkeletonSlots",
+            "type": "interface"
+          },
+          {
+            "name": "SkeletonSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "SkeletonPropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "SkeletonTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "SkeletonProps",
+            "type": "type"
+          },
+          {
+            "name": "SkeletonOwnerState",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "SkeletonSlots",
+            "type": "interface",
+            "signature": "interface SkeletonSlots"
+          },
+          {
+            "name": "SkeletonPropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface SkeletonPropsVariantOverrides"
+          },
+          {
+            "name": "SkeletonTypeMap",
+            "type": "interface",
+            "signature": "interface SkeletonTypeMap"
+          },
+          {
+            "name": "SkeletonOwnerState",
+            "type": "interface",
+            "signature": "interface SkeletonOwnerState"
+          },
+          {
+            "name": "ResponsiveStyleValue",
+            "type": "type",
+            "signature": "type ResponsiveStyleValue"
+          },
+          {
+            "name": "SkeletonSlot",
+            "type": "type",
+            "signature": "type SkeletonSlot"
+          },
+          {
+            "name": "SkeletonSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type SkeletonSlotsAndSlotProps"
+          },
+          {
+            "name": "of",
+            "type": "type",
+            "signature": "type of"
+          },
+          {
+            "name": "SkeletonProps",
+            "type": "type",
+            "signature": "type SkeletonProps"
+          }
+        ]
+      },
+      {
+        "name": "Skeleton.tsx",
+        "path": "packages/mui-joy/src/Skeleton/Skeleton.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 464,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Skeleton/Skeleton.tsx",
+            "functionName": "Skeleton",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Properly uses assigned variables",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -50,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/Skeleton/Skeleton.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "keyframes",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "keyframes",
+              "css"
+            ]
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/base",
+            "isDefault": false,
+            "namedImports": [
+              "composeClasses"
+            ]
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent"
+            ]
+          },
+          {
+            "name": "useThemeProps",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "useThemeProps",
+              "Components",
+              "TypographySystem"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../styles/styled",
+            "isDefault": true
+          },
+          {
+            "name": "getSkeletonUtilityClass",
+            "sourceModule": "./skeletonClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getSkeletonUtilityClass"
+            ]
+          },
+          {
+            "name": "SkeletonOwnerState",
+            "sourceModule": "./SkeletonProps",
+            "isDefault": false,
+            "namedImports": [
+              "SkeletonOwnerState",
+              "SkeletonProps",
+              "SkeletonTypeMap"
+            ]
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Skeleton",
+            "type": "function",
+            "signature": "function Skeleton()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          },
+          {
+            "name": "of",
+            "type": "type",
+            "signature": "type of"
+          }
+        ]
+      },
+      {
+        "name": "Skeleton.test.tsx",
+        "path": "packages/mui-joy/src/Skeleton/Skeleton.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 40,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "Skeleton",
+            "sourceModule": "@mui/joy/Skeleton",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "Skeleton.spec.tsx",
+        "path": "packages/mui-joy/src/Skeleton/Skeleton.spec.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 19,
+        "importedModules": [
+          {
+            "name": "Skeleton",
+            "sourceModule": "@mui/joy/Skeleton",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": []
+  }
+}

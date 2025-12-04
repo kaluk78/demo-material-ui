@@ -1,0 +1,1665 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:47:58.831Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "Tooltip",
+      "path": "packages/mui-material/src/Tooltip",
+      "purpose": "Enhanced directory analysis of Tooltip",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "tooltipClasses.ts",
+        "path": "packages/mui-material/src/Tooltip/tooltipClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 53,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/tooltipClasses.ts",
+            "functionName": "getTooltipUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 33,
+              "endLine": 35
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TooltipClasses",
+            "type": "interface"
+          },
+          {
+            "name": "TooltipClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getTooltipUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getTooltipUtilityClass",
+            "type": "function",
+            "signature": "function getTooltipUtilityClass()"
+          },
+          {
+            "name": "TooltipClasses",
+            "type": "interface",
+            "signature": "interface TooltipClasses"
+          },
+          {
+            "name": "TooltipClassKey",
+            "type": "type",
+            "signature": "type TooltipClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.js",
+        "path": "packages/mui-material/src/Tooltip/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "tooltipClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-material/src/Tooltip/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "tooltipClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "Tooltip.test.js",
+        "path": "packages/mui-material/src/Tooltip/Tooltip.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 1496,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.test.js",
+            "functionName": "AutoFocus",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 501,
+              "endLine": 511
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.test.js",
+            "functionName": "CustomPopper",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1332,
+              "endLine": 1334
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.test.js",
+            "functionName": "CustomPopper",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1332,
+              "endLine": 1334
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.test.js",
+            "functionName": "CustomPopper",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1332,
+              "endLine": 1334
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.test.js",
+            "functionName": "focusVisible",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 19,
+              "endLine": 27
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.test.js",
+            "functionName": "focusVisibleSync",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 29,
+              "endLine": 37
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.test.js",
+            "functionName": "PopperSpy",
+            "classification": "likely-legitimate",
+            "confidence": 25,
+            "isPlaceholder": true,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Very short function (4 lines)",
+              "Test file - simple test helpers expected"
+            ],
+            "location": {
+              "startLine": 290,
+              "endLine": 293
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 30,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.test.js",
+            "functionName": "test",
+            "classification": "likely-placeholder",
+            "confidence": 69,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\"",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 85,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.test.js",
+            "functionName": "test",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Utility function with clear purpose; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -38,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.test.js",
+            "functionName": "test",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Utility function with clear purpose; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -38,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.test.js",
+            "functionName": "test",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Utility function with clear purpose; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -38,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.test.js",
+            "functionName": "TestPopper",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 46,
+              "endLine": 53
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.test.js",
+            "functionName": "TestTooltipSlot",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Moderate context score; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.test.js",
+            "functionName": "TextField",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.test.js",
+            "functionName": "TextField",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "spy",
+            "sourceModule": "sinon",
+            "isDefault": false,
+            "namedImports": [
+              "spy"
+            ]
+          },
+          {
+            "name": "act",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "act",
+              "createRenderer",
+              "fireEvent",
+              "screen",
+              "simulatePointerDevice",
+              "programmaticFocusTriggersFocusVisible",
+              "reactMajor",
+              "isJsdom"
+            ]
+          },
+          {
+            "name": "camelCase",
+            "sourceModule": "es-toolkit/string",
+            "isDefault": false,
+            "namedImports": [
+              "camelCase"
+            ]
+          },
+          {
+            "name": "Tooltip",
+            "sourceModule": "@mui/material/Tooltip",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "testReset",
+            "sourceModule": "./Tooltip",
+            "isDefault": false,
+            "namedImports": [
+              "testReset"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "focusVisible",
+            "type": "function",
+            "signature": "function focusVisible()"
+          },
+          {
+            "name": "focusVisibleSync",
+            "type": "function",
+            "signature": "function focusVisibleSync()"
+          },
+          {
+            "name": "TestPopper",
+            "type": "function",
+            "signature": "function TestPopper()"
+          },
+          {
+            "name": "TestTooltipSlot",
+            "type": "function",
+            "signature": "function TestTooltipSlot()"
+          },
+          {
+            "name": "PopperSpy",
+            "type": "function",
+            "signature": "function PopperSpy()"
+          },
+          {
+            "name": "test",
+            "type": "function",
+            "signature": "function test()"
+          },
+          {
+            "name": "AutoFocus",
+            "type": "function",
+            "signature": "function AutoFocus()"
+          },
+          {
+            "name": "test",
+            "type": "function",
+            "signature": "function test()"
+          },
+          {
+            "name": "TextField",
+            "type": "function",
+            "signature": "function TextField()"
+          },
+          {
+            "name": "TextField",
+            "type": "function",
+            "signature": "function TextField()"
+          },
+          {
+            "name": "test",
+            "type": "function",
+            "signature": "function test()"
+          },
+          {
+            "name": "CustomPopper",
+            "type": "function",
+            "signature": "function CustomPopper()"
+          },
+          {
+            "name": "test",
+            "type": "function",
+            "signature": "function test()"
+          },
+          {
+            "name": "CustomPopper",
+            "type": "function",
+            "signature": "function CustomPopper()"
+          },
+          {
+            "name": "CustomPopper",
+            "type": "function",
+            "signature": "function CustomPopper()"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "B",
+            "type": "const",
+            "signature": "const B"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          }
+        ]
+      },
+      {
+        "name": "Tooltip.spec.tsx",
+        "path": "packages/mui-material/src/Tooltip/Tooltip.spec.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 97,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.spec.tsx",
+            "functionName": "Custom",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Returns computed value from external calls or processing; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 57,
+              "endLine": 79
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.spec.tsx",
+            "functionName": "Custom2",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 81,
+              "endLine": 96
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "expectType",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "expectType"
+            ]
+          },
+          {
+            "name": "mergeSlotProps",
+            "sourceModule": "@mui/material/utils",
+            "isDefault": false,
+            "namedImports": [
+              "mergeSlotProps"
+            ]
+          },
+          {
+            "name": "Tooltip",
+            "sourceModule": "@mui/material/Tooltip",
+            "isDefault": true,
+            "namedImports": [
+              "TooltipProps"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Custom",
+            "type": "function",
+            "signature": "function Custom()"
+          },
+          {
+            "name": "Custom2",
+            "type": "function",
+            "signature": "function Custom2()"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          }
+        ]
+      },
+      {
+        "name": "Tooltip.js",
+        "path": "packages/mui-material/src/Tooltip/Tooltip.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 999,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.js",
+            "functionName": "composeEventHandler",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score; Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 302,
+              "endLine": 309
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -57,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.js",
+            "functionName": "detectTouchStart",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.js",
+            "functionName": "handleBlur",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.js",
+            "functionName": "handleFocus",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.js",
+            "functionName": "handleKeyDown",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score; Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 543,
+              "endLine": 547
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -57,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.js",
+            "functionName": "handleMouseLeave",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.js",
+            "functionName": "handleMouseMove",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.js",
+            "functionName": "handleMouseOver",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns simple/hardcoded value",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.js",
+            "functionName": "handleOpen",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.js",
+            "functionName": "handleTouchEnd",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.js",
+            "functionName": "handleTouchStart",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.js",
+            "functionName": "round",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Moderate context score; Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 24,
+              "endLine": 26
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -33,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.js",
+            "functionName": "testReset",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (4 lines)",
+              "Function takes no parameters",
+              "High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 297,
+              "endLine": 300
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.js",
+            "functionName": "Tooltip",
+            "classification": "definite-placeholder",
+            "confidence": 85,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\"",
+              "Returns hardcoded value: \"return undefined;\"",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 100,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Tooltip/Tooltip.js",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "useTimeout",
+            "sourceModule": "@mui/utils/useTimeout",
+            "isDefault": true,
+            "namedImports": [
+              "Timeout"
+            ]
+          },
+          {
+            "name": "elementAcceptingRef",
+            "sourceModule": "@mui/utils/elementAcceptingRef",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "useRtl",
+            "sourceModule": "@mui/system/RtlProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useRtl"
+            ]
+          },
+          {
+            "name": "isFocusVisible",
+            "sourceModule": "@mui/utils/isFocusVisible",
+            "isDefault": true
+          },
+          {
+            "name": "getReactElementRef",
+            "sourceModule": "@mui/utils/getReactElementRef",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../zero-styled",
+            "isDefault": false,
+            "namedImports": [
+              "styled",
+              "useTheme"
+            ]
+          },
+          {
+            "name": "memoTheme",
+            "sourceModule": "../utils/memoTheme",
+            "isDefault": true
+          },
+          {
+            "name": "useDefaultProps",
+            "sourceModule": "../DefaultPropsProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useDefaultProps"
+            ]
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "../utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "Grow",
+            "sourceModule": "../Grow",
+            "isDefault": true
+          },
+          {
+            "name": "Popper",
+            "sourceModule": "../Popper",
+            "isDefault": true
+          },
+          {
+            "name": "useEventCallback",
+            "sourceModule": "../utils/useEventCallback",
+            "isDefault": true
+          },
+          {
+            "name": "useForkRef",
+            "sourceModule": "../utils/useForkRef",
+            "isDefault": true
+          },
+          {
+            "name": "useId",
+            "sourceModule": "../utils/useId",
+            "isDefault": true
+          },
+          {
+            "name": "useControlled",
+            "sourceModule": "../utils/useControlled",
+            "isDefault": true
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          },
+          {
+            "name": "tooltipClasses",
+            "sourceModule": "./tooltipClasses",
+            "isDefault": true,
+            "namedImports": [
+              "getTooltipUtilityClass"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "testReset",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "round",
+            "type": "function",
+            "signature": "function round()"
+          },
+          {
+            "name": "testReset",
+            "type": "function",
+            "signature": "function testReset()"
+          },
+          {
+            "name": "composeEventHandler",
+            "type": "function",
+            "signature": "function composeEventHandler()"
+          },
+          {
+            "name": "Tooltip",
+            "type": "function",
+            "signature": "function Tooltip()"
+          },
+          {
+            "name": "handleKeyDown",
+            "type": "function",
+            "signature": "function handleKeyDown()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "handleOpen",
+            "type": "function",
+            "signature": "const handleOpen = () =>"
+          },
+          {
+            "name": "handleMouseOver",
+            "type": "function",
+            "signature": "const handleMouseOver = () =>"
+          },
+          {
+            "name": "handleMouseLeave",
+            "type": "function",
+            "signature": "const handleMouseLeave = () =>"
+          },
+          {
+            "name": "handleBlur",
+            "type": "function",
+            "signature": "const handleBlur = () =>"
+          },
+          {
+            "name": "handleFocus",
+            "type": "function",
+            "signature": "const handleFocus = () =>"
+          },
+          {
+            "name": "detectTouchStart",
+            "type": "function",
+            "signature": "const detectTouchStart = () =>"
+          },
+          {
+            "name": "handleTouchStart",
+            "type": "function",
+            "signature": "const handleTouchStart = () =>"
+          },
+          {
+            "name": "handleTouchEnd",
+            "type": "function",
+            "signature": "const handleTouchEnd = () =>"
+          },
+          {
+            "name": "handleMouseMove",
+            "type": "function",
+            "signature": "const handleMouseMove = () =>"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "Tooltip.d.ts",
+        "path": "packages/mui-material/src/Tooltip/Tooltip.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 257,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "MUIStyledCommonProps",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "MUIStyledCommonProps",
+              "SxProps"
+            ]
+          },
+          {
+            "name": "PopperProps",
+            "sourceModule": "../Popper",
+            "isDefault": false,
+            "namedImports": [
+              "PopperProps"
+            ]
+          },
+          {
+            "name": "Theme",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "Theme"
+            ]
+          },
+          {
+            "name": "StandardProps",
+            "sourceModule": "../internal",
+            "isDefault": false,
+            "namedImports": [
+              "StandardProps"
+            ]
+          },
+          {
+            "name": "CreateSlotsAndSlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "CreateSlotsAndSlotProps",
+              "SlotProps"
+            ]
+          },
+          {
+            "name": "TransitionProps",
+            "sourceModule": "../transitions/transition",
+            "isDefault": false,
+            "namedImports": [
+              "TransitionProps"
+            ]
+          },
+          {
+            "name": "TooltipClasses",
+            "sourceModule": "./tooltipClasses",
+            "isDefault": false,
+            "namedImports": [
+              "TooltipClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TooltipComponentsPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TooltipPopperSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TooltipTransitionSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TooltipTooltipSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TooltipArrowSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TooltipSlots",
+            "type": "interface"
+          },
+          {
+            "name": "TooltipSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "TooltipProps",
+            "type": "interface"
+          },
+          {
+            "name": "TooltipOwnerState",
+            "type": "interface"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Tooltip",
+            "type": "function",
+            "signature": "function Tooltip()"
+          },
+          {
+            "name": "TooltipComponentsPropsOverrides",
+            "type": "interface",
+            "signature": "interface TooltipComponentsPropsOverrides"
+          },
+          {
+            "name": "TooltipPopperSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface TooltipPopperSlotPropsOverrides"
+          },
+          {
+            "name": "TooltipTransitionSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface TooltipTransitionSlotPropsOverrides"
+          },
+          {
+            "name": "TooltipTooltipSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface TooltipTooltipSlotPropsOverrides"
+          },
+          {
+            "name": "TooltipArrowSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface TooltipArrowSlotPropsOverrides"
+          },
+          {
+            "name": "TooltipSlots",
+            "type": "interface",
+            "signature": "interface TooltipSlots"
+          },
+          {
+            "name": "TooltipProps",
+            "type": "interface",
+            "signature": "interface TooltipProps"
+          },
+          {
+            "name": "TooltipOwnerState",
+            "type": "interface",
+            "signature": "interface TooltipOwnerState"
+          },
+          {
+            "name": "TooltipSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type TooltipSlotsAndSlotProps"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

@@ -1,0 +1,371 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:40:53.703Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "src",
+      "path": "examples/material-ui-preact/src",
+      "purpose": "Enhanced directory analysis of src",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "theme.js",
+        "path": "examples/material-ui-preact/src/theme.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 21,
+        "importedModules": [
+          {
+            "name": "createTheme",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "createTheme"
+            ]
+          },
+          {
+            "name": "red",
+            "sourceModule": "@mui/material/colors",
+            "isDefault": false,
+            "namedImports": [
+              "red"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "setupTests.js",
+        "path": "examples/material-ui-preact/src/setupTests.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 6,
+        "importedModules": [
+          {
+            "name": "@testing-library/jest-dom/extend-expect",
+            "sourceModule": "@testing-library/jest-dom/extend-expect",
+            "isDefault": false
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.js",
+        "path": "examples/material-ui-preact/src/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 12,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "* as ReactDOMClient",
+            "sourceModule": "react-dom/client",
+            "isDefault": false,
+            "namedImports": [
+              "* as ReactDOMClient"
+            ]
+          },
+          {
+            "name": "App",
+            "sourceModule": "./App",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "ProTip.js",
+        "path": "examples/material-ui-preact/src/ProTip.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 24,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/examples/material-ui-preact/src/ProTip.js",
+            "functionName": "LightBulbIcon",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 6,
+              "endLine": 12
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/examples/material-ui-preact/src/ProTip.js",
+            "functionName": "ProTip",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 14,
+              "endLine": 23
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Link",
+            "sourceModule": "@mui/material/Link",
+            "isDefault": true
+          },
+          {
+            "name": "SvgIcon",
+            "sourceModule": "@mui/material/SvgIcon",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ProTip",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "LightBulbIcon",
+            "type": "function",
+            "signature": "function LightBulbIcon()"
+          },
+          {
+            "name": "ProTip",
+            "type": "function",
+            "signature": "function ProTip()"
+          }
+        ]
+      },
+      {
+        "name": "Copyright.js",
+        "path": "examples/material-ui-preact/src/Copyright.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 22,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/examples/material-ui-preact/src/Copyright.js",
+            "functionName": "Copyright",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 21
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "MuiLink",
+            "sourceModule": "@mui/material/Link",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "Copyright",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Copyright",
+            "type": "function",
+            "signature": "function Copyright()"
+          }
+        ]
+      },
+      {
+        "name": "App.js",
+        "path": "examples/material-ui-preact/src/App.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 21,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/examples/material-ui-preact/src/App.js",
+            "functionName": "App",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 8,
+              "endLine": 20
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Container",
+            "sourceModule": "@mui/material/Container",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "ProTip",
+            "sourceModule": "./ProTip",
+            "isDefault": true
+          },
+          {
+            "name": "Copyright",
+            "sourceModule": "./Copyright",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "App",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "App",
+            "type": "function",
+            "signature": "function App()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

@@ -1,0 +1,617 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:46:59.271Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "TabList",
+      "path": "packages/mui-joy/src/TabList",
+      "purpose": "Enhanced directory analysis of TabList",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "tabListClasses.ts",
+        "path": "packages/mui-joy/src/TabList/tabListClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 58,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/TabList/tabListClasses.ts",
+            "functionName": "getTabListUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 36,
+              "endLine": 38
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "../className",
+            "isDefault": false,
+            "namedImports": [
+              "generateUtilityClass",
+              "generateUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TabListClasses",
+            "type": "interface"
+          },
+          {
+            "name": "TabListClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getTabListUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getTabListUtilityClass",
+            "type": "function",
+            "signature": "function getTabListUtilityClass()"
+          },
+          {
+            "name": "TabListClasses",
+            "type": "interface",
+            "signature": "interface TabListClasses"
+          },
+          {
+            "name": "TabListClassKey",
+            "type": "type",
+            "signature": "type TabListClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/TabList/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "tabListClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "TabListProps.ts",
+        "path": "packages/mui-joy/src/TabList/TabListProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 90,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "ColorPaletteProp",
+            "sourceModule": "../styles/types",
+            "isDefault": false,
+            "namedImports": [
+              "ColorPaletteProp",
+              "SxProps",
+              "VariantProp",
+              "ApplyColorInversion"
+            ]
+          },
+          {
+            "name": "SlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "SlotProps",
+              "CreateSlotsAndSlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TabListSlot",
+            "type": "type"
+          },
+          {
+            "name": "TabListSlots",
+            "type": "interface"
+          },
+          {
+            "name": "TabListSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "TabListPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TabListPropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TabListPropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TabListTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "TabListProps",
+            "type": "type"
+          },
+          {
+            "name": "TabListOwnerState",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TabListSlots",
+            "type": "interface",
+            "signature": "interface TabListSlots"
+          },
+          {
+            "name": "TabListPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface TabListPropsColorOverrides"
+          },
+          {
+            "name": "TabListPropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface TabListPropsVariantOverrides"
+          },
+          {
+            "name": "TabListPropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface TabListPropsSizeOverrides"
+          },
+          {
+            "name": "TabListTypeMap",
+            "type": "interface",
+            "signature": "interface TabListTypeMap"
+          },
+          {
+            "name": "TabListOwnerState",
+            "type": "interface",
+            "signature": "interface TabListOwnerState"
+          },
+          {
+            "name": "TabListSlot",
+            "type": "type",
+            "signature": "type TabListSlot"
+          },
+          {
+            "name": "TabListSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type TabListSlotsAndSlotProps"
+          },
+          {
+            "name": "TabListProps",
+            "type": "type",
+            "signature": "type TabListProps"
+          }
+        ]
+      },
+      {
+        "name": "TabList.tsx",
+        "path": "packages/mui-joy/src/TabList/TabList.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 249,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/TabList/TabList.tsx",
+            "functionName": "TabList",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/TabList/TabList.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/base",
+            "isDefault": false,
+            "namedImports": [
+              "composeClasses"
+            ]
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent"
+            ]
+          },
+          {
+            "name": "useTabsList",
+            "sourceModule": "@mui/base/useTabsList",
+            "isDefault": false,
+            "namedImports": [
+              "useTabsList",
+              "TabsListProvider"
+            ]
+          },
+          {
+            "name": "useThemeProps",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "useThemeProps"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../styles/styled",
+            "isDefault": true
+          },
+          {
+            "name": "StyledList",
+            "sourceModule": "../List/List",
+            "isDefault": false,
+            "namedImports": [
+              "StyledList"
+            ]
+          },
+          {
+            "name": "ListProvider",
+            "sourceModule": "../List/ListProvider",
+            "isDefault": true,
+            "namedImports": [
+              "scopedVariables"
+            ]
+          },
+          {
+            "name": "SizeTabsContext",
+            "sourceModule": "../Tabs/SizeTabsContext",
+            "isDefault": true
+          },
+          {
+            "name": "getTabListUtilityClass",
+            "sourceModule": "./tabListClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getTabListUtilityClass"
+            ]
+          },
+          {
+            "name": "TabListProps",
+            "sourceModule": "./TabListProps",
+            "isDefault": false,
+            "namedImports": [
+              "TabListProps",
+              "TabListOwnerState",
+              "TabListTypeMap"
+            ]
+          },
+          {
+            "name": "tabClasses",
+            "sourceModule": "../Tab/tabClasses",
+            "isDefault": true
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TabList",
+            "type": "function",
+            "signature": "function TabList()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "TabList.test.tsx",
+        "path": "packages/mui-joy/src/TabList/TabList.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 101,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/TabList/TabList.test.tsx",
+            "functionName": "TabItem",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Very short function (4 lines)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 87,
+              "endLine": 90
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 10,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/TabList/TabList.test.tsx",
+            "functionName": "TabsProvider",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (4 lines)",
+              "Moderate context score; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 12,
+              "endLine": 15
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen"
+            ]
+          },
+          {
+            "name": "TabsProps",
+            "sourceModule": "@mui/base/Tabs",
+            "isDefault": false,
+            "namedImports": [
+              "TabsProps"
+            ]
+          },
+          {
+            "name": "useTabs",
+            "sourceModule": "@mui/base/useTabs",
+            "isDefault": false,
+            "namedImports": [
+              "useTabs",
+              "BaseTabsProvider"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "Tabs",
+            "sourceModule": "@mui/joy/Tabs",
+            "isDefault": true
+          },
+          {
+            "name": "TabList",
+            "sourceModule": "@mui/joy/TabList",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "RowListContext",
+            "sourceModule": "../List/RowListContext",
+            "isDefault": true
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TabsProvider",
+            "type": "function",
+            "signature": "function TabsProvider()"
+          },
+          {
+            "name": "TabItem",
+            "type": "function",
+            "signature": "function TabItem()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

@@ -1,0 +1,478 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:47:28.243Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "Input",
+      "path": "packages/mui-material/src/Input",
+      "purpose": "Enhanced directory analysis of Input",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "inputClasses.ts",
+        "path": "packages/mui-material/src/Input/inputClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 60,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Input/inputClasses.ts",
+            "functionName": "getInputUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 50,
+              "endLine": 52
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          },
+          {
+            "name": "inputBaseClasses",
+            "sourceModule": "../InputBase",
+            "isDefault": false,
+            "namedImports": [
+              "inputBaseClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "InputClasses",
+            "type": "interface"
+          },
+          {
+            "name": "InputClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getInputUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getInputUtilityClass",
+            "type": "function",
+            "signature": "function getInputUtilityClass()"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "InputClasses",
+            "type": "interface",
+            "signature": "interface InputClasses"
+          },
+          {
+            "name": "InputClassKey",
+            "type": "type",
+            "signature": "type InputClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.js",
+        "path": "packages/mui-material/src/Input/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 4,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "inputClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-material/src/Input/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "inputClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "Input.test.js",
+        "path": "packages/mui-material/src/Input/Input.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 50,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer"
+            ]
+          },
+          {
+            "name": "InputBase",
+            "sourceModule": "@mui/material/InputBase",
+            "isDefault": true
+          },
+          {
+            "name": "Input",
+            "sourceModule": "@mui/material/Input",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "Input.js",
+        "path": "packages/mui-material/src/Input/Input.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 380,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Input/Input.js",
+            "functionName": "Input",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Input/Input.js",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "deepmerge",
+            "sourceModule": "@mui/utils/deepmerge",
+            "isDefault": true
+          },
+          {
+            "name": "refType",
+            "sourceModule": "@mui/utils/refType",
+            "isDefault": true
+          },
+          {
+            "name": "InputBase",
+            "sourceModule": "../InputBase",
+            "isDefault": true
+          },
+          {
+            "name": "rootShouldForwardProp",
+            "sourceModule": "../styles/rootShouldForwardProp",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../zero-styled",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "memoTheme",
+            "sourceModule": "../utils/memoTheme",
+            "isDefault": true
+          },
+          {
+            "name": "createSimplePaletteValueFilter",
+            "sourceModule": "../utils/createSimplePaletteValueFilter",
+            "isDefault": true
+          },
+          {
+            "name": "useDefaultProps",
+            "sourceModule": "../DefaultPropsProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useDefaultProps"
+            ]
+          },
+          {
+            "name": "inputClasses",
+            "sourceModule": "./inputClasses",
+            "isDefault": true,
+            "namedImports": [
+              "getInputUtilityClass"
+            ]
+          },
+          {
+            "name": "inputBaseRootOverridesResolver",
+            "sourceModule": "../InputBase/InputBase",
+            "isDefault": false,
+            "namedImports": [
+              "inputBaseRootOverridesResolver",
+              "inputBaseInputOverridesResolver",
+              "InputBaseRoot",
+              "InputBaseInput"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Input",
+            "type": "function",
+            "signature": "function Input()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "I",
+            "type": "const",
+            "signature": "const I"
+          },
+          {
+            "name": "I",
+            "type": "const",
+            "signature": "const I"
+          },
+          {
+            "name": "I",
+            "type": "const",
+            "signature": "const I"
+          },
+          {
+            "name": "R",
+            "type": "const",
+            "signature": "const R"
+          },
+          {
+            "name": "I",
+            "type": "const",
+            "signature": "const I"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "Input.d.ts",
+        "path": "packages/mui-material/src/Input/Input.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 37,
+        "importedModules": [
+          {
+            "name": "SxProps",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "Theme",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "Theme"
+            ]
+          },
+          {
+            "name": "StandardProps",
+            "sourceModule": "../internal",
+            "isDefault": false,
+            "namedImports": [
+              "StandardProps"
+            ]
+          },
+          {
+            "name": "InputBaseProps",
+            "sourceModule": "../InputBase",
+            "isDefault": false,
+            "namedImports": [
+              "InputBaseProps"
+            ]
+          },
+          {
+            "name": "InputClasses",
+            "sourceModule": "./inputClasses",
+            "isDefault": false,
+            "namedImports": [
+              "InputClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "InputProps",
+            "type": "interface"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "I",
+            "type": "const",
+            "signature": "const I"
+          },
+          {
+            "name": "InputProps",
+            "type": "interface",
+            "signature": "interface InputProps"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

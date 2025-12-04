@@ -1,0 +1,953 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:47:22.056Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "CardHeader",
+      "path": "packages/mui-material/src/CardHeader",
+      "purpose": "Enhanced directory analysis of CardHeader",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.js",
+        "path": "packages/mui-material/src/CardHeader/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "cardHeaderClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-material/src/CardHeader/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "cardHeaderClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "cardHeaderClasses.ts",
+        "path": "packages/mui-material/src/CardHeader/cardHeaderClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 35,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/CardHeader/cardHeaderClasses.ts",
+            "functionName": "getCardHeaderUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 21,
+              "endLine": 23
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CardHeaderClasses",
+            "type": "interface"
+          },
+          {
+            "name": "CardHeaderClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getCardHeaderUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getCardHeaderUtilityClass",
+            "type": "function",
+            "signature": "function getCardHeaderUtilityClass()"
+          },
+          {
+            "name": "CardHeaderClasses",
+            "type": "interface",
+            "signature": "interface CardHeaderClasses"
+          },
+          {
+            "name": "CardHeaderClassKey",
+            "type": "type",
+            "signature": "type CardHeaderClassKey"
+          }
+        ]
+      },
+      {
+        "name": "CardHeader.test.js",
+        "path": "packages/mui-material/src/CardHeader/CardHeader.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 213,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer"
+            ]
+          },
+          {
+            "name": "typographyClasses",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": false,
+            "namedImports": [
+              "typographyClasses"
+            ]
+          },
+          {
+            "name": "Avatar",
+            "sourceModule": "@mui/material/Avatar",
+            "isDefault": true
+          },
+          {
+            "name": "IconButton",
+            "sourceModule": "@mui/material/IconButton",
+            "isDefault": true
+          },
+          {
+            "name": "CardHeader",
+            "sourceModule": "@mui/material/CardHeader",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "createTheme",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "createTheme",
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "CardHeader.spec.tsx",
+        "path": "packages/mui-material/src/CardHeader/CardHeader.spec.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 356,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/CardHeader/CardHeader.spec.tsx",
+            "functionName": "componentPropTest",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 121,
+              "endLine": 128
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/CardHeader/CardHeader.spec.tsx",
+            "functionName": "createElementBasePropMixedTest",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 18,
+              "endLine": 51
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/CardHeader/CardHeader.spec.tsx",
+            "functionName": "createElementTypographyTest",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 53,
+              "endLine": 119
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/CardHeader/CardHeader.spec.tsx",
+            "functionName": "CustomComponent",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/CardHeader/CardHeader.spec.tsx",
+            "functionName": "mixedCardHeaderComponentAndTypographyTest",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 130,
+              "endLine": 186
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/CardHeader/CardHeader.spec.tsx",
+            "functionName": "mixedTypographyPropsTest",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 264,
+              "endLine": 309
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/CardHeader/CardHeader.spec.tsx",
+            "functionName": "subheaderTypographyPropsTest",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 231,
+              "endLine": 262
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/CardHeader/CardHeader.spec.tsx",
+            "functionName": "titleTypographyPropsTest",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 188,
+              "endLine": 229
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "CardHeader",
+            "sourceModule": "@mui/material/CardHeader",
+            "isDefault": true,
+            "namedImports": [
+              "CardHeaderProps",
+              "CardHeaderTypeMap"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CustomComponent",
+            "type": "function",
+            "signature": "function CustomComponent()"
+          },
+          {
+            "name": "createElementBasePropMixedTest",
+            "type": "function",
+            "signature": "function createElementBasePropMixedTest()"
+          },
+          {
+            "name": "createElementTypographyTest",
+            "type": "function",
+            "signature": "function createElementTypographyTest()"
+          },
+          {
+            "name": "componentPropTest",
+            "type": "function",
+            "signature": "function componentPropTest()"
+          },
+          {
+            "name": "mixedCardHeaderComponentAndTypographyTest",
+            "type": "function",
+            "signature": "function mixedCardHeaderComponentAndTypographyTest()"
+          },
+          {
+            "name": "titleTypographyPropsTest",
+            "type": "function",
+            "signature": "function titleTypographyPropsTest()"
+          },
+          {
+            "name": "subheaderTypographyPropsTest",
+            "type": "function",
+            "signature": "function subheaderTypographyPropsTest()"
+          },
+          {
+            "name": "mixedTypographyPropsTest",
+            "type": "function",
+            "signature": "function mixedTypographyPropsTest()"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "ComponentProp",
+            "type": "interface",
+            "signature": "interface ComponentProp"
+          },
+          {
+            "name": "DefaultComponent",
+            "type": "type",
+            "signature": "type DefaultComponent"
+          },
+          {
+            "name": "system",
+            "type": "type",
+            "signature": "type system"
+          },
+          {
+            "name": "system",
+            "type": "type",
+            "signature": "type system"
+          },
+          {
+            "name": "mismatch",
+            "type": "type",
+            "signature": "type mismatch"
+          },
+          {
+            "name": "system",
+            "type": "type",
+            "signature": "type system"
+          },
+          {
+            "name": "system",
+            "type": "type",
+            "signature": "type system"
+          },
+          {
+            "name": "system",
+            "type": "type",
+            "signature": "type system"
+          },
+          {
+            "name": "system",
+            "type": "type",
+            "signature": "type system"
+          },
+          {
+            "name": "system",
+            "type": "type",
+            "signature": "type system"
+          }
+        ]
+      },
+      {
+        "name": "CardHeader.js",
+        "path": "packages/mui-material/src/CardHeader/CardHeader.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 273,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/CardHeader/CardHeader.js",
+            "functionName": "CardHeader",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/CardHeader/CardHeader.js",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "../Typography",
+            "isDefault": true,
+            "namedImports": [
+              "typographyClasses"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../zero-styled",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "useDefaultProps",
+            "sourceModule": "../DefaultPropsProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useDefaultProps"
+            ]
+          },
+          {
+            "name": "cardHeaderClasses",
+            "sourceModule": "./cardHeaderClasses",
+            "isDefault": true,
+            "namedImports": [
+              "getCardHeaderUtilityClass"
+            ]
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CardHeader",
+            "type": "function",
+            "signature": "function CardHeader()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "CardHeader.d.ts",
+        "path": "packages/mui-material/src/CardHeader/CardHeader.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 235,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "TypographyProps",
+            "sourceModule": "../Typography",
+            "isDefault": false,
+            "namedImports": [
+              "TypographyProps"
+            ]
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "../OverridableComponent",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "Theme",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "Theme"
+            ]
+          },
+          {
+            "name": "CreateSlotsAndSlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "CreateSlotsAndSlotProps",
+              "SlotProps"
+            ]
+          },
+          {
+            "name": "CardHeaderClasses",
+            "sourceModule": "./cardHeaderClasses",
+            "isDefault": false,
+            "namedImports": [
+              "CardHeaderClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CardHeaderRootSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "CardHeaderAvatarSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "CardHeaderActionSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "CardHeaderContentSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "CardHeaderTitleSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "CardHeaderSubheaderSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "CardHeaderSlots",
+            "type": "interface"
+          },
+          {
+            "name": "CardHeaderSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "CardHeaderOwnProps",
+            "type": "interface"
+          },
+          {
+            "name": "CardHeaderOwnerState",
+            "type": "interface"
+          },
+          {
+            "name": "CardHeaderTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "OverridableCardHeader",
+            "type": "interface"
+          },
+          {
+            "name": "CardHeaderProps",
+            "type": "type"
+          },
+          {
+            "name": "CardHeaderPropsWithComponent",
+            "type": "type"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "CardHeaderRootSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface CardHeaderRootSlotPropsOverrides"
+          },
+          {
+            "name": "CardHeaderAvatarSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface CardHeaderAvatarSlotPropsOverrides"
+          },
+          {
+            "name": "CardHeaderActionSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface CardHeaderActionSlotPropsOverrides"
+          },
+          {
+            "name": "CardHeaderContentSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface CardHeaderContentSlotPropsOverrides"
+          },
+          {
+            "name": "CardHeaderTitleSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface CardHeaderTitleSlotPropsOverrides"
+          },
+          {
+            "name": "CardHeaderSubheaderSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface CardHeaderSubheaderSlotPropsOverrides"
+          },
+          {
+            "name": "CardHeaderSlots",
+            "type": "interface",
+            "signature": "interface CardHeaderSlots"
+          },
+          {
+            "name": "CardHeaderOwnProps",
+            "type": "interface",
+            "signature": "interface CardHeaderOwnProps"
+          },
+          {
+            "name": "CardHeaderOwnerState",
+            "type": "interface",
+            "signature": "interface CardHeaderOwnerState"
+          },
+          {
+            "name": "CardHeaderTypeMap",
+            "type": "interface",
+            "signature": "interface CardHeaderTypeMap"
+          },
+          {
+            "name": "OverridableCardHeader",
+            "type": "interface",
+            "signature": "interface OverridableCardHeader"
+          },
+          {
+            "name": "CardHeaderSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type CardHeaderSlotsAndSlotProps"
+          },
+          {
+            "name": "CardHeaderProps",
+            "type": "type",
+            "signature": "type CardHeaderProps"
+          },
+          {
+            "name": "CardHeaderPropsWithComponent",
+            "type": "type",
+            "signature": "type CardHeaderPropsWithComponent"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

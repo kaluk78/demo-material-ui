@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:51:39.898Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "SpeedDial",
+      "path": "test/regressions/fixtures/SpeedDial",
+      "purpose": "Enhanced directory analysis of SpeedDial",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "Directions.js",
+        "path": "test/regressions/fixtures/SpeedDial/Directions.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 56,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/SpeedDial/Directions.js",
+            "functionName": "Directions",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 36,
+              "endLine": 53
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/test/regressions/fixtures/SpeedDial/Directions.js",
+            "functionName": "SimpleSpeedDial",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 9,
+              "endLine": 30
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "Avatar",
+            "sourceModule": "@mui/material/Avatar",
+            "isDefault": true
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "SpeedDial",
+            "sourceModule": "@mui/material/SpeedDial",
+            "isDefault": true
+          },
+          {
+            "name": "SpeedDialIcon",
+            "sourceModule": "@mui/material/SpeedDialIcon",
+            "isDefault": true
+          },
+          {
+            "name": "SpeedDialAction",
+            "sourceModule": "@mui/material/SpeedDialAction",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "SimpleSpeedDial",
+            "type": "function",
+            "signature": "function SimpleSpeedDial()"
+          },
+          {
+            "name": "Directions",
+            "type": "function",
+            "signature": "function Directions()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

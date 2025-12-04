@@ -1,0 +1,814 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:48:24.318Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "createStyled",
+      "path": "packages/mui-system/src/createStyled",
+      "purpose": "Enhanced directory analysis of createStyled",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.ts",
+        "path": "packages/mui-system/src/createStyled/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 3,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "createStyled.js",
+        "path": "packages/mui-system/src/createStyled/createStyled.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 358,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-system/src/createStyled/createStyled.js",
+            "functionName": "attachTheme",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Very short function (3 lines)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 43,
+              "endLine": 45
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 6,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/createStyled/createStyled.js",
+            "functionName": "createStyled",
+            "classification": "likely-placeholder",
+            "confidence": 60,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\"",
+              "Returns hardcoded value: \"return null;\"",
+              "Moderate context score; Intentionally unused parameter/variable (prefixed with _)"
+            ],
+            "location": {
+              "startLine": 120,
+              "endLine": 310
+            },
+            "detectionMethods": {
+              "explicitMarkers": 100,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -40,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/createStyled/createStyled.js",
+            "functionName": "defaultOverridesResolver",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score; Intentionally unused parameter/variable (prefixed with _)"
+            ],
+            "location": {
+              "startLine": 36,
+              "endLine": 41
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -70,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/createStyled/createStyled.js",
+            "functionName": "generateDisplayName",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 312,
+              "endLine": 317
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -45,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/createStyled/createStyled.js",
+            "functionName": "generateStyledLabel",
+            "classification": "definite-placeholder",
+            "confidence": 82,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\"",
+              "Returns simple/hardcoded value",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 319,
+              "endLine": 331
+            },
+            "detectionMethods": {
+              "explicitMarkers": 85,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/createStyled/createStyled.js",
+            "functionName": "isObjectEmpty",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return false;\"",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score"
+            ],
+            "location": {
+              "startLine": 333,
+              "endLine": 339
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -45,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/createStyled/createStyled.js",
+            "functionName": "isStringTag",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 342,
+              "endLine": 350
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -45,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/createStyled/createStyled.js",
+            "functionName": "lowercaseFirstLetter",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 352,
+              "endLine": 357
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/createStyled/createStyled.js",
+            "functionName": "muiStyledResolver",
+            "classification": "definite-placeholder",
+            "confidence": 100,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\"",
+              "Returns hardcoded value: \"return null;\""
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 100,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/createStyled/createStyled.js",
+            "functionName": "processStyle",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 47,
+              "endLine": 82
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -37,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/createStyled/createStyled.js",
+            "functionName": "processStyleVariants",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns simple/hardcoded value",
+              "Moderate context score; Mutates state or has side effects",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 84,
+              "endLine": 118
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/createStyled/createStyled.js",
+            "functionName": "shallowLayer",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns simple/hardcoded value",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 23,
+              "endLine": 34
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/createStyled/createStyled.js",
+            "functionName": "shouldForwardProp",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 19,
+              "endLine": 21
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -55,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/createStyled/createStyled.js",
+            "functionName": "styleAttachTheme",
+            "classification": "definite-legitimate",
+            "confidence": 3,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 128,
+              "endLine": 130
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/createStyled/createStyled.js",
+            "functionName": "styled",
+            "classification": "likely-placeholder",
+            "confidence": 75,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\"",
+              "Returns hardcoded value: \"return null;\"",
+              "Intentionally unused parameter/variable (prefixed with _)"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 100,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/createStyled/createStyled.js",
+            "functionName": "styleFunctionProcessor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Very short function (3 lines)",
+              "Moderate context score; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 6,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/createStyled/createStyled.js",
+            "functionName": "styleObjectProcessor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/createStyled/createStyled.js",
+            "functionName": "styleThemeOverrides",
+            "classification": "definite-placeholder",
+            "confidence": 85,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\"",
+              "Returns hardcoded value: \"return null;\"",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 100,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/createStyled/createStyled.js",
+            "functionName": "styleThemeVariants",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Moderate context score; Mutates state or has side effects; Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/createStyled/createStyled.js",
+            "functionName": "transformStyle",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Intentionally unused parameter/variable (prefixed with _); Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -72,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "styledEngineStyled",
+            "sourceModule": "@mui/styled-engine",
+            "isDefault": true,
+            "namedImports": [
+              "mutateStyles",
+              "serializeStyles"
+            ]
+          },
+          {
+            "name": "isPlainObject",
+            "sourceModule": "@mui/utils/deepmerge",
+            "isDefault": false,
+            "namedImports": [
+              "isPlainObject"
+            ]
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "getDisplayName",
+            "sourceModule": "@mui/utils/getDisplayName",
+            "isDefault": true
+          },
+          {
+            "name": "createTheme",
+            "sourceModule": "../createTheme",
+            "isDefault": true
+          },
+          {
+            "name": "styleFunctionSx",
+            "sourceModule": "../styleFunctionSx",
+            "isDefault": true
+          },
+          {
+            "name": "preprocessStyles",
+            "sourceModule": "../preprocessStyles",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "systemDefaultTheme",
+            "type": "const"
+          },
+          {
+            "name": "shouldForwardProp",
+            "type": "function"
+          },
+          {
+            "name": "createStyled",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "shouldForwardProp",
+            "type": "function",
+            "signature": "function shouldForwardProp()"
+          },
+          {
+            "name": "shallowLayer",
+            "type": "function",
+            "signature": "function shallowLayer()"
+          },
+          {
+            "name": "defaultOverridesResolver",
+            "type": "function",
+            "signature": "function defaultOverridesResolver()"
+          },
+          {
+            "name": "attachTheme",
+            "type": "function",
+            "signature": "function attachTheme()"
+          },
+          {
+            "name": "processStyle",
+            "type": "function",
+            "signature": "function processStyle()"
+          },
+          {
+            "name": "processStyleVariants",
+            "type": "function",
+            "signature": "function processStyleVariants()"
+          },
+          {
+            "name": "createStyled",
+            "type": "function",
+            "signature": "function createStyled()"
+          },
+          {
+            "name": "styleAttachTheme",
+            "type": "function",
+            "signature": "function styleAttachTheme()"
+          },
+          {
+            "name": "styleFunctionProcessor",
+            "type": "function",
+            "signature": "function styleFunctionProcessor()"
+          },
+          {
+            "name": "styleObjectProcessor",
+            "type": "function",
+            "signature": "function styleObjectProcessor()"
+          },
+          {
+            "name": "styleThemeOverrides",
+            "type": "function",
+            "signature": "function styleThemeOverrides()"
+          },
+          {
+            "name": "styleThemeVariants",
+            "type": "function",
+            "signature": "function styleThemeVariants()"
+          },
+          {
+            "name": "generateDisplayName",
+            "type": "function",
+            "signature": "function generateDisplayName()"
+          },
+          {
+            "name": "generateStyledLabel",
+            "type": "function",
+            "signature": "function generateStyledLabel()"
+          },
+          {
+            "name": "isObjectEmpty",
+            "type": "function",
+            "signature": "function isObjectEmpty()"
+          },
+          {
+            "name": "isStringTag",
+            "type": "function",
+            "signature": "function isStringTag()"
+          },
+          {
+            "name": "lowercaseFirstLetter",
+            "type": "function",
+            "signature": "function lowercaseFirstLetter()"
+          },
+          {
+            "name": "styled",
+            "type": "function",
+            "signature": "const styled = () =>"
+          },
+          {
+            "name": "transformStyle",
+            "type": "function",
+            "signature": "const transformStyle = () =>"
+          },
+          {
+            "name": "muiStyledResolver",
+            "type": "function",
+            "signature": "const muiStyledResolver = () =>"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          }
+        ]
+      },
+      {
+        "name": "createStyled.d.ts",
+        "path": "packages/mui-system/src/createStyled/createStyled.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 40,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "CreateMUIStyledStyledEngine",
+            "sourceModule": "@mui/styled-engine",
+            "isDefault": false,
+            "namedImports": [
+              "CreateMUIStyledStyledEngine",
+              "CSSInterpolation"
+            ]
+          },
+          {
+            "name": "styleFunctionSx",
+            "sourceModule": "../styleFunctionSx",
+            "isDefault": true,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "DefaultTheme",
+            "sourceModule": "../createTheme",
+            "isDefault": false,
+            "namedImports": [
+              "DefaultTheme"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "MUIStyledCommonProps",
+            "type": "interface"
+          },
+          {
+            "name": "MuiStyledOptions",
+            "type": "interface"
+          },
+          {
+            "name": "CreateMUIStyled",
+            "type": "type"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "shouldForwardProp",
+            "type": "function",
+            "signature": "function shouldForwardProp()"
+          },
+          {
+            "name": "MUIStyledCommonProps",
+            "type": "interface",
+            "signature": "interface MUIStyledCommonProps"
+          },
+          {
+            "name": "MuiStyledOptions",
+            "type": "interface",
+            "signature": "interface MuiStyledOptions"
+          },
+          {
+            "name": "CreateMUIStyled",
+            "type": "type",
+            "signature": "type CreateMUIStyled"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

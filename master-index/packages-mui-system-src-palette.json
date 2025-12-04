@@ -1,0 +1,189 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:48:26.557Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "palette",
+      "path": "packages/mui-system/src/palette",
+      "purpose": "Enhanced directory analysis of palette",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "palette.test.js",
+        "path": "packages/mui-system/src/palette/palette.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 32,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "palette",
+            "sourceModule": "./palette",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "palette.js",
+        "path": "packages/mui-system/src/palette/palette.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 33,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-system/src/palette/palette.js",
+            "functionName": "paletteTransform",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 9
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "style",
+            "sourceModule": "../style",
+            "isDefault": true
+          },
+          {
+            "name": "compose",
+            "sourceModule": "../compose",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "paletteTransform",
+            "type": "function"
+          },
+          {
+            "name": "color",
+            "type": "const"
+          },
+          {
+            "name": "bgcolor",
+            "type": "const"
+          },
+          {
+            "name": "backgroundColor",
+            "type": "const"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "paletteTransform",
+            "type": "function",
+            "signature": "function paletteTransform()"
+          }
+        ]
+      },
+      {
+        "name": "palette.d.ts",
+        "path": "packages/mui-system/src/palette/palette.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 11,
+        "importedModules": [
+          {
+            "name": "PropsFor",
+            "sourceModule": "../style",
+            "isDefault": false,
+            "namedImports": [
+              "PropsFor",
+              "SimpleStyleFunction"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "color",
+            "type": "const"
+          },
+          {
+            "name": "bgcolor",
+            "type": "const"
+          },
+          {
+            "name": "PaletteProps",
+            "type": "type"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "PaletteProps",
+            "type": "type",
+            "signature": "type PaletteProps"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-system/src/palette/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 3,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": []
+  }
+}

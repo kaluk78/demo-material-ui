@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:42:30.950Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "DocsProvider",
+      "path": "packages/mui-docs/src/DocsProvider",
+      "purpose": "Enhanced directory analysis of DocsProvider",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.tsx",
+        "path": "packages/mui-docs/src/DocsProvider/index.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 2,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "DocsProvider.tsx",
+        "path": "packages/mui-docs/src/DocsProvider/DocsProvider.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 49,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-docs/src/DocsProvider/DocsProvider.tsx",
+            "functionName": "DocsProvider",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 22,
+              "endLine": 38
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-docs/src/DocsProvider/DocsProvider.tsx",
+            "functionName": "useDocsConfig",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns simple/hardcoded value",
+              "Function takes no parameters",
+              "Contains throw statement",
+              "High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 40,
+              "endLine": 48
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Translations",
+            "sourceModule": "../i18n",
+            "isDefault": false,
+            "namedImports": [
+              "Translations",
+              "UserLanguageProvider"
+            ]
+          },
+          {
+            "name": "AdConfig",
+            "sourceModule": "../Ad",
+            "isDefault": false,
+            "namedImports": [
+              "AdConfig",
+              "AdProvider"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "DocsConfig",
+            "type": "interface"
+          },
+          {
+            "name": "DocsProviderProps",
+            "type": "interface"
+          },
+          {
+            "name": "DocsProvider",
+            "type": "function"
+          },
+          {
+            "name": "useDocsConfig",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "DocsProvider",
+            "type": "function",
+            "signature": "function DocsProvider()"
+          },
+          {
+            "name": "useDocsConfig",
+            "type": "function",
+            "signature": "function useDocsConfig()"
+          },
+          {
+            "name": "D",
+            "type": "const",
+            "signature": "const D"
+          },
+          {
+            "name": "DocsConfig",
+            "type": "interface",
+            "signature": "interface DocsConfig"
+          },
+          {
+            "name": "DocsProviderProps",
+            "type": "interface",
+            "signature": "interface DocsProviderProps"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

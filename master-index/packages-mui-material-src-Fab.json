@@ -1,0 +1,574 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:47:24.662Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "Fab",
+      "path": "packages/mui-material/src/Fab",
+      "purpose": "Enhanced directory analysis of Fab",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.js",
+        "path": "packages/mui-material/src/Fab/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "fabClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-material/src/Fab/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "fabClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "fabClasses.ts",
+        "path": "packages/mui-material/src/Fab/fabClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 52,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Fab/fabClasses.ts",
+            "functionName": "getFabUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 29,
+              "endLine": 31
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "FabClasses",
+            "type": "interface"
+          },
+          {
+            "name": "FabClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getFabUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getFabUtilityClass",
+            "type": "function",
+            "signature": "function getFabUtilityClass()"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "FabClasses",
+            "type": "interface",
+            "signature": "interface FabClasses"
+          },
+          {
+            "name": "FabClassKey",
+            "type": "type",
+            "signature": "type FabClassKey"
+          }
+        ]
+      },
+      {
+        "name": "Fab.test.js",
+        "path": "packages/mui-material/src/Fab/Fab.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 167,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Fab/Fab.test.js",
+            "functionName": "test",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Utility function with clear purpose; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -38,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen",
+              "isJsdom"
+            ]
+          },
+          {
+            "name": "Fab",
+            "sourceModule": "@mui/material/Fab",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "ButtonBase",
+            "sourceModule": "@mui/material/ButtonBase",
+            "isDefault": true,
+            "namedImports": [
+              "touchRippleClasses"
+            ]
+          },
+          {
+            "name": "Icon",
+            "sourceModule": "@mui/material/Icon",
+            "isDefault": true
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          },
+          {
+            "name": "* as ripple",
+            "sourceModule": "../../test/ripple",
+            "isDefault": false,
+            "namedImports": [
+              "* as ripple"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "test",
+            "type": "function",
+            "signature": "function test()"
+          },
+          {
+            "name": "but",
+            "type": "class",
+            "signature": "class but"
+          },
+          {
+            "name": "to",
+            "type": "class",
+            "signature": "class to"
+          }
+        ]
+      },
+      {
+        "name": "Fab.js",
+        "path": "packages/mui-material/src/Fab/Fab.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 302,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Fab/Fab.js",
+            "functionName": "Fab",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Fab/Fab.js",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "ButtonBase",
+            "sourceModule": "../ButtonBase",
+            "isDefault": true
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "../utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "fabClasses",
+            "sourceModule": "./fabClasses",
+            "isDefault": true,
+            "namedImports": [
+              "getFabUtilityClass"
+            ]
+          },
+          {
+            "name": "rootShouldForwardProp",
+            "sourceModule": "../styles/rootShouldForwardProp",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../zero-styled",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "memoTheme",
+            "sourceModule": "../utils/memoTheme",
+            "isDefault": true
+          },
+          {
+            "name": "createSimplePaletteValueFilter",
+            "sourceModule": "../utils/createSimplePaletteValueFilter",
+            "isDefault": true
+          },
+          {
+            "name": "useDefaultProps",
+            "sourceModule": "../DefaultPropsProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useDefaultProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Fab",
+            "type": "function",
+            "signature": "function Fab()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "F",
+            "type": "const",
+            "signature": "const F"
+          },
+          {
+            "name": "F",
+            "type": "const",
+            "signature": "const F"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "Fab.d.ts",
+        "path": "packages/mui-material/src/Fab/Fab.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 99,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "PropTypes",
+              "Theme"
+            ]
+          },
+          {
+            "name": "ExtendButtonBase",
+            "sourceModule": "../ButtonBase",
+            "isDefault": false,
+            "namedImports": [
+              "ExtendButtonBase",
+              "ExtendButtonBaseTypeMap"
+            ]
+          },
+          {
+            "name": "OverrideProps",
+            "sourceModule": "../OverridableComponent",
+            "isDefault": false,
+            "namedImports": [
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "FabClasses",
+            "sourceModule": "./fabClasses",
+            "isDefault": false,
+            "namedImports": [
+              "FabClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "FabPropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "FabPropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "FabPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "FabOwnProps",
+            "type": "interface"
+          },
+          {
+            "name": "FabTypeMap",
+            "type": "type"
+          },
+          {
+            "name": "FabProps",
+            "type": "type"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "F",
+            "type": "const",
+            "signature": "const F"
+          },
+          {
+            "name": "FabPropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface FabPropsVariantOverrides"
+          },
+          {
+            "name": "FabPropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface FabPropsSizeOverrides"
+          },
+          {
+            "name": "FabPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface FabPropsColorOverrides"
+          },
+          {
+            "name": "FabOwnProps",
+            "type": "interface",
+            "signature": "interface FabOwnProps"
+          },
+          {
+            "name": "FabTypeMap",
+            "type": "type",
+            "signature": "type FabTypeMap"
+          },
+          {
+            "name": "FabProps",
+            "type": "type",
+            "signature": "type FabProps"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

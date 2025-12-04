@@ -1,0 +1,447 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:40:55.350Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "src",
+      "path": "examples/material-ui-vite-tailwind-ts/src",
+      "purpose": "Enhanced directory analysis of src",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "vite-env.d.ts",
+        "path": "examples/material-ui-vite-tailwind-ts/src/vite-env.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 2,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "main.tsx",
+        "path": "examples/material-ui-vite-tailwind-ts/src/main.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 11,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "* as ReactDOM",
+            "sourceModule": "react-dom/client",
+            "isDefault": false,
+            "namedImports": [
+              "* as ReactDOM"
+            ]
+          },
+          {
+            "name": "./index.css",
+            "sourceModule": "./index.css",
+            "isDefault": false
+          },
+          {
+            "name": "App",
+            "sourceModule": "./App.tsx",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "ProTip.tsx",
+        "path": "examples/material-ui-vite-tailwind-ts/src/ProTip.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 24,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/examples/material-ui-vite-tailwind-ts/src/ProTip.tsx",
+            "functionName": "LightBulbIcon",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 6,
+              "endLine": 12
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/examples/material-ui-vite-tailwind-ts/src/ProTip.tsx",
+            "functionName": "ProTip",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 14,
+              "endLine": 23
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Link",
+            "sourceModule": "@mui/material/Link",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "SvgIcon",
+            "sourceModule": "@mui/material/SvgIcon",
+            "isDefault": true,
+            "namedImports": [
+              "SvgIconProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ProTip",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "LightBulbIcon",
+            "type": "function",
+            "signature": "function LightBulbIcon()"
+          },
+          {
+            "name": "ProTip",
+            "type": "function",
+            "signature": "function ProTip()"
+          }
+        ]
+      },
+      {
+        "name": "PopoverMenu.tsx",
+        "path": "examples/material-ui-vite-tailwind-ts/src/PopoverMenu.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 44,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/examples/material-ui-vite-tailwind-ts/src/PopoverMenu.tsx",
+            "functionName": "handleClick",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/examples/material-ui-vite-tailwind-ts/src/PopoverMenu.tsx",
+            "functionName": "handleClose",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/examples/material-ui-vite-tailwind-ts/src/PopoverMenu.tsx",
+            "functionName": "PopoverMenu",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 43
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material",
+            "isDefault": false,
+            "namedImports": [
+              "Button",
+              "Menu",
+              "MenuItem"
+            ]
+          },
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "PopoverMenu",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "PopoverMenu",
+            "type": "function",
+            "signature": "function PopoverMenu()"
+          },
+          {
+            "name": "handleClick",
+            "type": "function",
+            "signature": "const handleClick = () =>"
+          },
+          {
+            "name": "handleClose",
+            "type": "function",
+            "signature": "const handleClose = () =>"
+          }
+        ]
+      },
+      {
+        "name": "App.tsx",
+        "path": "examples/material-ui-vite-tailwind-ts/src/App.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 48,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/examples/material-ui-vite-tailwind-ts/src/App.tsx",
+            "functionName": "App",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 28,
+              "endLine": 47
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/examples/material-ui-vite-tailwind-ts/src/App.tsx",
+            "functionName": "Copyright",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 9,
+              "endLine": 26
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Container",
+            "sourceModule": "@mui/material/Container",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "Link",
+            "sourceModule": "@mui/material/Link",
+            "isDefault": true
+          },
+          {
+            "name": "Slider",
+            "sourceModule": "@mui/material/Slider",
+            "isDefault": true
+          },
+          {
+            "name": "PopoverMenu",
+            "sourceModule": "./PopoverMenu",
+            "isDefault": true
+          },
+          {
+            "name": "ProTip",
+            "sourceModule": "./ProTip",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "App",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Copyright",
+            "type": "function",
+            "signature": "function Copyright()"
+          },
+          {
+            "name": "App",
+            "type": "function",
+            "signature": "function App()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "assets",
+        "relativePath": "assets",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of assets",
+        "keyElementsFromChild": []
+      }
+    ]
+  }
+}

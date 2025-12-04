@@ -1,0 +1,183 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:34:52.540Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "email",
+      "path": "docs/data/joy/getting-started/templates/email",
+      "purpose": "Enhanced directory analysis of email",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "App.tsx",
+        "path": "docs/data/joy/getting-started/templates/email/App.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 138,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/joy/getting-started/templates/email/App.tsx",
+            "functionName": "EmailExample",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 22,
+              "endLine": 137
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "CssVarsProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "CssVarsProvider"
+            ]
+          },
+          {
+            "name": "FocusTrap",
+            "sourceModule": "@mui/base/FocusTrap",
+            "isDefault": false,
+            "namedImports": [
+              "FocusTrap"
+            ]
+          },
+          {
+            "name": "CssBaseline",
+            "sourceModule": "@mui/joy/CssBaseline",
+            "isDefault": true
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/joy/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/joy/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/joy/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/joy/Stack",
+            "isDefault": true
+          },
+          {
+            "name": "CreateRoundedIcon",
+            "sourceModule": "@mui/icons-material/CreateRounded",
+            "isDefault": true
+          },
+          {
+            "name": "EmailRoundedIcon",
+            "sourceModule": "@mui/icons-material/EmailRounded",
+            "isDefault": true
+          },
+          {
+            "name": "PeopleAltRoundedIcon",
+            "sourceModule": "@mui/icons-material/PeopleAltRounded",
+            "isDefault": true
+          },
+          {
+            "name": "FolderRoundedIcon",
+            "sourceModule": "@mui/icons-material/FolderRounded",
+            "isDefault": true
+          },
+          {
+            "name": "Layout",
+            "sourceModule": "./components/Layout",
+            "isDefault": true
+          },
+          {
+            "name": "Navigation",
+            "sourceModule": "./components/Navigation",
+            "isDefault": true
+          },
+          {
+            "name": "Mails",
+            "sourceModule": "./components/Mails",
+            "isDefault": true
+          },
+          {
+            "name": "EmailContent",
+            "sourceModule": "./components/EmailContent",
+            "isDefault": true
+          },
+          {
+            "name": "WriteEmail",
+            "sourceModule": "./components/WriteEmail",
+            "isDefault": true
+          },
+          {
+            "name": "Header",
+            "sourceModule": "./components/Header",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "EmailExample",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "EmailExample",
+            "type": "function",
+            "signature": "function EmailExample()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "components",
+        "relativePath": "components",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of components",
+        "keyElementsFromChild": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:47:50.378Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "Switch",
+      "path": "packages/mui-material/src/Switch",
+      "purpose": "Enhanced directory analysis of Switch",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "switchClasses.ts",
+        "path": "packages/mui-material/src/Switch/switchClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 56,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Switch/switchClasses.ts",
+            "functionName": "getSwitchUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 35,
+              "endLine": 37
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "SwitchClasses",
+            "type": "interface"
+          },
+          {
+            "name": "SwitchClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getSwitchUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getSwitchUtilityClass",
+            "type": "function",
+            "signature": "function getSwitchUtilityClass()"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "SwitchClasses",
+            "type": "interface",
+            "signature": "interface SwitchClasses"
+          },
+          {
+            "name": "SwitchClassKey",
+            "type": "type",
+            "signature": "type SwitchClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.js",
+        "path": "packages/mui-material/src/Switch/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "switchClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-material/src/Switch/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "switchClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "Switch.test.js",
+        "path": "packages/mui-material/src/Switch/Switch.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 182,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Switch/Switch.test.js",
+            "functionName": "CustomSwitchBase",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Moderate context score; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 10,
+              "endLine": 12
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "act",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "act",
+              "createRenderer",
+              "fireEvent",
+              "screen"
+            ]
+          },
+          {
+            "name": "Switch",
+            "sourceModule": "@mui/material/Switch",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "FormControl",
+            "sourceModule": "@mui/material/FormControl",
+            "isDefault": true
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CustomSwitchBase",
+            "type": "function",
+            "signature": "function CustomSwitchBase()"
+          }
+        ]
+      },
+      {
+        "name": "Switch.js",
+        "path": "packages/mui-material/src/Switch/Switch.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 444,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Switch/Switch.js",
+            "functionName": "Switch",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Switch/Switch.js",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "refType",
+            "sourceModule": "@mui/utils/refType",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "../utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "createSimplePaletteValueFilter",
+            "sourceModule": "../utils/createSimplePaletteValueFilter",
+            "isDefault": true
+          },
+          {
+            "name": "SwitchBase",
+            "sourceModule": "../internal/SwitchBase",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../zero-styled",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "memoTheme",
+            "sourceModule": "../utils/memoTheme",
+            "isDefault": true
+          },
+          {
+            "name": "useDefaultProps",
+            "sourceModule": "../DefaultPropsProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useDefaultProps"
+            ]
+          },
+          {
+            "name": "switchClasses",
+            "sourceModule": "./switchClasses",
+            "isDefault": true,
+            "namedImports": [
+              "getSwitchUtilityClass"
+            ]
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Switch",
+            "type": "function",
+            "signature": "function Switch()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "Switch.d.ts",
+        "path": "packages/mui-material/src/Switch/Switch.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 144,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion"
+            ]
+          },
+          {
+            "name": "Theme",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "Theme"
+            ]
+          },
+          {
+            "name": "StandardProps",
+            "sourceModule": "../internal",
+            "isDefault": false,
+            "namedImports": [
+              "StandardProps"
+            ]
+          },
+          {
+            "name": "CreateSlotsAndSlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "CreateSlotsAndSlotProps",
+              "SlotProps"
+            ]
+          },
+          {
+            "name": "SwitchBaseProps",
+            "sourceModule": "../internal/SwitchBase",
+            "isDefault": false,
+            "namedImports": [
+              "SwitchBaseProps"
+            ]
+          },
+          {
+            "name": "SwitchClasses",
+            "sourceModule": "./switchClasses",
+            "isDefault": false,
+            "namedImports": [
+              "SwitchClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "SwitchPropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "SwitchPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "SwitchRootSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "SwitchTrackSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "SwitchThumbSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "SwitchSwitchBaseSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "SwitchInputSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "SwitchSlots",
+            "type": "interface"
+          },
+          {
+            "name": "SwitchSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "SwitchOwnerState",
+            "type": "interface"
+          },
+          {
+            "name": "SwitchProps",
+            "type": "interface"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Switch",
+            "type": "function",
+            "signature": "function Switch()"
+          },
+          {
+            "name": "SwitchPropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface SwitchPropsSizeOverrides"
+          },
+          {
+            "name": "SwitchPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface SwitchPropsColorOverrides"
+          },
+          {
+            "name": "SwitchRootSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface SwitchRootSlotPropsOverrides"
+          },
+          {
+            "name": "SwitchTrackSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface SwitchTrackSlotPropsOverrides"
+          },
+          {
+            "name": "SwitchThumbSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface SwitchThumbSlotPropsOverrides"
+          },
+          {
+            "name": "SwitchSwitchBaseSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface SwitchSwitchBaseSlotPropsOverrides"
+          },
+          {
+            "name": "SwitchInputSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface SwitchInputSlotPropsOverrides"
+          },
+          {
+            "name": "SwitchSlots",
+            "type": "interface",
+            "signature": "interface SwitchSlots"
+          },
+          {
+            "name": "SwitchOwnerState",
+            "type": "interface",
+            "signature": "interface SwitchOwnerState"
+          },
+          {
+            "name": "SwitchProps",
+            "type": "interface",
+            "signature": "interface SwitchProps"
+          },
+          {
+            "name": "SwitchSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type SwitchSlotsAndSlotProps"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

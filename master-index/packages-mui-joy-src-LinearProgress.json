@@ -1,0 +1,510 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:46:49.842Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "LinearProgress",
+      "path": "packages/mui-joy/src/LinearProgress",
+      "purpose": "Enhanced directory analysis of LinearProgress",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "linearProgressClasses.ts",
+        "path": "packages/mui-joy/src/LinearProgress/linearProgressClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 61,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/LinearProgress/linearProgressClasses.ts",
+            "functionName": "getLinearProgressUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 38,
+              "endLine": 40
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "../className",
+            "isDefault": false,
+            "namedImports": [
+              "generateUtilityClass",
+              "generateUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "LinearProgressClasses",
+            "type": "interface"
+          },
+          {
+            "name": "LinearProgressClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getLinearProgressUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getLinearProgressUtilityClass",
+            "type": "function",
+            "signature": "function getLinearProgressUtilityClass()"
+          },
+          {
+            "name": "LinearProgressClasses",
+            "type": "interface",
+            "signature": "interface LinearProgressClasses"
+          },
+          {
+            "name": "LinearProgressClassKey",
+            "type": "type",
+            "signature": "type LinearProgressClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/LinearProgress/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "linearProgressClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "LinearProgressProps.ts",
+        "path": "packages/mui-joy/src/LinearProgress/LinearProgressProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 81,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "ColorPaletteProp",
+            "sourceModule": "../styles/types",
+            "isDefault": false,
+            "namedImports": [
+              "ColorPaletteProp",
+              "SxProps",
+              "VariantProp",
+              "ApplyColorInversion"
+            ]
+          },
+          {
+            "name": "SlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "SlotProps",
+              "CreateSlotsAndSlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "LinearProgressSlot",
+            "type": "type"
+          },
+          {
+            "name": "LinearProgressSlots",
+            "type": "interface"
+          },
+          {
+            "name": "LinearProgressSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "LinearProgressPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "LinearProgressPropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "LinearProgressPropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "LinearProgressTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "LinearProgressProps",
+            "type": "type"
+          },
+          {
+            "name": "LinearProgressOwnerState",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "LinearProgressSlots",
+            "type": "interface",
+            "signature": "interface LinearProgressSlots"
+          },
+          {
+            "name": "LinearProgressPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface LinearProgressPropsColorOverrides"
+          },
+          {
+            "name": "LinearProgressPropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface LinearProgressPropsSizeOverrides"
+          },
+          {
+            "name": "LinearProgressPropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface LinearProgressPropsVariantOverrides"
+          },
+          {
+            "name": "LinearProgressTypeMap",
+            "type": "interface",
+            "signature": "interface LinearProgressTypeMap"
+          },
+          {
+            "name": "LinearProgressOwnerState",
+            "type": "interface",
+            "signature": "interface LinearProgressOwnerState"
+          },
+          {
+            "name": "LinearProgressSlot",
+            "type": "type",
+            "signature": "type LinearProgressSlot"
+          },
+          {
+            "name": "LinearProgressSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type LinearProgressSlotsAndSlotProps"
+          },
+          {
+            "name": "LinearProgressProps",
+            "type": "type",
+            "signature": "type LinearProgressProps"
+          }
+        ]
+      },
+      {
+        "name": "LinearProgress.tsx",
+        "path": "packages/mui-joy/src/LinearProgress/LinearProgress.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 319,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/LinearProgress/LinearProgress.tsx",
+            "functionName": "LinearProgress",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/LinearProgress/LinearProgress.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent"
+            ]
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/base",
+            "isDefault": false,
+            "namedImports": [
+              "composeClasses"
+            ]
+          },
+          {
+            "name": "css",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "css",
+              "keyframes"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../styles/styled",
+            "isDefault": true
+          },
+          {
+            "name": "useThemeProps",
+            "sourceModule": "../styles/useThemeProps",
+            "isDefault": true
+          },
+          {
+            "name": "getLinearProgressUtilityClass",
+            "sourceModule": "./linearProgressClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getLinearProgressUtilityClass"
+            ]
+          },
+          {
+            "name": "LinearProgressOwnerState",
+            "sourceModule": "./LinearProgressProps",
+            "isDefault": false,
+            "namedImports": [
+              "LinearProgressOwnerState",
+              "LinearProgressProps",
+              "LinearProgressTypeMap"
+            ]
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          },
+          {
+            "name": "resolveSxValue",
+            "sourceModule": "../styles/styleUtils",
+            "isDefault": false,
+            "namedImports": [
+              "resolveSxValue"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "LinearProgress",
+            "type": "function",
+            "signature": "function LinearProgress()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "L",
+            "type": "const",
+            "signature": "const L"
+          },
+          {
+            "name": "L",
+            "type": "const",
+            "signature": "const L"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "LinearProgress.test.tsx",
+        "path": "packages/mui-joy/src/LinearProgress/LinearProgress.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 80,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen"
+            ]
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "LinearProgress",
+            "sourceModule": "@mui/joy/LinearProgress",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "by",
+            "type": "class",
+            "signature": "class by"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

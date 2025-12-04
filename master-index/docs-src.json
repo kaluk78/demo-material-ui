@@ -1,0 +1,886 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:39:44.617Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "src",
+      "path": "docs/src",
+      "purpose": "Enhanced directory analysis of src",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "theming.tsx",
+        "path": "docs/src/theming.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 109,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/theming.tsx",
+            "functionName": "DemoInstanceThemeProvider",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 60,
+              "endLine": 108
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -37,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/docs/src/theming.tsx",
+            "functionName": "DemoPageThemeProvider",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 31,
+              "endLine": 58
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/docs/src/theming.tsx",
+            "functionName": "JoyModeObserver",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Returns simple/hardcoded value",
+              "Function takes no parameters",
+              "Properly uses assigned variables"
+            ],
+            "location": {
+              "startLine": 20,
+              "endLine": 29
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "deepmerge",
+            "sourceModule": "@mui/utils",
+            "isDefault": false,
+            "namedImports": [
+              "deepmerge"
+            ]
+          },
+          {
+            "name": "JoyCssVarsProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "JoyCssVarsProvider",
+              "useJoyColorScheme",
+              "extendTheme",
+              "JOY_THEME_ID"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider",
+              "createTheme",
+              "useTheme"
+            ]
+          },
+          {
+            "name": "ThemeOptionsContext",
+            "sourceModule": "docs/src/modules/components/ThemeContext",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeOptionsContext",
+              "highDensity"
+            ]
+          },
+          {
+            "name": "BrandingCssVarsProvider",
+            "sourceModule": "./BrandingCssVarsProvider",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "DemoPageThemeProvider",
+            "type": "function"
+          },
+          {
+            "name": "DemoInstanceThemeProvider",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "JoyModeObserver",
+            "type": "function",
+            "signature": "function JoyModeObserver()"
+          },
+          {
+            "name": "DemoPageThemeProvider",
+            "type": "function",
+            "signature": "function DemoPageThemeProvider()"
+          },
+          {
+            "name": "DemoInstanceThemeProvider",
+            "type": "function",
+            "signature": "function DemoInstanceThemeProvider()"
+          }
+        ]
+      },
+      {
+        "name": "theming.test.tsx",
+        "path": "docs/src/theming.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 67,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/theming.test.tsx",
+            "functionName": "DarkMode",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (4 lines)",
+              "Function takes no parameters",
+              "Event handler or callback function; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 10,
+              "endLine": 13
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -32,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/docs/src/theming.test.tsx",
+            "functionName": "UpperProvider",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 15,
+              "endLine": 26
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "fireEvent",
+              "screen"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider",
+              "createTheme",
+              "useColorScheme"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "JOY_THEME_ID",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "JOY_THEME_ID",
+              "extendTheme"
+            ]
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/joy/Button",
+            "isDefault": true
+          },
+          {
+            "name": "DemoInstanceThemeProvider",
+            "sourceModule": "./theming",
+            "isDefault": false,
+            "namedImports": [
+              "DemoInstanceThemeProvider"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "DarkMode",
+            "type": "function",
+            "signature": "function DarkMode()"
+          },
+          {
+            "name": "UpperProvider",
+            "type": "function",
+            "signature": "function UpperProvider()"
+          }
+        ]
+      },
+      {
+        "name": "sw.js",
+        "path": "docs/src/sw.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 22,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "route.ts",
+        "path": "docs/src/route.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 64,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ROUTES",
+            "type": "const",
+            "signature": "const ROUTES"
+          }
+        ]
+      },
+      {
+        "name": "pagesApi.js",
+        "path": "docs/src/pagesApi.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 139,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "featureToggle.ts",
+        "path": "docs/src/featureToggle.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "createEmotionCache.ts",
+        "path": "docs/src/createEmotionCache.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 14,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/createEmotionCache.ts",
+            "functionName": "createEmotionCache",
+            "classification": "definite-placeholder",
+            "confidence": 100,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\"",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 13
+            },
+            "detectionMethods": {
+              "explicitMarkers": 85,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "createCache",
+            "sourceModule": "@mui/material-nextjs/v15-pagesRouter",
+            "isDefault": false,
+            "namedImports": [
+              "createCache"
+            ]
+          },
+          {
+            "name": "prefixer",
+            "sourceModule": "stylis",
+            "isDefault": false,
+            "namedImports": [
+              "prefixer"
+            ]
+          },
+          {
+            "name": "globalSelector",
+            "sourceModule": "./modules/utils/globalSelector",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "createEmotionCache",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "createEmotionCache",
+            "type": "function",
+            "signature": "function createEmotionCache()"
+          }
+        ]
+      },
+      {
+        "name": "MuiPage.ts",
+        "path": "docs/src/MuiPage.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 72,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "standardNavIcons",
+            "sourceModule": "./modules/components/AppNavIcons",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "MuiPageIcon",
+            "type": "type"
+          },
+          {
+            "name": "MuiPage",
+            "type": "interface"
+          },
+          {
+            "name": "OrderedMuiPage",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "MuiPage",
+            "type": "interface",
+            "signature": "interface MuiPage"
+          },
+          {
+            "name": "OrderedMuiPage",
+            "type": "interface",
+            "signature": "interface OrderedMuiPage"
+          },
+          {
+            "name": "MuiPageIcon",
+            "type": "type",
+            "signature": "type MuiPageIcon"
+          }
+        ]
+      },
+      {
+        "name": "BrandingCssVarsProvider.tsx",
+        "path": "docs/src/BrandingCssVarsProvider.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 181,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/BrandingCssVarsProvider.tsx",
+            "functionName": "BrandingCssVarsProvider",
+            "classification": "likely-placeholder",
+            "confidence": 70,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\"",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 130,
+              "endLine": 180
+            },
+            "detectionMethods": {
+              "explicitMarkers": 85,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/docs/src/BrandingCssVarsProvider.tsx",
+            "functionName": "injectPalette",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 55,
+              "endLine": 84
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/docs/src/BrandingCssVarsProvider.tsx",
+            "functionName": "resetDocsColor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 102,
+              "endLine": 114
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/docs/src/BrandingCssVarsProvider.tsx",
+            "functionName": "resetDocsSpacing",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 123,
+              "endLine": 128
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/docs/src/BrandingCssVarsProvider.tsx",
+            "functionName": "setDocsColors",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 54,
+              "endLine": 100
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -55,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/docs/src/BrandingCssVarsProvider.tsx",
+            "functionName": "setDocsSpacing",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 116,
+              "endLine": 121
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -55,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "useRouter",
+            "sourceModule": "next/router",
+            "isDefault": false,
+            "namedImports": [
+              "useRouter"
+            ]
+          },
+          {
+            "name": "deepmerge",
+            "sourceModule": "@mui/utils",
+            "isDefault": false,
+            "namedImports": [
+              "deepmerge"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider",
+              "createTheme",
+              "PaletteColorOptions"
+            ]
+          },
+          {
+            "name": "useEnhancedEffect",
+            "sourceModule": "@mui/material/utils",
+            "isDefault": false,
+            "namedImports": [
+              "useEnhancedEffect"
+            ]
+          },
+          {
+            "name": "colorChannel",
+            "sourceModule": "@mui/system/colorManipulator",
+            "isDefault": false,
+            "namedImports": [
+              "colorChannel",
+              "getContrastRatio",
+              "lighten",
+              "darken"
+            ]
+          },
+          {
+            "name": "CssBaseline",
+            "sourceModule": "@mui/material/CssBaseline",
+            "isDefault": true
+          },
+          {
+            "name": "getCookie",
+            "sourceModule": "docs/src/modules/utils/helpers",
+            "isDefault": false,
+            "namedImports": [
+              "getCookie",
+              "pathnameToLanguage"
+            ]
+          },
+          {
+            "name": "NextNProgressBar",
+            "sourceModule": "docs/src/modules/components/AppFrame",
+            "isDefault": false,
+            "namedImports": [
+              "NextNProgressBar"
+            ]
+          },
+          {
+            "name": "getDesignTokens",
+            "sourceModule": "@mui/docs/branding",
+            "isDefault": false,
+            "namedImports": [
+              "getDesignTokens",
+              "getThemedComponents"
+            ]
+          },
+          {
+            "name": "SkipLink",
+            "sourceModule": "docs/src/modules/components/SkipLink",
+            "isDefault": true
+          },
+          {
+            "name": "MarkdownLinks",
+            "sourceModule": "docs/src/modules/components/MarkdownLinks",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "setDocsColors",
+            "type": "function"
+          },
+          {
+            "name": "resetDocsColor",
+            "type": "function"
+          },
+          {
+            "name": "setDocsSpacing",
+            "type": "function"
+          },
+          {
+            "name": "resetDocsSpacing",
+            "type": "function"
+          },
+          {
+            "name": "BrandingCssVarsProvider",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "setDocsColors",
+            "type": "function",
+            "signature": "function setDocsColors()"
+          },
+          {
+            "name": "injectPalette",
+            "type": "function",
+            "signature": "function injectPalette()"
+          },
+          {
+            "name": "resetDocsColor",
+            "type": "function",
+            "signature": "function resetDocsColor()"
+          },
+          {
+            "name": "setDocsSpacing",
+            "type": "function",
+            "signature": "function setDocsSpacing()"
+          },
+          {
+            "name": "resetDocsSpacing",
+            "type": "function",
+            "signature": "function resetDocsSpacing()"
+          },
+          {
+            "name": "BrandingCssVarsProvider",
+            "type": "function",
+            "signature": "function BrandingCssVarsProvider()"
+          },
+          {
+            "name": "PaletteOptions",
+            "type": "interface",
+            "signature": "interface PaletteOptions"
+          },
+          {
+            "name": "checking",
+            "type": "type",
+            "signature": "type checking"
+          },
+          {
+            "name": "checking",
+            "type": "type",
+            "signature": "type checking"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "components",
+        "relativePath": "components",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of components",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "icons",
+        "relativePath": "icons",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of icons",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "layouts",
+        "relativePath": "layouts",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of layouts",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "modules",
+        "relativePath": "modules",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of modules",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "pages",
+        "relativePath": "pages",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of pages",
+        "keyElementsFromChild": []
+      }
+    ]
+  }
+}

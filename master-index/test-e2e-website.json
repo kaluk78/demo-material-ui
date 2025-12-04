@@ -1,0 +1,301 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-04T04:51:35.994Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "e2e-website",
+      "path": "test/e2e-website",
+      "purpose": "Enhanced directory analysis of e2e-website",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "products-drawer.spec.ts",
+        "path": "test/e2e-website/products-drawer.spec.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 30,
+        "importedModules": [
+          {
+            "name": "base",
+            "sourceModule": "@playwright/test",
+            "isDefault": false,
+            "namedImports": [
+              "base",
+              "expect"
+            ]
+          },
+          {
+            "name": "FEATURE_TOGGLE",
+            "sourceModule": "docs/src/featureToggle",
+            "isDefault": true
+          },
+          {
+            "name": "TestFixture",
+            "sourceModule": "./playwright.config",
+            "isDefault": false,
+            "namedImports": [
+              "TestFixture"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "playwright.config.ts",
+        "path": "test/e2e-website/playwright.config.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 16,
+        "importedModules": [
+          {
+            "name": "PlaywrightTestConfig",
+            "sourceModule": "@playwright/test",
+            "isDefault": false,
+            "namedImports": [
+              "PlaywrightTestConfig"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TestFixture",
+            "type": "type"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TestFixture",
+            "type": "type",
+            "signature": "type TestFixture"
+          }
+        ]
+      },
+      {
+        "name": "material-icons.spec.ts",
+        "path": "test/e2e-website/material-icons.spec.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 11,
+        "importedModules": [
+          {
+            "name": "base",
+            "sourceModule": "@playwright/test",
+            "isDefault": false,
+            "namedImports": [
+              "base",
+              "expect"
+            ]
+          },
+          {
+            "name": "TestFixture",
+            "sourceModule": "./playwright.config",
+            "isDefault": false,
+            "namedImports": [
+              "TestFixture"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "material-docs.spec.ts",
+        "path": "test/e2e-website/material-docs.spec.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 195,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/e2e-website/material-docs.spec.ts",
+            "functionName": "retryToggleSearch",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Contains throw statement",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "base",
+            "sourceModule": "@playwright/test",
+            "isDefault": false,
+            "namedImports": [
+              "base",
+              "expect",
+              "Page"
+            ]
+          },
+          {
+            "name": "kebabCase",
+            "sourceModule": "es-toolkit/string",
+            "isDefault": false,
+            "namedImports": [
+              "kebabCase"
+            ]
+          },
+          {
+            "name": "TestFixture",
+            "sourceModule": "./playwright.config",
+            "isDefault": false,
+            "namedImports": [
+              "TestFixture"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "retryToggleSearch",
+            "type": "function",
+            "signature": "const retryToggleSearch = () =>"
+          }
+        ]
+      },
+      {
+        "name": "material-color-playground.spec.ts",
+        "path": "test/e2e-website/material-color-playground.spec.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 22,
+        "importedModules": [
+          {
+            "name": "base",
+            "sourceModule": "@playwright/test",
+            "isDefault": false,
+            "namedImports": [
+              "base",
+              "expect"
+            ]
+          },
+          {
+            "name": "FEATURE_TOGGLE",
+            "sourceModule": "docs/src/featureToggle",
+            "isDefault": true
+          },
+          {
+            "name": "TestFixture",
+            "sourceModule": "./playwright.config",
+            "isDefault": false,
+            "namedImports": [
+              "TestFixture"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "joy-docs.spec.ts",
+        "path": "test/e2e-website/joy-docs.spec.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 30,
+        "importedModules": [
+          {
+            "name": "base",
+            "sourceModule": "@playwright/test",
+            "isDefault": false,
+            "namedImports": [
+              "base",
+              "expect"
+            ]
+          },
+          {
+            "name": "kebabCase",
+            "sourceModule": "es-toolkit/string",
+            "isDefault": false,
+            "namedImports": [
+              "kebabCase"
+            ]
+          },
+          {
+            "name": "TestFixture",
+            "sourceModule": "./playwright.config",
+            "isDefault": false,
+            "namedImports": [
+              "TestFixture"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "demo-docs.spec.ts",
+        "path": "test/e2e-website/demo-docs.spec.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 83,
+        "importedModules": [
+          {
+            "name": "base",
+            "sourceModule": "@playwright/test",
+            "isDefault": false,
+            "namedImports": [
+              "base",
+              "expect"
+            ]
+          },
+          {
+            "name": "TestFixture",
+            "sourceModule": "./playwright.config",
+            "isDefault": false,
+            "namedImports": [
+              "TestFixture"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": []
+  }
+}
