@@ -1,0 +1,421 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:12:02.911Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:12:02.911Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "select-classes",
+      "path": "packages/mui-codemod/src/deprecations/select-classes",
+      "purpose": "Enhanced directory analysis of select-classes",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "select-classes.test.js",
+        "path": "packages/mui-codemod/src/deprecations/select-classes/select-classes.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 106,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-codemod/src/deprecations/select-classes/select-classes.test.js",
+            "functionName": "read",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Utility function with clear purpose; Intentionally unused parameter/variable (prefixed with _); Returns computed value from external calls or processing; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 9,
+              "endLine": 11
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -75,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "path",
+                  "source": "path",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "expect",
+                  "source": "chai",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "postcss",
+                  "source": "postcss",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "jscodeshift",
+                  "source": "../../../testUtils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "jsTransform",
+                  "source": "./select-classes",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "plugin",
+                  "source": "./postcss-plugin",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "readFile",
+                  "source": "../../util/readFile",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "path",
+            "sourceModule": "path",
+            "isDefault": true
+          },
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "postcss",
+            "sourceModule": "postcss",
+            "isDefault": true
+          },
+          {
+            "name": "jscodeshift",
+            "sourceModule": "../../../testUtils",
+            "isDefault": false,
+            "namedImports": [
+              "jscodeshift"
+            ]
+          },
+          {
+            "name": "jsTransform",
+            "sourceModule": "./select-classes",
+            "isDefault": true
+          },
+          {
+            "name": "postcssPlugin",
+            "sourceModule": "./postcss-plugin",
+            "isDefault": false,
+            "namedImports": [
+              "postcssPlugin"
+            ]
+          },
+          {
+            "name": "readFile",
+            "sourceModule": "../../util/readFile",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "read",
+            "type": "function",
+            "signature": "function read()"
+          }
+        ]
+      },
+      {
+        "name": "select-classes.js",
+        "path": "packages/mui-codemod/src/deprecations/select-classes/select-classes.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 130,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-codemod/src/deprecations/select-classes/select-classes.js",
+            "functionName": "transformer",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Properly uses assigned variables; Mutates state or has side effects; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 7,
+              "endLine": 129
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -62,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "classes",
+                  "source": "./postcss-plugin",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "classes",
+            "sourceModule": "./postcss-plugin",
+            "isDefault": false,
+            "namedImports": [
+              "classes"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "transformer",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "transformer",
+            "type": "function",
+            "signature": "function transformer()"
+          }
+        ]
+      },
+      {
+        "name": "postcss.config.js",
+        "path": "packages/mui-codemod/src/deprecations/select-classes/postcss.config.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "postcss-plugin.js",
+        "path": "packages/mui-codemod/src/deprecations/select-classes/postcss-plugin.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 38,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-codemod/src/deprecations/select-classes/postcss-plugin.js",
+            "functionName": "plugin",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Utility function with clear purpose; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "plugin",
+            "type": "function",
+            "signature": "const plugin = () =>"
+          }
+        ]
+      },
+      {
+        "name": "index.js",
+        "path": "packages/mui-codemod/src/deprecations/select-classes/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 2,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "test-cases",
+        "relativePath": "test-cases",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of test-cases",
+        "keyElementsFromChild": []
+      }
+    ],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-codemod/src/deprecations/select-classes/select-classes.test.js",
+          "to": "path",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/deprecations/select-classes/select-classes.test.js",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/deprecations/select-classes/select-classes.test.js",
+          "to": "postcss",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/deprecations/select-classes/select-classes.test.js",
+          "to": "packages/mui-codemod/src/deprecations/select-classes/select-classes.js",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/deprecations/select-classes/select-classes.test.js",
+          "to": "packages/mui-codemod/src/deprecations/select-classes/postcss-plugin.js",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/deprecations/select-classes/select-classes.js",
+          "to": "packages/mui-codemod/src/deprecations/select-classes/postcss-plugin.js",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

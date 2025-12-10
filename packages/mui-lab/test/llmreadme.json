@@ -1,0 +1,271 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:19:58.020Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:19:58.020Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "test",
+      "path": "packages/mui-lab/test",
+      "purpose": "Enhanced directory analysis of test",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "describeConformance.ts",
+        "path": "packages/mui-lab/test/describeConformance.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 21,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-lab/test/describeConformance.ts",
+            "functionName": "describeConformance",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score; Returns computed value from external calls or processing; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 7,
+              "endLine": 20
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "describeConformance",
+                  "source": "@mui/internal-test-utils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ConformanceOptions",
+                  "source": "@mui/internal-test-utils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ThemeProvider",
+                  "source": "@mui/material/styles",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "createTheme",
+                  "source": "@mui/material/styles",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-lab/test/describeConformance.ts",
+            "functionName": "getOptionsWithDefaults",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 11,
+              "endLine": 17
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -50,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "describeConformance",
+                  "source": "@mui/internal-test-utils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ConformanceOptions",
+                  "source": "@mui/internal-test-utils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ThemeProvider",
+                  "source": "@mui/material/styles",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "createTheme",
+                  "source": "@mui/material/styles",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "baseDescribeConformance",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "baseDescribeConformance",
+              "ConformanceOptions"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider",
+              "createTheme"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "describeConformance",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "describeConformance",
+            "type": "function",
+            "signature": "function describeConformance()"
+          },
+          {
+            "name": "getOptionsWithDefaults",
+            "type": "function",
+            "signature": "function getOptionsWithDefaults()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "integration",
+        "relativePath": "integration",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of integration",
+        "keyElementsFromChild": []
+      }
+    ],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-lab/test/describeConformance.ts",
+          "to": "@mui/internal-test-utils",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-lab/test/describeConformance.ts",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

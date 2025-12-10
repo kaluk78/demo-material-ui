@@ -1,0 +1,1759 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:21:10.991Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:21:10.991Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "Container",
+      "path": "packages/mui-system/src/Container",
+      "purpose": "Enhanced directory analysis of Container",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.js",
+        "path": "packages/mui-system/src/Container/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "containerClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-system/src/Container/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "containerClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "createContainer.tsx",
+        "path": "packages/mui-system/src/Container/createContainer.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 184,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-system/src/Container/createContainer.tsx",
+            "functionName": "Container",
+            "classification": "definite-legitimate",
+            "confidence": 9.8,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "[FALLBACK] 1 AI-suspicious unused variables: classesProp",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 4.800000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "PropTypes",
+                  "source": "prop-types",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "clsx",
+                  "source": "clsx",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Interpolation",
+                  "source": "@mui/styled-engine",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MUIStyledComponent",
+                  "source": "@mui/styled-engine",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "OverridableComponent",
+                  "source": "@mui/types",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "generateUtilityClass",
+                  "source": "@mui/utils/generateUtilityClass",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "composeClasses",
+                  "source": "@mui/utils/composeClasses",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "capitalize",
+                  "source": "@mui/utils/capitalize",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "ContainerProps",
+                  "source": "./ContainerProps",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ContainerTypeMap",
+                  "source": "./ContainerProps",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "useThemePropsSystem",
+                  "source": "../useThemeProps",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "systemStyled",
+                  "source": "../styled",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "createTheme",
+                  "source": "../createTheme",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Theme",
+                  "source": "../createTheme",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Breakpoint",
+                  "source": "../createTheme",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "classesProp",
+                  "line": 130,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 6,
+                    "reason": "Important business variable - may indicate incomplete logic"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Container/createContainer.tsx",
+            "functionName": "createContainer",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "[FALLBACK] 2 AI-suspicious unused variables: ContainerRoot, classesProp",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Properly uses assigned variables"
+            ],
+            "location": {
+              "startLine": 60,
+              "endLine": 183
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 9.600000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "PropTypes",
+                  "source": "prop-types",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "clsx",
+                  "source": "clsx",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Interpolation",
+                  "source": "@mui/styled-engine",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MUIStyledComponent",
+                  "source": "@mui/styled-engine",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "OverridableComponent",
+                  "source": "@mui/types",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "generateUtilityClass",
+                  "source": "@mui/utils/generateUtilityClass",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "composeClasses",
+                  "source": "@mui/utils/composeClasses",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "capitalize",
+                  "source": "@mui/utils/capitalize",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "ContainerProps",
+                  "source": "./ContainerProps",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ContainerTypeMap",
+                  "source": "./ContainerProps",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "useThemePropsSystem",
+                  "source": "../useThemeProps",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "systemStyled",
+                  "source": "../styled",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "createTheme",
+                  "source": "../createTheme",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Theme",
+                  "source": "../createTheme",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Breakpoint",
+                  "source": "../createTheme",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "ContainerRoot",
+                  "line": 76,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 6,
+                    "reason": "Important business variable - may indicate incomplete logic"
+                  }
+                },
+                {
+                  "name": "classesProp",
+                  "line": 130,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 6,
+                    "reason": "Important business variable - may indicate incomplete logic"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Container/createContainer.tsx",
+            "functionName": "getContainerUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "PropTypes",
+                  "source": "prop-types",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "clsx",
+                  "source": "clsx",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Interpolation",
+                  "source": "@mui/styled-engine",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MUIStyledComponent",
+                  "source": "@mui/styled-engine",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "OverridableComponent",
+                  "source": "@mui/types",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "generateUtilityClass",
+                  "source": "@mui/utils/generateUtilityClass",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "composeClasses",
+                  "source": "@mui/utils/composeClasses",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "capitalize",
+                  "source": "@mui/utils/capitalize",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "ContainerProps",
+                  "source": "./ContainerProps",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ContainerTypeMap",
+                  "source": "./ContainerProps",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "useThemePropsSystem",
+                  "source": "../useThemeProps",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "systemStyled",
+                  "source": "../styled",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "createTheme",
+                  "source": "../createTheme",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Theme",
+                  "source": "../createTheme",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Breakpoint",
+                  "source": "../createTheme",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Container/createContainer.tsx",
+            "functionName": "useThemePropsDefault",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (2 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "PropTypes",
+                  "source": "prop-types",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "clsx",
+                  "source": "clsx",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Interpolation",
+                  "source": "@mui/styled-engine",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MUIStyledComponent",
+                  "source": "@mui/styled-engine",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "OverridableComponent",
+                  "source": "@mui/types",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "generateUtilityClass",
+                  "source": "@mui/utils/generateUtilityClass",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "composeClasses",
+                  "source": "@mui/utils/composeClasses",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "capitalize",
+                  "source": "@mui/utils/capitalize",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "ContainerProps",
+                  "source": "./ContainerProps",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ContainerTypeMap",
+                  "source": "./ContainerProps",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "useThemePropsSystem",
+                  "source": "../useThemeProps",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "systemStyled",
+                  "source": "../styled",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "createTheme",
+                  "source": "../createTheme",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Theme",
+                  "source": "../createTheme",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Breakpoint",
+                  "source": "../createTheme",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/Container/createContainer.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "PropTypes",
+                  "source": "prop-types",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "clsx",
+                  "source": "clsx",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Interpolation",
+                  "source": "@mui/styled-engine",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MUIStyledComponent",
+                  "source": "@mui/styled-engine",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "OverridableComponent",
+                  "source": "@mui/types",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "generateUtilityClass",
+                  "source": "@mui/utils/generateUtilityClass",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "composeClasses",
+                  "source": "@mui/utils/composeClasses",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "capitalize",
+                  "source": "@mui/utils/capitalize",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "ContainerProps",
+                  "source": "./ContainerProps",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ContainerTypeMap",
+                  "source": "./ContainerProps",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "useThemePropsSystem",
+                  "source": "../useThemeProps",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "systemStyled",
+                  "source": "../styled",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "createTheme",
+                  "source": "../createTheme",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Theme",
+                  "source": "../createTheme",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Breakpoint",
+                  "source": "../createTheme",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "Interpolation",
+            "sourceModule": "@mui/styled-engine",
+            "isDefault": false,
+            "namedImports": [
+              "Interpolation",
+              "StyledComponent"
+            ]
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent"
+            ]
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "ContainerProps",
+            "sourceModule": "./ContainerProps",
+            "isDefault": false,
+            "namedImports": [
+              "ContainerProps",
+              "ContainerTypeMap"
+            ]
+          },
+          {
+            "name": "useThemePropsSystem",
+            "sourceModule": "../useThemeProps",
+            "isDefault": true
+          },
+          {
+            "name": "systemStyled",
+            "sourceModule": "../styled",
+            "isDefault": true
+          },
+          {
+            "name": "createTheme",
+            "sourceModule": "../createTheme",
+            "isDefault": true,
+            "namedImports": [
+              "DefaultTheme",
+              "Breakpoint"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "createContainer",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Container",
+            "type": "function",
+            "signature": "function Container()"
+          },
+          {
+            "name": "useThemePropsDefault",
+            "type": "function",
+            "signature": "const useThemePropsDefault = () =>"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "getContainerUtilityClass",
+            "type": "function",
+            "signature": "const getContainerUtilityClass = () =>"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "StyleFnProps",
+            "type": "interface",
+            "signature": "interface StyleFnProps"
+          },
+          {
+            "name": "RequiredThemeStructure",
+            "type": "type",
+            "signature": "type RequiredThemeStructure"
+          }
+        ]
+      },
+      {
+        "name": "containerClasses.ts",
+        "path": "packages/mui-system/src/Container/containerClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 41,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-system/src/Container/containerClasses.ts",
+            "functionName": "getContainerUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 25,
+              "endLine": 27
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "generateUtilityClasses",
+                  "source": "@mui/utils/generateUtilityClasses",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "generateUtilityClass",
+                  "source": "@mui/utils/generateUtilityClass",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ContainerClasses",
+            "type": "interface"
+          },
+          {
+            "name": "ContainerClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getContainerUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getContainerUtilityClass",
+            "type": "function",
+            "signature": "function getContainerUtilityClass()"
+          },
+          {
+            "name": "ContainerClasses",
+            "type": "interface",
+            "signature": "interface ContainerClasses"
+          },
+          {
+            "name": "ContainerClassKey",
+            "type": "type",
+            "signature": "type ContainerClassKey"
+          }
+        ]
+      },
+      {
+        "name": "ContainerProps.ts",
+        "path": "packages/mui-system/src/Container/ContainerProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 49,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverrideProps",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "../styleFunctionSx",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "Theme",
+            "sourceModule": "../createTheme",
+            "isDefault": false,
+            "namedImports": [
+              "Theme",
+              "Breakpoint"
+            ]
+          },
+          {
+            "name": "ContainerClasses",
+            "sourceModule": "./containerClasses",
+            "isDefault": false,
+            "namedImports": [
+              "ContainerClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ContainerTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "ContainerProps",
+            "type": "type"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ContainerTypeMap",
+            "type": "interface",
+            "signature": "interface ContainerTypeMap"
+          },
+          {
+            "name": "ContainerProps",
+            "type": "type",
+            "signature": "type ContainerProps"
+          }
+        ]
+      },
+      {
+        "name": "Container.tsx",
+        "path": "packages/mui-system/src/Container/Container.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 70,
+        "importedModules": [
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "createContainer",
+            "sourceModule": "./createContainer",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "Container.test.js",
+        "path": "packages/mui-system/src/Container/Container.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 34,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer"
+            ]
+          },
+          {
+            "name": "Container",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "Container",
+              "classes"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-system/src/Container/createContainer.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-system/src/Container/createContainer.tsx",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-system/src/Container/createContainer.tsx",
+          "to": "clsx",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-system/src/Container/createContainer.tsx",
+          "to": "@mui/styled-engine",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-system/src/Container/createContainer.tsx",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-system/src/Container/createContainer.tsx",
+          "to": "@mui/utils/generateUtilityClass",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-system/src/Container/createContainer.tsx",
+          "to": "@mui/utils/composeClasses",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-system/src/Container/createContainer.tsx",
+          "to": "@mui/utils/capitalize",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-system/src/Container/createContainer.tsx",
+          "to": "packages/mui-system/src/Container/ContainerProps.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-system/src/Container/containerClasses.ts",
+          "to": "@mui/utils/generateUtilityClasses",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-system/src/Container/containerClasses.ts",
+          "to": "@mui/utils/generateUtilityClass",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-system/src/Container/ContainerProps.ts",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-system/src/Container/ContainerProps.ts",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-system/src/Container/ContainerProps.ts",
+          "to": "packages/mui-system/src/Container/containerClasses.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-system/src/Container/Container.tsx",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-system/src/Container/Container.test.js",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-system/src/Container/Container.test.js",
+          "to": "@mui/internal-test-utils",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-system/src/Container/Container.test.js",
+          "to": "@mui/system",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

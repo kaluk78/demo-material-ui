@@ -1,0 +1,395 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:11:32.384Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:11:32.384Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "src",
+      "path": "examples/material-ui-pigment-css-vite-ts/src",
+      "purpose": "Enhanced directory analysis of src",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "vite-env.d.ts",
+        "path": "examples/material-ui-pigment-css-vite-ts/src/vite-env.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 2,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "material-ui-pigment-css.d.ts",
+        "path": "examples/material-ui-pigment-css-vite-ts/src/material-ui-pigment-css.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 20,
+        "importedModules": [
+          {
+            "name": "Theme",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "Theme",
+              "SxProps"
+            ]
+          },
+          {
+            "name": "@mui/material/themeCssVarsAugmentation",
+            "sourceModule": "@mui/material/themeCssVarsAugmentation",
+            "isDefault": false
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ThemeArgs",
+            "type": "interface",
+            "signature": "interface ThemeArgs"
+          },
+          {
+            "name": "HTMLAttributes",
+            "type": "interface",
+            "signature": "interface HTMLAttributes"
+          },
+          {
+            "name": "SVGProps",
+            "type": "interface",
+            "signature": "interface SVGProps"
+          }
+        ]
+      },
+      {
+        "name": "main.tsx",
+        "path": "examples/material-ui-pigment-css-vite-ts/src/main.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 11,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "* as ReactDOM",
+            "sourceModule": "react-dom/client",
+            "isDefault": false,
+            "namedImports": [
+              "* as ReactDOM"
+            ]
+          },
+          {
+            "name": "@mui/material-pigment-css/styles.css",
+            "sourceModule": "@mui/material-pigment-css/styles.css",
+            "isDefault": false
+          },
+          {
+            "name": "App",
+            "sourceModule": "./App.tsx",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "App.tsx",
+        "path": "examples/material-ui-pigment-css-vite-ts/src/App.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 122,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/examples/material-ui-pigment-css-vite-ts/src/App.tsx",
+            "functionName": "Home",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 17,
+              "endLine": 121
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "DefaultPropsProvider",
+                  "source": "@mui/material/DefaultPropsProvider",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CssBaseline",
+                  "source": "@mui/material/CssBaseline",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Container",
+                  "source": "@mui/material-pigment-css/Container",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Grid",
+                  "source": "@mui/material-pigment-css/Grid",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/material-pigment-css/Stack",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Chip",
+                  "source": "@mui/material/Chip",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "DefaultPropsProvider",
+            "sourceModule": "@mui/material/DefaultPropsProvider",
+            "isDefault": true
+          },
+          {
+            "name": "CssBaseline",
+            "sourceModule": "@mui/material/CssBaseline",
+            "isDefault": true
+          },
+          {
+            "name": "Container",
+            "sourceModule": "@mui/material-pigment-css/Container",
+            "isDefault": true
+          },
+          {
+            "name": "Grid",
+            "sourceModule": "@mui/material-pigment-css/Grid",
+            "isDefault": true
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material-pigment-css/Stack",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "Chip",
+            "sourceModule": "@mui/material/Chip",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "@mui/material-pigment-css",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "Home",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Home",
+            "type": "function",
+            "signature": "function Home()"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "examples/material-ui-pigment-css-vite-ts/src/material-ui-pigment-css.d.ts",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-pigment-css-vite-ts/src/material-ui-pigment-css.d.ts",
+          "to": "@mui/material/themeCssVarsAugmentation",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-pigment-css-vite-ts/src/main.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-pigment-css-vite-ts/src/main.tsx",
+          "to": "react-dom/client",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-pigment-css-vite-ts/src/main.tsx",
+          "to": "@mui/material-pigment-css/styles.css",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-pigment-css-vite-ts/src/main.tsx",
+          "to": "examples/material-ui-pigment-css-vite-ts/src/App.tsx",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-pigment-css-vite-ts/src/App.tsx",
+          "to": "@mui/material/DefaultPropsProvider",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-pigment-css-vite-ts/src/App.tsx",
+          "to": "@mui/material/CssBaseline",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-pigment-css-vite-ts/src/App.tsx",
+          "to": "@mui/material-pigment-css/Container",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-pigment-css-vite-ts/src/App.tsx",
+          "to": "@mui/material-pigment-css/Grid",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-pigment-css-vite-ts/src/App.tsx",
+          "to": "@mui/material-pigment-css/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-pigment-css-vite-ts/src/App.tsx",
+          "to": "@mui/material/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-pigment-css-vite-ts/src/App.tsx",
+          "to": "@mui/material/Chip",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-pigment-css-vite-ts/src/App.tsx",
+          "to": "@mui/material-pigment-css",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

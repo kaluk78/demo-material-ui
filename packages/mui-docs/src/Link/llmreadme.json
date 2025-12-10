@@ -1,0 +1,299 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:13:20.973Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:13:20.973Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "Link",
+      "path": "packages/mui-docs/src/Link",
+      "purpose": "Enhanced directory analysis of Link",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.ts",
+        "path": "packages/mui-docs/src/Link/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 2,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "Link.tsx",
+        "path": "packages/mui-docs/src/Link/Link.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 97,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-docs/src/Link/Link.tsx",
+            "functionName": "Link",
+            "classification": "definite-legitimate",
+            "confidence": 5,
+            "isPlaceholder": false,
+            "reasons": [
+              "High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "NextLink",
+                  "source": "next/link",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MuiLink",
+                  "source": "@mui/material/Link",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-docs/src/Link/Link.tsx",
+            "functionName": "NextLinkComposed",
+            "classification": "likely-legitimate",
+            "confidence": 27,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "NextLink",
+                  "source": "next/link",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MuiLink",
+                  "source": "@mui/material/Link",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "useRouter",
+            "sourceModule": "next/router",
+            "isDefault": false,
+            "namedImports": [
+              "useRouter"
+            ]
+          },
+          {
+            "name": "NextLink",
+            "sourceModule": "next/link",
+            "isDefault": true,
+            "namedImports": [
+              "NextLinkProps"
+            ]
+          },
+          {
+            "name": "MuiLink",
+            "sourceModule": "@mui/material/Link",
+            "isDefault": true,
+            "namedImports": [
+              "MuiLinkProps"
+            ]
+          },
+          {
+            "name": "useUserLanguage",
+            "sourceModule": "../i18n",
+            "isDefault": false,
+            "namedImports": [
+              "useUserLanguage"
+            ]
+          },
+          {
+            "name": "useDocsConfig",
+            "sourceModule": "../DocsProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useDocsConfig"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "NextLinkComposed",
+            "type": "const"
+          },
+          {
+            "name": "LinkProps",
+            "type": "type"
+          },
+          {
+            "name": "Link",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "NextLinkComposed",
+            "type": "function",
+            "signature": "function NextLinkComposed()"
+          },
+          {
+            "name": "Link",
+            "type": "function",
+            "signature": "function Link()"
+          },
+          {
+            "name": "N",
+            "type": "const",
+            "signature": "const N"
+          },
+          {
+            "name": "L",
+            "type": "const",
+            "signature": "const L"
+          },
+          {
+            "name": "NextLinkComposedProps",
+            "type": "interface",
+            "signature": "interface NextLinkComposedProps"
+          },
+          {
+            "name": "LinkProps",
+            "type": "type",
+            "signature": "type LinkProps"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-docs/src/Link/Link.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-docs/src/Link/Link.tsx",
+          "to": "clsx",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-docs/src/Link/Link.tsx",
+          "to": "next/router",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-docs/src/Link/Link.tsx",
+          "to": "next/link",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-docs/src/Link/Link.tsx",
+          "to": "@mui/material/Link",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

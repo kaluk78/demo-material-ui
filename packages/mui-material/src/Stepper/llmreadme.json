@@ -1,0 +1,1039 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:20:31.287Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:20:31.287Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "Stepper",
+      "path": "packages/mui-material/src/Stepper",
+      "purpose": "Enhanced directory analysis of Stepper",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "stepperClasses.ts",
+        "path": "packages/mui-material/src/Stepper/stepperClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 32,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Stepper/stepperClasses.ts",
+            "functionName": "getStepperUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 19,
+              "endLine": 21
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "generateUtilityClasses",
+                  "source": "@mui/utils/generateUtilityClasses",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "generateUtilityClass",
+                  "source": "@mui/utils/generateUtilityClass",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "StepperClasses",
+            "type": "interface"
+          },
+          {
+            "name": "StepperClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getStepperUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getStepperUtilityClass",
+            "type": "function",
+            "signature": "function getStepperUtilityClass()"
+          },
+          {
+            "name": "StepperClasses",
+            "type": "interface",
+            "signature": "interface StepperClasses"
+          },
+          {
+            "name": "StepperClassKey",
+            "type": "type",
+            "signature": "type StepperClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.js",
+        "path": "packages/mui-material/src/Stepper/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 8,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "stepperClasses",
+            "type": "const"
+          },
+          {
+            "name": "StepperContext",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-material/src/Stepper/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 9,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "stepperClasses",
+            "type": "const"
+          },
+          {
+            "name": "StepperContext",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "StepperContext.ts",
+        "path": "packages/mui-material/src/Stepper/StepperContext.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 30,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Stepper/StepperContext.ts",
+            "functionName": "useStepperContext",
+            "classification": "uncertain",
+            "confidence": 52,
+            "isPlaceholder": true,
+            "reasons": [
+              "Function has empty implementation",
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters"
+            ],
+            "location": {
+              "startLine": 25,
+              "endLine": 27
+            },
+            "detectionMethods": {
+              "explicitMarkers": 30,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "StepperContextType",
+            "type": "interface"
+          },
+          {
+            "name": "useStepperContext",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "useStepperContext",
+            "type": "function",
+            "signature": "function useStepperContext()"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "StepperContextType",
+            "type": "interface",
+            "signature": "interface StepperContextType"
+          }
+        ]
+      },
+      {
+        "name": "Stepper.test.tsx",
+        "path": "packages/mui-material/src/Stepper/Stepper.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 274,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Stepper/Stepper.test.tsx",
+            "functionName": "CustomConnector",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 148,
+              "endLine": 150
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Step",
+                  "source": "@mui/material/Step",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "StepLabel",
+                  "source": "@mui/material/StepLabel",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "StepConnector",
+                  "source": "@mui/material/StepConnector",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "StepContent",
+                  "source": "@mui/material/StepContent",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Stepper",
+                  "source": "@mui/material/Stepper",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Stepper/Stepper.test.tsx",
+            "functionName": "CustomStep",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 114,
+              "endLine": 116
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Step",
+                  "source": "@mui/material/Step",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "StepLabel",
+                  "source": "@mui/material/StepLabel",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "StepConnector",
+                  "source": "@mui/material/StepConnector",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "StepContent",
+                  "source": "@mui/material/StepContent",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Stepper",
+                  "source": "@mui/material/Stepper",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen"
+            ]
+          },
+          {
+            "name": "Step",
+            "sourceModule": "@mui/material/Step",
+            "isDefault": true,
+            "namedImports": [
+              "StepProps",
+              "stepClasses"
+            ]
+          },
+          {
+            "name": "StepLabel",
+            "sourceModule": "@mui/material/StepLabel",
+            "isDefault": true
+          },
+          {
+            "name": "StepConnector",
+            "sourceModule": "@mui/material/StepConnector",
+            "isDefault": true,
+            "namedImports": [
+              "stepConnectorClasses"
+            ]
+          },
+          {
+            "name": "StepContent",
+            "sourceModule": "@mui/material/StepContent",
+            "isDefault": true,
+            "namedImports": [
+              "stepContentClasses"
+            ]
+          },
+          {
+            "name": "Stepper",
+            "sourceModule": "@mui/material/Stepper",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CustomStep",
+            "type": "function",
+            "signature": "function CustomStep()"
+          },
+          {
+            "name": "CustomConnector",
+            "type": "function",
+            "signature": "function CustomConnector()"
+          }
+        ]
+      },
+      {
+        "name": "Stepper.spec.tsx",
+        "path": "packages/mui-material/src/Stepper/Stepper.spec.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [
+          {
+            "name": "Stepper",
+            "sourceModule": "@mui/material/Stepper",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "Stepper.js",
+        "path": "packages/mui-material/src/Stepper/Stepper.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 173,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Stepper/Stepper.js",
+            "functionName": "Stepper",
+            "classification": "definite-legitimate",
+            "confidence": 15,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "StepConnector",
+                  "source": "../StepConnector",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "StepperContext",
+                  "source": "./StepperContext",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Stepper/Stepper.js",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "StepConnector",
+                  "source": "../StepConnector",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "StepperContext",
+                  "source": "./StepperContext",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "integerPropType",
+            "sourceModule": "@mui/utils/integerPropType",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../zero-styled",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "useDefaultProps",
+            "sourceModule": "../DefaultPropsProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useDefaultProps"
+            ]
+          },
+          {
+            "name": "getStepperUtilityClass",
+            "sourceModule": "./stepperClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getStepperUtilityClass"
+            ]
+          },
+          {
+            "name": "StepConnector",
+            "sourceModule": "../StepConnector",
+            "isDefault": true
+          },
+          {
+            "name": "StepperContext",
+            "sourceModule": "./StepperContext",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Stepper",
+            "type": "function",
+            "signature": "function Stepper()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "Stepper.d.ts",
+        "path": "packages/mui-material/src/Stepper/Stepper.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 82,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "../OverridableComponent",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "Theme",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "Theme"
+            ]
+          },
+          {
+            "name": "PaperProps",
+            "sourceModule": "../Paper",
+            "isDefault": false,
+            "namedImports": [
+              "PaperProps"
+            ]
+          },
+          {
+            "name": "StepperClasses",
+            "sourceModule": "./stepperClasses",
+            "isDefault": false,
+            "namedImports": [
+              "StepperClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "Orientation",
+            "type": "type"
+          },
+          {
+            "name": "StepperOwnProps",
+            "type": "interface"
+          },
+          {
+            "name": "StepperTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "StepperProps",
+            "type": "type"
+          },
+          {
+            "name": "StepperClasskey",
+            "type": "type"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "StepperOwnProps",
+            "type": "interface",
+            "signature": "interface StepperOwnProps"
+          },
+          {
+            "name": "StepperTypeMap",
+            "type": "interface",
+            "signature": "interface StepperTypeMap"
+          },
+          {
+            "name": "Orientation",
+            "type": "type",
+            "signature": "type Orientation"
+          },
+          {
+            "name": "StepperProps",
+            "type": "type",
+            "signature": "type StepperProps"
+          },
+          {
+            "name": "StepperClasskey",
+            "type": "type",
+            "signature": "type StepperClasskey"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-material/src/Stepper/stepperClasses.ts",
+          "to": "@mui/utils/generateUtilityClasses",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Stepper/stepperClasses.ts",
+          "to": "@mui/utils/generateUtilityClass",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Stepper/StepperContext.ts",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Stepper/Stepper.test.tsx",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Stepper/Stepper.test.tsx",
+          "to": "@mui/internal-test-utils",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Stepper/Stepper.test.tsx",
+          "to": "@mui/material/Step",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Stepper/Stepper.test.tsx",
+          "to": "@mui/material/StepLabel",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Stepper/Stepper.test.tsx",
+          "to": "@mui/material/StepConnector",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Stepper/Stepper.test.tsx",
+          "to": "@mui/material/StepContent",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Stepper/Stepper.test.tsx",
+          "to": "@mui/material/Stepper",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Stepper/Stepper.spec.tsx",
+          "to": "@mui/material/Stepper",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Stepper/Stepper.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Stepper/Stepper.js",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Stepper/Stepper.js",
+          "to": "clsx",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Stepper/Stepper.js",
+          "to": "@mui/utils/integerPropType",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Stepper/Stepper.js",
+          "to": "@mui/utils/composeClasses",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Stepper/Stepper.js",
+          "to": "packages/mui-material/src/Stepper/stepperClasses.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Stepper/Stepper.js",
+          "to": "packages/mui-material/src/Stepper/StepperContext.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Stepper/Stepper.d.ts",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Stepper/Stepper.d.ts",
+          "to": "@mui/system",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Stepper/Stepper.d.ts",
+          "to": "packages/mui-material/src/Stepper/stepperClasses.ts",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

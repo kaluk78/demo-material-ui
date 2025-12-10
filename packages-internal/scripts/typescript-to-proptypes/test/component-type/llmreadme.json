@@ -1,0 +1,311 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:23:14.372Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:23:14.372Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "component-type",
+      "path": "packages-internal/scripts/typescript-to-proptypes/test/component-type",
+      "purpose": "Enhanced directory analysis of component-type",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "output.js",
+        "path": "packages-internal/scripts/typescript-to-proptypes/test/component-type/output.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 20,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/test/component-type/output.js",
+            "functionName": "Component",
+            "classification": "definite-legitimate",
+            "confidence": 11.600000000000001,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "[FALLBACK] 2 AI-suspicious unused variables: Foo, Bar",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Moderate context score; Test file - simple test helpers expected"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 12
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 9.600000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "Foo",
+                  "line": 5,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                },
+                {
+                  "name": "Bar",
+                  "line": 5,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Component",
+            "type": "function",
+            "signature": "function Component()"
+          }
+        ]
+      },
+      {
+        "name": "input.js",
+        "path": "packages-internal/scripts/typescript-to-proptypes/test/component-type/input.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 14,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/test/component-type/input.js",
+            "functionName": "Component",
+            "classification": "definite-legitimate",
+            "confidence": 11.600000000000001,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "[FALLBACK] 2 AI-suspicious unused variables: Foo, Bar",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Moderate context score; Test file - simple test helpers expected"
+            ],
+            "location": {
+              "startLine": 3,
+              "endLine": 11
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 9.600000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "Foo",
+                  "line": 4,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                },
+                {
+                  "name": "Bar",
+                  "line": 4,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Component",
+            "type": "function",
+            "signature": "function Component()"
+          }
+        ]
+      },
+      {
+        "name": "input.d.ts",
+        "path": "packages-internal/scripts/typescript-to-proptypes/test/component-type/input.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 9,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "Props",
+            "type": "interface"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Component",
+            "type": "function",
+            "signature": "function Component()"
+          },
+          {
+            "name": "Props",
+            "type": "interface",
+            "signature": "interface Props"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages-internal/scripts/typescript-to-proptypes/test/component-type/output.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages-internal/scripts/typescript-to-proptypes/test/component-type/output.js",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "packages-internal/scripts/typescript-to-proptypes/test/component-type/input.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages-internal/scripts/typescript-to-proptypes/test/component-type/input.d.ts",
+          "to": "react",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

@@ -1,0 +1,1057 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:23:28.732Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:23:28.732Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "Button",
+      "path": "test/regressions/fixtures/Button",
+      "purpose": "Enhanced directory analysis of Button",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "MultilineButton.js",
+        "path": "test/regressions/fixtures/Button/MultilineButton.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 15,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Button/MultilineButton.js",
+            "functionName": "MultilineButton",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 14
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "MultilineButton",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "MultilineButton",
+            "type": "function",
+            "signature": "function MultilineButton()"
+          }
+        ]
+      },
+      {
+        "name": "MulticoloredButton.js",
+        "path": "test/regressions/fixtures/Button/MulticoloredButton.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 54,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Button/MulticoloredButton.js",
+            "functionName": "MulticoloredButton",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 14,
+              "endLine": 53
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ThemeProvider",
+                  "source": "@mui/material/styles",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "createTheme",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "createTheme",
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "MulticoloredButton",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "MulticoloredButton",
+            "type": "function",
+            "signature": "function MulticoloredButton()"
+          }
+        ]
+      },
+      {
+        "name": "IconLabelButtons.js",
+        "path": "test/regressions/fixtures/Button/IconLabelButtons.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 27,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Button/IconLabelButtons.js",
+            "functionName": "IconLabelButtons",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 6,
+              "endLine": 26
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Icon",
+                  "source": "@mui/material/Icon",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "SendIcon",
+                  "source": "@mui/icons-material/Send",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Icon",
+            "sourceModule": "@mui/material/Icon",
+            "isDefault": true
+          },
+          {
+            "name": "SendIcon",
+            "sourceModule": "@mui/icons-material/Send",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "IconLabelButtons",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "IconLabelButtons",
+            "type": "function",
+            "signature": "function IconLabelButtons()"
+          }
+        ]
+      },
+      {
+        "name": "FullWidthLoadingButtons.js",
+        "path": "test/regressions/fixtures/Button/FullWidthLoadingButtons.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 57,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Button/FullWidthLoadingButtons.js",
+            "functionName": "FullWidthLoadingButtonsTransition",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 8,
+              "endLine": 56
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormControlLabel",
+                  "source": "@mui/material/FormControlLabel",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Switch",
+                  "source": "@mui/material/Switch",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SaveIcon",
+                  "source": "@mui/icons-material/Save",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "SendIcon",
+                  "source": "@mui/icons-material/Send",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/test/regressions/fixtures/Button/FullWidthLoadingButtons.js",
+            "functionName": "handleClick",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 10,
+              "endLine": 12
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormControlLabel",
+                  "source": "@mui/material/FormControlLabel",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Switch",
+                  "source": "@mui/material/Switch",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SaveIcon",
+                  "source": "@mui/icons-material/Save",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "SendIcon",
+                  "source": "@mui/icons-material/Send",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "FormControlLabel",
+            "sourceModule": "@mui/material/FormControlLabel",
+            "isDefault": true
+          },
+          {
+            "name": "Switch",
+            "sourceModule": "@mui/material/Switch",
+            "isDefault": true
+          },
+          {
+            "name": "SaveIcon",
+            "sourceModule": "@mui/icons-material/Save",
+            "isDefault": true
+          },
+          {
+            "name": "SendIcon",
+            "sourceModule": "@mui/icons-material/Send",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "FullWidthLoadingButtonsTransition",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "FullWidthLoadingButtonsTransition",
+            "type": "function",
+            "signature": "function FullWidthLoadingButtonsTransition()"
+          },
+          {
+            "name": "handleClick",
+            "type": "function",
+            "signature": "function handleClick()"
+          }
+        ]
+      },
+      {
+        "name": "FontSvgIcons.js",
+        "path": "test/regressions/fixtures/Button/FontSvgIcons.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 25,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Button/FontSvgIcons.js",
+            "functionName": "FontSvgIcons",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 7,
+              "endLine": 24
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Fab",
+                  "source": "@mui/material/Fab",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "DeleteIcon",
+                  "source": "@mui/icons-material/Delete",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Icon",
+                  "source": "@mui/material/Icon",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Fab",
+            "sourceModule": "@mui/material/Fab",
+            "isDefault": true
+          },
+          {
+            "name": "IconButton",
+            "sourceModule": "@mui/material/IconButton",
+            "isDefault": true
+          },
+          {
+            "name": "DeleteIcon",
+            "sourceModule": "@mui/icons-material/Delete",
+            "isDefault": true
+          },
+          {
+            "name": "Icon",
+            "sourceModule": "@mui/material/Icon",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "FontSvgIcons",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "FontSvgIcons",
+            "type": "function",
+            "signature": "function FontSvgIcons()"
+          }
+        ]
+      },
+      {
+        "name": "EmotionCompat.js",
+        "path": "test/regressions/fixtures/Button/EmotionCompat.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 28,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Button/EmotionCompat.js",
+            "functionName": "EmotionCompat",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 27
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ClassNames",
+                  "source": "@emotion/react",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "ClassNames",
+            "sourceModule": "@emotion/react",
+            "isDefault": false,
+            "namedImports": [
+              "ClassNames"
+            ]
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "EmotionCompat",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "EmotionCompat",
+            "type": "function",
+            "signature": "function EmotionCompat()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "test/regressions/fixtures/Button/MultilineButton.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/MultilineButton.js",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/MulticoloredButton.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/MulticoloredButton.js",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/MulticoloredButton.js",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/MulticoloredButton.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/IconLabelButtons.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/IconLabelButtons.js",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/IconLabelButtons.js",
+          "to": "@mui/material/Icon",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/IconLabelButtons.js",
+          "to": "@mui/icons-material/Send",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/FullWidthLoadingButtons.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/FullWidthLoadingButtons.js",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/FullWidthLoadingButtons.js",
+          "to": "@mui/material/FormControlLabel",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/FullWidthLoadingButtons.js",
+          "to": "@mui/material/Switch",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/FullWidthLoadingButtons.js",
+          "to": "@mui/icons-material/Save",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/FullWidthLoadingButtons.js",
+          "to": "@mui/icons-material/Send",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/FontSvgIcons.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/FontSvgIcons.js",
+          "to": "@mui/material/Fab",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/FontSvgIcons.js",
+          "to": "@mui/material/IconButton",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/FontSvgIcons.js",
+          "to": "@mui/icons-material/Delete",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/FontSvgIcons.js",
+          "to": "@mui/material/Icon",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/EmotionCompat.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/EmotionCompat.js",
+          "to": "@emotion/react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Button/EmotionCompat.js",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

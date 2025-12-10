@@ -1,0 +1,306 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:20:07.157Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:20:07.157Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "DefaultPropsProvider",
+      "path": "packages/mui-material/src/DefaultPropsProvider",
+      "purpose": "Enhanced directory analysis of DefaultPropsProvider",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.ts",
+        "path": "packages/mui-material/src/DefaultPropsProvider/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 2,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "useDefaultProps",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "DefaultPropsProvider.tsx",
+        "path": "packages/mui-material/src/DefaultPropsProvider/DefaultPropsProvider.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 40,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/DefaultPropsProvider/DefaultPropsProvider.tsx",
+            "functionName": "DefaultPropsProvider",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 9,
+              "endLine": 15
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "SystemDefaultPropsProvider",
+                  "source": "@mui/system/DefaultPropsProvider",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/DefaultPropsProvider/DefaultPropsProvider.tsx",
+            "functionName": "useDefaultProps",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 34,
+              "endLine": 39
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "SystemDefaultPropsProvider",
+                  "source": "@mui/system/DefaultPropsProvider",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "SystemDefaultPropsProvider",
+            "sourceModule": "@mui/system/DefaultPropsProvider",
+            "isDefault": true,
+            "namedImports": [
+              "useSystemDefaultProps"
+            ]
+          },
+          {
+            "name": "ComponentsPropsList",
+            "sourceModule": "../styles/props",
+            "isDefault": false,
+            "namedImports": [
+              "ComponentsPropsList"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "useDefaultProps",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "DefaultPropsProvider",
+            "type": "function",
+            "signature": "function DefaultPropsProvider()"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "DefaultPropsProvider.spec.tsx",
+        "path": "packages/mui-material/src/DefaultPropsProvider/DefaultPropsProvider.spec.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 21,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/DefaultPropsProvider/DefaultPropsProvider.spec.tsx",
+            "functionName": "CustomComponent",
+            "classification": "uncertain",
+            "confidence": 49,
+            "isPlaceholder": true,
+            "reasons": [
+              "Function contains only a return statement",
+              "Returns hardcoded value: \"return null;\"",
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected"
+            ],
+            "location": {
+              "startLine": 3,
+              "endLine": 5
+            },
+            "detectionMethods": {
+              "explicitMarkers": 35,
+              "namingPatterns": 0,
+              "astAnalysis": 34,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "DefaultPropsProvider",
+                  "source": "@mui/material/DefaultPropsProvider",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "DefaultPropsProvider",
+            "sourceModule": "@mui/material/DefaultPropsProvider",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CustomComponent",
+            "type": "function",
+            "signature": "function CustomComponent()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-material/src/DefaultPropsProvider/DefaultPropsProvider.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/DefaultPropsProvider/DefaultPropsProvider.tsx",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/DefaultPropsProvider/DefaultPropsProvider.tsx",
+          "to": "@mui/system/DefaultPropsProvider",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/DefaultPropsProvider/DefaultPropsProvider.spec.tsx",
+          "to": "@mui/material/DefaultPropsProvider",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

@@ -1,0 +1,359 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:23:32.695Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:23:32.695Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "SpeedDial",
+      "path": "test/regressions/fixtures/SpeedDial",
+      "purpose": "Enhanced directory analysis of SpeedDial",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "Directions.js",
+        "path": "test/regressions/fixtures/SpeedDial/Directions.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 56,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/SpeedDial/Directions.js",
+            "functionName": "Directions",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 36,
+              "endLine": 53
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Avatar",
+                  "source": "@mui/material/Avatar",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SpeedDial",
+                  "source": "@mui/material/SpeedDial",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SpeedDialIcon",
+                  "source": "@mui/material/SpeedDialIcon",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "SpeedDialAction",
+                  "source": "@mui/material/SpeedDialAction",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/test/regressions/fixtures/SpeedDial/Directions.js",
+            "functionName": "SimpleSpeedDial",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 9,
+              "endLine": 30
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Avatar",
+                  "source": "@mui/material/Avatar",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SpeedDial",
+                  "source": "@mui/material/SpeedDial",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SpeedDialIcon",
+                  "source": "@mui/material/SpeedDialIcon",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "SpeedDialAction",
+                  "source": "@mui/material/SpeedDialAction",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "Avatar",
+            "sourceModule": "@mui/material/Avatar",
+            "isDefault": true
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "SpeedDial",
+            "sourceModule": "@mui/material/SpeedDial",
+            "isDefault": true
+          },
+          {
+            "name": "SpeedDialIcon",
+            "sourceModule": "@mui/material/SpeedDialIcon",
+            "isDefault": true
+          },
+          {
+            "name": "SpeedDialAction",
+            "sourceModule": "@mui/material/SpeedDialAction",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "SimpleSpeedDial",
+            "type": "function",
+            "signature": "function SimpleSpeedDial()"
+          },
+          {
+            "name": "Directions",
+            "type": "function",
+            "signature": "function Directions()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "test/regressions/fixtures/SpeedDial/Directions.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/SpeedDial/Directions.js",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/SpeedDial/Directions.js",
+          "to": "@mui/material/Avatar",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/SpeedDial/Directions.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/SpeedDial/Directions.js",
+          "to": "@mui/material/SpeedDial",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/SpeedDial/Directions.js",
+          "to": "@mui/material/SpeedDialIcon",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/SpeedDial/Directions.js",
+          "to": "@mui/material/SpeedDialAction",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

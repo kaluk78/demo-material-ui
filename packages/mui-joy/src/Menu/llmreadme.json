@@ -1,0 +1,907 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:19:31.512Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:19:31.512Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "Menu",
+      "path": "packages/mui-joy/src/Menu",
+      "purpose": "Enhanced directory analysis of Menu",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "menuClasses.ts",
+        "path": "packages/mui-joy/src/Menu/menuClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 64,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Menu/menuClasses.ts",
+            "functionName": "getMenuUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 40,
+              "endLine": 42
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "generateUtilityClass",
+                  "source": "../className",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "generateUtilityClasses",
+                  "source": "../className",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "../className",
+            "isDefault": false,
+            "namedImports": [
+              "generateUtilityClass",
+              "generateUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "MenuClasses",
+            "type": "interface"
+          },
+          {
+            "name": "MenuClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getMenuUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getMenuUtilityClass",
+            "type": "function",
+            "signature": "function getMenuUtilityClass()"
+          },
+          {
+            "name": "MenuClasses",
+            "type": "interface",
+            "signature": "interface MenuClasses"
+          },
+          {
+            "name": "MenuClassKey",
+            "type": "type",
+            "signature": "type MenuClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/Menu/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "menuClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "MenuProps.ts",
+        "path": "packages/mui-joy/src/Menu/MenuProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 91,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverrideProps",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverrideProps",
+              "OverridableStringUnion"
+            ]
+          },
+          {
+            "name": "PopperProps",
+            "sourceModule": "@mui/base/Popper",
+            "isDefault": false,
+            "namedImports": [
+              "PopperProps"
+            ]
+          },
+          {
+            "name": "MenuActions",
+            "sourceModule": "@mui/base/Menu",
+            "isDefault": false,
+            "namedImports": [
+              "MenuActions"
+            ]
+          },
+          {
+            "name": "ColorPaletteProp",
+            "sourceModule": "../styles/types",
+            "isDefault": false,
+            "namedImports": [
+              "ColorPaletteProp",
+              "VariantProp",
+              "SxProps",
+              "ApplyColorInversion"
+            ]
+          },
+          {
+            "name": "SlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "SlotProps",
+              "CreateSlotsAndSlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "MenuSlot",
+            "type": "type"
+          },
+          {
+            "name": "MenuSlots",
+            "type": "interface"
+          },
+          {
+            "name": "MenuSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "MenuPropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "MenuPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "MenuPropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "MenuActions",
+            "type": "const"
+          },
+          {
+            "name": "MenuTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "MenuProps",
+            "type": "type"
+          },
+          {
+            "name": "MenuOwnerState",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "MenuSlots",
+            "type": "interface",
+            "signature": "interface MenuSlots"
+          },
+          {
+            "name": "MenuPropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface MenuPropsSizeOverrides"
+          },
+          {
+            "name": "MenuPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface MenuPropsColorOverrides"
+          },
+          {
+            "name": "MenuPropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface MenuPropsVariantOverrides"
+          },
+          {
+            "name": "MenuTypeMap",
+            "type": "interface",
+            "signature": "interface MenuTypeMap"
+          },
+          {
+            "name": "MenuOwnerState",
+            "type": "interface",
+            "signature": "interface MenuOwnerState"
+          },
+          {
+            "name": "MenuSlot",
+            "type": "type",
+            "signature": "type MenuSlot"
+          },
+          {
+            "name": "MenuSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type MenuSlotsAndSlotProps"
+          },
+          {
+            "name": "MenuProps",
+            "type": "type",
+            "signature": "type MenuProps"
+          }
+        ]
+      },
+      {
+        "name": "Menu.tsx",
+        "path": "packages/mui-joy/src/Menu/Menu.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 320,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Menu/Menu.tsx",
+            "functionName": "Menu",
+            "classification": "definite-legitimate",
+            "confidence": 15,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MenuProvider",
+                  "source": "@mui/base/useMenu",
+                  "line": 8,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListProvider",
+                  "source": "../List/ListProvider",
+                  "line": 13,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "GroupListContext",
+                  "source": "../List/GroupListContext",
+                  "line": 14,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "VariantColorProvider",
+                  "source": "../styles/variantColorInheritance",
+                  "line": 17,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/Menu/Menu.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MenuProvider",
+                  "source": "@mui/base/useMenu",
+                  "line": 8,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListProvider",
+                  "source": "../List/ListProvider",
+                  "line": 13,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "GroupListContext",
+                  "source": "../List/GroupListContext",
+                  "line": 14,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "VariantColorProvider",
+                  "source": "../styles/variantColorInheritance",
+                  "line": 17,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "refType",
+            "sourceModule": "@mui/utils/refType",
+            "isDefault": true
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent"
+            ]
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/base/composeClasses",
+            "isDefault": false,
+            "namedImports": [
+              "composeClasses"
+            ]
+          },
+          {
+            "name": "useMenu",
+            "sourceModule": "@mui/base/useMenu",
+            "isDefault": false,
+            "namedImports": [
+              "useMenu",
+              "MenuProvider"
+            ]
+          },
+          {
+            "name": "ListActionTypes",
+            "sourceModule": "@mui/base/useList",
+            "isDefault": false,
+            "namedImports": [
+              "ListActionTypes"
+            ]
+          },
+          {
+            "name": "Popper",
+            "sourceModule": "@mui/base/Popper",
+            "isDefault": false,
+            "namedImports": [
+              "Popper"
+            ]
+          },
+          {
+            "name": "useSlotProps",
+            "sourceModule": "@mui/base/utils",
+            "isDefault": false,
+            "namedImports": [
+              "useSlotProps"
+            ]
+          },
+          {
+            "name": "StyledList",
+            "sourceModule": "../List/List",
+            "isDefault": false,
+            "namedImports": [
+              "StyledList"
+            ]
+          },
+          {
+            "name": "ListProvider",
+            "sourceModule": "../List/ListProvider",
+            "isDefault": true,
+            "namedImports": [
+              "scopedVariables"
+            ]
+          },
+          {
+            "name": "GroupListContext",
+            "sourceModule": "../List/GroupListContext",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "styled",
+              "useThemeProps"
+            ]
+          },
+          {
+            "name": "applySolidInversion",
+            "sourceModule": "../colorInversion",
+            "isDefault": false,
+            "namedImports": [
+              "applySolidInversion",
+              "applySoftInversion"
+            ]
+          },
+          {
+            "name": "VariantColorProvider",
+            "sourceModule": "../styles/variantColorInheritance",
+            "isDefault": false,
+            "namedImports": [
+              "VariantColorProvider"
+            ]
+          },
+          {
+            "name": "MenuTypeMap",
+            "sourceModule": "./MenuProps",
+            "isDefault": false,
+            "namedImports": [
+              "MenuTypeMap",
+              "MenuOwnerState"
+            ]
+          },
+          {
+            "name": "getMenuUtilityClass",
+            "sourceModule": "./menuClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getMenuUtilityClass"
+            ]
+          },
+          {
+            "name": "ListOwnerState",
+            "sourceModule": "../List",
+            "isDefault": false,
+            "namedImports": [
+              "ListOwnerState"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Menu",
+            "type": "function",
+            "signature": "function Menu()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "M",
+            "type": "const",
+            "signature": "const M"
+          },
+          {
+            "name": "M",
+            "type": "const",
+            "signature": "const M"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "Menu.test.tsx",
+        "path": "packages/mui-joy/src/Menu/Menu.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 134,
+        "importedModules": [
+          {
+            "name": "spy",
+            "sourceModule": "sinon",
+            "isDefault": false,
+            "namedImports": [
+              "spy"
+            ]
+          },
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "act",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "act",
+              "createRenderer",
+              "screen",
+              "fireEvent"
+            ]
+          },
+          {
+            "name": "PopperUnstyled",
+            "sourceModule": "@mui/base/Popper",
+            "isDefault": false,
+            "namedImports": [
+              "PopperUnstyled"
+            ]
+          },
+          {
+            "name": "DropdownContext",
+            "sourceModule": "@mui/base/useDropdown",
+            "isDefault": false,
+            "namedImports": [
+              "DropdownContext",
+              "DropdownContextValue"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "Menu",
+            "sourceModule": "@mui/joy/Menu",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "Dropdown",
+            "sourceModule": "@mui/joy/Dropdown",
+            "isDefault": true
+          },
+          {
+            "name": "MenuItem",
+            "sourceModule": "@mui/joy/MenuItem",
+            "isDefault": true
+          },
+          {
+            "name": "MenuButton",
+            "sourceModule": "@mui/joy/MenuButton",
+            "isDefault": true
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-joy/src/Menu/MenuProps.ts",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/MenuProps.ts",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/MenuProps.ts",
+          "to": "@mui/base/Popper",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/MenuProps.ts",
+          "to": "@mui/base/Menu",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.tsx",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.tsx",
+          "to": "@mui/utils/capitalize",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.tsx",
+          "to": "@mui/utils/refType",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.tsx",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.tsx",
+          "to": "@mui/base/composeClasses",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.tsx",
+          "to": "@mui/base/useMenu",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.tsx",
+          "to": "@mui/base/useList",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.tsx",
+          "to": "@mui/base/Popper",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.tsx",
+          "to": "@mui/base/utils",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.tsx",
+          "to": "packages/mui-joy/src/Menu/MenuProps.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.tsx",
+          "to": "packages/mui-joy/src/Menu/menuClasses.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.test.tsx",
+          "to": "sinon",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.test.tsx",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.test.tsx",
+          "to": "@mui/internal-test-utils",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.test.tsx",
+          "to": "@mui/base/Popper",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.test.tsx",
+          "to": "@mui/base/useDropdown",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.test.tsx",
+          "to": "@mui/joy/styles",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.test.tsx",
+          "to": "@mui/joy/Menu",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.test.tsx",
+          "to": "@mui/joy/Dropdown",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.test.tsx",
+          "to": "@mui/joy/MenuItem",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Menu/Menu.test.tsx",
+          "to": "@mui/joy/MenuButton",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

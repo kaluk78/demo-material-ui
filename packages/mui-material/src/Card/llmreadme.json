@@ -1,0 +1,982 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:20:04.026Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:20:04.026Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "Card",
+      "path": "packages/mui-material/src/Card",
+      "purpose": "Enhanced directory analysis of Card",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.js",
+        "path": "packages/mui-material/src/Card/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "cardClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-material/src/Card/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "cardClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "cardClasses.ts",
+        "path": "packages/mui-material/src/Card/cardClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 18,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Card/cardClasses.ts",
+            "functionName": "getCardUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 11,
+              "endLine": 13
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "generateUtilityClasses",
+                  "source": "@mui/utils/generateUtilityClasses",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "generateUtilityClass",
+                  "source": "@mui/utils/generateUtilityClass",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CardClasses",
+            "type": "interface"
+          },
+          {
+            "name": "CardClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getCardUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getCardUtilityClass",
+            "type": "function",
+            "signature": "function getCardUtilityClass()"
+          },
+          {
+            "name": "CardClasses",
+            "type": "interface",
+            "signature": "interface CardClasses"
+          },
+          {
+            "name": "CardClassKey",
+            "type": "type",
+            "signature": "type CardClassKey"
+          }
+        ]
+      },
+      {
+        "name": "Card.test.tsx",
+        "path": "packages/mui-material/src/Card/Card.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 39,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer"
+            ]
+          },
+          {
+            "name": "Card",
+            "sourceModule": "@mui/material/Card",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "Paper",
+            "sourceModule": "@mui/material/Paper",
+            "isDefault": true
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "that",
+            "type": "class",
+            "signature": "class that"
+          }
+        ]
+      },
+      {
+        "name": "Card.spec.tsx",
+        "path": "packages/mui-material/src/Card/Card.spec.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 35,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Card/Card.spec.tsx",
+            "functionName": "CardTest",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Event handler or callback function; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 10,
+              "endLine": 34
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -32,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Card",
+                  "source": "@mui/material/Card",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Card/Card.spec.tsx",
+            "functionName": "CustomComponent",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Card",
+                  "source": "@mui/material/Card",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "expectType",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "expectType"
+            ]
+          },
+          {
+            "name": "Card",
+            "sourceModule": "@mui/material/Card",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CustomComponent",
+            "type": "function",
+            "signature": "function CustomComponent()"
+          },
+          {
+            "name": "CardTest",
+            "type": "function",
+            "signature": "function CardTest()"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          }
+        ]
+      },
+      {
+        "name": "Card.js",
+        "path": "packages/mui-material/src/Card/Card.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 91,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/Card/Card.js",
+            "functionName": "Card",
+            "classification": "definite-legitimate",
+            "confidence": 15,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "PropTypes",
+                  "source": "prop-types",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "clsx",
+                  "source": "clsx",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "chainPropTypes",
+                  "source": "@mui/utils/chainPropTypes",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "composeClasses",
+                  "source": "@mui/utils/composeClasses",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "styled",
+                  "source": "../zero-styled",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "useDefaultProps",
+                  "source": "../DefaultPropsProvider",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Paper",
+                  "source": "../Paper",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "getCardUtilityClass",
+                  "source": "./cardClasses",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/Card/Card.js",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "PropTypes",
+                  "source": "prop-types",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "clsx",
+                  "source": "clsx",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "chainPropTypes",
+                  "source": "@mui/utils/chainPropTypes",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "composeClasses",
+                  "source": "@mui/utils/composeClasses",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "styled",
+                  "source": "../zero-styled",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "useDefaultProps",
+                  "source": "../DefaultPropsProvider",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Paper",
+                  "source": "../Paper",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "getCardUtilityClass",
+                  "source": "./cardClasses",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "chainPropTypes",
+            "sourceModule": "@mui/utils/chainPropTypes",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../zero-styled",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "useDefaultProps",
+            "sourceModule": "../DefaultPropsProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useDefaultProps"
+            ]
+          },
+          {
+            "name": "Paper",
+            "sourceModule": "../Paper",
+            "isDefault": true
+          },
+          {
+            "name": "getCardUtilityClass",
+            "sourceModule": "./cardClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getCardUtilityClass"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Card",
+            "type": "function",
+            "signature": "function Card()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "Card.d.ts",
+        "path": "packages/mui-material/src/Card/Card.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 58,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "DistributiveOmit",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "DistributiveOmit"
+            ]
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "../OverridableComponent",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "Theme",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "Theme"
+            ]
+          },
+          {
+            "name": "PaperOwnProps",
+            "sourceModule": "../Paper",
+            "isDefault": false,
+            "namedImports": [
+              "PaperOwnProps"
+            ]
+          },
+          {
+            "name": "CardClasses",
+            "sourceModule": "./cardClasses",
+            "isDefault": false,
+            "namedImports": [
+              "CardClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CardPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "CardOwnProps",
+            "type": "interface"
+          },
+          {
+            "name": "CardTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "CardProps",
+            "type": "type"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "CardPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface CardPropsColorOverrides"
+          },
+          {
+            "name": "CardOwnProps",
+            "type": "interface",
+            "signature": "interface CardOwnProps"
+          },
+          {
+            "name": "CardTypeMap",
+            "type": "interface",
+            "signature": "interface CardTypeMap"
+          },
+          {
+            "name": "CardProps",
+            "type": "type",
+            "signature": "type CardProps"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-material/src/Card/cardClasses.ts",
+          "to": "@mui/utils/generateUtilityClasses",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Card/cardClasses.ts",
+          "to": "@mui/utils/generateUtilityClass",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Card/Card.test.tsx",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Card/Card.test.tsx",
+          "to": "@mui/internal-test-utils",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Card/Card.test.tsx",
+          "to": "@mui/material/Card",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Card/Card.test.tsx",
+          "to": "@mui/material/Paper",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Card/Card.spec.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Card/Card.spec.tsx",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Card/Card.spec.tsx",
+          "to": "@mui/material/Card",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Card/Card.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Card/Card.js",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Card/Card.js",
+          "to": "clsx",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Card/Card.js",
+          "to": "@mui/utils/chainPropTypes",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Card/Card.js",
+          "to": "@mui/utils/composeClasses",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Card/Card.js",
+          "to": "packages/mui-material/src/Card/cardClasses.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Card/Card.d.ts",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Card/Card.d.ts",
+          "to": "@mui/system",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Card/Card.d.ts",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/Card/Card.d.ts",
+          "to": "packages/mui-material/src/Card/cardClasses.ts",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

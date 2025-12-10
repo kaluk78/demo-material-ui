@@ -1,0 +1,183 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:11:58.619Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:11:58.619Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "menu-props",
+      "path": "packages/mui-codemod/src/deprecations/menu-props",
+      "purpose": "Enhanced directory analysis of menu-props",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "menu-props.test.js",
+        "path": "packages/mui-codemod/src/deprecations/menu-props/menu-props.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 24,
+        "importedModules": [
+          {
+            "name": "describeJscodeshiftTransform",
+            "sourceModule": "../../../testUtils",
+            "isDefault": false,
+            "namedImports": [
+              "describeJscodeshiftTransform"
+            ]
+          },
+          {
+            "name": "transform",
+            "sourceModule": "./menu-props",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "menu-props.js",
+        "path": "packages/mui-codemod/src/deprecations/menu-props/menu-props.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 39,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-codemod/src/deprecations/menu-props/menu-props.js",
+            "functionName": "transformer",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 8,
+              "endLine": 38
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "movePropIntoSlots",
+                  "source": "../utils/movePropIntoSlots",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "movePropIntoSlotProps",
+                  "source": "../utils/movePropIntoSlotProps",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "movePropIntoSlots",
+            "sourceModule": "../utils/movePropIntoSlots",
+            "isDefault": true
+          },
+          {
+            "name": "movePropIntoSlotProps",
+            "sourceModule": "../utils/movePropIntoSlotProps",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "transformer",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "transformer",
+            "type": "function",
+            "signature": "function transformer()"
+          }
+        ]
+      },
+      {
+        "name": "index.js",
+        "path": "packages/mui-codemod/src/deprecations/menu-props/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 2,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "test-cases",
+        "relativePath": "test-cases",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of test-cases",
+        "keyElementsFromChild": []
+      }
+    ],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-codemod/src/deprecations/menu-props/menu-props.test.js",
+          "to": "packages/mui-codemod/src/deprecations/menu-props/menu-props.js",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

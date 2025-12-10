@@ -1,0 +1,593 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:11:27.309Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:11:27.309Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "ThemeRegistry",
+      "path": "examples/joy-ui-nextjs-ts/src/components/ThemeRegistry",
+      "purpose": "Enhanced directory analysis of ThemeRegistry",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "theme.ts",
+        "path": "examples/joy-ui-nextjs-ts/src/components/ThemeRegistry/theme.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 48,
+        "importedModules": [
+          {
+            "name": "extendTheme",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "extendTheme"
+            ]
+          },
+          {
+            "name": "Inter",
+            "sourceModule": "next/font/google",
+            "isDefault": false,
+            "namedImports": [
+              "Inter",
+              "Source_Code_Pro"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "ThemeRegistry.tsx",
+        "path": "examples/joy-ui-nextjs-ts/src/components/ThemeRegistry/ThemeRegistry.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 18,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/examples/joy-ui-nextjs-ts/src/components/ThemeRegistry/ThemeRegistry.tsx",
+            "functionName": "ThemeRegistry",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 8,
+              "endLine": 17
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "CssVarsProvider",
+                  "source": "@mui/joy/styles",
+                  "line": 3,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CssBaseline",
+                  "source": "@mui/joy/CssBaseline",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "NextAppDirEmotionCacheProvider",
+                  "source": "./EmotionCache",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "CssVarsProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "CssVarsProvider"
+            ]
+          },
+          {
+            "name": "CssBaseline",
+            "sourceModule": "@mui/joy/CssBaseline",
+            "isDefault": true
+          },
+          {
+            "name": "NextAppDirEmotionCacheProvider",
+            "sourceModule": "./EmotionCache",
+            "isDefault": true
+          },
+          {
+            "name": "theme",
+            "sourceModule": "./theme",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ThemeRegistry",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ThemeRegistry",
+            "type": "function",
+            "signature": "function ThemeRegistry()"
+          }
+        ]
+      },
+      {
+        "name": "EmotionCache.tsx",
+        "path": "examples/joy-ui-nextjs-ts/src/components/ThemeRegistry/EmotionCache.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 92,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/examples/joy-ui-nextjs-ts/src/components/ThemeRegistry/EmotionCache.tsx",
+            "functionName": "flush",
+            "classification": "definite-legitimate",
+            "confidence": 5,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Function takes no parameters",
+              "Utility function with clear purpose; Properly uses assigned variables",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 28,
+              "commentAnalysis": 0,
+              "contextFilter": -53,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "createCache",
+                  "source": "@emotion/cache",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "useServerInsertedHTML",
+                  "source": "next/navigation",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CacheProvider",
+                  "source": "@emotion/react",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "EmotionCache",
+                  "source": "@emotion/cache",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Options",
+                  "source": "@emotion/cache",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "createCache",
+                  "source": "@emotion/cache",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CacheProvider",
+                  "source": "@emotion/react",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/examples/joy-ui-nextjs-ts/src/components/ThemeRegistry/EmotionCache.tsx",
+            "functionName": "NextAppDirEmotionCacheProvider",
+            "classification": "definite-legitimate",
+            "confidence": 12.8,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "[FALLBACK] 1 AI-suspicious unused variables: selector",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Moderate context score; Intentionally unused parameter/variable (prefixed with _); Properly uses assigned variables; Mutates state or has side effects; Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 17,
+              "endLine": 91
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 4.800000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "createCache",
+                  "source": "@emotion/cache",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "useServerInsertedHTML",
+                  "source": "next/navigation",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CacheProvider",
+                  "source": "@emotion/react",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "EmotionCache",
+                  "source": "@emotion/cache",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Options",
+                  "source": "@emotion/cache",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "createCache",
+                  "source": "@emotion/cache",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CacheProvider",
+                  "source": "@emotion/react",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "selector",
+                  "line": 26,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "createCache",
+            "sourceModule": "@emotion/cache",
+            "isDefault": true
+          },
+          {
+            "name": "useServerInsertedHTML",
+            "sourceModule": "next/navigation",
+            "isDefault": false,
+            "namedImports": [
+              "useServerInsertedHTML"
+            ]
+          },
+          {
+            "name": "DefaultCacheProvider",
+            "sourceModule": "@emotion/react",
+            "isDefault": false,
+            "namedImports": [
+              "DefaultCacheProvider"
+            ]
+          },
+          {
+            "name": "EmotionCache",
+            "sourceModule": "@emotion/cache",
+            "isDefault": false,
+            "namedImports": [
+              "EmotionCache",
+              "OptionsOfCreateCache"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "NextAppDirEmotionCacheProviderProps",
+            "type": "type"
+          },
+          {
+            "name": "NextAppDirEmotionCacheProvider",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "NextAppDirEmotionCacheProvider",
+            "type": "function",
+            "signature": "function NextAppDirEmotionCacheProvider()"
+          },
+          {
+            "name": "flush",
+            "type": "function",
+            "signature": "const flush = () =>"
+          },
+          {
+            "name": "NextAppDirEmotionCacheProviderProps",
+            "type": "type",
+            "signature": "type NextAppDirEmotionCacheProviderProps"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "examples/joy-ui-nextjs-ts/src/components/ThemeRegistry/theme.ts",
+          "to": "@mui/joy/styles",
+          "type": "imports"
+        },
+        {
+          "from": "examples/joy-ui-nextjs-ts/src/components/ThemeRegistry/theme.ts",
+          "to": "next/font/google",
+          "type": "imports"
+        },
+        {
+          "from": "examples/joy-ui-nextjs-ts/src/components/ThemeRegistry/ThemeRegistry.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "examples/joy-ui-nextjs-ts/src/components/ThemeRegistry/ThemeRegistry.tsx",
+          "to": "@mui/joy/styles",
+          "type": "imports"
+        },
+        {
+          "from": "examples/joy-ui-nextjs-ts/src/components/ThemeRegistry/ThemeRegistry.tsx",
+          "to": "@mui/joy/CssBaseline",
+          "type": "imports"
+        },
+        {
+          "from": "examples/joy-ui-nextjs-ts/src/components/ThemeRegistry/ThemeRegistry.tsx",
+          "to": "examples/joy-ui-nextjs-ts/src/components/ThemeRegistry/theme.ts",
+          "type": "imports"
+        },
+        {
+          "from": "examples/joy-ui-nextjs-ts/src/components/ThemeRegistry/EmotionCache.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "examples/joy-ui-nextjs-ts/src/components/ThemeRegistry/EmotionCache.tsx",
+          "to": "@emotion/cache",
+          "type": "imports"
+        },
+        {
+          "from": "examples/joy-ui-nextjs-ts/src/components/ThemeRegistry/EmotionCache.tsx",
+          "to": "next/navigation",
+          "type": "imports"
+        },
+        {
+          "from": "examples/joy-ui-nextjs-ts/src/components/ThemeRegistry/EmotionCache.tsx",
+          "to": "@emotion/react",
+          "type": "imports"
+        },
+        {
+          "from": "examples/joy-ui-nextjs-ts/src/components/ThemeRegistry/EmotionCache.tsx",
+          "to": "@emotion/cache",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

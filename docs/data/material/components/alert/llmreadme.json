@@ -1,0 +1,2273 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:05:24.689Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:05:24.689Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "alert",
+      "path": "docs/data/material/components/alert",
+      "purpose": "Enhanced directory analysis of alert",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "TransitionAlerts.tsx",
+        "path": "docs/data/material/components/alert/TransitionAlerts.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 45,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/alert/TransitionAlerts.tsx",
+            "functionName": "TransitionAlerts",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 9,
+              "endLine": 44
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Alert",
+                  "source": "@mui/material/Alert",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Collapse",
+                  "source": "@mui/material/Collapse",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CloseIcon",
+                  "source": "@mui/icons-material/Close",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Alert",
+            "sourceModule": "@mui/material/Alert",
+            "isDefault": true
+          },
+          {
+            "name": "IconButton",
+            "sourceModule": "@mui/material/IconButton",
+            "isDefault": true
+          },
+          {
+            "name": "Collapse",
+            "sourceModule": "@mui/material/Collapse",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "CloseIcon",
+            "sourceModule": "@mui/icons-material/Close",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TransitionAlerts",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TransitionAlerts",
+            "type": "function",
+            "signature": "function TransitionAlerts()"
+          }
+        ]
+      },
+      {
+        "name": "TransitionAlerts.js",
+        "path": "docs/data/material/components/alert/TransitionAlerts.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 45,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/alert/TransitionAlerts.js",
+            "functionName": "TransitionAlerts",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 9,
+              "endLine": 44
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Alert",
+                  "source": "@mui/material/Alert",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Collapse",
+                  "source": "@mui/material/Collapse",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CloseIcon",
+                  "source": "@mui/icons-material/Close",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Alert",
+            "sourceModule": "@mui/material/Alert",
+            "isDefault": true
+          },
+          {
+            "name": "IconButton",
+            "sourceModule": "@mui/material/IconButton",
+            "isDefault": true
+          },
+          {
+            "name": "Collapse",
+            "sourceModule": "@mui/material/Collapse",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "CloseIcon",
+            "sourceModule": "@mui/icons-material/Close",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TransitionAlerts",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TransitionAlerts",
+            "type": "function",
+            "signature": "function TransitionAlerts()"
+          }
+        ]
+      },
+      {
+        "name": "SimpleAlert.tsx",
+        "path": "docs/data/material/components/alert/SimpleAlert.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 11,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/alert/SimpleAlert.tsx",
+            "functionName": "SimpleAlert",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 10
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Alert",
+                  "source": "@mui/material/Alert",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CheckIcon",
+                  "source": "@mui/icons-material/Check",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Alert",
+            "sourceModule": "@mui/material/Alert",
+            "isDefault": true
+          },
+          {
+            "name": "CheckIcon",
+            "sourceModule": "@mui/icons-material/Check",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "SimpleAlert",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "SimpleAlert",
+            "type": "function",
+            "signature": "function SimpleAlert()"
+          }
+        ]
+      },
+      {
+        "name": "SimpleAlert.js",
+        "path": "docs/data/material/components/alert/SimpleAlert.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 11,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/alert/SimpleAlert.js",
+            "functionName": "SimpleAlert",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 10
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Alert",
+                  "source": "@mui/material/Alert",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CheckIcon",
+                  "source": "@mui/icons-material/Check",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Alert",
+            "sourceModule": "@mui/material/Alert",
+            "isDefault": true
+          },
+          {
+            "name": "CheckIcon",
+            "sourceModule": "@mui/icons-material/Check",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "SimpleAlert",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "SimpleAlert",
+            "type": "function",
+            "signature": "function SimpleAlert()"
+          }
+        ]
+      },
+      {
+        "name": "OutlinedAlerts.tsx",
+        "path": "docs/data/material/components/alert/OutlinedAlerts.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 22,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/alert/OutlinedAlerts.tsx",
+            "functionName": "OutlinedAlerts",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 21
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Alert",
+                  "source": "@mui/material/Alert",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Alert",
+            "sourceModule": "@mui/material/Alert",
+            "isDefault": true
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "OutlinedAlerts",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "OutlinedAlerts",
+            "type": "function",
+            "signature": "function OutlinedAlerts()"
+          }
+        ]
+      },
+      {
+        "name": "OutlinedAlerts.js",
+        "path": "docs/data/material/components/alert/OutlinedAlerts.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 22,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/alert/OutlinedAlerts.js",
+            "functionName": "OutlinedAlerts",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 21
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Alert",
+                  "source": "@mui/material/Alert",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Alert",
+            "sourceModule": "@mui/material/Alert",
+            "isDefault": true
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "OutlinedAlerts",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "OutlinedAlerts",
+            "type": "function",
+            "signature": "function OutlinedAlerts()"
+          }
+        ]
+      },
+      {
+        "name": "IconAlerts.tsx",
+        "path": "docs/data/material/components/alert/IconAlerts.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 25,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/alert/IconAlerts.tsx",
+            "functionName": "IconAlerts",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 6,
+              "endLine": 24
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Alert",
+                  "source": "@mui/material/Alert",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CheckIcon",
+                  "source": "@mui/icons-material/Check",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CheckCircleOutlineIcon",
+                  "source": "@mui/icons-material/CheckCircleOutline",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Alert",
+            "sourceModule": "@mui/material/Alert",
+            "isDefault": true
+          },
+          {
+            "name": "CheckIcon",
+            "sourceModule": "@mui/icons-material/Check",
+            "isDefault": true
+          },
+          {
+            "name": "CheckCircleOutlineIcon",
+            "sourceModule": "@mui/icons-material/CheckCircleOutline",
+            "isDefault": true
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "IconAlerts",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "IconAlerts",
+            "type": "function",
+            "signature": "function IconAlerts()"
+          }
+        ]
+      },
+      {
+        "name": "IconAlerts.js",
+        "path": "docs/data/material/components/alert/IconAlerts.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 25,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/alert/IconAlerts.js",
+            "functionName": "IconAlerts",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 6,
+              "endLine": 24
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Alert",
+                  "source": "@mui/material/Alert",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CheckIcon",
+                  "source": "@mui/icons-material/Check",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CheckCircleOutlineIcon",
+                  "source": "@mui/icons-material/CheckCircleOutline",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Alert",
+            "sourceModule": "@mui/material/Alert",
+            "isDefault": true
+          },
+          {
+            "name": "CheckIcon",
+            "sourceModule": "@mui/icons-material/Check",
+            "isDefault": true
+          },
+          {
+            "name": "CheckCircleOutlineIcon",
+            "sourceModule": "@mui/icons-material/CheckCircleOutline",
+            "isDefault": true
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "IconAlerts",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "IconAlerts",
+            "type": "function",
+            "signature": "function IconAlerts()"
+          }
+        ]
+      },
+      {
+        "name": "FilledAlerts.tsx",
+        "path": "docs/data/material/components/alert/FilledAlerts.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 22,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/alert/FilledAlerts.tsx",
+            "functionName": "FilledAlerts",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 21
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Alert",
+                  "source": "@mui/material/Alert",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Alert",
+            "sourceModule": "@mui/material/Alert",
+            "isDefault": true
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "FilledAlerts",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "FilledAlerts",
+            "type": "function",
+            "signature": "function FilledAlerts()"
+          }
+        ]
+      },
+      {
+        "name": "FilledAlerts.js",
+        "path": "docs/data/material/components/alert/FilledAlerts.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 22,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/alert/FilledAlerts.js",
+            "functionName": "FilledAlerts",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 21
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Alert",
+                  "source": "@mui/material/Alert",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Alert",
+            "sourceModule": "@mui/material/Alert",
+            "isDefault": true
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "FilledAlerts",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "FilledAlerts",
+            "type": "function",
+            "signature": "function FilledAlerts()"
+          }
+        ]
+      },
+      {
+        "name": "DescriptionAlerts.tsx",
+        "path": "docs/data/material/components/alert/DescriptionAlerts.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 27,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/alert/DescriptionAlerts.tsx",
+            "functionName": "DescriptionAlerts",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 26
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Alert",
+                  "source": "@mui/material/Alert",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "AlertTitle",
+                  "source": "@mui/material/AlertTitle",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Alert",
+            "sourceModule": "@mui/material/Alert",
+            "isDefault": true
+          },
+          {
+            "name": "AlertTitle",
+            "sourceModule": "@mui/material/AlertTitle",
+            "isDefault": true
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "DescriptionAlerts",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "DescriptionAlerts",
+            "type": "function",
+            "signature": "function DescriptionAlerts()"
+          }
+        ]
+      },
+      {
+        "name": "DescriptionAlerts.js",
+        "path": "docs/data/material/components/alert/DescriptionAlerts.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 27,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/alert/DescriptionAlerts.js",
+            "functionName": "DescriptionAlerts",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 26
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Alert",
+                  "source": "@mui/material/Alert",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "AlertTitle",
+                  "source": "@mui/material/AlertTitle",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Alert",
+            "sourceModule": "@mui/material/Alert",
+            "isDefault": true
+          },
+          {
+            "name": "AlertTitle",
+            "sourceModule": "@mui/material/AlertTitle",
+            "isDefault": true
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "DescriptionAlerts",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "DescriptionAlerts",
+            "type": "function",
+            "signature": "function DescriptionAlerts()"
+          }
+        ]
+      },
+      {
+        "name": "ColorAlerts.tsx",
+        "path": "docs/data/material/components/alert/ColorAlerts.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 10,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/alert/ColorAlerts.tsx",
+            "functionName": "ColorAlerts",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 3,
+              "endLine": 9
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Alert",
+                  "source": "@mui/material/Alert",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Alert",
+            "sourceModule": "@mui/material/Alert",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ColorAlerts",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ColorAlerts",
+            "type": "function",
+            "signature": "function ColorAlerts()"
+          }
+        ]
+      },
+      {
+        "name": "ColorAlerts.js",
+        "path": "docs/data/material/components/alert/ColorAlerts.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 10,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/alert/ColorAlerts.js",
+            "functionName": "ColorAlerts",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 3,
+              "endLine": 9
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Alert",
+                  "source": "@mui/material/Alert",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Alert",
+            "sourceModule": "@mui/material/Alert",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ColorAlerts",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ColorAlerts",
+            "type": "function",
+            "signature": "function ColorAlerts()"
+          }
+        ]
+      },
+      {
+        "name": "BasicAlerts.tsx",
+        "path": "docs/data/material/components/alert/BasicAlerts.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 14,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/alert/BasicAlerts.tsx",
+            "functionName": "BasicAlerts",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 13
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Alert",
+                  "source": "@mui/material/Alert",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Alert",
+            "sourceModule": "@mui/material/Alert",
+            "isDefault": true
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "BasicAlerts",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "BasicAlerts",
+            "type": "function",
+            "signature": "function BasicAlerts()"
+          }
+        ]
+      },
+      {
+        "name": "BasicAlerts.js",
+        "path": "docs/data/material/components/alert/BasicAlerts.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 14,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/alert/BasicAlerts.js",
+            "functionName": "BasicAlerts",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 13
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Alert",
+                  "source": "@mui/material/Alert",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Alert",
+            "sourceModule": "@mui/material/Alert",
+            "isDefault": true
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "BasicAlerts",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "BasicAlerts",
+            "type": "function",
+            "signature": "function BasicAlerts()"
+          }
+        ]
+      },
+      {
+        "name": "ActionAlerts.tsx",
+        "path": "docs/data/material/components/alert/ActionAlerts.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 24,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/alert/ActionAlerts.tsx",
+            "functionName": "ActionAlerts",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 23
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Alert",
+                  "source": "@mui/material/Alert",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Alert",
+            "sourceModule": "@mui/material/Alert",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ActionAlerts",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ActionAlerts",
+            "type": "function",
+            "signature": "function ActionAlerts()"
+          }
+        ]
+      },
+      {
+        "name": "ActionAlerts.js",
+        "path": "docs/data/material/components/alert/ActionAlerts.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 24,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/alert/ActionAlerts.js",
+            "functionName": "ActionAlerts",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 23
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Alert",
+                  "source": "@mui/material/Alert",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Alert",
+            "sourceModule": "@mui/material/Alert",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ActionAlerts",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ActionAlerts",
+            "type": "function",
+            "signature": "function ActionAlerts()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "docs/data/material/components/alert/TransitionAlerts.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/TransitionAlerts.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/TransitionAlerts.tsx",
+          "to": "@mui/material/Alert",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/TransitionAlerts.tsx",
+          "to": "@mui/material/IconButton",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/TransitionAlerts.tsx",
+          "to": "@mui/material/Collapse",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/TransitionAlerts.tsx",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/TransitionAlerts.tsx",
+          "to": "@mui/icons-material/Close",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/TransitionAlerts.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/TransitionAlerts.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/TransitionAlerts.js",
+          "to": "@mui/material/Alert",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/TransitionAlerts.js",
+          "to": "@mui/material/IconButton",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/TransitionAlerts.js",
+          "to": "@mui/material/Collapse",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/TransitionAlerts.js",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/TransitionAlerts.js",
+          "to": "@mui/icons-material/Close",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/SimpleAlert.tsx",
+          "to": "@mui/material/Alert",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/SimpleAlert.tsx",
+          "to": "@mui/icons-material/Check",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/SimpleAlert.js",
+          "to": "@mui/material/Alert",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/SimpleAlert.js",
+          "to": "@mui/icons-material/Check",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/OutlinedAlerts.tsx",
+          "to": "@mui/material/Alert",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/OutlinedAlerts.tsx",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/OutlinedAlerts.js",
+          "to": "@mui/material/Alert",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/OutlinedAlerts.js",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/IconAlerts.tsx",
+          "to": "@mui/material/Alert",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/IconAlerts.tsx",
+          "to": "@mui/icons-material/Check",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/IconAlerts.tsx",
+          "to": "@mui/icons-material/CheckCircleOutline",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/IconAlerts.tsx",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/IconAlerts.js",
+          "to": "@mui/material/Alert",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/IconAlerts.js",
+          "to": "@mui/icons-material/Check",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/IconAlerts.js",
+          "to": "@mui/icons-material/CheckCircleOutline",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/IconAlerts.js",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/FilledAlerts.tsx",
+          "to": "@mui/material/Alert",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/FilledAlerts.tsx",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/FilledAlerts.js",
+          "to": "@mui/material/Alert",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/FilledAlerts.js",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/DescriptionAlerts.tsx",
+          "to": "@mui/material/Alert",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/DescriptionAlerts.tsx",
+          "to": "@mui/material/AlertTitle",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/DescriptionAlerts.tsx",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/DescriptionAlerts.js",
+          "to": "@mui/material/Alert",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/DescriptionAlerts.js",
+          "to": "@mui/material/AlertTitle",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/DescriptionAlerts.js",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/ColorAlerts.tsx",
+          "to": "@mui/material/Alert",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/ColorAlerts.js",
+          "to": "@mui/material/Alert",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/BasicAlerts.tsx",
+          "to": "@mui/material/Alert",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/BasicAlerts.tsx",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/BasicAlerts.js",
+          "to": "@mui/material/Alert",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/BasicAlerts.js",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/ActionAlerts.tsx",
+          "to": "@mui/material/Alert",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/ActionAlerts.tsx",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/ActionAlerts.tsx",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/ActionAlerts.js",
+          "to": "@mui/material/Alert",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/ActionAlerts.js",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/alert/ActionAlerts.js",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

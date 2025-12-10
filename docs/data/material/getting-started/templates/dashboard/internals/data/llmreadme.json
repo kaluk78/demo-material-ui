@@ -1,0 +1,789 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:06:46.512Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:06:46.512Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "data",
+      "path": "docs/data/material/getting-started/templates/dashboard/internals/data",
+      "purpose": "Enhanced directory analysis of data",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "gridData.tsx",
+        "path": "docs/data/material/getting-started/templates/dashboard/internals/data/gridData.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 636,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/dashboard/internals/data/gridData.tsx",
+            "functionName": "getDaysInMonth",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns simple/hardcoded value",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score; Mutates state or has side effects",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 8,
+              "endLine": 21
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -60,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Avatar",
+                  "source": "@mui/material/Avatar",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Chip",
+                  "source": "@mui/material/Chip",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SparkLineChart",
+                  "source": "@mui/x-charts/SparkLineChart",
+                  "line": 4,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/dashboard/internals/data/gridData.tsx",
+            "functionName": "renderAvatar",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return '';\"",
+              "High context score suggests legitimate implementation"
+            ],
+            "location": {
+              "startLine": 59,
+              "endLine": 78
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Avatar",
+                  "source": "@mui/material/Avatar",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Chip",
+                  "source": "@mui/material/Chip",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SparkLineChart",
+                  "source": "@mui/x-charts/SparkLineChart",
+                  "line": 4,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/dashboard/internals/data/gridData.tsx",
+            "functionName": "renderSparklineCell",
+            "classification": "likely-legitimate",
+            "confidence": 30,
+            "isPlaceholder": true,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 23,
+              "endLine": 48
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Avatar",
+                  "source": "@mui/material/Avatar",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Chip",
+                  "source": "@mui/material/Chip",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SparkLineChart",
+                  "source": "@mui/x-charts/SparkLineChart",
+                  "line": 4,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/dashboard/internals/data/gridData.tsx",
+            "functionName": "renderStatus",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 50,
+              "endLine": 57
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -45,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Avatar",
+                  "source": "@mui/material/Avatar",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Chip",
+                  "source": "@mui/material/Chip",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SparkLineChart",
+                  "source": "@mui/x-charts/SparkLineChart",
+                  "line": 4,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Avatar",
+            "sourceModule": "@mui/material/Avatar",
+            "isDefault": true
+          },
+          {
+            "name": "Chip",
+            "sourceModule": "@mui/material/Chip",
+            "isDefault": true
+          },
+          {
+            "name": "GridCellParams",
+            "sourceModule": "@mui/x-data-grid",
+            "isDefault": false,
+            "namedImports": [
+              "GridCellParams",
+              "GridRowsProp",
+              "GridColDef"
+            ]
+          },
+          {
+            "name": "SparkLineChart",
+            "sourceModule": "@mui/x-charts/SparkLineChart",
+            "isDefault": false,
+            "namedImports": [
+              "SparkLineChart"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "renderAvatar",
+            "type": "function"
+          },
+          {
+            "name": "columns",
+            "type": "const"
+          },
+          {
+            "name": "rows",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getDaysInMonth",
+            "type": "function",
+            "signature": "function getDaysInMonth()"
+          },
+          {
+            "name": "renderSparklineCell",
+            "type": "function",
+            "signature": "function renderSparklineCell()"
+          },
+          {
+            "name": "renderStatus",
+            "type": "function",
+            "signature": "function renderStatus()"
+          },
+          {
+            "name": "renderAvatar",
+            "type": "function",
+            "signature": "function renderAvatar()"
+          },
+          {
+            "name": "SparkLineData",
+            "type": "type",
+            "signature": "type SparkLineData"
+          }
+        ]
+      },
+      {
+        "name": "gridData.js",
+        "path": "docs/data/material/getting-started/templates/dashboard/internals/data/gridData.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 632,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/dashboard/internals/data/gridData.js",
+            "functionName": "getDaysInMonth",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns simple/hardcoded value",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score; Mutates state or has side effects",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 6,
+              "endLine": 19
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -60,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Avatar",
+                  "source": "@mui/material/Avatar",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Chip",
+                  "source": "@mui/material/Chip",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SparkLineChart",
+                  "source": "@mui/x-charts/SparkLineChart",
+                  "line": 4,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/dashboard/internals/data/gridData.js",
+            "functionName": "renderAvatar",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return '';\"",
+              "High context score suggests legitimate implementation"
+            ],
+            "location": {
+              "startLine": 57,
+              "endLine": 74
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Avatar",
+                  "source": "@mui/material/Avatar",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Chip",
+                  "source": "@mui/material/Chip",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SparkLineChart",
+                  "source": "@mui/x-charts/SparkLineChart",
+                  "line": 4,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/dashboard/internals/data/gridData.js",
+            "functionName": "renderSparklineCell",
+            "classification": "likely-legitimate",
+            "confidence": 30,
+            "isPlaceholder": true,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 21,
+              "endLine": 46
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Avatar",
+                  "source": "@mui/material/Avatar",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Chip",
+                  "source": "@mui/material/Chip",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SparkLineChart",
+                  "source": "@mui/x-charts/SparkLineChart",
+                  "line": 4,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/dashboard/internals/data/gridData.js",
+            "functionName": "renderStatus",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 48,
+              "endLine": 55
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -45,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Avatar",
+                  "source": "@mui/material/Avatar",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Chip",
+                  "source": "@mui/material/Chip",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SparkLineChart",
+                  "source": "@mui/x-charts/SparkLineChart",
+                  "line": 4,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Avatar",
+            "sourceModule": "@mui/material/Avatar",
+            "isDefault": true
+          },
+          {
+            "name": "Chip",
+            "sourceModule": "@mui/material/Chip",
+            "isDefault": true
+          },
+          {
+            "name": "SparkLineChart",
+            "sourceModule": "@mui/x-charts/SparkLineChart",
+            "isDefault": false,
+            "namedImports": [
+              "SparkLineChart"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "renderAvatar",
+            "type": "function"
+          },
+          {
+            "name": "columns",
+            "type": "const"
+          },
+          {
+            "name": "rows",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getDaysInMonth",
+            "type": "function",
+            "signature": "function getDaysInMonth()"
+          },
+          {
+            "name": "renderSparklineCell",
+            "type": "function",
+            "signature": "function renderSparklineCell()"
+          },
+          {
+            "name": "renderStatus",
+            "type": "function",
+            "signature": "function renderStatus()"
+          },
+          {
+            "name": "renderAvatar",
+            "type": "function",
+            "signature": "function renderAvatar()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "docs/data/material/getting-started/templates/dashboard/internals/data/gridData.tsx",
+          "to": "@mui/material/Avatar",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/dashboard/internals/data/gridData.tsx",
+          "to": "@mui/material/Chip",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/dashboard/internals/data/gridData.tsx",
+          "to": "@mui/x-data-grid",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/dashboard/internals/data/gridData.tsx",
+          "to": "@mui/x-charts/SparkLineChart",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/dashboard/internals/data/gridData.js",
+          "to": "@mui/material/Avatar",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/dashboard/internals/data/gridData.js",
+          "to": "@mui/material/Chip",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/dashboard/internals/data/gridData.js",
+          "to": "@mui/x-charts/SparkLineChart",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

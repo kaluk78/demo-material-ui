@@ -1,0 +1,900 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:05:11.269Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:05:11.269Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "sign-in-side",
+      "path": "docs/data/joy/getting-started/templates/sign-in-side",
+      "purpose": "Enhanced directory analysis of sign-in-side",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "GoogleIcon.tsx",
+        "path": "docs/data/joy/getting-started/templates/sign-in-side/GoogleIcon.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 27,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/joy/getting-started/templates/sign-in-side/GoogleIcon.tsx",
+            "functionName": "GoogleIcon",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 3,
+              "endLine": 26
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "SvgIcon",
+                  "source": "@mui/joy/SvgIcon",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "SvgIcon",
+            "sourceModule": "@mui/joy/SvgIcon",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "GoogleIcon",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "GoogleIcon",
+            "type": "function",
+            "signature": "function GoogleIcon()"
+          }
+        ]
+      },
+      {
+        "name": "App.tsx",
+        "path": "docs/data/joy/getting-started/templates/sign-in-side/App.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 232,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/joy/getting-started/templates/sign-in-side/App.tsx",
+            "functionName": "ColorSchemeToggle",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "[FALLBACK] 1 AI-suspicious unused variables: mounted",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Moderate context score; Event handler or callback function"
+            ],
+            "location": {
+              "startLine": 30,
+              "endLine": 52
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 4.800000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "CssVarsProvider",
+                  "source": "@mui/joy/styles",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "GlobalStyles",
+                  "source": "@mui/joy/GlobalStyles",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CssBaseline",
+                  "source": "@mui/joy/CssBaseline",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/joy/Box",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/joy/Button",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Checkbox",
+                  "source": "@mui/joy/Checkbox",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Divider",
+                  "source": "@mui/joy/Divider",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "FormControl",
+                  "source": "@mui/joy/FormControl",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormLabel",
+                  "source": "@mui/joy/FormLabel",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/joy/IconButton",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Link",
+                  "source": "@mui/joy/Link",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Input",
+                  "source": "@mui/joy/Input",
+                  "line": 13,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/joy/Typography",
+                  "line": 14,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/joy/Stack",
+                  "line": 15,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "DarkModeRoundedIcon",
+                  "source": "@mui/icons-material/DarkModeRounded",
+                  "line": 16,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "LightModeRoundedIcon",
+                  "source": "@mui/icons-material/LightModeRounded",
+                  "line": 17,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "BadgeRoundedIcon",
+                  "source": "@mui/icons-material/BadgeRounded",
+                  "line": 18,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "GoogleIcon",
+                  "source": "./GoogleIcon",
+                  "line": 19,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "mounted",
+                  "line": 33,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/joy/getting-started/templates/sign-in-side/App.tsx",
+            "functionName": "JoySignInSideTemplate",
+            "classification": "likely-legitimate",
+            "confidence": 34,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 56,
+              "endLine": 231
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "CssVarsProvider",
+                  "source": "@mui/joy/styles",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "GlobalStyles",
+                  "source": "@mui/joy/GlobalStyles",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CssBaseline",
+                  "source": "@mui/joy/CssBaseline",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/joy/Box",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/joy/Button",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Checkbox",
+                  "source": "@mui/joy/Checkbox",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Divider",
+                  "source": "@mui/joy/Divider",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "FormControl",
+                  "source": "@mui/joy/FormControl",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormLabel",
+                  "source": "@mui/joy/FormLabel",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/joy/IconButton",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Link",
+                  "source": "@mui/joy/Link",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Input",
+                  "source": "@mui/joy/Input",
+                  "line": 13,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/joy/Typography",
+                  "line": 14,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/joy/Stack",
+                  "line": 15,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "DarkModeRoundedIcon",
+                  "source": "@mui/icons-material/DarkModeRounded",
+                  "line": 16,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "LightModeRoundedIcon",
+                  "source": "@mui/icons-material/LightModeRounded",
+                  "line": 17,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "BadgeRoundedIcon",
+                  "source": "@mui/icons-material/BadgeRounded",
+                  "line": 18,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "GoogleIcon",
+                  "source": "./GoogleIcon",
+                  "line": 19,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "CssVarsProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "CssVarsProvider",
+              "extendTheme",
+              "useColorScheme"
+            ]
+          },
+          {
+            "name": "GlobalStyles",
+            "sourceModule": "@mui/joy/GlobalStyles",
+            "isDefault": true
+          },
+          {
+            "name": "CssBaseline",
+            "sourceModule": "@mui/joy/CssBaseline",
+            "isDefault": true
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/joy/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/joy/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Checkbox",
+            "sourceModule": "@mui/joy/Checkbox",
+            "isDefault": true
+          },
+          {
+            "name": "Divider",
+            "sourceModule": "@mui/joy/Divider",
+            "isDefault": true
+          },
+          {
+            "name": "FormControl",
+            "sourceModule": "@mui/joy/FormControl",
+            "isDefault": true
+          },
+          {
+            "name": "FormLabel",
+            "sourceModule": "@mui/joy/FormLabel",
+            "isDefault": true
+          },
+          {
+            "name": "IconButton",
+            "sourceModule": "@mui/joy/IconButton",
+            "isDefault": true,
+            "namedImports": [
+              "IconButtonProps"
+            ]
+          },
+          {
+            "name": "Link",
+            "sourceModule": "@mui/joy/Link",
+            "isDefault": true
+          },
+          {
+            "name": "Input",
+            "sourceModule": "@mui/joy/Input",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/joy/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/joy/Stack",
+            "isDefault": true
+          },
+          {
+            "name": "DarkModeRoundedIcon",
+            "sourceModule": "@mui/icons-material/DarkModeRounded",
+            "isDefault": true
+          },
+          {
+            "name": "LightModeRoundedIcon",
+            "sourceModule": "@mui/icons-material/LightModeRounded",
+            "isDefault": true
+          },
+          {
+            "name": "BadgeRoundedIcon",
+            "sourceModule": "@mui/icons-material/BadgeRounded",
+            "isDefault": true
+          },
+          {
+            "name": "GoogleIcon",
+            "sourceModule": "./GoogleIcon",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "JoySignInSideTemplate",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ColorSchemeToggle",
+            "type": "function",
+            "signature": "function ColorSchemeToggle()"
+          },
+          {
+            "name": "JoySignInSideTemplate",
+            "type": "function",
+            "signature": "function JoySignInSideTemplate()"
+          },
+          {
+            "name": "FormElements",
+            "type": "interface",
+            "signature": "interface FormElements"
+          },
+          {
+            "name": "SignInFormElement",
+            "type": "interface",
+            "signature": "interface SignInFormElement"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "docs/data/joy/getting-started/templates/sign-in-side/GoogleIcon.tsx",
+          "to": "@mui/joy/SvgIcon",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/sign-in-side/App.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/sign-in-side/App.tsx",
+          "to": "@mui/joy/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/sign-in-side/App.tsx",
+          "to": "@mui/joy/GlobalStyles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/sign-in-side/App.tsx",
+          "to": "@mui/joy/CssBaseline",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/sign-in-side/App.tsx",
+          "to": "@mui/joy/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/sign-in-side/App.tsx",
+          "to": "@mui/joy/Button",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/sign-in-side/App.tsx",
+          "to": "@mui/joy/Checkbox",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/sign-in-side/App.tsx",
+          "to": "@mui/joy/Divider",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/sign-in-side/App.tsx",
+          "to": "@mui/joy/FormControl",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/sign-in-side/App.tsx",
+          "to": "@mui/joy/FormLabel",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/sign-in-side/App.tsx",
+          "to": "@mui/joy/IconButton",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/sign-in-side/App.tsx",
+          "to": "@mui/joy/Link",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/sign-in-side/App.tsx",
+          "to": "@mui/joy/Input",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/sign-in-side/App.tsx",
+          "to": "@mui/joy/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/sign-in-side/App.tsx",
+          "to": "@mui/joy/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/sign-in-side/App.tsx",
+          "to": "@mui/icons-material/DarkModeRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/sign-in-side/App.tsx",
+          "to": "@mui/icons-material/LightModeRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/sign-in-side/App.tsx",
+          "to": "@mui/icons-material/BadgeRounded",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

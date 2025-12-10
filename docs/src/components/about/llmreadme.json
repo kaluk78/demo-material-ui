@@ -1,0 +1,2415 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:09:06.479Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:09:06.479Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "about",
+      "path": "docs/src/components/about",
+      "purpose": "Enhanced directory analysis of about",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "TeamStatistics.tsx",
+        "path": "docs/src/components/about/TeamStatistics.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 41,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/components/about/TeamStatistics.tsx",
+            "functionName": "TeamStatistics",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 10,
+              "endLine": 40
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TeamStatistics",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TeamStatistics",
+            "type": "function",
+            "signature": "function TeamStatistics()"
+          }
+        ]
+      },
+      {
+        "name": "Team.tsx",
+        "path": "docs/src/components/about/Team.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 428,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/components/about/Team.tsx",
+            "functionName": "Person",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score; Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 55,
+              "endLine": 191
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -40,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Avatar",
+                  "source": "@mui/material/Avatar",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Container",
+                  "source": "@mui/material/Container",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Divider",
+                  "source": "@mui/material/Divider",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Grid",
+                  "source": "@mui/material/Grid",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Paper",
+                  "source": "@mui/material/Paper",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Tooltip",
+                  "source": "@mui/material/Tooltip",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowRightRounded",
+                  "source": "@mui/icons-material/KeyboardArrowRightRounded",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "XIcon",
+                  "source": "@mui/icons-material/X",
+                  "line": 13,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "GitHubIcon",
+                  "source": "@mui/icons-material/GitHub",
+                  "line": 14,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "LinkedInIcon",
+                  "source": "@mui/icons-material/LinkedIn",
+                  "line": 15,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Section",
+                  "source": "docs/src/layouts/Section",
+                  "line": 18,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SectionHeadline",
+                  "source": "docs/src/components/typography/SectionHeadline",
+                  "line": 19,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "GradientText",
+                  "source": "docs/src/components/typography/GradientText",
+                  "line": 20,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/src/components/about/Team.tsx",
+            "functionName": "Team",
+            "classification": "likely-legitimate",
+            "confidence": 31,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 340,
+              "endLine": 427
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Avatar",
+                  "source": "@mui/material/Avatar",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Container",
+                  "source": "@mui/material/Container",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Divider",
+                  "source": "@mui/material/Divider",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Grid",
+                  "source": "@mui/material/Grid",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Paper",
+                  "source": "@mui/material/Paper",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Tooltip",
+                  "source": "@mui/material/Tooltip",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowRightRounded",
+                  "source": "@mui/icons-material/KeyboardArrowRightRounded",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "XIcon",
+                  "source": "@mui/icons-material/X",
+                  "line": 13,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "GitHubIcon",
+                  "source": "@mui/icons-material/GitHub",
+                  "line": 14,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "LinkedInIcon",
+                  "source": "@mui/icons-material/LinkedIn",
+                  "line": 15,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Section",
+                  "source": "docs/src/layouts/Section",
+                  "line": 18,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SectionHeadline",
+                  "source": "docs/src/components/typography/SectionHeadline",
+                  "line": 19,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "GradientText",
+                  "source": "docs/src/components/typography/GradientText",
+                  "line": 20,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Avatar",
+            "sourceModule": "@mui/material/Avatar",
+            "isDefault": true
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Container",
+            "sourceModule": "@mui/material/Container",
+            "isDefault": true
+          },
+          {
+            "name": "Divider",
+            "sourceModule": "@mui/material/Divider",
+            "isDefault": true
+          },
+          {
+            "name": "IconButton",
+            "sourceModule": "@mui/material/IconButton",
+            "isDefault": true
+          },
+          {
+            "name": "Grid",
+            "sourceModule": "@mui/material/Grid",
+            "isDefault": true
+          },
+          {
+            "name": "Paper",
+            "sourceModule": "@mui/material/Paper",
+            "isDefault": true,
+            "namedImports": [
+              "PaperProps"
+            ]
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "Tooltip",
+            "sourceModule": "@mui/material/Tooltip",
+            "isDefault": true
+          },
+          {
+            "name": "KeyboardArrowRightRounded",
+            "sourceModule": "@mui/icons-material/KeyboardArrowRightRounded",
+            "isDefault": true
+          },
+          {
+            "name": "XIcon",
+            "sourceModule": "@mui/icons-material/X",
+            "isDefault": true
+          },
+          {
+            "name": "GitHubIcon",
+            "sourceModule": "@mui/icons-material/GitHub",
+            "isDefault": true
+          },
+          {
+            "name": "LinkedInIcon",
+            "sourceModule": "@mui/icons-material/LinkedIn",
+            "isDefault": true
+          },
+          {
+            "name": "Link",
+            "sourceModule": "@mui/docs/Link",
+            "isDefault": false,
+            "namedImports": [
+              "Link"
+            ]
+          },
+          {
+            "name": "ROUTES",
+            "sourceModule": "docs/src/route",
+            "isDefault": true
+          },
+          {
+            "name": "Section",
+            "sourceModule": "docs/src/layouts/Section",
+            "isDefault": true
+          },
+          {
+            "name": "SectionHeadline",
+            "sourceModule": "docs/src/components/typography/SectionHeadline",
+            "isDefault": true
+          },
+          {
+            "name": "GradientText",
+            "sourceModule": "docs/src/components/typography/GradientText",
+            "isDefault": true
+          },
+          {
+            "name": "teamMembers",
+            "sourceModule": "docs/data/about/teamMembers.json",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "Team",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Person",
+            "type": "function",
+            "signature": "function Person()"
+          },
+          {
+            "name": "Team",
+            "type": "function",
+            "signature": "function Team()"
+          },
+          {
+            "name": "Profile",
+            "type": "interface",
+            "signature": "interface Profile"
+          }
+        ]
+      },
+      {
+        "name": "OurValues.tsx",
+        "path": "docs/src/components/about/OurValues.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 140,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/components/about/OurValues.tsx",
+            "functionName": "OurValues",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 48,
+              "endLine": 139
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Grid",
+                  "source": "@mui/material/Grid",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Paper",
+                  "source": "@mui/material/Paper",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowRightRounded",
+                  "source": "@mui/icons-material/KeyboardArrowRightRounded",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "GradientText",
+                  "source": "docs/src/components/typography/GradientText",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Section",
+                  "source": "docs/src/layouts/Section",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SectionHeadline",
+                  "source": "docs/src/components/typography/SectionHeadline",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Grid",
+            "sourceModule": "@mui/material/Grid",
+            "isDefault": true
+          },
+          {
+            "name": "Paper",
+            "sourceModule": "@mui/material/Paper",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "KeyboardArrowRightRounded",
+            "sourceModule": "@mui/icons-material/KeyboardArrowRightRounded",
+            "isDefault": true
+          },
+          {
+            "name": "Link",
+            "sourceModule": "@mui/docs/Link",
+            "isDefault": false,
+            "namedImports": [
+              "Link"
+            ]
+          },
+          {
+            "name": "GradientText",
+            "sourceModule": "docs/src/components/typography/GradientText",
+            "isDefault": true
+          },
+          {
+            "name": "ROUTES",
+            "sourceModule": "docs/src/route",
+            "isDefault": true
+          },
+          {
+            "name": "Section",
+            "sourceModule": "docs/src/layouts/Section",
+            "isDefault": true
+          },
+          {
+            "name": "SectionHeadline",
+            "sourceModule": "docs/src/components/typography/SectionHeadline",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "OurValues",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "OurValues",
+            "type": "function",
+            "signature": "function OurValues()"
+          }
+        ]
+      },
+      {
+        "name": "HowToSupport.tsx",
+        "path": "docs/src/components/about/HowToSupport.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 175,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/components/about/HowToSupport.tsx",
+            "functionName": "HowToSupport",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 53,
+              "endLine": 174
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Grid",
+                  "source": "@mui/material/Grid",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Paper",
+                  "source": "@mui/material/Paper",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowRightRounded",
+                  "source": "@mui/icons-material/KeyboardArrowRightRounded",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ForumRoundedIcon",
+                  "source": "@mui/icons-material/ForumRounded",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "PeopleRoundedIcon",
+                  "source": "@mui/icons-material/PeopleRounded",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "LocalAtmRoundedIcon",
+                  "source": "@mui/icons-material/LocalAtmRounded",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "GradientText",
+                  "source": "docs/src/components/typography/GradientText",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Link",
+                  "source": "@mui/docs/Link",
+                  "line": 12,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Section",
+                  "source": "docs/src/layouts/Section",
+                  "line": 13,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SectionHeadline",
+                  "source": "docs/src/components/typography/SectionHeadline",
+                  "line": 14,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "GlowingIconContainer",
+                  "source": "@mui/docs/InfoCard",
+                  "line": 15,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/src/components/about/HowToSupport.tsx",
+            "functionName": "Widget",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 17,
+              "endLine": 51
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Grid",
+                  "source": "@mui/material/Grid",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Paper",
+                  "source": "@mui/material/Paper",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowRightRounded",
+                  "source": "@mui/icons-material/KeyboardArrowRightRounded",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ForumRoundedIcon",
+                  "source": "@mui/icons-material/ForumRounded",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "PeopleRoundedIcon",
+                  "source": "@mui/icons-material/PeopleRounded",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "LocalAtmRoundedIcon",
+                  "source": "@mui/icons-material/LocalAtmRounded",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "GradientText",
+                  "source": "docs/src/components/typography/GradientText",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Link",
+                  "source": "@mui/docs/Link",
+                  "line": 12,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Section",
+                  "source": "docs/src/layouts/Section",
+                  "line": 13,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SectionHeadline",
+                  "source": "docs/src/components/typography/SectionHeadline",
+                  "line": 14,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "GlowingIconContainer",
+                  "source": "@mui/docs/InfoCard",
+                  "line": 15,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Grid",
+            "sourceModule": "@mui/material/Grid",
+            "isDefault": true
+          },
+          {
+            "name": "Paper",
+            "sourceModule": "@mui/material/Paper",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "KeyboardArrowRightRounded",
+            "sourceModule": "@mui/icons-material/KeyboardArrowRightRounded",
+            "isDefault": true
+          },
+          {
+            "name": "ForumRoundedIcon",
+            "sourceModule": "@mui/icons-material/ForumRounded",
+            "isDefault": true
+          },
+          {
+            "name": "PeopleRoundedIcon",
+            "sourceModule": "@mui/icons-material/PeopleRounded",
+            "isDefault": true
+          },
+          {
+            "name": "LocalAtmRoundedIcon",
+            "sourceModule": "@mui/icons-material/LocalAtmRounded",
+            "isDefault": true
+          },
+          {
+            "name": "GradientText",
+            "sourceModule": "docs/src/components/typography/GradientText",
+            "isDefault": true
+          },
+          {
+            "name": "Link",
+            "sourceModule": "@mui/docs/Link",
+            "isDefault": false,
+            "namedImports": [
+              "Link"
+            ]
+          },
+          {
+            "name": "Section",
+            "sourceModule": "docs/src/layouts/Section",
+            "isDefault": true
+          },
+          {
+            "name": "SectionHeadline",
+            "sourceModule": "docs/src/components/typography/SectionHeadline",
+            "isDefault": true
+          },
+          {
+            "name": "GlowingIconContainer",
+            "sourceModule": "@mui/docs/InfoCard",
+            "isDefault": false,
+            "namedImports": [
+              "GlowingIconContainer"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "HowToSupport",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Widget",
+            "type": "function",
+            "signature": "function Widget()"
+          },
+          {
+            "name": "HowToSupport",
+            "type": "function",
+            "signature": "function HowToSupport()"
+          }
+        ]
+      },
+      {
+        "name": "AboutHero.tsx",
+        "path": "docs/src/components/about/AboutHero.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 167,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/components/about/AboutHero.tsx",
+            "functionName": "AboutHero",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 148,
+              "endLine": 166
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Section",
+                  "source": "docs/src/layouts/Section",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "GradientText",
+                  "source": "docs/src/components/typography/GradientText",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "TeamStatistics",
+                  "source": "docs/src/components/about/TeamStatistics",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "SectionHeadline",
+                  "source": "docs/src/components/typography/SectionHeadline",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/src/components/about/AboutHero.tsx",
+            "functionName": "PhotoGallery",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 86,
+              "endLine": 146
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Section",
+                  "source": "docs/src/layouts/Section",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "GradientText",
+                  "source": "docs/src/components/typography/GradientText",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "TeamStatistics",
+                  "source": "docs/src/components/about/TeamStatistics",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "SectionHeadline",
+                  "source": "docs/src/components/typography/SectionHeadline",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "styled",
+              "keyframes"
+            ]
+          },
+          {
+            "name": "Section",
+            "sourceModule": "docs/src/layouts/Section",
+            "isDefault": true
+          },
+          {
+            "name": "GradientText",
+            "sourceModule": "docs/src/components/typography/GradientText",
+            "isDefault": true
+          },
+          {
+            "name": "TeamStatistics",
+            "sourceModule": "docs/src/components/about/TeamStatistics",
+            "isDefault": true
+          },
+          {
+            "name": "SectionHeadline",
+            "sourceModule": "docs/src/components/typography/SectionHeadline",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "AboutHero",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "PhotoGallery",
+            "type": "function",
+            "signature": "function PhotoGallery()"
+          },
+          {
+            "name": "AboutHero",
+            "type": "function",
+            "signature": "function AboutHero()"
+          },
+          {
+            "name": "I",
+            "type": "const",
+            "signature": "const I"
+          },
+          {
+            "name": "I",
+            "type": "const",
+            "signature": "const I"
+          }
+        ]
+      },
+      {
+        "name": "AboutEnd.tsx",
+        "path": "docs/src/components/about/AboutEnd.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 62,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/components/about/AboutEnd.tsx",
+            "functionName": "AboutEnd",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 11,
+              "endLine": 61
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowRightRounded",
+                  "source": "@mui/icons-material/KeyboardArrowRightRounded",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "GradientText",
+                  "source": "docs/src/components/typography/GradientText",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Section",
+                  "source": "docs/src/layouts/Section",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SectionHeadline",
+                  "source": "docs/src/components/typography/SectionHeadline",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "KeyboardArrowRightRounded",
+            "sourceModule": "@mui/icons-material/KeyboardArrowRightRounded",
+            "isDefault": true
+          },
+          {
+            "name": "Link",
+            "sourceModule": "@mui/docs/Link",
+            "isDefault": false,
+            "namedImports": [
+              "Link"
+            ]
+          },
+          {
+            "name": "GradientText",
+            "sourceModule": "docs/src/components/typography/GradientText",
+            "isDefault": true
+          },
+          {
+            "name": "ROUTES",
+            "sourceModule": "docs/src/route",
+            "isDefault": true
+          },
+          {
+            "name": "Section",
+            "sourceModule": "docs/src/layouts/Section",
+            "isDefault": true
+          },
+          {
+            "name": "SectionHeadline",
+            "sourceModule": "docs/src/components/typography/SectionHeadline",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "AboutEnd",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "AboutEnd",
+            "type": "function",
+            "signature": "function AboutEnd()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "docs/src/components/about/TeamStatistics.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/TeamStatistics.tsx",
+          "to": "@mui/material/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/Team.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/Team.tsx",
+          "to": "@mui/material/Avatar",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/Team.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/Team.tsx",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/Team.tsx",
+          "to": "@mui/material/Container",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/Team.tsx",
+          "to": "@mui/material/Divider",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/Team.tsx",
+          "to": "@mui/material/IconButton",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/Team.tsx",
+          "to": "@mui/material/Grid",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/Team.tsx",
+          "to": "@mui/material/Paper",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/Team.tsx",
+          "to": "@mui/material/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/Team.tsx",
+          "to": "@mui/material/Tooltip",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/Team.tsx",
+          "to": "@mui/icons-material/KeyboardArrowRightRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/Team.tsx",
+          "to": "@mui/icons-material/X",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/Team.tsx",
+          "to": "@mui/icons-material/GitHub",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/Team.tsx",
+          "to": "@mui/icons-material/LinkedIn",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/Team.tsx",
+          "to": "@mui/docs/Link",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/Team.tsx",
+          "to": "docs/src/route",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/Team.tsx",
+          "to": "docs/src/layouts/Section",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/Team.tsx",
+          "to": "docs/src/components/typography/SectionHeadline",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/Team.tsx",
+          "to": "docs/src/components/typography/GradientText",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/Team.tsx",
+          "to": "docs/data/about/teamMembers.json",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/OurValues.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/OurValues.tsx",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/OurValues.tsx",
+          "to": "@mui/material/Grid",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/OurValues.tsx",
+          "to": "@mui/material/Paper",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/OurValues.tsx",
+          "to": "@mui/material/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/OurValues.tsx",
+          "to": "@mui/icons-material/KeyboardArrowRightRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/OurValues.tsx",
+          "to": "@mui/docs/Link",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/OurValues.tsx",
+          "to": "docs/src/components/typography/GradientText",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/OurValues.tsx",
+          "to": "docs/src/route",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/OurValues.tsx",
+          "to": "docs/src/layouts/Section",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/OurValues.tsx",
+          "to": "docs/src/components/typography/SectionHeadline",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/HowToSupport.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/HowToSupport.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/HowToSupport.tsx",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/HowToSupport.tsx",
+          "to": "@mui/material/Grid",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/HowToSupport.tsx",
+          "to": "@mui/material/Paper",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/HowToSupport.tsx",
+          "to": "@mui/material/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/HowToSupport.tsx",
+          "to": "@mui/icons-material/KeyboardArrowRightRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/HowToSupport.tsx",
+          "to": "@mui/icons-material/ForumRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/HowToSupport.tsx",
+          "to": "@mui/icons-material/PeopleRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/HowToSupport.tsx",
+          "to": "@mui/icons-material/LocalAtmRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/HowToSupport.tsx",
+          "to": "docs/src/components/typography/GradientText",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/HowToSupport.tsx",
+          "to": "@mui/docs/Link",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/HowToSupport.tsx",
+          "to": "docs/src/layouts/Section",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/HowToSupport.tsx",
+          "to": "docs/src/components/typography/SectionHeadline",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/HowToSupport.tsx",
+          "to": "@mui/docs/InfoCard",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/AboutHero.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/AboutHero.tsx",
+          "to": "@mui/material/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/AboutHero.tsx",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/AboutHero.tsx",
+          "to": "docs/src/layouts/Section",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/AboutHero.tsx",
+          "to": "docs/src/components/typography/GradientText",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/AboutHero.tsx",
+          "to": "docs/src/components/about/TeamStatistics",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/AboutHero.tsx",
+          "to": "docs/src/components/typography/SectionHeadline",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/AboutEnd.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/AboutEnd.tsx",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/AboutEnd.tsx",
+          "to": "@mui/material/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/AboutEnd.tsx",
+          "to": "@mui/icons-material/KeyboardArrowRightRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/AboutEnd.tsx",
+          "to": "@mui/docs/Link",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/AboutEnd.tsx",
+          "to": "docs/src/components/typography/GradientText",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/AboutEnd.tsx",
+          "to": "docs/src/route",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/AboutEnd.tsx",
+          "to": "docs/src/layouts/Section",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/about/AboutEnd.tsx",
+          "to": "docs/src/components/typography/SectionHeadline",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

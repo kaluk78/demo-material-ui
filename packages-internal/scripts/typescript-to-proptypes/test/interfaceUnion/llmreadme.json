@@ -1,0 +1,286 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:23:16.522Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:23:16.522Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "interfaceUnion",
+      "path": "packages-internal/scripts/typescript-to-proptypes/test/interfaceUnion",
+      "purpose": "Enhanced directory analysis of interfaceUnion",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "output.js",
+        "path": "packages-internal/scripts/typescript-to-proptypes/test/interfaceUnion/output.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 26,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/test/interfaceUnion/output.js",
+            "functionName": "Grid",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (4 lines)",
+              "[FALLBACK] 1 AI-suspicious unused variables: pieSeries",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Moderate context score; Test file - simple test helpers expected"
+            ],
+            "location": {
+              "startLine": 3,
+              "endLine": 6
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 4.800000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "pieSeries",
+                  "line": 4,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Grid",
+            "type": "function",
+            "signature": "function Grid()"
+          }
+        ]
+      },
+      {
+        "name": "input.tsx",
+        "path": "packages-internal/scripts/typescript-to-proptypes/test/interfaceUnion/input.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 33,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/test/interfaceUnion/input.tsx",
+            "functionName": "Grid",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (4 lines)",
+              "[FALLBACK] 1 AI-suspicious unused variables: pieSeries",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Moderate context score; Test file - simple test helpers expected"
+            ],
+            "location": {
+              "startLine": 29,
+              "endLine": 32
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 4.800000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "pieSeries",
+                  "line": 30,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "PieSeriesType",
+            "type": "interface"
+          },
+          {
+            "name": "LineSeriesType",
+            "type": "interface"
+          },
+          {
+            "name": "Grid",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Grid",
+            "type": "function",
+            "signature": "function Grid()"
+          },
+          {
+            "name": "PieSeriesType",
+            "type": "interface",
+            "signature": "interface PieSeriesType"
+          },
+          {
+            "name": "PieSeriesType2",
+            "type": "interface",
+            "signature": "interface PieSeriesType2"
+          },
+          {
+            "name": "LineSeriesType",
+            "type": "interface",
+            "signature": "interface LineSeriesType"
+          },
+          {
+            "name": "Props",
+            "type": "interface",
+            "signature": "interface Props"
+          },
+          {
+            "name": "PieValueType",
+            "type": "type",
+            "signature": "type PieValueType"
+          },
+          {
+            "name": "LineValueType",
+            "type": "type",
+            "signature": "type LineValueType"
+          },
+          {
+            "name": "ChartSeries",
+            "type": "type",
+            "signature": "type ChartSeries"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages-internal/scripts/typescript-to-proptypes/test/interfaceUnion/output.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages-internal/scripts/typescript-to-proptypes/test/interfaceUnion/output.js",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "packages-internal/scripts/typescript-to-proptypes/test/interfaceUnion/input.tsx",
+          "to": "react",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

@@ -1,0 +1,2080 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:06:55.802Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:06:55.802Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "shared-theme",
+      "path": "docs/data/material/getting-started/templates/shared-theme",
+      "purpose": "Enhanced directory analysis of shared-theme",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "themePrimitives.ts",
+        "path": "docs/data/material/getting-started/templates/shared-theme/themePrimitives.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 404,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/shared-theme/themePrimitives.ts",
+            "functionName": "getDesignTokens",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "createTheme",
+                  "source": "@mui/material/styles",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "alpha",
+                  "source": "@mui/material/styles",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "PaletteMode",
+                  "source": "@mui/material/styles",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Shadows",
+                  "source": "@mui/material/styles",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "createTheme",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "createTheme",
+              "alpha",
+              "PaletteMode",
+              "Shadows"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "brand",
+            "type": "const"
+          },
+          {
+            "name": "gray",
+            "type": "const"
+          },
+          {
+            "name": "green",
+            "type": "const"
+          },
+          {
+            "name": "orange",
+            "type": "const"
+          },
+          {
+            "name": "red",
+            "type": "const"
+          },
+          {
+            "name": "getDesignTokens",
+            "type": "const"
+          },
+          {
+            "name": "colorSchemes",
+            "type": "const"
+          },
+          {
+            "name": "typography",
+            "type": "const"
+          },
+          {
+            "name": "shape",
+            "type": "const"
+          },
+          {
+            "name": "shadows",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getDesignTokens",
+            "type": "function",
+            "signature": "const getDesignTokens = () =>"
+          },
+          {
+            "name": "PaperPropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface PaperPropsVariantOverrides"
+          },
+          {
+            "name": "ColorRange",
+            "type": "interface",
+            "signature": "interface ColorRange"
+          },
+          {
+            "name": "PaletteColor",
+            "type": "interface",
+            "signature": "interface PaletteColor"
+          },
+          {
+            "name": "Palette",
+            "type": "interface",
+            "signature": "interface Palette"
+          }
+        ]
+      },
+      {
+        "name": "themePrimitives.js",
+        "path": "docs/data/material/getting-started/templates/shared-theme/themePrimitives.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 381,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/shared-theme/themePrimitives.js",
+            "functionName": "getDesignTokens",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -67,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "createTheme",
+                  "source": "@mui/material/styles",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "alpha",
+                  "source": "@mui/material/styles",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "createTheme",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "createTheme",
+              "alpha"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "brand",
+            "type": "const"
+          },
+          {
+            "name": "gray",
+            "type": "const"
+          },
+          {
+            "name": "green",
+            "type": "const"
+          },
+          {
+            "name": "orange",
+            "type": "const"
+          },
+          {
+            "name": "red",
+            "type": "const"
+          },
+          {
+            "name": "getDesignTokens",
+            "type": "const"
+          },
+          {
+            "name": "colorSchemes",
+            "type": "const"
+          },
+          {
+            "name": "typography",
+            "type": "const"
+          },
+          {
+            "name": "shape",
+            "type": "const"
+          },
+          {
+            "name": "shadows",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getDesignTokens",
+            "type": "function",
+            "signature": "const getDesignTokens = () =>"
+          }
+        ]
+      },
+      {
+        "name": "ColorModeSelect.tsx",
+        "path": "docs/data/material/getting-started/templates/shared-theme/ColorModeSelect.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 28,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/shared-theme/ColorModeSelect.tsx",
+            "functionName": "ColorModeSelect",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Moderate context score; Event handler or callback function"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 27
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Select",
+                  "source": "@mui/material/Select",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "useColorScheme",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "useColorScheme"
+            ]
+          },
+          {
+            "name": "MenuItem",
+            "sourceModule": "@mui/material/MenuItem",
+            "isDefault": true
+          },
+          {
+            "name": "Select",
+            "sourceModule": "@mui/material/Select",
+            "isDefault": true,
+            "namedImports": [
+              "SelectProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ColorModeSelect",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ColorModeSelect",
+            "type": "function",
+            "signature": "function ColorModeSelect()"
+          }
+        ]
+      },
+      {
+        "name": "ColorModeSelect.js",
+        "path": "docs/data/material/getting-started/templates/shared-theme/ColorModeSelect.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 25,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/shared-theme/ColorModeSelect.js",
+            "functionName": "ColorModeSelect",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Moderate context score; Event handler or callback function"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 24
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Select",
+                  "source": "@mui/material/Select",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "useColorScheme",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "useColorScheme"
+            ]
+          },
+          {
+            "name": "MenuItem",
+            "sourceModule": "@mui/material/MenuItem",
+            "isDefault": true
+          },
+          {
+            "name": "Select",
+            "sourceModule": "@mui/material/Select",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ColorModeSelect",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ColorModeSelect",
+            "type": "function",
+            "signature": "function ColorModeSelect()"
+          }
+        ]
+      },
+      {
+        "name": "ColorModeIconDropdown.tsx",
+        "path": "docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 90,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.tsx",
+            "functionName": "ColorModeIconDropdown",
+            "classification": "definite-legitimate",
+            "confidence": 3,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 10,
+              "endLine": 89
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "DarkModeIcon",
+                  "source": "@mui/icons-material/DarkModeRounded",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "LightModeIcon",
+                  "source": "@mui/icons-material/LightModeRounded",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Menu",
+                  "source": "@mui/material/Menu",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.tsx",
+            "functionName": "handleClick",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "DarkModeIcon",
+                  "source": "@mui/icons-material/DarkModeRounded",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "LightModeIcon",
+                  "source": "@mui/icons-material/LightModeRounded",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Menu",
+                  "source": "@mui/material/Menu",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.tsx",
+            "functionName": "handleClose",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "DarkModeIcon",
+                  "source": "@mui/icons-material/DarkModeRounded",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "LightModeIcon",
+                  "source": "@mui/icons-material/LightModeRounded",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Menu",
+                  "source": "@mui/material/Menu",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.tsx",
+            "functionName": "handleMode",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (4 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "DarkModeIcon",
+                  "source": "@mui/icons-material/DarkModeRounded",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "LightModeIcon",
+                  "source": "@mui/icons-material/LightModeRounded",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Menu",
+                  "source": "@mui/material/Menu",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "DarkModeIcon",
+            "sourceModule": "@mui/icons-material/DarkModeRounded",
+            "isDefault": true
+          },
+          {
+            "name": "LightModeIcon",
+            "sourceModule": "@mui/icons-material/LightModeRounded",
+            "isDefault": true
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "IconButton",
+            "sourceModule": "@mui/material/IconButton",
+            "isDefault": true,
+            "namedImports": [
+              "IconButtonOwnProps"
+            ]
+          },
+          {
+            "name": "Menu",
+            "sourceModule": "@mui/material/Menu",
+            "isDefault": true
+          },
+          {
+            "name": "MenuItem",
+            "sourceModule": "@mui/material/MenuItem",
+            "isDefault": true
+          },
+          {
+            "name": "useColorScheme",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "useColorScheme"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ColorModeIconDropdown",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ColorModeIconDropdown",
+            "type": "function",
+            "signature": "function ColorModeIconDropdown()"
+          },
+          {
+            "name": "handleClick",
+            "type": "function",
+            "signature": "const handleClick = () =>"
+          },
+          {
+            "name": "handleClose",
+            "type": "function",
+            "signature": "const handleClose = () =>"
+          },
+          {
+            "name": "handleMode",
+            "type": "function",
+            "signature": "const handleMode = () =>"
+          }
+        ]
+      },
+      {
+        "name": "ColorModeIconDropdown.js",
+        "path": "docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 90,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.js",
+            "functionName": "ColorModeIconDropdown",
+            "classification": "definite-legitimate",
+            "confidence": 3,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 10,
+              "endLine": 89
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "DarkModeIcon",
+                  "source": "@mui/icons-material/DarkModeRounded",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "LightModeIcon",
+                  "source": "@mui/icons-material/LightModeRounded",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Menu",
+                  "source": "@mui/material/Menu",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.js",
+            "functionName": "handleClick",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "DarkModeIcon",
+                  "source": "@mui/icons-material/DarkModeRounded",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "LightModeIcon",
+                  "source": "@mui/icons-material/LightModeRounded",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Menu",
+                  "source": "@mui/material/Menu",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.js",
+            "functionName": "handleClose",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "DarkModeIcon",
+                  "source": "@mui/icons-material/DarkModeRounded",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "LightModeIcon",
+                  "source": "@mui/icons-material/LightModeRounded",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Menu",
+                  "source": "@mui/material/Menu",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.js",
+            "functionName": "handleMode",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (4 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "DarkModeIcon",
+                  "source": "@mui/icons-material/DarkModeRounded",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "LightModeIcon",
+                  "source": "@mui/icons-material/LightModeRounded",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Menu",
+                  "source": "@mui/material/Menu",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "DarkModeIcon",
+            "sourceModule": "@mui/icons-material/DarkModeRounded",
+            "isDefault": true
+          },
+          {
+            "name": "LightModeIcon",
+            "sourceModule": "@mui/icons-material/LightModeRounded",
+            "isDefault": true
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "IconButton",
+            "sourceModule": "@mui/material/IconButton",
+            "isDefault": true
+          },
+          {
+            "name": "Menu",
+            "sourceModule": "@mui/material/Menu",
+            "isDefault": true
+          },
+          {
+            "name": "MenuItem",
+            "sourceModule": "@mui/material/MenuItem",
+            "isDefault": true
+          },
+          {
+            "name": "useColorScheme",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "useColorScheme"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ColorModeIconDropdown",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ColorModeIconDropdown",
+            "type": "function",
+            "signature": "function ColorModeIconDropdown()"
+          },
+          {
+            "name": "handleClick",
+            "type": "function",
+            "signature": "const handleClick = () =>"
+          },
+          {
+            "name": "handleClose",
+            "type": "function",
+            "signature": "const handleClose = () =>"
+          },
+          {
+            "name": "handleMode",
+            "type": "function",
+            "signature": "const handleMode = () =>"
+          }
+        ]
+      },
+      {
+        "name": "AppTheme.tsx",
+        "path": "docs/data/material/getting-started/templates/shared-theme/AppTheme.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 54,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/shared-theme/AppTheme.tsx",
+            "functionName": "AppTheme",
+            "classification": "definite-legitimate",
+            "confidence": 15,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 20,
+              "endLine": 53
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ThemeProvider",
+                  "source": "@mui/material/styles",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider",
+              "createTheme"
+            ]
+          },
+          {
+            "name": "ThemeOptions",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeOptions"
+            ]
+          },
+          {
+            "name": "inputsCustomizations",
+            "sourceModule": "./customizations/inputs",
+            "isDefault": false,
+            "namedImports": [
+              "inputsCustomizations"
+            ]
+          },
+          {
+            "name": "dataDisplayCustomizations",
+            "sourceModule": "./customizations/dataDisplay",
+            "isDefault": false,
+            "namedImports": [
+              "dataDisplayCustomizations"
+            ]
+          },
+          {
+            "name": "feedbackCustomizations",
+            "sourceModule": "./customizations/feedback",
+            "isDefault": false,
+            "namedImports": [
+              "feedbackCustomizations"
+            ]
+          },
+          {
+            "name": "navigationCustomizations",
+            "sourceModule": "./customizations/navigation",
+            "isDefault": false,
+            "namedImports": [
+              "navigationCustomizations"
+            ]
+          },
+          {
+            "name": "surfacesCustomizations",
+            "sourceModule": "./customizations/surfaces",
+            "isDefault": false,
+            "namedImports": [
+              "surfacesCustomizations"
+            ]
+          },
+          {
+            "name": "colorSchemes",
+            "sourceModule": "./themePrimitives",
+            "isDefault": false,
+            "namedImports": [
+              "colorSchemes",
+              "typography",
+              "shadows",
+              "shape"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "AppTheme",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "AppTheme",
+            "type": "function",
+            "signature": "function AppTheme()"
+          },
+          {
+            "name": "AppThemeProps",
+            "type": "interface",
+            "signature": "interface AppThemeProps"
+          }
+        ]
+      },
+      {
+        "name": "AppTheme.js",
+        "path": "docs/data/material/getting-started/templates/shared-theme/AppTheme.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 57,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/getting-started/templates/shared-theme/AppTheme.js",
+            "functionName": "AppTheme",
+            "classification": "definite-legitimate",
+            "confidence": 15,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 12,
+              "endLine": 45
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ThemeProvider",
+                  "source": "@mui/material/styles",
+                  "line": 3,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider",
+              "createTheme"
+            ]
+          },
+          {
+            "name": "inputsCustomizations",
+            "sourceModule": "./customizations/inputs",
+            "isDefault": false,
+            "namedImports": [
+              "inputsCustomizations"
+            ]
+          },
+          {
+            "name": "dataDisplayCustomizations",
+            "sourceModule": "./customizations/dataDisplay",
+            "isDefault": false,
+            "namedImports": [
+              "dataDisplayCustomizations"
+            ]
+          },
+          {
+            "name": "feedbackCustomizations",
+            "sourceModule": "./customizations/feedback",
+            "isDefault": false,
+            "namedImports": [
+              "feedbackCustomizations"
+            ]
+          },
+          {
+            "name": "navigationCustomizations",
+            "sourceModule": "./customizations/navigation",
+            "isDefault": false,
+            "namedImports": [
+              "navigationCustomizations"
+            ]
+          },
+          {
+            "name": "surfacesCustomizations",
+            "sourceModule": "./customizations/surfaces",
+            "isDefault": false,
+            "namedImports": [
+              "surfacesCustomizations"
+            ]
+          },
+          {
+            "name": "colorSchemes",
+            "sourceModule": "./themePrimitives",
+            "isDefault": false,
+            "namedImports": [
+              "colorSchemes",
+              "typography",
+              "shadows",
+              "shape"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "AppTheme",
+            "type": "function",
+            "signature": "function AppTheme()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "customizations",
+        "relativePath": "customizations",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of customizations",
+        "keyElementsFromChild": []
+      }
+    ],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/themePrimitives.ts",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/themePrimitives.js",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeSelect.tsx",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeSelect.tsx",
+          "to": "@mui/material/MenuItem",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeSelect.tsx",
+          "to": "@mui/material/Select",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeSelect.js",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeSelect.js",
+          "to": "@mui/material/MenuItem",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeSelect.js",
+          "to": "@mui/material/Select",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.tsx",
+          "to": "@mui/icons-material/DarkModeRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.tsx",
+          "to": "@mui/icons-material/LightModeRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.tsx",
+          "to": "@mui/material/IconButton",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.tsx",
+          "to": "@mui/material/Menu",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.tsx",
+          "to": "@mui/material/MenuItem",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.tsx",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.js",
+          "to": "@mui/icons-material/DarkModeRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.js",
+          "to": "@mui/icons-material/LightModeRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.js",
+          "to": "@mui/material/IconButton",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.js",
+          "to": "@mui/material/Menu",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.js",
+          "to": "@mui/material/MenuItem",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/ColorModeIconDropdown.js",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/AppTheme.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/AppTheme.tsx",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/AppTheme.tsx",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/AppTheme.tsx",
+          "to": "docs/data/material/getting-started/templates/shared-theme/themePrimitives.ts",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/AppTheme.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/AppTheme.js",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/AppTheme.js",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/getting-started/templates/shared-theme/AppTheme.js",
+          "to": "docs/data/material/getting-started/templates/shared-theme/themePrimitives.ts",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

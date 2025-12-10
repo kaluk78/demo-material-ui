@@ -1,0 +1,2301 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:19:32.740Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:19:32.740Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "Select",
+      "path": "packages/mui-joy/src/Select",
+      "purpose": "Enhanced directory analysis of Select",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "selectClasses.ts",
+        "path": "packages/mui-joy/src/Select/selectClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 88,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Select/selectClasses.ts",
+            "functionName": "getSelectUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 56,
+              "endLine": 58
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "generateUtilityClass",
+                  "source": "../className",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "generateUtilityClasses",
+                  "source": "../className",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "../className",
+            "isDefault": false,
+            "namedImports": [
+              "generateUtilityClass",
+              "generateUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "SelectClasses",
+            "type": "interface"
+          },
+          {
+            "name": "SelectClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getSelectUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getSelectUtilityClass",
+            "type": "function",
+            "signature": "function getSelectUtilityClass()"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "SelectClasses",
+            "type": "interface",
+            "signature": "interface SelectClasses"
+          },
+          {
+            "name": "SelectClassKey",
+            "type": "type",
+            "signature": "type SelectClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/Select/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "selectClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "SelectProps.ts",
+        "path": "packages/mui-joy/src/Select/SelectProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 247,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "PopperOwnProps",
+            "sourceModule": "@mui/base/Popper",
+            "isDefault": false,
+            "namedImports": [
+              "PopperOwnProps"
+            ]
+          },
+          {
+            "name": "SelectValue",
+            "sourceModule": "@mui/base/useSelect",
+            "isDefault": false,
+            "namedImports": [
+              "SelectValue"
+            ]
+          },
+          {
+            "name": "SelectOption",
+            "sourceModule": "@mui/base/useOption",
+            "isDefault": false,
+            "namedImports": [
+              "SelectOption"
+            ]
+          },
+          {
+            "name": "ColorPaletteProp",
+            "sourceModule": "../styles/types",
+            "isDefault": false,
+            "namedImports": [
+              "ColorPaletteProp",
+              "SxProps",
+              "VariantProp",
+              "ApplyColorInversion"
+            ]
+          },
+          {
+            "name": "CreateSlotsAndSlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "CreateSlotsAndSlotProps",
+              "SlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "SelectOption",
+            "type": "const"
+          },
+          {
+            "name": "SelectSlot",
+            "type": "type"
+          },
+          {
+            "name": "SelectSlots",
+            "type": "interface"
+          },
+          {
+            "name": "SelectPropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "SelectPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "SelectPropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "SelectSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "SelectStaticProps",
+            "type": "interface"
+          },
+          {
+            "name": "SelectOwnProps",
+            "type": "type"
+          },
+          {
+            "name": "SelectOwnerState",
+            "type": "interface"
+          },
+          {
+            "name": "SelectTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "SelectProps",
+            "type": "type"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "SelectSlots",
+            "type": "interface",
+            "signature": "interface SelectSlots"
+          },
+          {
+            "name": "SelectPropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface SelectPropsVariantOverrides"
+          },
+          {
+            "name": "SelectPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface SelectPropsColorOverrides"
+          },
+          {
+            "name": "SelectPropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface SelectPropsSizeOverrides"
+          },
+          {
+            "name": "SelectStaticProps",
+            "type": "interface",
+            "signature": "interface SelectStaticProps"
+          },
+          {
+            "name": "SelectOwnerState",
+            "type": "interface",
+            "signature": "interface SelectOwnerState"
+          },
+          {
+            "name": "SelectTypeMap",
+            "type": "interface",
+            "signature": "interface SelectTypeMap"
+          },
+          {
+            "name": "SelectSlot",
+            "type": "type",
+            "signature": "type SelectSlot"
+          },
+          {
+            "name": "SelectSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type SelectSlotsAndSlotProps"
+          },
+          {
+            "name": "SelectOwnProps",
+            "type": "type",
+            "signature": "type SelectOwnProps"
+          },
+          {
+            "name": "of",
+            "type": "type",
+            "signature": "type of"
+          },
+          {
+            "name": "SelectProps",
+            "type": "type",
+            "signature": "type SelectProps"
+          }
+        ]
+      },
+      {
+        "name": "Select.tsx",
+        "path": "packages/mui-joy/src/Select/Select.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 806,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Select/Select.tsx",
+            "functionName": "defaultRenderValue",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 30,
+              "endLine": 38
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "SelectProvider",
+                  "source": "@mui/base/useSelect",
+                  "line": 9,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListProvider",
+                  "source": "../List/ListProvider",
+                  "line": 13,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "GroupListContext",
+                  "source": "../List/GroupListContext",
+                  "line": 14,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Unfold",
+                  "source": "../internal/svg-icons/Unfold",
+                  "line": 15,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "VariantColorProvider",
+                  "source": "../styles/variantColorInheritance",
+                  "line": 28,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/Select/Select.tsx",
+            "functionName": "Select",
+            "classification": "definite-placeholder",
+            "confidence": 85,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"TODO\"",
+              "Returns hardcoded value: \"return undefined;\"",
+              "[FALLBACK] 6 AI-suspicious unused variables: SlotRoot, SlotButton, SlotListbox, SlotStartDecorator, SlotEndDecorator, SlotIndicator",
+              "Note: Using custom analysis - TS/ESLint would be more accurate"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 100,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 20,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "SelectProvider",
+                  "source": "@mui/base/useSelect",
+                  "line": 9,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListProvider",
+                  "source": "../List/ListProvider",
+                  "line": 13,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "GroupListContext",
+                  "source": "../List/GroupListContext",
+                  "line": 14,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Unfold",
+                  "source": "../internal/svg-icons/Unfold",
+                  "line": 15,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "VariantColorProvider",
+                  "source": "../styles/variantColorInheritance",
+                  "line": 28,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "SlotRoot",
+                  "line": 499,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                },
+                {
+                  "name": "SlotButton",
+                  "line": 507,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                },
+                {
+                  "name": "SlotListbox",
+                  "line": 523,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 6,
+                    "reason": "Important business variable - may indicate incomplete logic"
+                  }
+                },
+                {
+                  "name": "SlotStartDecorator",
+                  "line": 548,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 6,
+                    "reason": "Important business variable - may indicate incomplete logic"
+                  }
+                },
+                {
+                  "name": "SlotEndDecorator",
+                  "line": 555,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 6,
+                    "reason": "Important business variable - may indicate incomplete logic"
+                  }
+                },
+                {
+                  "name": "SlotIndicator",
+                  "line": 562,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 6,
+                    "reason": "Important business variable - may indicate incomplete logic"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/Select/Select.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "SelectProvider",
+                  "source": "@mui/base/useSelect",
+                  "line": 9,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListProvider",
+                  "source": "../List/ListProvider",
+                  "line": 13,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "GroupListContext",
+                  "source": "../List/GroupListContext",
+                  "line": 14,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Unfold",
+                  "source": "../internal/svg-icons/Unfold",
+                  "line": 15,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "VariantColorProvider",
+                  "source": "../styles/variantColorInheritance",
+                  "line": 28,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "OverrideProps",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverrideProps",
+              "DefaultComponentProps"
+            ]
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "useForkRef",
+            "sourceModule": "@mui/utils/useForkRef",
+            "isDefault": true
+          },
+          {
+            "name": "Popper",
+            "sourceModule": "@mui/base/Popper",
+            "isDefault": false,
+            "namedImports": [
+              "Popper",
+              "PopperProps"
+            ]
+          },
+          {
+            "name": "useSelect",
+            "sourceModule": "@mui/base/useSelect",
+            "isDefault": false,
+            "namedImports": [
+              "useSelect",
+              "SelectProvider",
+              "SelectValue"
+            ]
+          },
+          {
+            "name": "SelectOption",
+            "sourceModule": "@mui/base/useOption",
+            "isDefault": false,
+            "namedImports": [
+              "SelectOption"
+            ]
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/base/composeClasses",
+            "isDefault": false,
+            "namedImports": [
+              "composeClasses"
+            ]
+          },
+          {
+            "name": "StyledList",
+            "sourceModule": "../List/List",
+            "isDefault": false,
+            "namedImports": [
+              "StyledList"
+            ]
+          },
+          {
+            "name": "ListProvider",
+            "sourceModule": "../List/ListProvider",
+            "isDefault": true,
+            "namedImports": [
+              "scopedVariables"
+            ]
+          },
+          {
+            "name": "GroupListContext",
+            "sourceModule": "../List/GroupListContext",
+            "isDefault": true
+          },
+          {
+            "name": "Unfold",
+            "sourceModule": "../internal/svg-icons/Unfold",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "styled",
+              "useThemeProps"
+            ]
+          },
+          {
+            "name": "SelectOwnProps",
+            "sourceModule": "./SelectProps",
+            "isDefault": false,
+            "namedImports": [
+              "SelectOwnProps",
+              "SelectOwnerState",
+              "SelectSlotsAndSlotProps",
+              "SelectTypeMap"
+            ]
+          },
+          {
+            "name": "resolveSxValue",
+            "sourceModule": "../styles/styleUtils",
+            "isDefault": false,
+            "namedImports": [
+              "resolveSxValue"
+            ]
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          },
+          {
+            "name": "selectClasses",
+            "sourceModule": "./selectClasses",
+            "isDefault": true,
+            "namedImports": [
+              "getSelectUtilityClass"
+            ]
+          },
+          {
+            "name": "ListOwnerState",
+            "sourceModule": "../List",
+            "isDefault": false,
+            "namedImports": [
+              "ListOwnerState"
+            ]
+          },
+          {
+            "name": "FormControlContext",
+            "sourceModule": "../FormControl/FormControlContext",
+            "isDefault": true
+          },
+          {
+            "name": "VariantColorProvider",
+            "sourceModule": "../styles/variantColorInheritance",
+            "isDefault": false,
+            "namedImports": [
+              "VariantColorProvider"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "SelectComponent",
+            "type": "interface",
+            "signature": "interface SelectComponent"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          },
+          {
+            "name": "of",
+            "type": "type",
+            "signature": "type of"
+          }
+        ]
+      },
+      {
+        "name": "Select.test.tsx",
+        "path": "packages/mui-joy/src/Select/Select.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 698,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Select/Select.test.tsx",
+            "functionName": "customFormValueProvider",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (2 lines)",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Select",
+                  "source": "@mui/joy/Select",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Option",
+                  "source": "@mui/joy/Option",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "List",
+                  "source": "@mui/joy/List",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListItem",
+                  "source": "@mui/joy/ListItem",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListDivider",
+                  "source": "@mui/joy/ListDivider",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/Select/Select.test.tsx",
+            "functionName": "excludePopperProps",
+            "classification": "definite-legitimate",
+            "confidence": 19,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 24,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Select",
+                  "source": "@mui/joy/Select",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Option",
+                  "source": "@mui/joy/Option",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "List",
+                  "source": "@mui/joy/List",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListItem",
+                  "source": "@mui/joy/ListItem",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListDivider",
+                  "source": "@mui/joy/ListDivider",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/Select/Select.test.tsx",
+            "functionName": "handleSubmit",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -62,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Select",
+                  "source": "@mui/joy/Select",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Option",
+                  "source": "@mui/joy/Option",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "List",
+                  "source": "@mui/joy/List",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListItem",
+                  "source": "@mui/joy/ListItem",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListDivider",
+                  "source": "@mui/joy/ListDivider",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/Select/Select.test.tsx",
+            "functionName": "handleSubmit",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -62,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Select",
+                  "source": "@mui/joy/Select",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Option",
+                  "source": "@mui/joy/Option",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "List",
+                  "source": "@mui/joy/List",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListItem",
+                  "source": "@mui/joy/ListItem",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListDivider",
+                  "source": "@mui/joy/ListDivider",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/Select/Select.test.tsx",
+            "functionName": "handleSubmit",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -62,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Select",
+                  "source": "@mui/joy/Select",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Option",
+                  "source": "@mui/joy/Option",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "List",
+                  "source": "@mui/joy/List",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListItem",
+                  "source": "@mui/joy/ListItem",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListDivider",
+                  "source": "@mui/joy/ListDivider",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/Select/Select.test.tsx",
+            "functionName": "renderValue",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -50,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Select",
+                  "source": "@mui/joy/Select",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Option",
+                  "source": "@mui/joy/Option",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "List",
+                  "source": "@mui/joy/List",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListItem",
+                  "source": "@mui/joy/ListItem",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListDivider",
+                  "source": "@mui/joy/ListDivider",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/Select/Select.test.tsx",
+            "functionName": "test",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Event handler or callback function; Utility function with clear purpose; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -50,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Select",
+                  "source": "@mui/joy/Select",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Option",
+                  "source": "@mui/joy/Option",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "List",
+                  "source": "@mui/joy/List",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListItem",
+                  "source": "@mui/joy/ListItem",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListDivider",
+                  "source": "@mui/joy/ListDivider",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/Select/Select.test.tsx",
+            "functionName": "test",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Event handler or callback function; Utility function with clear purpose; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -50,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Select",
+                  "source": "@mui/joy/Select",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Option",
+                  "source": "@mui/joy/Option",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "List",
+                  "source": "@mui/joy/List",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListItem",
+                  "source": "@mui/joy/ListItem",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListDivider",
+                  "source": "@mui/joy/ListDivider",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/Select/Select.test.tsx",
+            "functionName": "test",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Event handler or callback function; Utility function with clear purpose; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -50,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Select",
+                  "source": "@mui/joy/Select",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Option",
+                  "source": "@mui/joy/Option",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "List",
+                  "source": "@mui/joy/List",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListItem",
+                  "source": "@mui/joy/ListItem",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListDivider",
+                  "source": "@mui/joy/ListDivider",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "spy",
+            "sourceModule": "sinon",
+            "isDefault": false,
+            "namedImports": [
+              "spy",
+              "stub"
+            ]
+          },
+          {
+            "name": "act",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "act",
+              "createRenderer",
+              "fireEvent",
+              "screen",
+              "isJsdom"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "Select",
+            "sourceModule": "@mui/joy/Select",
+            "isDefault": true,
+            "namedImports": [
+              "classes",
+              "SelectOption"
+            ]
+          },
+          {
+            "name": "Option",
+            "sourceModule": "@mui/joy/Option",
+            "isDefault": true
+          },
+          {
+            "name": "List",
+            "sourceModule": "@mui/joy/List",
+            "isDefault": true
+          },
+          {
+            "name": "ListItem",
+            "sourceModule": "@mui/joy/ListItem",
+            "isDefault": true
+          },
+          {
+            "name": "ListDivider",
+            "sourceModule": "@mui/joy/ListDivider",
+            "isDefault": true
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "test",
+            "type": "function",
+            "signature": "function test()"
+          },
+          {
+            "name": "test",
+            "type": "function",
+            "signature": "function test()"
+          },
+          {
+            "name": "test",
+            "type": "function",
+            "signature": "function test()"
+          },
+          {
+            "name": "renderValue",
+            "type": "function",
+            "signature": "const renderValue = () =>"
+          },
+          {
+            "name": "handleSubmit",
+            "type": "function",
+            "signature": "const handleSubmit = () =>"
+          },
+          {
+            "name": "handleSubmit",
+            "type": "function",
+            "signature": "const handleSubmit = () =>"
+          },
+          {
+            "name": "customFormValueProvider",
+            "type": "function",
+            "signature": "const customFormValueProvider = () =>"
+          },
+          {
+            "name": "handleSubmit",
+            "type": "function",
+            "signature": "const handleSubmit = () =>"
+          }
+        ]
+      },
+      {
+        "name": "Select.spec.tsx",
+        "path": "packages/mui-joy/src/Select/Select.spec.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 230,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Select/Select.spec.tsx",
+            "functionName": "handleChange",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (4 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -62,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Select",
+                  "source": "@mui/joy/Select",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/Select/Select.spec.tsx",
+            "functionName": "handleMultiChange",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (4 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -62,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Select",
+                  "source": "@mui/joy/Select",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "expectType",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "expectType"
+            ]
+          },
+          {
+            "name": "Select",
+            "sourceModule": "@mui/joy/Select",
+            "isDefault": true,
+            "namedImports": [
+              "SelectOwnerState"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "handleChange",
+            "type": "function",
+            "signature": "const handleChange = () =>"
+          },
+          {
+            "name": "handleMultiChange",
+            "type": "function",
+            "signature": "const handleMultiChange = () =>"
+          },
+          {
+            "name": "Value",
+            "type": "interface",
+            "signature": "interface Value"
+          },
+          {
+            "name": "does",
+            "type": "type",
+            "signature": "type does"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-joy/src/Select/SelectProps.ts",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/SelectProps.ts",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/SelectProps.ts",
+          "to": "@mui/base/Popper",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/SelectProps.ts",
+          "to": "@mui/base/useSelect",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/SelectProps.ts",
+          "to": "@mui/base/useOption",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.tsx",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.tsx",
+          "to": "clsx",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.tsx",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.tsx",
+          "to": "@mui/utils/capitalize",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.tsx",
+          "to": "@mui/utils/useForkRef",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.tsx",
+          "to": "@mui/base/Popper",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.tsx",
+          "to": "@mui/base/useSelect",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.tsx",
+          "to": "@mui/base/useOption",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.tsx",
+          "to": "@mui/base/composeClasses",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.tsx",
+          "to": "packages/mui-joy/src/Select/SelectProps.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.tsx",
+          "to": "packages/mui-joy/src/Select/selectClasses.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.test.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.test.tsx",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.test.tsx",
+          "to": "sinon",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.test.tsx",
+          "to": "@mui/internal-test-utils",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.test.tsx",
+          "to": "@mui/joy/styles",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.test.tsx",
+          "to": "@mui/joy/Select",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.test.tsx",
+          "to": "@mui/joy/Option",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.test.tsx",
+          "to": "@mui/joy/List",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.test.tsx",
+          "to": "@mui/joy/ListItem",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.test.tsx",
+          "to": "@mui/joy/ListDivider",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.spec.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.spec.tsx",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Select/Select.spec.tsx",
+          "to": "@mui/joy/Select",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

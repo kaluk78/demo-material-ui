@@ -1,0 +1,1927 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:20:39.099Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:20:39.099Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "TextField",
+      "path": "packages/mui-material/src/TextField",
+      "purpose": "Enhanced directory analysis of TextField",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "textFieldClasses.ts",
+        "path": "packages/mui-material/src/TextField/textFieldClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 18,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/TextField/textFieldClasses.ts",
+            "functionName": "getTextFieldUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 11,
+              "endLine": 13
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "generateUtilityClasses",
+                  "source": "@mui/utils/generateUtilityClasses",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "generateUtilityClass",
+                  "source": "@mui/utils/generateUtilityClass",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TextFieldClasses",
+            "type": "interface"
+          },
+          {
+            "name": "TextFieldClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getTextFieldUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getTextFieldUtilityClass",
+            "type": "function",
+            "signature": "function getTextFieldUtilityClass()"
+          },
+          {
+            "name": "TextFieldClasses",
+            "type": "interface",
+            "signature": "interface TextFieldClasses"
+          },
+          {
+            "name": "TextFieldClassKey",
+            "type": "type",
+            "signature": "type TextFieldClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.js",
+        "path": "packages/mui-material/src/TextField/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "textFieldClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-material/src/TextField/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "textFieldClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "TextField.test.js",
+        "path": "packages/mui-material/src/TextField/TextField.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 344,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/TextField/TextField.test.js",
+            "functionName": "AutoFillComponentTest",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Event handler or callback function; Mutates state or has side effects; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 322,
+              "endLine": 336
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "TextField",
+                  "source": "@mui/material/TextField",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/TextField/TextField.test.js",
+            "functionName": "test",
+            "classification": "definite-legitimate",
+            "confidence": 8,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Utility function with clear purpose; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -38,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "TextField",
+                  "source": "@mui/material/TextField",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/TextField/TextField.test.js",
+            "functionName": "TestComponent",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 15,
+              "endLine": 22
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "TextField",
+                  "source": "@mui/material/TextField",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/TextField/TextField.test.js",
+            "functionName": "TestFormControl",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "[FALLBACK] 1 AI-suspicious unused variables: error",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Moderate context score; Test file - simple test helpers expected"
+            ],
+            "location": {
+              "startLine": 24,
+              "endLine": 31
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 4.800000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "TextField",
+                  "source": "@mui/material/TextField",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "error",
+                  "line": 25,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "spy",
+            "sourceModule": "sinon",
+            "isDefault": false,
+            "namedImports": [
+              "spy"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "fireEvent",
+              "screen",
+              "isJsdom"
+            ]
+          },
+          {
+            "name": "FormControl",
+            "sourceModule": "@mui/material/FormControl",
+            "isDefault": true
+          },
+          {
+            "name": "inputBaseClasses",
+            "sourceModule": "@mui/material/InputBase",
+            "isDefault": false,
+            "namedImports": [
+              "inputBaseClasses"
+            ]
+          },
+          {
+            "name": "MenuItem",
+            "sourceModule": "@mui/material/MenuItem",
+            "isDefault": true
+          },
+          {
+            "name": "outlinedInputClasses",
+            "sourceModule": "@mui/material/OutlinedInput",
+            "isDefault": false,
+            "namedImports": [
+              "outlinedInputClasses"
+            ]
+          },
+          {
+            "name": "TextField",
+            "sourceModule": "@mui/material/TextField",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TestComponent",
+            "type": "function",
+            "signature": "function TestComponent()"
+          },
+          {
+            "name": "TestFormControl",
+            "type": "function",
+            "signature": "function TestFormControl()"
+          },
+          {
+            "name": "test",
+            "type": "function",
+            "signature": "function test()"
+          },
+          {
+            "name": "AutoFillComponentTest",
+            "type": "function",
+            "signature": "function AutoFillComponentTest()"
+          }
+        ]
+      },
+      {
+        "name": "TextField.spec.tsx",
+        "path": "packages/mui-material/src/TextField/TextField.spec.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 111,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/TextField/TextField.spec.tsx",
+            "functionName": "FocusHandlerTest",
+            "classification": "likely-placeholder",
+            "confidence": 70,
+            "isPlaceholder": true,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Returns simple/hardcoded value",
+              "Function takes no parameters",
+              "[FALLBACK] 4 AI-suspicious unused variables: input, textfield, element, field",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Properly uses assigned variables; Test file - simple test helpers expected"
+            ],
+            "location": {
+              "startLine": 69,
+              "endLine": 96
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -55,
+              "unusedCodeAnalysis": 19.200000000000003,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "TextField",
+                  "source": "@mui/material/TextField",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "input",
+                  "line": 75,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                },
+                {
+                  "name": "textfield",
+                  "line": 79,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                },
+                {
+                  "name": "element",
+                  "line": 87,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                },
+                {
+                  "name": "field",
+                  "line": 93,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/TextField/TextField.spec.tsx",
+            "functionName": "HelperText",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "TextField",
+                  "source": "@mui/material/TextField",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "expectType",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "expectType"
+            ]
+          },
+          {
+            "name": "TextField",
+            "sourceModule": "@mui/material/TextField",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "FormHelperTextProps",
+            "sourceModule": "@mui/material/FormHelperText",
+            "isDefault": false,
+            "namedImports": [
+              "FormHelperTextProps"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "FocusHandlerTest",
+            "type": "function",
+            "signature": "function FocusHandlerTest()"
+          },
+          {
+            "name": "filled",
+            "type": "function",
+            "signature": "const filled = () =>"
+          },
+          {
+            "name": "HelperText",
+            "type": "function",
+            "signature": "const HelperText = () =>"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "D",
+            "type": "const",
+            "signature": "const D"
+          },
+          {
+            "name": "H",
+            "type": "const",
+            "signature": "const H"
+          },
+          {
+            "name": "inference",
+            "type": "type",
+            "signature": "type inference"
+          }
+        ]
+      },
+      {
+        "name": "TextField.js",
+        "path": "packages/mui-material/src/TextField/TextField.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 495,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/TextField/TextField.js",
+            "functionName": "TextField",
+            "classification": "likely-placeholder",
+            "confidence": 70,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"placeholder\"",
+              "[FALLBACK] 5 AI-suspicious unused variables: RootSlot, InputSlot, InputLabelSlot, FormHelperTextSlot, SelectSlot",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Moderate context score; Event handler or callback function"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 40,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 20,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "PropTypes",
+                  "source": "prop-types",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "clsx",
+                  "source": "clsx",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "composeClasses",
+                  "source": "@mui/utils/composeClasses",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "useId",
+                  "source": "@mui/utils/useId",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "refType",
+                  "source": "@mui/utils/refType",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "styled",
+                  "source": "../zero-styled",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "useDefaultProps",
+                  "source": "../DefaultPropsProvider",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Input",
+                  "source": "../Input",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FilledInput",
+                  "source": "../FilledInput",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "OutlinedInput",
+                  "source": "../OutlinedInput",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "InputLabel",
+                  "source": "../InputLabel",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormControl",
+                  "source": "../FormControl",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormHelperText",
+                  "source": "../FormHelperText",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Select",
+                  "source": "../Select",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "getTextFieldUtilityClass",
+                  "source": "./textFieldClasses",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "useSlot",
+                  "source": "../utils/useSlot",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "RootSlot",
+                  "line": 170,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                },
+                {
+                  "name": "InputSlot",
+                  "line": 190,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                },
+                {
+                  "name": "InputLabelSlot",
+                  "line": 197,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 6,
+                    "reason": "Important business variable - may indicate incomplete logic"
+                  }
+                },
+                {
+                  "name": "FormHelperTextSlot",
+                  "line": 209,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 6,
+                    "reason": "Important business variable - may indicate incomplete logic"
+                  }
+                },
+                {
+                  "name": "SelectSlot",
+                  "line": 215,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/TextField/TextField.js",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "PropTypes",
+                  "source": "prop-types",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "clsx",
+                  "source": "clsx",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "composeClasses",
+                  "source": "@mui/utils/composeClasses",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "useId",
+                  "source": "@mui/utils/useId",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "refType",
+                  "source": "@mui/utils/refType",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "styled",
+                  "source": "../zero-styled",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "useDefaultProps",
+                  "source": "../DefaultPropsProvider",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Input",
+                  "source": "../Input",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FilledInput",
+                  "source": "../FilledInput",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "OutlinedInput",
+                  "source": "../OutlinedInput",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "InputLabel",
+                  "source": "../InputLabel",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormControl",
+                  "source": "../FormControl",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormHelperText",
+                  "source": "../FormHelperText",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Select",
+                  "source": "../Select",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "getTextFieldUtilityClass",
+                  "source": "./textFieldClasses",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "useSlot",
+                  "source": "../utils/useSlot",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "useId",
+            "sourceModule": "@mui/utils/useId",
+            "isDefault": true
+          },
+          {
+            "name": "refType",
+            "sourceModule": "@mui/utils/refType",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../zero-styled",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "useDefaultProps",
+            "sourceModule": "../DefaultPropsProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useDefaultProps"
+            ]
+          },
+          {
+            "name": "Input",
+            "sourceModule": "../Input",
+            "isDefault": true
+          },
+          {
+            "name": "FilledInput",
+            "sourceModule": "../FilledInput",
+            "isDefault": true
+          },
+          {
+            "name": "OutlinedInput",
+            "sourceModule": "../OutlinedInput",
+            "isDefault": true
+          },
+          {
+            "name": "InputLabel",
+            "sourceModule": "../InputLabel",
+            "isDefault": true
+          },
+          {
+            "name": "FormControl",
+            "sourceModule": "../FormControl",
+            "isDefault": true
+          },
+          {
+            "name": "FormHelperText",
+            "sourceModule": "../FormHelperText",
+            "isDefault": true
+          },
+          {
+            "name": "Select",
+            "sourceModule": "../Select",
+            "isDefault": true
+          },
+          {
+            "name": "getTextFieldUtilityClass",
+            "sourceModule": "./textFieldClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getTextFieldUtilityClass"
+            ]
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TextField",
+            "type": "function",
+            "signature": "function TextField()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "I",
+            "type": "const",
+            "signature": "const I"
+          },
+          {
+            "name": "I",
+            "type": "const",
+            "signature": "const I"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "TextField.d.ts",
+        "path": "packages/mui-material/src/TextField/TextField.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 401,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion"
+            ]
+          },
+          {
+            "name": "Theme",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "Theme"
+            ]
+          },
+          {
+            "name": "StandardProps",
+            "sourceModule": "../internal",
+            "isDefault": false,
+            "namedImports": [
+              "StandardProps"
+            ]
+          },
+          {
+            "name": "FormControlProps",
+            "sourceModule": "../FormControl",
+            "isDefault": false,
+            "namedImports": [
+              "FormControlProps"
+            ]
+          },
+          {
+            "name": "FormHelperTextProps",
+            "sourceModule": "../FormHelperText",
+            "isDefault": false,
+            "namedImports": [
+              "FormHelperTextProps"
+            ]
+          },
+          {
+            "name": "InputBaseProps",
+            "sourceModule": "../InputBase",
+            "isDefault": false,
+            "namedImports": [
+              "InputBaseProps"
+            ]
+          },
+          {
+            "name": "StandardInputProps",
+            "sourceModule": "../Input",
+            "isDefault": false,
+            "namedImports": [
+              "StandardInputProps"
+            ]
+          },
+          {
+            "name": "FilledInputProps",
+            "sourceModule": "../FilledInput",
+            "isDefault": false,
+            "namedImports": [
+              "FilledInputProps"
+            ]
+          },
+          {
+            "name": "OutlinedInputProps",
+            "sourceModule": "../OutlinedInput",
+            "isDefault": false,
+            "namedImports": [
+              "OutlinedInputProps"
+            ]
+          },
+          {
+            "name": "InputLabelProps",
+            "sourceModule": "../InputLabel",
+            "isDefault": false,
+            "namedImports": [
+              "InputLabelProps"
+            ]
+          },
+          {
+            "name": "SelectProps",
+            "sourceModule": "../Select",
+            "isDefault": false,
+            "namedImports": [
+              "SelectProps"
+            ]
+          },
+          {
+            "name": "TextFieldClasses",
+            "sourceModule": "./textFieldClasses",
+            "isDefault": false,
+            "namedImports": [
+              "TextFieldClasses"
+            ]
+          },
+          {
+            "name": "CreateSlotsAndSlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "CreateSlotsAndSlotProps",
+              "SlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TextFieldPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TextFieldPropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TextFieldSlots",
+            "type": "interface"
+          },
+          {
+            "name": "TextFieldRootSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TextFieldInputSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TextFieldInputLabelSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TextFieldFormHelperTextSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TextFieldSelectSlotPropsOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TextFieldSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "BaseTextFieldProps",
+            "type": "interface"
+          },
+          {
+            "name": "StandardTextFieldProps",
+            "type": "interface"
+          },
+          {
+            "name": "FilledTextFieldProps",
+            "type": "interface"
+          },
+          {
+            "name": "OutlinedTextFieldProps",
+            "type": "interface"
+          },
+          {
+            "name": "TextFieldVariants",
+            "type": "type"
+          },
+          {
+            "name": "TextFieldProps",
+            "type": "type"
+          },
+          {
+            "name": "TextFieldOwnerState",
+            "type": "type"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TextFieldPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface TextFieldPropsColorOverrides"
+          },
+          {
+            "name": "TextFieldPropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface TextFieldPropsSizeOverrides"
+          },
+          {
+            "name": "TextFieldSlots",
+            "type": "interface",
+            "signature": "interface TextFieldSlots"
+          },
+          {
+            "name": "TextFieldRootSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface TextFieldRootSlotPropsOverrides"
+          },
+          {
+            "name": "TextFieldInputSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface TextFieldInputSlotPropsOverrides"
+          },
+          {
+            "name": "TextFieldInputLabelSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface TextFieldInputLabelSlotPropsOverrides"
+          },
+          {
+            "name": "TextFieldFormHelperTextSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface TextFieldFormHelperTextSlotPropsOverrides"
+          },
+          {
+            "name": "TextFieldSelectSlotPropsOverrides",
+            "type": "interface",
+            "signature": "interface TextFieldSelectSlotPropsOverrides"
+          },
+          {
+            "name": "BaseTextFieldProps",
+            "type": "interface",
+            "signature": "interface BaseTextFieldProps"
+          },
+          {
+            "name": "StandardTextFieldProps",
+            "type": "interface",
+            "signature": "interface StandardTextFieldProps"
+          },
+          {
+            "name": "FilledTextFieldProps",
+            "type": "interface",
+            "signature": "interface FilledTextFieldProps"
+          },
+          {
+            "name": "OutlinedTextFieldProps",
+            "type": "interface",
+            "signature": "interface OutlinedTextFieldProps"
+          },
+          {
+            "name": "TextFieldSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type TextFieldSlotsAndSlotProps"
+          },
+          {
+            "name": "TextFieldVariants",
+            "type": "type",
+            "signature": "type TextFieldVariants"
+          },
+          {
+            "name": "TextFieldProps",
+            "type": "type",
+            "signature": "type TextFieldProps"
+          },
+          {
+            "name": "TextFieldOwnerState",
+            "type": "type",
+            "signature": "type TextFieldOwnerState"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-material/src/TextField/textFieldClasses.ts",
+          "to": "@mui/utils/generateUtilityClasses",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/textFieldClasses.ts",
+          "to": "@mui/utils/generateUtilityClass",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.test.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.test.js",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.test.js",
+          "to": "sinon",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.test.js",
+          "to": "@mui/internal-test-utils",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.test.js",
+          "to": "@mui/material/FormControl",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.test.js",
+          "to": "@mui/material/InputBase",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.test.js",
+          "to": "@mui/material/MenuItem",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.test.js",
+          "to": "@mui/material/OutlinedInput",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.test.js",
+          "to": "@mui/material/TextField",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.spec.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.spec.tsx",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.spec.tsx",
+          "to": "@mui/material/TextField",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.spec.tsx",
+          "to": "@mui/material/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.spec.tsx",
+          "to": "@mui/material/FormHelperText",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.js",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.js",
+          "to": "clsx",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.js",
+          "to": "@mui/utils/composeClasses",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.js",
+          "to": "@mui/utils/useId",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.js",
+          "to": "@mui/utils/refType",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.js",
+          "to": "packages/mui-material/src/TextField/textFieldClasses.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.d.ts",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.d.ts",
+          "to": "@mui/system",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.d.ts",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/TextField/TextField.d.ts",
+          "to": "packages/mui-material/src/TextField/textFieldClasses.ts",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

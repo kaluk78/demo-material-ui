@@ -1,0 +1,613 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:11:38.993Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:11:38.993Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "materialUi",
+      "path": "packages/api-docs-builder-core/materialUi",
+      "purpose": "Enhanced directory analysis of materialUi",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "projectSettings.ts",
+        "path": "packages/api-docs-builder-core/materialUi/projectSettings.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 59,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/api-docs-builder-core/materialUi/projectSettings.ts",
+            "functionName": "generateClassName",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing; Configuration file - simple functions expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -77,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "path",
+                  "source": "path",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "LANGUAGES",
+                  "source": "docs/config",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ProjectSettings",
+                  "source": "@mui-internal/api-docs-builder",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "findApiPages",
+                  "source": "@mui-internal/api-docs-builder/utils/findApiPages",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "generateUtilityClass",
+                  "source": "@mui/utils/generateUtilityClass",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "isGlobalState",
+                  "source": "@mui/utils/generateUtilityClass",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "getMaterialUiComponentInfo",
+                  "source": "./getMaterialUiComponentInfo",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "path",
+            "sourceModule": "path",
+            "isDefault": true
+          },
+          {
+            "name": "LANGUAGES",
+            "sourceModule": "docs/config",
+            "isDefault": false,
+            "namedImports": [
+              "LANGUAGES"
+            ]
+          },
+          {
+            "name": "ProjectSettings",
+            "sourceModule": "@mui-internal/api-docs-builder",
+            "isDefault": false,
+            "namedImports": [
+              "ProjectSettings"
+            ]
+          },
+          {
+            "name": "findApiPages",
+            "sourceModule": "@mui-internal/api-docs-builder/utils/findApiPages",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true,
+            "namedImports": [
+              "isGlobalState"
+            ]
+          },
+          {
+            "name": "getMaterialUiComponentInfo",
+            "sourceModule": "./getMaterialUiComponentInfo",
+            "isDefault": false,
+            "namedImports": [
+              "getMaterialUiComponentInfo"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "projectSettings",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "generateClassName",
+            "type": "function",
+            "signature": "const generateClassName = () =>"
+          }
+        ]
+      },
+      {
+        "name": "getMaterialUiComponentInfo.ts",
+        "path": "packages/api-docs-builder-core/materialUi/getMaterialUiComponentInfo.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 72,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/api-docs-builder-core/materialUi/getMaterialUiComponentInfo.ts",
+            "functionName": "getMaterialUiComponentInfo",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Contains throw statement",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Properly uses assigned variables; Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 15,
+              "endLine": 71
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "fs",
+                  "source": "fs",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "path",
+                  "source": "path",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "kebabCase",
+                  "source": "es-toolkit/string",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "getHeaders",
+                  "source": "@mui/internal-markdown",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "getTitle",
+                  "source": "@mui/internal-markdown",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ComponentInfo",
+                  "source": "@mui-internal/api-docs-builder/buildApiUtils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "extractPackageFile",
+                  "source": "@mui-internal/api-docs-builder/buildApiUtils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "fixPathname",
+                  "source": "@mui-internal/api-docs-builder/buildApiUtils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "getMuiName",
+                  "source": "@mui-internal/api-docs-builder/buildApiUtils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "getSystemComponents",
+                  "source": "@mui-internal/api-docs-builder/buildApiUtils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "parseFile",
+                  "source": "@mui-internal/api-docs-builder/buildApiUtils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "findPagesMarkdown",
+                  "source": "@mui-internal/api-docs-builder/utils/findPagesMarkdown",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "fs",
+            "sourceModule": "fs",
+            "isDefault": true
+          },
+          {
+            "name": "path",
+            "sourceModule": "path",
+            "isDefault": true
+          },
+          {
+            "name": "kebabCase",
+            "sourceModule": "es-toolkit/string",
+            "isDefault": false,
+            "namedImports": [
+              "kebabCase"
+            ]
+          },
+          {
+            "name": "getHeaders",
+            "sourceModule": "@mui/internal-markdown",
+            "isDefault": false,
+            "namedImports": [
+              "getHeaders",
+              "getTitle"
+            ]
+          },
+          {
+            "name": "ComponentInfo",
+            "sourceModule": "@mui-internal/api-docs-builder/buildApiUtils",
+            "isDefault": false,
+            "namedImports": [
+              "ComponentInfo",
+              "extractPackageFile",
+              "fixPathname",
+              "getMuiName",
+              "getSystemComponents",
+              "parseFile"
+            ]
+          },
+          {
+            "name": "findPagesMarkdown",
+            "sourceModule": "@mui-internal/api-docs-builder/utils/findPagesMarkdown",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "getMaterialUiComponentInfo",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getMaterialUiComponentInfo",
+            "type": "function",
+            "signature": "function getMaterialUiComponentInfo()"
+          }
+        ]
+      },
+      {
+        "name": "getMaterialUiComponentInfo.test.ts",
+        "path": "packages/api-docs-builder-core/materialUi/getMaterialUiComponentInfo.test.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 50,
+        "importedModules": [
+          {
+            "name": "path",
+            "sourceModule": "path",
+            "isDefault": true
+          },
+          {
+            "name": "fs",
+            "sourceModule": "fs",
+            "isDefault": true
+          },
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "sinon",
+            "sourceModule": "sinon",
+            "isDefault": true
+          },
+          {
+            "name": "getMaterialUiComponentInfo",
+            "sourceModule": "./getMaterialUiComponentInfo",
+            "isDefault": false,
+            "namedImports": [
+              "getMaterialUiComponentInfo"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/api-docs-builder-core/materialUi/projectSettings.ts",
+          "to": "path",
+          "type": "imports"
+        },
+        {
+          "from": "packages/api-docs-builder-core/materialUi/projectSettings.ts",
+          "to": "docs/config",
+          "type": "imports"
+        },
+        {
+          "from": "packages/api-docs-builder-core/materialUi/projectSettings.ts",
+          "to": "@mui-internal/api-docs-builder",
+          "type": "imports"
+        },
+        {
+          "from": "packages/api-docs-builder-core/materialUi/projectSettings.ts",
+          "to": "@mui-internal/api-docs-builder/utils/findApiPages",
+          "type": "imports"
+        },
+        {
+          "from": "packages/api-docs-builder-core/materialUi/projectSettings.ts",
+          "to": "@mui/utils/generateUtilityClass",
+          "type": "imports"
+        },
+        {
+          "from": "packages/api-docs-builder-core/materialUi/projectSettings.ts",
+          "to": "packages/api-docs-builder-core/materialUi/getMaterialUiComponentInfo.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/api-docs-builder-core/materialUi/getMaterialUiComponentInfo.ts",
+          "to": "fs",
+          "type": "imports"
+        },
+        {
+          "from": "packages/api-docs-builder-core/materialUi/getMaterialUiComponentInfo.ts",
+          "to": "path",
+          "type": "imports"
+        },
+        {
+          "from": "packages/api-docs-builder-core/materialUi/getMaterialUiComponentInfo.ts",
+          "to": "es-toolkit/string",
+          "type": "imports"
+        },
+        {
+          "from": "packages/api-docs-builder-core/materialUi/getMaterialUiComponentInfo.ts",
+          "to": "@mui/internal-markdown",
+          "type": "imports"
+        },
+        {
+          "from": "packages/api-docs-builder-core/materialUi/getMaterialUiComponentInfo.ts",
+          "to": "@mui-internal/api-docs-builder/buildApiUtils",
+          "type": "imports"
+        },
+        {
+          "from": "packages/api-docs-builder-core/materialUi/getMaterialUiComponentInfo.ts",
+          "to": "@mui-internal/api-docs-builder/utils/findPagesMarkdown",
+          "type": "imports"
+        },
+        {
+          "from": "packages/api-docs-builder-core/materialUi/getMaterialUiComponentInfo.test.ts",
+          "to": "path",
+          "type": "imports"
+        },
+        {
+          "from": "packages/api-docs-builder-core/materialUi/getMaterialUiComponentInfo.test.ts",
+          "to": "fs",
+          "type": "imports"
+        },
+        {
+          "from": "packages/api-docs-builder-core/materialUi/getMaterialUiComponentInfo.test.ts",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages/api-docs-builder-core/materialUi/getMaterialUiComponentInfo.test.ts",
+          "to": "sinon",
+          "type": "imports"
+        },
+        {
+          "from": "packages/api-docs-builder-core/materialUi/getMaterialUiComponentInfo.test.ts",
+          "to": "packages/api-docs-builder-core/materialUi/getMaterialUiComponentInfo.ts",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

@@ -1,0 +1,445 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:11:40.466Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:11:40.466Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "accordion-summary-classes",
+      "path": "packages/mui-codemod/src/deprecations/accordion-summary-classes",
+      "purpose": "Enhanced directory analysis of accordion-summary-classes",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "postcss.config.js",
+        "path": "packages/mui-codemod/src/deprecations/accordion-summary-classes/postcss.config.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "postcss-plugin.js",
+        "path": "packages/mui-codemod/src/deprecations/accordion-summary-classes/postcss-plugin.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 27,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-codemod/src/deprecations/accordion-summary-classes/postcss-plugin.js",
+            "functionName": "plugin",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Utility function with clear purpose; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "plugin",
+            "type": "function",
+            "signature": "const plugin = () =>"
+          },
+          {
+            "name": "needs",
+            "type": "class",
+            "signature": "class needs"
+          }
+        ]
+      },
+      {
+        "name": "index.js",
+        "path": "packages/mui-codemod/src/deprecations/accordion-summary-classes/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 2,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "accordion-summary-classes.test.js",
+        "path": "packages/mui-codemod/src/deprecations/accordion-summary-classes/accordion-summary-classes.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 106,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-codemod/src/deprecations/accordion-summary-classes/accordion-summary-classes.test.js",
+            "functionName": "read",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Utility function with clear purpose; Intentionally unused parameter/variable (prefixed with _); Returns computed value from external calls or processing; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 9,
+              "endLine": 11
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -75,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "path",
+                  "source": "path",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "expect",
+                  "source": "chai",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "postcss",
+                  "source": "postcss",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "jscodeshift",
+                  "source": "../../../testUtils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "jsTransform",
+                  "source": "./accordion-summary-classes",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "plugin",
+                  "source": "./postcss-plugin",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "readFile",
+                  "source": "../../util/readFile",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "path",
+            "sourceModule": "path",
+            "isDefault": true
+          },
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "postcss",
+            "sourceModule": "postcss",
+            "isDefault": true
+          },
+          {
+            "name": "jscodeshift",
+            "sourceModule": "../../../testUtils",
+            "isDefault": false,
+            "namedImports": [
+              "jscodeshift"
+            ]
+          },
+          {
+            "name": "jsTransform",
+            "sourceModule": "./accordion-summary-classes",
+            "isDefault": true
+          },
+          {
+            "name": "postcssPlugin",
+            "sourceModule": "./postcss-plugin",
+            "isDefault": false,
+            "namedImports": [
+              "postcssPlugin"
+            ]
+          },
+          {
+            "name": "readFile",
+            "sourceModule": "../../util/readFile",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "read",
+            "type": "function",
+            "signature": "function read()"
+          }
+        ]
+      },
+      {
+        "name": "accordion-summary-classes.js",
+        "path": "packages/mui-codemod/src/deprecations/accordion-summary-classes/accordion-summary-classes.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 78,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-codemod/src/deprecations/accordion-summary-classes/accordion-summary-classes.js",
+            "functionName": "transformer",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Properly uses assigned variables; Mutates state or has side effects; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 7,
+              "endLine": 77
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -62,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "deprecatedClass",
+                  "source": "./postcss-plugin",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "replacementSelector",
+                  "source": "./postcss-plugin",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "deprecatedClass",
+            "sourceModule": "./postcss-plugin",
+            "isDefault": false,
+            "namedImports": [
+              "deprecatedClass",
+              "replacementSelector"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "transformer",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "transformer",
+            "type": "function",
+            "signature": "function transformer()"
+          },
+          {
+            "name": "needs",
+            "type": "class",
+            "signature": "class needs"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "test-cases",
+        "relativePath": "test-cases",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of test-cases",
+        "keyElementsFromChild": []
+      }
+    ],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-codemod/src/deprecations/accordion-summary-classes/accordion-summary-classes.test.js",
+          "to": "path",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/deprecations/accordion-summary-classes/accordion-summary-classes.test.js",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/deprecations/accordion-summary-classes/accordion-summary-classes.test.js",
+          "to": "postcss",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/deprecations/accordion-summary-classes/accordion-summary-classes.test.js",
+          "to": "packages/mui-codemod/src/deprecations/accordion-summary-classes/accordion-summary-classes.js",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/deprecations/accordion-summary-classes/accordion-summary-classes.test.js",
+          "to": "packages/mui-codemod/src/deprecations/accordion-summary-classes/postcss-plugin.js",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/deprecations/accordion-summary-classes/accordion-summary-classes.js",
+          "to": "packages/mui-codemod/src/deprecations/accordion-summary-classes/postcss-plugin.js",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

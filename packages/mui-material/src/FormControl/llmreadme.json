@@ -1,0 +1,1161 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:20:10.621Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:20:10.621Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "FormControl",
+      "path": "packages/mui-material/src/FormControl",
+      "purpose": "Enhanced directory analysis of FormControl",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "useFormControl.ts",
+        "path": "packages/mui-material/src/FormControl/useFormControl.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 8,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/FormControl/useFormControl.ts",
+            "functionName": "useFormControl",
+            "classification": "likely-legitimate",
+            "confidence": 30,
+            "isPlaceholder": true,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 7
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "FormControlContext",
+                  "source": "./FormControlContext",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormControlState",
+                  "source": "./FormControlContext",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "FormControlContext",
+            "sourceModule": "./FormControlContext",
+            "isDefault": true,
+            "namedImports": [
+              "FormControlState"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "useFormControl",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "useFormControl",
+            "type": "function",
+            "signature": "function useFormControl()"
+          }
+        ]
+      },
+      {
+        "name": "index.js",
+        "path": "packages/mui-material/src/FormControl/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "useFormControl",
+            "type": "const"
+          },
+          {
+            "name": "formControlClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-material/src/FormControl/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 10,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "useFormControl",
+            "type": "const"
+          },
+          {
+            "name": "FormControlState",
+            "type": "const"
+          },
+          {
+            "name": "formControlClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "formControlState.js",
+        "path": "packages/mui-material/src/FormControl/formControlState.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 14,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/FormControl/formControlState.js",
+            "functionName": "formControlState",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 13
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "formControlState",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "formControlState",
+            "type": "function",
+            "signature": "function formControlState()"
+          }
+        ]
+      },
+      {
+        "name": "formControlClasses.ts",
+        "path": "packages/mui-material/src/FormControl/formControlClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 31,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/FormControl/formControlClasses.ts",
+            "functionName": "getFormControlUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 17,
+              "endLine": 19
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "generateUtilityClasses",
+                  "source": "@mui/utils/generateUtilityClasses",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "generateUtilityClass",
+                  "source": "@mui/utils/generateUtilityClass",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "FormControlClasses",
+            "type": "interface"
+          },
+          {
+            "name": "FormControlClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getFormControlUtilityClasses",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getFormControlUtilityClasses",
+            "type": "function",
+            "signature": "function getFormControlUtilityClasses()"
+          },
+          {
+            "name": "FormControlClasses",
+            "type": "interface",
+            "signature": "interface FormControlClasses"
+          },
+          {
+            "name": "FormControlClassKey",
+            "type": "type",
+            "signature": "type FormControlClassKey"
+          }
+        ]
+      },
+      {
+        "name": "FormControlContext.ts",
+        "path": "packages/mui-material/src/FormControl/FormControlContext.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 38,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "FormControlProps",
+            "sourceModule": "./FormControl",
+            "isDefault": false,
+            "namedImports": [
+              "FormControlProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "FormControlState",
+            "type": "interface"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "F",
+            "type": "const",
+            "signature": "const F"
+          },
+          {
+            "name": "FormControlState",
+            "type": "interface",
+            "signature": "interface FormControlState"
+          },
+          {
+            "name": "ContextFromPropsKey",
+            "type": "type",
+            "signature": "type ContextFromPropsKey"
+          }
+        ]
+      },
+      {
+        "name": "FormControl.test.js",
+        "path": "packages/mui-material/src/FormControl/FormControl.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 367,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/FormControl/FormControl.test.js",
+            "functionName": "FormControlled",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "FormControl",
+                  "source": "@mui/material/FormControl",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Input",
+                  "source": "@mui/material/Input",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Select",
+                  "source": "@mui/material/Select",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/FormControl/FormControl.test.js",
+            "functionName": "TestComponent",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Moderate context score; Properly uses assigned variables; Test file - simple test helpers expected"
+            ],
+            "location": {
+              "startLine": 14,
+              "endLine": 20
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 24,
+              "commentAnalysis": 0,
+              "contextFilter": -70,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "FormControl",
+                  "source": "@mui/material/FormControl",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Input",
+                  "source": "@mui/material/Input",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Select",
+                  "source": "@mui/material/Select",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "spy",
+            "sourceModule": "sinon",
+            "isDefault": false,
+            "namedImports": [
+              "spy"
+            ]
+          },
+          {
+            "name": "act",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "act",
+              "createRenderer"
+            ]
+          },
+          {
+            "name": "FormControl",
+            "sourceModule": "@mui/material/FormControl",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "Input",
+            "sourceModule": "@mui/material/Input",
+            "isDefault": true
+          },
+          {
+            "name": "Select",
+            "sourceModule": "@mui/material/Select",
+            "isDefault": true
+          },
+          {
+            "name": "useFormControl",
+            "sourceModule": "./useFormControl",
+            "isDefault": true
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TestComponent",
+            "type": "function",
+            "signature": "function TestComponent()"
+          },
+          {
+            "name": "FormControlled",
+            "type": "function",
+            "signature": "function FormControlled()"
+          },
+          {
+            "name": "F",
+            "type": "const",
+            "signature": "const F"
+          },
+          {
+            "name": "F",
+            "type": "const",
+            "signature": "const F"
+          }
+        ]
+      },
+      {
+        "name": "FormControl.js",
+        "path": "packages/mui-material/src/FormControl/FormControl.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 352,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/FormControl/FormControl.js",
+            "functionName": "FormControl",
+            "classification": "definite-legitimate",
+            "confidence": 3,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "FormControlContext",
+                  "source": "./FormControlContext",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/FormControl/FormControl.js",
+            "functionName": "registerEffect",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (0 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "FormControlContext",
+                  "source": "./FormControlContext",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/FormControl/FormControl.js",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "FormControlContext",
+                  "source": "./FormControlContext",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../zero-styled",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "useDefaultProps",
+            "sourceModule": "../DefaultPropsProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useDefaultProps"
+            ]
+          },
+          {
+            "name": "isFilled",
+            "sourceModule": "../InputBase/utils",
+            "isDefault": false,
+            "namedImports": [
+              "isFilled",
+              "isAdornedStart"
+            ]
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "../utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "isMuiElement",
+            "sourceModule": "../utils/isMuiElement",
+            "isDefault": true
+          },
+          {
+            "name": "FormControlContext",
+            "sourceModule": "./FormControlContext",
+            "isDefault": true
+          },
+          {
+            "name": "getFormControlUtilityClasses",
+            "sourceModule": "./formControlClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getFormControlUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "FormControl",
+            "type": "function",
+            "signature": "function FormControl()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "F",
+            "type": "const",
+            "signature": "const F"
+          },
+          {
+            "name": "F",
+            "type": "const",
+            "signature": "const F"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "FormControl.d.ts",
+        "path": "packages/mui-material/src/FormControl/FormControl.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 136,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion"
+            ]
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "../OverridableComponent",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "Theme",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "Theme"
+            ]
+          },
+          {
+            "name": "FormControlClasses",
+            "sourceModule": "./formControlClasses",
+            "isDefault": false,
+            "namedImports": [
+              "FormControlClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "FormControlPropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "FormControlPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "FormControlOwnProps",
+            "type": "interface"
+          },
+          {
+            "name": "FormControlTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "FormControlProps",
+            "type": "type"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "F",
+            "type": "const",
+            "signature": "const F"
+          },
+          {
+            "name": "FormControlPropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface FormControlPropsSizeOverrides"
+          },
+          {
+            "name": "FormControlPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface FormControlPropsColorOverrides"
+          },
+          {
+            "name": "FormControlOwnProps",
+            "type": "interface",
+            "signature": "interface FormControlOwnProps"
+          },
+          {
+            "name": "FormControlTypeMap",
+            "type": "interface",
+            "signature": "interface FormControlTypeMap"
+          },
+          {
+            "name": "FormControlProps",
+            "type": "type",
+            "signature": "type FormControlProps"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-material/src/FormControl/useFormControl.ts",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/useFormControl.ts",
+          "to": "packages/mui-material/src/FormControl/FormControlContext.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/formControlClasses.ts",
+          "to": "@mui/utils/generateUtilityClasses",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/formControlClasses.ts",
+          "to": "@mui/utils/generateUtilityClass",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/FormControlContext.ts",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/FormControlContext.ts",
+          "to": "packages/mui-material/src/FormControl/FormControl.js",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/FormControl.test.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/FormControl.test.js",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/FormControl.test.js",
+          "to": "sinon",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/FormControl.test.js",
+          "to": "@mui/internal-test-utils",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/FormControl.test.js",
+          "to": "@mui/material/FormControl",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/FormControl.test.js",
+          "to": "@mui/material/Input",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/FormControl.test.js",
+          "to": "@mui/material/Select",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/FormControl.test.js",
+          "to": "packages/mui-material/src/FormControl/useFormControl.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/FormControl.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/FormControl.js",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/FormControl.js",
+          "to": "clsx",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/FormControl.js",
+          "to": "@mui/utils/composeClasses",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/FormControl.js",
+          "to": "packages/mui-material/src/FormControl/FormControlContext.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/FormControl.js",
+          "to": "packages/mui-material/src/FormControl/formControlClasses.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/FormControl.d.ts",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/FormControl.d.ts",
+          "to": "@mui/system",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/FormControl.d.ts",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/FormControl/FormControl.d.ts",
+          "to": "packages/mui-material/src/FormControl/formControlClasses.ts",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": [
+        [
+          "packages/mui-material/src/FormControl/FormControlContext.ts",
+          "packages/mui-material/src/FormControl/FormControl.js",
+          "packages/mui-material/src/FormControl/FormControlContext.ts"
+        ]
+      ]
+    }
+  },
+  "verificationSummary": null
+}

@@ -1,0 +1,410 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:21:24.862Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:21:24.862Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "appendOwnerState",
+      "path": "packages/mui-utils/src/appendOwnerState",
+      "purpose": "Enhanced directory analysis of appendOwnerState",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.ts",
+        "path": "packages/mui-utils/src/appendOwnerState/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 3,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "AppendOwnerStateReturnType",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "appendOwnerState.ts",
+        "path": "packages/mui-utils/src/appendOwnerState/appendOwnerState.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 54,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-utils/src/appendOwnerState/appendOwnerState.ts",
+            "functionName": "appendOwnerState",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 34,
+              "endLine": 51
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Simplify",
+                  "source": "@mui/types",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "isHostComponent",
+                  "source": "../isHostComponent",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Simplify",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "Simplify"
+            ]
+          },
+          {
+            "name": "isHostComponent",
+            "sourceModule": "../isHostComponent",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "AppendOwnerStateReturnType",
+            "type": "type"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "of",
+            "type": "type",
+            "signature": "type of"
+          },
+          {
+            "name": "can",
+            "type": "type",
+            "signature": "type can"
+          },
+          {
+            "name": "OwnerStateWhenApplicable",
+            "type": "type",
+            "signature": "type OwnerStateWhenApplicable"
+          },
+          {
+            "name": "AppendOwnerStateReturnType",
+            "type": "type",
+            "signature": "type AppendOwnerStateReturnType"
+          }
+        ]
+      },
+      {
+        "name": "appendOwnerState.test.ts",
+        "path": "packages/mui-utils/src/appendOwnerState/appendOwnerState.test.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 68,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-utils/src/appendOwnerState/appendOwnerState.test.ts",
+            "functionName": "CustomComponent",
+            "classification": "uncertain",
+            "confidence": 49,
+            "isPlaceholder": true,
+            "reasons": [
+              "Function contains only a return statement",
+              "Returns hardcoded value: \"return null;\"",
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected"
+            ],
+            "location": {
+              "startLine": 9,
+              "endLine": 11
+            },
+            "detectionMethods": {
+              "explicitMarkers": 35,
+              "namingPatterns": 0,
+              "astAnalysis": 34,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "expect",
+                  "source": "chai",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "appendOwnerState",
+                  "source": "@mui/utils/appendOwnerState",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "appendOwnerState",
+            "sourceModule": "@mui/utils/appendOwnerState",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CustomComponent",
+            "type": "function",
+            "signature": "function CustomComponent()"
+          }
+        ]
+      },
+      {
+        "name": "appendOwnerState.spec.tsx",
+        "path": "packages/mui-utils/src/appendOwnerState/appendOwnerState.spec.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 29,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-utils/src/appendOwnerState/appendOwnerState.spec.tsx",
+            "functionName": "test",
+            "classification": "definite-legitimate",
+            "confidence": 8.600000000000001,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "[FALLBACK] 2 AI-suspicious unused variables: test4, test5",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Utility function with clear purpose; Test file - simple test helpers expected"
+            ],
+            "location": {
+              "startLine": 21,
+              "endLine": 28
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -38,
+              "unusedCodeAnalysis": 9.600000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "appendOwnerState",
+                  "source": "./appendOwnerState",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "test4",
+                  "line": 26,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                },
+                {
+                  "name": "test5",
+                  "line": 27,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "appendOwnerState",
+            "sourceModule": "./appendOwnerState",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "test",
+            "type": "function",
+            "signature": "function test()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-utils/src/appendOwnerState/appendOwnerState.ts",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-utils/src/appendOwnerState/appendOwnerState.ts",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-utils/src/appendOwnerState/appendOwnerState.test.ts",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-utils/src/appendOwnerState/appendOwnerState.test.ts",
+          "to": "@mui/utils/appendOwnerState",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-utils/src/appendOwnerState/appendOwnerState.spec.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-utils/src/appendOwnerState/appendOwnerState.spec.tsx",
+          "to": "packages/mui-utils/src/appendOwnerState/appendOwnerState.ts",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

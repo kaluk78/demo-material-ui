@@ -1,0 +1,727 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:19:31.557Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:19:31.557Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "Option",
+      "path": "packages/mui-joy/src/Option",
+      "purpose": "Enhanced directory analysis of Option",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "optionClasses.ts",
+        "path": "packages/mui-joy/src/Option/optionClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 59,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Option/optionClasses.ts",
+            "functionName": "getOptionUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 36,
+              "endLine": 38
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "generateUtilityClass",
+                  "source": "../className",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "generateUtilityClasses",
+                  "source": "../className",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "../className",
+            "isDefault": false,
+            "namedImports": [
+              "generateUtilityClass",
+              "generateUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "OptionClasses",
+            "type": "interface"
+          },
+          {
+            "name": "OptionClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getOptionUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getOptionUtilityClass",
+            "type": "function",
+            "signature": "function getOptionUtilityClass()"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "OptionClasses",
+            "type": "interface",
+            "signature": "interface OptionClasses"
+          },
+          {
+            "name": "OptionClassKey",
+            "type": "type",
+            "signature": "type OptionClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/Option/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "optionClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "OptionProps.ts",
+        "path": "packages/mui-joy/src/Option/OptionProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 105,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent",
+              "OverridableStringUnion",
+              "OverridableTypeMap",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "ColorPaletteProp",
+            "sourceModule": "../styles/types",
+            "isDefault": false,
+            "namedImports": [
+              "ColorPaletteProp",
+              "VariantProp",
+              "SxProps",
+              "ApplyColorInversion"
+            ]
+          },
+          {
+            "name": "SlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "SlotProps",
+              "CreateSlotsAndSlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "OptionSlot",
+            "type": "type"
+          },
+          {
+            "name": "OptionSlots",
+            "type": "interface"
+          },
+          {
+            "name": "OptionSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "OptionPropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "OptionPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "OptionTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "ExtendOptionTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "OptionProps",
+            "type": "type"
+          },
+          {
+            "name": "OptionOwnerState",
+            "type": "interface"
+          },
+          {
+            "name": "ExtendOption",
+            "type": "type"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "OptionSlots",
+            "type": "interface",
+            "signature": "interface OptionSlots"
+          },
+          {
+            "name": "OptionPropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface OptionPropsVariantOverrides"
+          },
+          {
+            "name": "OptionPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface OptionPropsColorOverrides"
+          },
+          {
+            "name": "OptionTypeMap",
+            "type": "interface",
+            "signature": "interface OptionTypeMap"
+          },
+          {
+            "name": "ExtendOptionTypeMap",
+            "type": "interface",
+            "signature": "interface ExtendOptionTypeMap"
+          },
+          {
+            "name": "OptionOwnerState",
+            "type": "interface",
+            "signature": "interface OptionOwnerState"
+          },
+          {
+            "name": "OptionSlot",
+            "type": "type",
+            "signature": "type OptionSlot"
+          },
+          {
+            "name": "OptionSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type OptionSlotsAndSlotProps"
+          },
+          {
+            "name": "OptionProps",
+            "type": "type",
+            "signature": "type OptionProps"
+          },
+          {
+            "name": "ExtendOption",
+            "type": "type",
+            "signature": "type ExtendOption"
+          }
+        ]
+      },
+      {
+        "name": "Option.tsx",
+        "path": "packages/mui-joy/src/Option/Option.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 259,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Option/Option.tsx",
+            "functionName": "InnerOption",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "[FALLBACK] 1 AI-suspicious unused variables: SlotRoot",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 4.800000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ListContext",
+                  "source": "@mui/base/useList",
+                  "line": 7,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "SlotRoot",
+                  "line": 94,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/Option/Option.tsx",
+            "functionName": "StableOption",
+            "classification": "likely-legitimate",
+            "confidence": 27,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ListContext",
+                  "source": "@mui/base/useList",
+                  "line": 7,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/Option/Option.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ListContext",
+                  "source": "@mui/base/useList",
+                  "line": 7,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/base/composeClasses",
+            "isDefault": false,
+            "namedImports": [
+              "composeClasses"
+            ]
+          },
+          {
+            "name": "useOption",
+            "sourceModule": "@mui/base/useOption",
+            "isDefault": false,
+            "namedImports": [
+              "useOption",
+              "useOptionContextStabilizer"
+            ]
+          },
+          {
+            "name": "useForkRef",
+            "sourceModule": "@mui/utils/useForkRef",
+            "isDefault": true
+          },
+          {
+            "name": "ListContext",
+            "sourceModule": "@mui/base/useList",
+            "isDefault": false,
+            "namedImports": [
+              "ListContext"
+            ]
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          },
+          {
+            "name": "StyledListItemButton",
+            "sourceModule": "../ListItemButton/ListItemButton",
+            "isDefault": false,
+            "namedImports": [
+              "StyledListItemButton"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "styled",
+              "useThemeProps"
+            ]
+          },
+          {
+            "name": "useVariantColor",
+            "sourceModule": "../styles/variantColorInheritance",
+            "isDefault": false,
+            "namedImports": [
+              "useVariantColor"
+            ]
+          },
+          {
+            "name": "OptionOwnerState",
+            "sourceModule": "./OptionProps",
+            "isDefault": false,
+            "namedImports": [
+              "OptionOwnerState",
+              "ExtendOption",
+              "OptionTypeMap",
+              "OptionProps"
+            ]
+          },
+          {
+            "name": "optionClasses",
+            "sourceModule": "./optionClasses",
+            "isDefault": true,
+            "namedImports": [
+              "getOptionUtilityClass"
+            ]
+          },
+          {
+            "name": "RowListContext",
+            "sourceModule": "../List/RowListContext",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "InnerOption",
+            "type": "function",
+            "signature": "function InnerOption()"
+          },
+          {
+            "name": "StableOption",
+            "type": "function",
+            "signature": "function StableOption()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "O",
+            "type": "const",
+            "signature": "const O"
+          },
+          {
+            "name": "I",
+            "type": "const",
+            "signature": "const I"
+          },
+          {
+            "name": "O",
+            "type": "const",
+            "signature": "const O"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "Option.test.tsx",
+        "path": "packages/mui-joy/src/Option/Option.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 4,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-joy/src/Option/OptionProps.ts",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Option/OptionProps.ts",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Option/Option.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Option/Option.tsx",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Option/Option.tsx",
+          "to": "@mui/base/composeClasses",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Option/Option.tsx",
+          "to": "@mui/base/useOption",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Option/Option.tsx",
+          "to": "@mui/utils/useForkRef",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Option/Option.tsx",
+          "to": "@mui/base/useList",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Option/Option.tsx",
+          "to": "packages/mui-joy/src/Option/OptionProps.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Option/Option.tsx",
+          "to": "packages/mui-joy/src/Option/optionClasses.ts",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

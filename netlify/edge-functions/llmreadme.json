@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:11:35.923Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:11:35.923Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "edge-functions",
+      "path": "netlify/edge-functions",
+      "purpose": "Enhanced directory analysis of edge-functions",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "og-image.tsx",
+        "path": "netlify/edge-functions/og-image.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 270,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/netlify/edge-functions/og-image.tsx",
+            "functionName": "handler",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function; Properly uses assigned variables; External interaction (I/O, network, DB) suggests legitimacy; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 6,
+              "endLine": 265
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "https://esm.sh/react@18.2.0",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "React",
+            "sourceModule": "https://esm.sh/react@18.2.0",
+            "isDefault": true
+          },
+          {
+            "name": "ImageResponse",
+            "sourceModule": "https://deno.land/x/og_edge/mod.ts",
+            "isDefault": false,
+            "namedImports": [
+              "ImageResponse"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "handler",
+            "type": "function"
+          },
+          {
+            "name": "config",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "handler",
+            "type": "function",
+            "signature": "function handler()"
+          },
+          {
+            "name": "MAX_AUTHORS",
+            "type": "const",
+            "signature": "const MAX_AUTHORS"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "netlify/edge-functions/og-image.tsx",
+          "to": "https://esm.sh/react@18.2.0",
+          "type": "imports"
+        },
+        {
+          "from": "netlify/edge-functions/og-image.tsx",
+          "to": "https://deno.land/x/og_edge/mod.ts",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

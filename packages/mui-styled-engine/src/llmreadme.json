@@ -1,0 +1,628 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:21:09.272Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:21:09.272Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "src",
+      "path": "packages/mui-styled-engine/src",
+      "purpose": "Enhanced directory analysis of src",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "styled.test.js",
+        "path": "packages/mui-styled-engine/src/styled.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 15,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "./index",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.js",
+        "path": "packages/mui-styled-engine/src/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 51,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-styled-engine/src/index.js",
+            "functionName": "internal_mutateStyles",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "High context score suggests legitimate implementation; Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 32,
+              "endLine": 38
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -50,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "emStyled",
+                  "source": "@emotion/styled",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "serializeStyles",
+                  "source": "@emotion/serialize",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-styled-engine/src/index.js",
+            "functionName": "internal_serializeStyles",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (4 lines)",
+              "High context score suggests legitimate implementation; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 43,
+              "endLine": 46
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -37,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "emStyled",
+                  "source": "@emotion/styled",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "serializeStyles",
+                  "source": "@emotion/serialize",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-styled-engine/src/index.js",
+            "functionName": "styled",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "High context score suggests legitimate implementation; Utility function with clear purpose; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 6,
+              "endLine": 29
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -55,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "emStyled",
+                  "source": "@emotion/styled",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "serializeStyles",
+                  "source": "@emotion/serialize",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "emStyled",
+            "sourceModule": "@emotion/styled",
+            "isDefault": true
+          },
+          {
+            "name": "emSerializeStyles",
+            "sourceModule": "@emotion/serialize",
+            "isDefault": false,
+            "namedImports": [
+              "emSerializeStyles"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "styled",
+            "type": "function"
+          },
+          {
+            "name": "internal_mutateStyles",
+            "type": "function"
+          },
+          {
+            "name": "internal_serializeStyles",
+            "type": "function"
+          },
+          {
+            "name": "ThemeContext",
+            "type": "const"
+          },
+          {
+            "name": "keyframes",
+            "type": "const"
+          },
+          {
+            "name": "css",
+            "type": "const"
+          },
+          {
+            "name": "StyledEngineProvider",
+            "type": "const"
+          },
+          {
+            "name": "GlobalStyles",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "styled",
+            "type": "function",
+            "signature": "function styled()"
+          },
+          {
+            "name": "internal_mutateStyles",
+            "type": "function",
+            "signature": "function internal_mutateStyles()"
+          },
+          {
+            "name": "internal_serializeStyles",
+            "type": "function",
+            "signature": "function internal_serializeStyles()"
+          }
+        ]
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-styled-engine/src/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 236,
+        "importedModules": [
+          {
+            "name": "* as CSS",
+            "sourceModule": "csstype",
+            "isDefault": false,
+            "namedImports": [
+              "* as CSS"
+            ]
+          },
+          {
+            "name": "StyledComponent",
+            "sourceModule": "@emotion/styled",
+            "isDefault": false,
+            "namedImports": [
+              "StyledComponent",
+              "StyledOptions"
+            ]
+          },
+          {
+            "name": "PropsOf",
+            "sourceModule": "@emotion/react",
+            "isDefault": false,
+            "namedImports": [
+              "PropsOf"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "ThemeContext",
+            "type": "const"
+          },
+          {
+            "name": "keyframes",
+            "type": "const"
+          },
+          {
+            "name": "css",
+            "type": "const"
+          },
+          {
+            "name": "StyledEngineProvider",
+            "type": "const"
+          },
+          {
+            "name": "GlobalStyles",
+            "type": "const"
+          },
+          {
+            "name": "MUIStyledComponent",
+            "type": "type"
+          },
+          {
+            "name": "SerializedStyles",
+            "type": "interface"
+          },
+          {
+            "name": "CSSProperties",
+            "type": "type"
+          },
+          {
+            "name": "CSSPropertiesWithMultiValues",
+            "type": "type"
+          },
+          {
+            "name": "CSSPseudos",
+            "type": "type"
+          },
+          {
+            "name": "CSSOthersObject",
+            "type": "interface"
+          },
+          {
+            "name": "CSSPseudosForCSSObject",
+            "type": "type"
+          },
+          {
+            "name": "ArrayCSSInterpolation",
+            "type": "interface"
+          },
+          {
+            "name": "CSSOthersObjectForCSSObject",
+            "type": "interface"
+          },
+          {
+            "name": "CSSObject",
+            "type": "interface"
+          },
+          {
+            "name": "ComponentSelector",
+            "type": "interface"
+          },
+          {
+            "name": "Keyframes",
+            "type": "type"
+          },
+          {
+            "name": "Equal",
+            "type": "type"
+          },
+          {
+            "name": "InterpolationPrimitive",
+            "type": "type"
+          },
+          {
+            "name": "CSSInterpolation",
+            "type": "type"
+          },
+          {
+            "name": "FunctionInterpolation",
+            "type": "interface"
+          },
+          {
+            "name": "ArrayInterpolation",
+            "type": "interface"
+          },
+          {
+            "name": "Interpolation",
+            "type": "type"
+          },
+          {
+            "name": "FilteringStyledOptions",
+            "type": "interface"
+          },
+          {
+            "name": "CreateStyledComponent",
+            "type": "interface"
+          },
+          {
+            "name": "CreateMUIStyled",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "internal_mutateStyles",
+            "type": "function",
+            "signature": "function internal_mutateStyles()"
+          },
+          {
+            "name": "shouldForwardProp",
+            "type": "function",
+            "signature": "function shouldForwardProp()"
+          },
+          {
+            "name": "SerializedStyles",
+            "type": "interface",
+            "signature": "interface SerializedStyles"
+          },
+          {
+            "name": "CSSOthersObject",
+            "type": "interface",
+            "signature": "interface CSSOthersObject"
+          },
+          {
+            "name": "ArrayCSSInterpolation",
+            "type": "interface",
+            "signature": "interface ArrayCSSInterpolation"
+          },
+          {
+            "name": "CSSOthersObjectForCSSObject",
+            "type": "interface",
+            "signature": "interface CSSOthersObjectForCSSObject"
+          },
+          {
+            "name": "CSSObject",
+            "type": "interface",
+            "signature": "interface CSSObject"
+          },
+          {
+            "name": "ComponentSelector",
+            "type": "interface",
+            "signature": "interface ComponentSelector"
+          },
+          {
+            "name": "FunctionInterpolation",
+            "type": "interface",
+            "signature": "interface FunctionInterpolation"
+          },
+          {
+            "name": "ArrayInterpolation",
+            "type": "interface",
+            "signature": "interface ArrayInterpolation"
+          },
+          {
+            "name": "FilteringStyledOptions",
+            "type": "interface",
+            "signature": "interface FilteringStyledOptions"
+          },
+          {
+            "name": "CreateStyledComponent",
+            "type": "interface",
+            "signature": "interface CreateStyledComponent"
+          },
+          {
+            "name": "CreateMUIStyled",
+            "type": "interface",
+            "signature": "interface CreateMUIStyled"
+          },
+          {
+            "name": "MUIStyledComponent",
+            "type": "type",
+            "signature": "type MUIStyledComponent"
+          },
+          {
+            "name": "CSSProperties",
+            "type": "type",
+            "signature": "type CSSProperties"
+          },
+          {
+            "name": "CSSPropertiesWithMultiValues",
+            "type": "type",
+            "signature": "type CSSPropertiesWithMultiValues"
+          },
+          {
+            "name": "CSSPseudos",
+            "type": "type",
+            "signature": "type CSSPseudos"
+          },
+          {
+            "name": "CSSPseudosForCSSObject",
+            "type": "type",
+            "signature": "type CSSPseudosForCSSObject"
+          },
+          {
+            "name": "Keyframes",
+            "type": "type",
+            "signature": "type Keyframes"
+          },
+          {
+            "name": "Equal",
+            "type": "type",
+            "signature": "type Equal"
+          },
+          {
+            "name": "InterpolationPrimitive",
+            "type": "type",
+            "signature": "type InterpolationPrimitive"
+          },
+          {
+            "name": "CSSInterpolation",
+            "type": "type",
+            "signature": "type CSSInterpolation"
+          },
+          {
+            "name": "Interpolation",
+            "type": "type",
+            "signature": "type Interpolation"
+          },
+          {
+            "name": "guard",
+            "type": "type",
+            "signature": "type guard"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "GlobalStyles",
+        "relativePath": "GlobalStyles",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of GlobalStyles",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "StyledEngineProvider",
+        "relativePath": "StyledEngineProvider",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of StyledEngineProvider",
+        "keyElementsFromChild": []
+      }
+    ],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-styled-engine/src/styled.test.js",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-styled-engine/src/styled.test.js",
+          "to": "packages/mui-styled-engine/src/index.js",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-styled-engine/src/index.js",
+          "to": "@emotion/styled",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-styled-engine/src/index.js",
+          "to": "@emotion/serialize",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-styled-engine/src/index.d.ts",
+          "to": "csstype",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-styled-engine/src/index.d.ts",
+          "to": "@emotion/styled",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-styled-engine/src/index.d.ts",
+          "to": "@emotion/react",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

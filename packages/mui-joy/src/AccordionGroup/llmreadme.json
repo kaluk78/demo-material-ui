@@ -1,0 +1,687 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:19:17.249Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:19:17.249Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "AccordionGroup",
+      "path": "packages/mui-joy/src/AccordionGroup",
+      "purpose": "Enhanced directory analysis of AccordionGroup",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/AccordionGroup/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "accordionGroupClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "accordionGroupClasses.ts",
+        "path": "packages/mui-joy/src/AccordionGroup/accordionGroupClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 58,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/AccordionGroup/accordionGroupClasses.ts",
+            "functionName": "getAccordionGroupUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 36,
+              "endLine": 38
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "generateUtilityClass",
+                  "source": "../className",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "generateUtilityClasses",
+                  "source": "../className",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "../className",
+            "isDefault": false,
+            "namedImports": [
+              "generateUtilityClass",
+              "generateUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "AccordionGroupClasses",
+            "type": "interface"
+          },
+          {
+            "name": "AccordionGroupClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getAccordionGroupUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getAccordionGroupUtilityClass",
+            "type": "function",
+            "signature": "function getAccordionGroupUtilityClass()"
+          },
+          {
+            "name": "AccordionGroupClasses",
+            "type": "interface",
+            "signature": "interface AccordionGroupClasses"
+          },
+          {
+            "name": "AccordionGroupClassKey",
+            "type": "type",
+            "signature": "type AccordionGroupClassKey"
+          }
+        ]
+      },
+      {
+        "name": "AccordionGroupProps.ts",
+        "path": "packages/mui-joy/src/AccordionGroup/AccordionGroupProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 73,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "ColorPaletteProp",
+            "sourceModule": "../styles/types",
+            "isDefault": false,
+            "namedImports": [
+              "ColorPaletteProp",
+              "SxProps",
+              "VariantProp",
+              "ApplyColorInversion"
+            ]
+          },
+          {
+            "name": "SlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "SlotProps",
+              "CreateSlotsAndSlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "AccordionGroupSlot",
+            "type": "type"
+          },
+          {
+            "name": "AccordionGroupSlots",
+            "type": "interface"
+          },
+          {
+            "name": "AccordionGroupSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "AccordionGroupPropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "AccordionGroupPropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "AccordionGroupPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "AccordionGroupTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "AccordionGroupProps",
+            "type": "type"
+          },
+          {
+            "name": "AccordionGroupOwnerState",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "AccordionGroupSlots",
+            "type": "interface",
+            "signature": "interface AccordionGroupSlots"
+          },
+          {
+            "name": "AccordionGroupPropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface AccordionGroupPropsSizeOverrides"
+          },
+          {
+            "name": "AccordionGroupPropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface AccordionGroupPropsVariantOverrides"
+          },
+          {
+            "name": "AccordionGroupPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface AccordionGroupPropsColorOverrides"
+          },
+          {
+            "name": "AccordionGroupTypeMap",
+            "type": "interface",
+            "signature": "interface AccordionGroupTypeMap"
+          },
+          {
+            "name": "AccordionGroupOwnerState",
+            "type": "interface",
+            "signature": "interface AccordionGroupOwnerState"
+          },
+          {
+            "name": "AccordionGroupSlot",
+            "type": "type",
+            "signature": "type AccordionGroupSlot"
+          },
+          {
+            "name": "AccordionGroupSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type AccordionGroupSlotsAndSlotProps"
+          },
+          {
+            "name": "AccordionGroupProps",
+            "type": "type",
+            "signature": "type AccordionGroupProps"
+          }
+        ]
+      },
+      {
+        "name": "AccordionGroup.tsx",
+        "path": "packages/mui-joy/src/AccordionGroup/AccordionGroup.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 206,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/AccordionGroup/AccordionGroup.tsx",
+            "functionName": "AccordionGroup",
+            "classification": "definite-legitimate",
+            "confidence": 9.8,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "[FALLBACK] 1 AI-suspicious unused variables: SlotRoot",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 4.800000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ListProvider",
+                  "source": "../List/ListProvider",
+                  "line": 16,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "SlotRoot",
+                  "line": 111,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/AccordionGroup/AccordionGroup.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ListProvider",
+                  "source": "../List/ListProvider",
+                  "line": 16,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/base",
+            "isDefault": false,
+            "namedImports": [
+              "composeClasses"
+            ]
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent"
+            ]
+          },
+          {
+            "name": "useThemeProps",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "useThemeProps"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../styles/styled",
+            "isDefault": true
+          },
+          {
+            "name": "getAccordionGroupUtilityClass",
+            "sourceModule": "./accordionGroupClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getAccordionGroupUtilityClass"
+            ]
+          },
+          {
+            "name": "AccordionGroupProps",
+            "sourceModule": "./AccordionGroupProps",
+            "isDefault": false,
+            "namedImports": [
+              "AccordionGroupProps",
+              "AccordionGroupOwnerState",
+              "AccordionGroupTypeMap"
+            ]
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          },
+          {
+            "name": "ListProvider",
+            "sourceModule": "../List/ListProvider",
+            "isDefault": true
+          },
+          {
+            "name": "StyledList",
+            "sourceModule": "../List/List",
+            "isDefault": false,
+            "namedImports": [
+              "StyledList"
+            ]
+          },
+          {
+            "name": "accordionDetailsClasses",
+            "sourceModule": "../AccordionDetails/accordionDetailsClasses",
+            "isDefault": true
+          },
+          {
+            "name": "accordionClasses",
+            "sourceModule": "../Accordion/accordionClasses",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "AccordionGroup",
+            "type": "function",
+            "signature": "function AccordionGroup()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "A",
+            "type": "const",
+            "signature": "const A"
+          },
+          {
+            "name": "A",
+            "type": "const",
+            "signature": "const A"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "AccordionGroup.test.tsx",
+        "path": "packages/mui-joy/src/AccordionGroup/AccordionGroup.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 79,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "AccordionGroup",
+            "sourceModule": "@mui/joy/AccordionGroup",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "for",
+            "type": "class",
+            "signature": "class for"
+          },
+          {
+            "name": "for",
+            "type": "class",
+            "signature": "class for"
+          },
+          {
+            "name": "for",
+            "type": "class",
+            "signature": "class for"
+          },
+          {
+            "name": "system",
+            "type": "type",
+            "signature": "type system"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-joy/src/AccordionGroup/AccordionGroupProps.ts",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/AccordionGroup/AccordionGroupProps.ts",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/AccordionGroup/AccordionGroup.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/AccordionGroup/AccordionGroup.tsx",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/AccordionGroup/AccordionGroup.tsx",
+          "to": "@mui/utils/capitalize",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/AccordionGroup/AccordionGroup.tsx",
+          "to": "@mui/base",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/AccordionGroup/AccordionGroup.tsx",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/AccordionGroup/AccordionGroup.tsx",
+          "to": "packages/mui-joy/src/AccordionGroup/accordionGroupClasses.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/AccordionGroup/AccordionGroup.tsx",
+          "to": "packages/mui-joy/src/AccordionGroup/AccordionGroupProps.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/AccordionGroup/AccordionGroup.test.tsx",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/AccordionGroup/AccordionGroup.test.tsx",
+          "to": "@mui/internal-test-utils",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/AccordionGroup/AccordionGroup.test.tsx",
+          "to": "@mui/joy/styles",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/AccordionGroup/AccordionGroup.test.tsx",
+          "to": "@mui/joy/AccordionGroup",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

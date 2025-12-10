@@ -1,0 +1,213 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:23:29.100Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:23:29.100Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "CircularProgressJoy",
+      "path": "test/regressions/fixtures/CircularProgressJoy",
+      "purpose": "Enhanced directory analysis of CircularProgressJoy",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "CircularProgressFlexItem.js",
+        "path": "test/regressions/fixtures/CircularProgressJoy/CircularProgressFlexItem.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 17,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/CircularProgressJoy/CircularProgressFlexItem.js",
+            "functionName": "CircularProgressFlexItem",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 7,
+              "endLine": 16
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CssVarsProvider",
+                  "source": "@mui/joy/styles",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/joy/Box",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/joy/CircularProgress",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/joy/Typography",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "CssVarsProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "CssVarsProvider"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/joy/Box",
+            "isDefault": true
+          },
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/joy/CircularProgress",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/joy/Typography",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CircularProgressFlexItem",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CircularProgressFlexItem",
+            "type": "function",
+            "signature": "function CircularProgressFlexItem()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "test/regressions/fixtures/CircularProgressJoy/CircularProgressFlexItem.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CircularProgressJoy/CircularProgressFlexItem.js",
+          "to": "@mui/joy/styles",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CircularProgressJoy/CircularProgressFlexItem.js",
+          "to": "@mui/joy/Box",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CircularProgressJoy/CircularProgressFlexItem.js",
+          "to": "@mui/joy/CircularProgress",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CircularProgressJoy/CircularProgressFlexItem.js",
+          "to": "@mui/joy/Typography",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

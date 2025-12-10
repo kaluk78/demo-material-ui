@@ -1,0 +1,874 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:19:36.473Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:19:36.473Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "Tabs",
+      "path": "packages/mui-joy/src/Tabs",
+      "purpose": "Enhanced directory analysis of Tabs",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "tabsClasses.ts",
+        "path": "packages/mui-joy/src/Tabs/tabsClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 64,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Tabs/tabsClasses.ts",
+            "functionName": "getTabsUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 40,
+              "endLine": 42
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "generateUtilityClass",
+                  "source": "../className",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "generateUtilityClasses",
+                  "source": "../className",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "../className",
+            "isDefault": false,
+            "namedImports": [
+              "generateUtilityClass",
+              "generateUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TabsClasses",
+            "type": "interface"
+          },
+          {
+            "name": "TabsClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getTabsUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getTabsUtilityClass",
+            "type": "function",
+            "signature": "function getTabsUtilityClass()"
+          },
+          {
+            "name": "TabsClasses",
+            "type": "interface",
+            "signature": "interface TabsClasses"
+          },
+          {
+            "name": "TabsClassKey",
+            "type": "type",
+            "signature": "type TabsClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/Tabs/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "tabsClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "TabsProps.ts",
+        "path": "packages/mui-joy/src/Tabs/TabsProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 60,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "TabsOwnProps",
+            "sourceModule": "@mui/base/Tabs",
+            "isDefault": false,
+            "namedImports": [
+              "TabsOwnProps"
+            ]
+          },
+          {
+            "name": "ColorPaletteProp",
+            "sourceModule": "../styles/types",
+            "isDefault": false,
+            "namedImports": [
+              "ColorPaletteProp",
+              "SxProps",
+              "VariantProp",
+              "ApplyColorInversion"
+            ]
+          },
+          {
+            "name": "SlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "SlotProps",
+              "CreateSlotsAndSlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TabsSlot",
+            "type": "type"
+          },
+          {
+            "name": "TabsSlots",
+            "type": "interface"
+          },
+          {
+            "name": "TabsSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "TabsPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TabsPropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TabsPropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "TabsTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "TabsProps",
+            "type": "type"
+          },
+          {
+            "name": "TabsOwnerState",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TabsSlots",
+            "type": "interface",
+            "signature": "interface TabsSlots"
+          },
+          {
+            "name": "TabsPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface TabsPropsColorOverrides"
+          },
+          {
+            "name": "TabsPropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface TabsPropsVariantOverrides"
+          },
+          {
+            "name": "TabsPropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface TabsPropsSizeOverrides"
+          },
+          {
+            "name": "TabsTypeMap",
+            "type": "interface",
+            "signature": "interface TabsTypeMap"
+          },
+          {
+            "name": "TabsOwnerState",
+            "type": "interface",
+            "signature": "interface TabsOwnerState"
+          },
+          {
+            "name": "TabsSlot",
+            "type": "type",
+            "signature": "type TabsSlot"
+          },
+          {
+            "name": "TabsSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type TabsSlotsAndSlotProps"
+          },
+          {
+            "name": "TabsProps",
+            "type": "type",
+            "signature": "type TabsProps"
+          }
+        ]
+      },
+      {
+        "name": "Tabs.tsx",
+        "path": "packages/mui-joy/src/Tabs/Tabs.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 241,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Tabs/Tabs.tsx",
+            "functionName": "Tabs",
+            "classification": "likely-legitimate",
+            "confidence": 27.4,
+            "isPlaceholder": true,
+            "reasons": [
+              "[FALLBACK] 3 AI-suspicious unused variables: onChange, selectionFollowsFocus, SlotRoot",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Moderate context score; Event handler or callback function"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 14.4,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "TabsProvider",
+                  "source": "@mui/base/useTabs",
+                  "line": 7,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SizeTabsContext",
+                  "source": "./SizeTabsContext",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "onChange",
+                  "line": 97,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                },
+                {
+                  "name": "selectionFollowsFocus",
+                  "line": 97,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 6,
+                    "reason": "Important business variable - may indicate incomplete logic"
+                  }
+                },
+                {
+                  "name": "SlotRoot",
+                  "line": 128,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/Tabs/Tabs.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "TabsProvider",
+                  "source": "@mui/base/useTabs",
+                  "line": 7,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "SizeTabsContext",
+                  "source": "./SizeTabsContext",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/base",
+            "isDefault": false,
+            "namedImports": [
+              "composeClasses"
+            ]
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent"
+            ]
+          },
+          {
+            "name": "useTabs",
+            "sourceModule": "@mui/base/useTabs",
+            "isDefault": false,
+            "namedImports": [
+              "useTabs",
+              "TabsProvider"
+            ]
+          },
+          {
+            "name": "getPath",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "getPath"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "styled",
+              "useThemeProps"
+            ]
+          },
+          {
+            "name": "resolveSxValue",
+            "sourceModule": "../styles/styleUtils",
+            "isDefault": false,
+            "namedImports": [
+              "resolveSxValue"
+            ]
+          },
+          {
+            "name": "SizeTabsContext",
+            "sourceModule": "./SizeTabsContext",
+            "isDefault": true
+          },
+          {
+            "name": "getTabsUtilityClass",
+            "sourceModule": "./tabsClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getTabsUtilityClass"
+            ]
+          },
+          {
+            "name": "TabsOwnerState",
+            "sourceModule": "./TabsProps",
+            "isDefault": false,
+            "namedImports": [
+              "TabsOwnerState",
+              "TabsTypeMap"
+            ]
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Tabs",
+            "type": "function",
+            "signature": "function Tabs()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "Tabs.test.tsx",
+        "path": "packages/mui-joy/src/Tabs/Tabs.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 57,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/Tabs/Tabs.test.tsx",
+            "functionName": "Child",
+            "classification": "definite-legitimate",
+            "confidence": 17,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (4 lines)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 40,
+              "endLine": 43
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Tabs",
+                  "source": "@mui/joy/Tabs",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "Tabs",
+            "sourceModule": "@mui/joy/Tabs",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "SizeTabsContext",
+            "sourceModule": "./SizeTabsContext",
+            "isDefault": true
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Child",
+            "type": "function",
+            "signature": "function Child()"
+          }
+        ]
+      },
+      {
+        "name": "SizeTabsContext.ts",
+        "path": "packages/mui-joy/src/Tabs/SizeTabsContext.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 11,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "TabsProps",
+            "sourceModule": "./TabsProps",
+            "isDefault": false,
+            "namedImports": [
+              "TabsProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-joy/src/Tabs/TabsProps.ts",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Tabs/TabsProps.ts",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Tabs/TabsProps.ts",
+          "to": "@mui/base/Tabs",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Tabs/Tabs.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Tabs/Tabs.tsx",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Tabs/Tabs.tsx",
+          "to": "@mui/utils/capitalize",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Tabs/Tabs.tsx",
+          "to": "@mui/base",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Tabs/Tabs.tsx",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Tabs/Tabs.tsx",
+          "to": "@mui/base/useTabs",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Tabs/Tabs.tsx",
+          "to": "@mui/system",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Tabs/Tabs.tsx",
+          "to": "packages/mui-joy/src/Tabs/SizeTabsContext.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Tabs/Tabs.tsx",
+          "to": "packages/mui-joy/src/Tabs/tabsClasses.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Tabs/Tabs.tsx",
+          "to": "packages/mui-joy/src/Tabs/TabsProps.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Tabs/Tabs.test.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Tabs/Tabs.test.tsx",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Tabs/Tabs.test.tsx",
+          "to": "@mui/internal-test-utils",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Tabs/Tabs.test.tsx",
+          "to": "@mui/joy/styles",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Tabs/Tabs.test.tsx",
+          "to": "@mui/joy/Tabs",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Tabs/Tabs.test.tsx",
+          "to": "packages/mui-joy/src/Tabs/SizeTabsContext.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Tabs/SizeTabsContext.ts",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/Tabs/SizeTabsContext.ts",
+          "to": "packages/mui-joy/src/Tabs/TabsProps.ts",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

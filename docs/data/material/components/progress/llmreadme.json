@@ -1,0 +1,5190 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:05:56.952Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:05:56.952Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "progress",
+      "path": "docs/data/material/components/progress",
+      "purpose": "Enhanced directory analysis of progress",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "LinearWithValueLabel.tsx",
+        "path": "docs/data/material/components/progress/LinearWithValueLabel.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 40,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/LinearWithValueLabel.tsx",
+            "functionName": "LinearProgressWithLabel",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 6,
+              "endLine": 20
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "LinearProgress",
+                  "source": "@mui/material/LinearProgress",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/components/progress/LinearWithValueLabel.tsx",
+            "functionName": "LinearWithValueLabel",
+            "classification": "definite-legitimate",
+            "confidence": 19,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 22,
+              "endLine": 39
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "LinearProgress",
+                  "source": "@mui/material/LinearProgress",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "LinearProgress",
+            "sourceModule": "@mui/material/LinearProgress",
+            "isDefault": true,
+            "namedImports": [
+              "LinearProgressProps"
+            ]
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "LinearWithValueLabel",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "LinearProgressWithLabel",
+            "type": "function",
+            "signature": "function LinearProgressWithLabel()"
+          },
+          {
+            "name": "LinearWithValueLabel",
+            "type": "function",
+            "signature": "function LinearWithValueLabel()"
+          }
+        ]
+      },
+      {
+        "name": "LinearWithValueLabel.js",
+        "path": "docs/data/material/components/progress/LinearWithValueLabel.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 48,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/LinearWithValueLabel.js",
+            "functionName": "LinearProgressWithLabel",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 7,
+              "endLine": 20
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "LinearProgress",
+                  "source": "@mui/material/LinearProgress",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/components/progress/LinearWithValueLabel.js",
+            "functionName": "LinearWithValueLabel",
+            "classification": "definite-legitimate",
+            "confidence": 19,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 30,
+              "endLine": 47
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "LinearProgress",
+                  "source": "@mui/material/LinearProgress",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "LinearProgress",
+            "sourceModule": "@mui/material/LinearProgress",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "LinearWithValueLabel",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "LinearProgressWithLabel",
+            "type": "function",
+            "signature": "function LinearProgressWithLabel()"
+          },
+          {
+            "name": "LinearWithValueLabel",
+            "type": "function",
+            "signature": "function LinearWithValueLabel()"
+          }
+        ]
+      },
+      {
+        "name": "LinearIndeterminate.tsx",
+        "path": "docs/data/material/components/progress/LinearIndeterminate.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 11,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/LinearIndeterminate.tsx",
+            "functionName": "LinearIndeterminate",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 10
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "LinearProgress",
+                  "source": "@mui/material/LinearProgress",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "LinearProgress",
+            "sourceModule": "@mui/material/LinearProgress",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "LinearIndeterminate",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "LinearIndeterminate",
+            "type": "function",
+            "signature": "function LinearIndeterminate()"
+          }
+        ]
+      },
+      {
+        "name": "LinearIndeterminate.js",
+        "path": "docs/data/material/components/progress/LinearIndeterminate.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 11,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/LinearIndeterminate.js",
+            "functionName": "LinearIndeterminate",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 10
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "LinearProgress",
+                  "source": "@mui/material/LinearProgress",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "LinearProgress",
+            "sourceModule": "@mui/material/LinearProgress",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "LinearIndeterminate",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "LinearIndeterminate",
+            "type": "function",
+            "signature": "function LinearIndeterminate()"
+          }
+        ]
+      },
+      {
+        "name": "LinearDeterminate.tsx",
+        "path": "docs/data/material/components/progress/LinearDeterminate.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 30,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/LinearDeterminate.tsx",
+            "functionName": "LinearDeterminate",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return 0;\"",
+              "Function takes no parameters",
+              "Properly uses assigned variables; Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 29
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "LinearProgress",
+                  "source": "@mui/material/LinearProgress",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "LinearProgress",
+            "sourceModule": "@mui/material/LinearProgress",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "LinearDeterminate",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "LinearDeterminate",
+            "type": "function",
+            "signature": "function LinearDeterminate()"
+          }
+        ]
+      },
+      {
+        "name": "LinearDeterminate.js",
+        "path": "docs/data/material/components/progress/LinearDeterminate.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 30,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/LinearDeterminate.js",
+            "functionName": "LinearDeterminate",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return 0;\"",
+              "Function takes no parameters",
+              "Properly uses assigned variables; Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 29
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "LinearProgress",
+                  "source": "@mui/material/LinearProgress",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "LinearProgress",
+            "sourceModule": "@mui/material/LinearProgress",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "LinearDeterminate",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "LinearDeterminate",
+            "type": "function",
+            "signature": "function LinearDeterminate()"
+          }
+        ]
+      },
+      {
+        "name": "LinearColor.tsx",
+        "path": "docs/data/material/components/progress/LinearColor.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 13,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/LinearColor.tsx",
+            "functionName": "LinearColor",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 12
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "LinearProgress",
+                  "source": "@mui/material/LinearProgress",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          },
+          {
+            "name": "LinearProgress",
+            "sourceModule": "@mui/material/LinearProgress",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "LinearColor",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "LinearColor",
+            "type": "function",
+            "signature": "function LinearColor()"
+          }
+        ]
+      },
+      {
+        "name": "LinearColor.js",
+        "path": "docs/data/material/components/progress/LinearColor.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 13,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/LinearColor.js",
+            "functionName": "LinearColor",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 12
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "LinearProgress",
+                  "source": "@mui/material/LinearProgress",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          },
+          {
+            "name": "LinearProgress",
+            "sourceModule": "@mui/material/LinearProgress",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "LinearColor",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "LinearColor",
+            "type": "function",
+            "signature": "function LinearColor()"
+          }
+        ]
+      },
+      {
+        "name": "LinearBuffer.tsx",
+        "path": "docs/data/material/components/progress/LinearBuffer.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 41,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/LinearBuffer.tsx",
+            "functionName": "LinearBuffer",
+            "classification": "likely-legitimate",
+            "confidence": 34,
+            "isPlaceholder": true,
+            "reasons": [
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 40
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "LinearProgress",
+                  "source": "@mui/material/LinearProgress",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "LinearProgress",
+            "sourceModule": "@mui/material/LinearProgress",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "LinearBuffer",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "LinearBuffer",
+            "type": "function",
+            "signature": "function LinearBuffer()"
+          }
+        ]
+      },
+      {
+        "name": "LinearBuffer.js",
+        "path": "docs/data/material/components/progress/LinearBuffer.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 41,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/LinearBuffer.js",
+            "functionName": "LinearBuffer",
+            "classification": "likely-legitimate",
+            "confidence": 34,
+            "isPlaceholder": true,
+            "reasons": [
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 40
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "LinearProgress",
+                  "source": "@mui/material/LinearProgress",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "LinearProgress",
+            "sourceModule": "@mui/material/LinearProgress",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "LinearBuffer",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "LinearBuffer",
+            "type": "function",
+            "signature": "function LinearBuffer()"
+          }
+        ]
+      },
+      {
+        "name": "DelayingAppearance.tsx",
+        "path": "docs/data/material/components/progress/DelayingAppearance.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 77,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/DelayingAppearance.tsx",
+            "functionName": "DelayingAppearance",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Function takes no parameters",
+              "Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 8,
+              "endLine": 76
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Fade",
+                  "source": "@mui/material/Fade",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/components/progress/DelayingAppearance.tsx",
+            "functionName": "handleClickLoading",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Fade",
+                  "source": "@mui/material/Fade",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/components/progress/DelayingAppearance.tsx",
+            "functionName": "handleClickQuery",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns simple/hardcoded value",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Fade",
+                  "source": "@mui/material/Fade",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Fade",
+            "sourceModule": "@mui/material/Fade",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/material/CircularProgress",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "DelayingAppearance",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "DelayingAppearance",
+            "type": "function",
+            "signature": "function DelayingAppearance()"
+          },
+          {
+            "name": "handleClickLoading",
+            "type": "function",
+            "signature": "const handleClickLoading = () =>"
+          },
+          {
+            "name": "handleClickQuery",
+            "type": "function",
+            "signature": "const handleClickQuery = () =>"
+          }
+        ]
+      },
+      {
+        "name": "DelayingAppearance.js",
+        "path": "docs/data/material/components/progress/DelayingAppearance.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 77,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/DelayingAppearance.js",
+            "functionName": "DelayingAppearance",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Function takes no parameters",
+              "Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 8,
+              "endLine": 76
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Fade",
+                  "source": "@mui/material/Fade",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/components/progress/DelayingAppearance.js",
+            "functionName": "handleClickLoading",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Fade",
+                  "source": "@mui/material/Fade",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/components/progress/DelayingAppearance.js",
+            "functionName": "handleClickQuery",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns simple/hardcoded value",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Fade",
+                  "source": "@mui/material/Fade",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Fade",
+            "sourceModule": "@mui/material/Fade",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/material/CircularProgress",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "DelayingAppearance",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "DelayingAppearance",
+            "type": "function",
+            "signature": "function DelayingAppearance()"
+          },
+          {
+            "name": "handleClickLoading",
+            "type": "function",
+            "signature": "const handleClickLoading = () =>"
+          },
+          {
+            "name": "handleClickQuery",
+            "type": "function",
+            "signature": "const handleClickQuery = () =>"
+          }
+        ]
+      },
+      {
+        "name": "CustomizedProgressBars.tsx",
+        "path": "docs/data/material/components/progress/CustomizedProgressBars.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 85,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/CustomizedProgressBars.tsx",
+            "functionName": "CustomizedProgressBars",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 75,
+              "endLine": 84
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/components/progress/CustomizedProgressBars.tsx",
+            "functionName": "FacebookCircularProgress",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 29,
+              "endLine": 57
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/components/progress/CustomizedProgressBars.tsx",
+            "functionName": "GradientCircularProgress",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 60,
+              "endLine": 74
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          },
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/material/CircularProgress",
+            "isDefault": true,
+            "namedImports": [
+              "circularProgressClasses",
+              "CircularProgressProps"
+            ]
+          },
+          {
+            "name": "LinearProgress",
+            "sourceModule": "@mui/material/LinearProgress",
+            "isDefault": true,
+            "namedImports": [
+              "linearProgressClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CustomizedProgressBars",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "FacebookCircularProgress",
+            "type": "function",
+            "signature": "function FacebookCircularProgress()"
+          },
+          {
+            "name": "GradientCircularProgress",
+            "type": "function",
+            "signature": "function GradientCircularProgress()"
+          },
+          {
+            "name": "CustomizedProgressBars",
+            "type": "function",
+            "signature": "function CustomizedProgressBars()"
+          },
+          {
+            "name": "B",
+            "type": "const",
+            "signature": "const B"
+          }
+        ]
+      },
+      {
+        "name": "CustomizedProgressBars.js",
+        "path": "docs/data/material/components/progress/CustomizedProgressBars.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 85,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/CustomizedProgressBars.js",
+            "functionName": "CustomizedProgressBars",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 75,
+              "endLine": 84
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/components/progress/CustomizedProgressBars.js",
+            "functionName": "FacebookCircularProgress",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 28,
+              "endLine": 56
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/components/progress/CustomizedProgressBars.js",
+            "functionName": "GradientCircularProgress",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 60,
+              "endLine": 74
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          },
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/material/CircularProgress",
+            "isDefault": true,
+            "namedImports": [
+              "circularProgressClasses"
+            ]
+          },
+          {
+            "name": "LinearProgress",
+            "sourceModule": "@mui/material/LinearProgress",
+            "isDefault": true,
+            "namedImports": [
+              "linearProgressClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CustomizedProgressBars",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "FacebookCircularProgress",
+            "type": "function",
+            "signature": "function FacebookCircularProgress()"
+          },
+          {
+            "name": "GradientCircularProgress",
+            "type": "function",
+            "signature": "function GradientCircularProgress()"
+          },
+          {
+            "name": "CustomizedProgressBars",
+            "type": "function",
+            "signature": "function CustomizedProgressBars()"
+          },
+          {
+            "name": "B",
+            "type": "const",
+            "signature": "const B"
+          }
+        ]
+      },
+      {
+        "name": "CircularWithValueLabel.tsx",
+        "path": "docs/data/material/components/progress/CircularWithValueLabel.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 50,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/CircularWithValueLabel.tsx",
+            "functionName": "CircularProgressWithLabel",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 8,
+              "endLine": 34
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/components/progress/CircularWithValueLabel.tsx",
+            "functionName": "CircularWithValueLabel",
+            "classification": "definite-legitimate",
+            "confidence": 19,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 36,
+              "endLine": 49
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/material/CircularProgress",
+            "isDefault": true,
+            "namedImports": [
+              "CircularProgressProps"
+            ]
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CircularWithValueLabel",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CircularProgressWithLabel",
+            "type": "function",
+            "signature": "function CircularProgressWithLabel()"
+          },
+          {
+            "name": "CircularWithValueLabel",
+            "type": "function",
+            "signature": "function CircularWithValueLabel()"
+          }
+        ]
+      },
+      {
+        "name": "CircularWithValueLabel.js",
+        "path": "docs/data/material/components/progress/CircularWithValueLabel.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 58,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/CircularWithValueLabel.js",
+            "functionName": "CircularProgressWithLabel",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 7,
+              "endLine": 33
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/components/progress/CircularWithValueLabel.js",
+            "functionName": "CircularWithValueLabel",
+            "classification": "definite-legitimate",
+            "confidence": 19,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 44,
+              "endLine": 57
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/material/CircularProgress",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CircularWithValueLabel",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CircularProgressWithLabel",
+            "type": "function",
+            "signature": "function CircularProgressWithLabel()"
+          },
+          {
+            "name": "CircularWithValueLabel",
+            "type": "function",
+            "signature": "function CircularWithValueLabel()"
+          }
+        ]
+      },
+      {
+        "name": "CircularUnderLoad.tsx",
+        "path": "docs/data/material/components/progress/CircularUnderLoad.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/CircularUnderLoad.tsx",
+            "functionName": "CircularUnderLoad",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 3,
+              "endLine": 5
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/material/CircularProgress",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CircularUnderLoad",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CircularUnderLoad",
+            "type": "function",
+            "signature": "function CircularUnderLoad()"
+          }
+        ]
+      },
+      {
+        "name": "CircularUnderLoad.js",
+        "path": "docs/data/material/components/progress/CircularUnderLoad.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 6,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/CircularUnderLoad.js",
+            "functionName": "CircularUnderLoad",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 3,
+              "endLine": 5
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/material/CircularProgress",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CircularUnderLoad",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CircularUnderLoad",
+            "type": "function",
+            "signature": "function CircularUnderLoad()"
+          }
+        ]
+      },
+      {
+        "name": "CircularSize.tsx",
+        "path": "docs/data/material/components/progress/CircularSize.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 13,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/CircularSize.tsx",
+            "functionName": "CircularSize",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 12
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          },
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/material/CircularProgress",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CircularSize",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CircularSize",
+            "type": "function",
+            "signature": "function CircularSize()"
+          }
+        ]
+      },
+      {
+        "name": "CircularSize.js",
+        "path": "docs/data/material/components/progress/CircularSize.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 13,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/CircularSize.js",
+            "functionName": "CircularSize",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 12
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          },
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/material/CircularProgress",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CircularSize",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CircularSize",
+            "type": "function",
+            "signature": "function CircularSize()"
+          }
+        ]
+      },
+      {
+        "name": "CircularIntegration.tsx",
+        "path": "docs/data/material/components/progress/CircularIntegration.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 91,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/CircularIntegration.tsx",
+            "functionName": "CircularIntegration",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Function takes no parameters",
+              "Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 10,
+              "endLine": 90
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Fab",
+                  "source": "@mui/material/Fab",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CheckIcon",
+                  "source": "@mui/icons-material/Check",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "SaveIcon",
+                  "source": "@mui/icons-material/Save",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/components/progress/CircularIntegration.tsx",
+            "functionName": "handleButtonClick",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Fab",
+                  "source": "@mui/material/Fab",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CheckIcon",
+                  "source": "@mui/icons-material/Check",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "SaveIcon",
+                  "source": "@mui/icons-material/Save",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/material/CircularProgress",
+            "isDefault": true
+          },
+          {
+            "name": "green",
+            "sourceModule": "@mui/material/colors",
+            "isDefault": false,
+            "namedImports": [
+              "green"
+            ]
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Fab",
+            "sourceModule": "@mui/material/Fab",
+            "isDefault": true
+          },
+          {
+            "name": "CheckIcon",
+            "sourceModule": "@mui/icons-material/Check",
+            "isDefault": true
+          },
+          {
+            "name": "SaveIcon",
+            "sourceModule": "@mui/icons-material/Save",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CircularIntegration",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CircularIntegration",
+            "type": "function",
+            "signature": "function CircularIntegration()"
+          },
+          {
+            "name": "handleButtonClick",
+            "type": "function",
+            "signature": "const handleButtonClick = () =>"
+          }
+        ]
+      },
+      {
+        "name": "CircularIntegration.js",
+        "path": "docs/data/material/components/progress/CircularIntegration.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 91,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/CircularIntegration.js",
+            "functionName": "CircularIntegration",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Function takes no parameters",
+              "Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 10,
+              "endLine": 90
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Fab",
+                  "source": "@mui/material/Fab",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CheckIcon",
+                  "source": "@mui/icons-material/Check",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "SaveIcon",
+                  "source": "@mui/icons-material/Save",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/components/progress/CircularIntegration.js",
+            "functionName": "handleButtonClick",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Fab",
+                  "source": "@mui/material/Fab",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CheckIcon",
+                  "source": "@mui/icons-material/Check",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "SaveIcon",
+                  "source": "@mui/icons-material/Save",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/material/CircularProgress",
+            "isDefault": true
+          },
+          {
+            "name": "green",
+            "sourceModule": "@mui/material/colors",
+            "isDefault": false,
+            "namedImports": [
+              "green"
+            ]
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Fab",
+            "sourceModule": "@mui/material/Fab",
+            "isDefault": true
+          },
+          {
+            "name": "CheckIcon",
+            "sourceModule": "@mui/icons-material/Check",
+            "isDefault": true
+          },
+          {
+            "name": "SaveIcon",
+            "sourceModule": "@mui/icons-material/Save",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CircularIntegration",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CircularIntegration",
+            "type": "function",
+            "signature": "function CircularIntegration()"
+          },
+          {
+            "name": "handleButtonClick",
+            "type": "function",
+            "signature": "const handleButtonClick = () =>"
+          }
+        ]
+      },
+      {
+        "name": "CircularIndeterminate.tsx",
+        "path": "docs/data/material/components/progress/CircularIndeterminate.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 11,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/CircularIndeterminate.tsx",
+            "functionName": "CircularIndeterminate",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 10
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/material/CircularProgress",
+            "isDefault": true
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CircularIndeterminate",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CircularIndeterminate",
+            "type": "function",
+            "signature": "function CircularIndeterminate()"
+          }
+        ]
+      },
+      {
+        "name": "CircularIndeterminate.js",
+        "path": "docs/data/material/components/progress/CircularIndeterminate.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 11,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/CircularIndeterminate.js",
+            "functionName": "CircularIndeterminate",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 10
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/material/CircularProgress",
+            "isDefault": true
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CircularIndeterminate",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CircularIndeterminate",
+            "type": "function",
+            "signature": "function CircularIndeterminate()"
+          }
+        ]
+      },
+      {
+        "name": "CircularEnableTrack.tsx",
+        "path": "docs/data/material/components/progress/CircularEnableTrack.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 33,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/CircularEnableTrack.tsx",
+            "functionName": "CircularEnableTrack",
+            "classification": "definite-legitimate",
+            "confidence": 19,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 32
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          },
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/material/CircularProgress",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CircularEnableTrack",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CircularEnableTrack",
+            "type": "function",
+            "signature": "function CircularEnableTrack()"
+          }
+        ]
+      },
+      {
+        "name": "CircularEnableTrack.js",
+        "path": "docs/data/material/components/progress/CircularEnableTrack.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 33,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/CircularEnableTrack.js",
+            "functionName": "CircularEnableTrack",
+            "classification": "definite-legitimate",
+            "confidence": 19,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 32
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          },
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/material/CircularProgress",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CircularEnableTrack",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CircularEnableTrack",
+            "type": "function",
+            "signature": "function CircularEnableTrack()"
+          }
+        ]
+      },
+      {
+        "name": "CircularDeterminate.tsx",
+        "path": "docs/data/material/components/progress/CircularDeterminate.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 28,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/CircularDeterminate.tsx",
+            "functionName": "CircularDeterminate",
+            "classification": "definite-legitimate",
+            "confidence": 19,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 27
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          },
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/material/CircularProgress",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CircularDeterminate",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CircularDeterminate",
+            "type": "function",
+            "signature": "function CircularDeterminate()"
+          }
+        ]
+      },
+      {
+        "name": "CircularDeterminate.js",
+        "path": "docs/data/material/components/progress/CircularDeterminate.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 28,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/CircularDeterminate.js",
+            "functionName": "CircularDeterminate",
+            "classification": "definite-legitimate",
+            "confidence": 19,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 27
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          },
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/material/CircularProgress",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CircularDeterminate",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CircularDeterminate",
+            "type": "function",
+            "signature": "function CircularDeterminate()"
+          }
+        ]
+      },
+      {
+        "name": "CircularColor.tsx",
+        "path": "docs/data/material/components/progress/CircularColor.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 13,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/CircularColor.tsx",
+            "functionName": "CircularColor",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 12
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          },
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/material/CircularProgress",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CircularColor",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CircularColor",
+            "type": "function",
+            "signature": "function CircularColor()"
+          }
+        ]
+      },
+      {
+        "name": "CircularColor.js",
+        "path": "docs/data/material/components/progress/CircularColor.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 13,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/progress/CircularColor.js",
+            "functionName": "CircularColor",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 12
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CircularProgress",
+                  "source": "@mui/material/CircularProgress",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          },
+          {
+            "name": "CircularProgress",
+            "sourceModule": "@mui/material/CircularProgress",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "CircularColor",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CircularColor",
+            "type": "function",
+            "signature": "function CircularColor()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "docs/data/material/components/progress/LinearWithValueLabel.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearWithValueLabel.tsx",
+          "to": "@mui/material/LinearProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearWithValueLabel.tsx",
+          "to": "@mui/material/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearWithValueLabel.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearWithValueLabel.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearWithValueLabel.js",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearWithValueLabel.js",
+          "to": "@mui/material/LinearProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearWithValueLabel.js",
+          "to": "@mui/material/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearWithValueLabel.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearIndeterminate.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearIndeterminate.tsx",
+          "to": "@mui/material/LinearProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearIndeterminate.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearIndeterminate.js",
+          "to": "@mui/material/LinearProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearDeterminate.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearDeterminate.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearDeterminate.tsx",
+          "to": "@mui/material/LinearProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearDeterminate.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearDeterminate.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearDeterminate.js",
+          "to": "@mui/material/LinearProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearColor.tsx",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearColor.tsx",
+          "to": "@mui/material/LinearProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearColor.js",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearColor.js",
+          "to": "@mui/material/LinearProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearBuffer.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearBuffer.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearBuffer.tsx",
+          "to": "@mui/material/LinearProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearBuffer.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearBuffer.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/LinearBuffer.js",
+          "to": "@mui/material/LinearProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/DelayingAppearance.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/DelayingAppearance.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/DelayingAppearance.tsx",
+          "to": "@mui/material/Fade",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/DelayingAppearance.tsx",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/DelayingAppearance.tsx",
+          "to": "@mui/material/CircularProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/DelayingAppearance.tsx",
+          "to": "@mui/material/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/DelayingAppearance.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/DelayingAppearance.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/DelayingAppearance.js",
+          "to": "@mui/material/Fade",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/DelayingAppearance.js",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/DelayingAppearance.js",
+          "to": "@mui/material/CircularProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/DelayingAppearance.js",
+          "to": "@mui/material/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CustomizedProgressBars.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CustomizedProgressBars.tsx",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CustomizedProgressBars.tsx",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CustomizedProgressBars.tsx",
+          "to": "@mui/material/CircularProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CustomizedProgressBars.tsx",
+          "to": "@mui/material/LinearProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CustomizedProgressBars.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CustomizedProgressBars.js",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CustomizedProgressBars.js",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CustomizedProgressBars.js",
+          "to": "@mui/material/CircularProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CustomizedProgressBars.js",
+          "to": "@mui/material/LinearProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularWithValueLabel.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularWithValueLabel.tsx",
+          "to": "@mui/material/CircularProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularWithValueLabel.tsx",
+          "to": "@mui/material/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularWithValueLabel.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularWithValueLabel.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularWithValueLabel.js",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularWithValueLabel.js",
+          "to": "@mui/material/CircularProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularWithValueLabel.js",
+          "to": "@mui/material/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularWithValueLabel.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularUnderLoad.tsx",
+          "to": "@mui/material/CircularProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularUnderLoad.js",
+          "to": "@mui/material/CircularProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularSize.tsx",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularSize.tsx",
+          "to": "@mui/material/CircularProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularSize.js",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularSize.js",
+          "to": "@mui/material/CircularProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularIntegration.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularIntegration.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularIntegration.tsx",
+          "to": "@mui/material/CircularProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularIntegration.tsx",
+          "to": "@mui/material/colors",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularIntegration.tsx",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularIntegration.tsx",
+          "to": "@mui/material/Fab",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularIntegration.tsx",
+          "to": "@mui/icons-material/Check",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularIntegration.tsx",
+          "to": "@mui/icons-material/Save",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularIntegration.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularIntegration.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularIntegration.js",
+          "to": "@mui/material/CircularProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularIntegration.js",
+          "to": "@mui/material/colors",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularIntegration.js",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularIntegration.js",
+          "to": "@mui/material/Fab",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularIntegration.js",
+          "to": "@mui/icons-material/Check",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularIntegration.js",
+          "to": "@mui/icons-material/Save",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularIndeterminate.tsx",
+          "to": "@mui/material/CircularProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularIndeterminate.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularIndeterminate.js",
+          "to": "@mui/material/CircularProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularIndeterminate.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularEnableTrack.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularEnableTrack.tsx",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularEnableTrack.tsx",
+          "to": "@mui/material/CircularProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularEnableTrack.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularEnableTrack.js",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularEnableTrack.js",
+          "to": "@mui/material/CircularProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularDeterminate.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularDeterminate.tsx",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularDeterminate.tsx",
+          "to": "@mui/material/CircularProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularDeterminate.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularDeterminate.js",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularDeterminate.js",
+          "to": "@mui/material/CircularProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularColor.tsx",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularColor.tsx",
+          "to": "@mui/material/CircularProgress",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularColor.js",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/progress/CircularColor.js",
+          "to": "@mui/material/CircularProgress",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

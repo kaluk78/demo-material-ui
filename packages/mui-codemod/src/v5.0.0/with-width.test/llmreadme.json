@@ -1,0 +1,424 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:12:44.589Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:12:44.589Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "with-width.test",
+      "path": "packages/mui-codemod/src/v5.0.0/with-width.test",
+      "purpose": "Enhanced directory analysis of with-width.test",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "no-withwidth.expected.js",
+        "path": "packages/mui-codemod/src/v5.0.0/with-width.test/no-withwidth.expected.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 2,
+        "importedModules": [
+          {
+            "name": "Button",
+            "sourceModule": "@material-ui/core",
+            "isDefault": false,
+            "namedImports": [
+              "Button"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "no-withwidth.actual.js",
+        "path": "packages/mui-codemod/src/v5.0.0/with-width.test/no-withwidth.actual.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 2,
+        "importedModules": [
+          {
+            "name": "Button",
+            "sourceModule": "@material-ui/core",
+            "isDefault": false,
+            "namedImports": [
+              "Button"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "expected.js",
+        "path": "packages/mui-codemod/src/v5.0.0/with-width.test/expected.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 25,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-codemod/src/v5.0.0/with-width.test/expected.js",
+            "functionName": "withMuiWidth",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Button",
+                  "source": "@material-ui/core/Button",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-codemod/src/v5.0.0/with-width.test/expected.js",
+            "functionName": "withWidth",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Button",
+                  "source": "@material-ui/core/Button",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-codemod/src/v5.0.0/with-width.test/expected.js",
+            "functionName": "WithWidthComponent",
+            "classification": "definite-legitimate",
+            "confidence": 9.8,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "[FALLBACK] 1 AI-suspicious unused variables: Component",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 13,
+              "endLine": 22
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 4.800000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Button",
+                  "source": "@material-ui/core/Button",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "Component",
+                  "line": 15,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Button",
+            "sourceModule": "@material-ui/core/Button",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "WithWidthComponent",
+            "type": "function",
+            "signature": "function WithWidthComponent()"
+          },
+          {
+            "name": "withMuiWidth",
+            "type": "function",
+            "signature": "const withMuiWidth = () =>"
+          },
+          {
+            "name": "withWidth",
+            "type": "function",
+            "signature": "const withWidth = () =>"
+          },
+          {
+            "name": "A",
+            "type": "const",
+            "signature": "const A"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          }
+        ]
+      },
+      {
+        "name": "actual.js",
+        "path": "packages/mui-codemod/src/v5.0.0/with-width.test/actual.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 21,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-codemod/src/v5.0.0/with-width.test/actual.js",
+            "functionName": "WithWidthComponent",
+            "classification": "definite-legitimate",
+            "confidence": 9.8,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "[FALLBACK] 1 AI-suspicious unused variables: Component",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 9,
+              "endLine": 18
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 4.800000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Button",
+                  "source": "@material-ui/core/Button",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "Component",
+                  "line": 11,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "withWidth",
+            "sourceModule": "@material-ui/core/withWidth",
+            "isDefault": true
+          },
+          {
+            "name": "withMuiWidth",
+            "sourceModule": "@material-ui/core",
+            "isDefault": false,
+            "namedImports": [
+              "withMuiWidth"
+            ]
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@material-ui/core/Button",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "WithWidthComponent",
+            "type": "function",
+            "signature": "function WithWidthComponent()"
+          },
+          {
+            "name": "A",
+            "type": "const",
+            "signature": "const A"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/with-width.test/no-withwidth.expected.js",
+          "to": "@material-ui/core",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/with-width.test/no-withwidth.actual.js",
+          "to": "@material-ui/core",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/with-width.test/expected.js",
+          "to": "@material-ui/core/Button",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/with-width.test/actual.js",
+          "to": "@material-ui/core/withWidth",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/with-width.test/actual.js",
+          "to": "@material-ui/core",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/with-width.test/actual.js",
+          "to": "@material-ui/core/Button",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

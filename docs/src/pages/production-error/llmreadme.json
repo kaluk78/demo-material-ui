@@ -1,0 +1,214 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:10:25.094Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:10:25.094Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "production-error",
+      "path": "docs/src/pages/production-error",
+      "purpose": "Enhanced directory analysis of production-error",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "ErrorDecoder.js",
+        "path": "docs/src/pages/production-error/ErrorDecoder.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 128,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/pages/production-error/ErrorDecoder.js",
+            "functionName": "ErrorDecoder",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return undefined;\"",
+              "Function takes no parameters",
+              "Contains throw statement",
+              "Intentionally unused parameter/variable (prefixed with _); Properly uses assigned variables; External interaction (I/O, network, DB) suggests legitimacy; Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 20,
+              "endLine": 127
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 6,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Link",
+                  "source": "@mui/material/Link",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "useRouter",
+            "sourceModule": "next/router",
+            "isDefault": false,
+            "namedImports": [
+              "useRouter"
+            ]
+          },
+          {
+            "name": "Link",
+            "sourceModule": "@mui/material/Link",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "renderMarkdown",
+            "sourceModule": "@mui/internal-markdown",
+            "isDefault": false,
+            "namedImports": [
+              "renderMarkdown"
+            ]
+          },
+          {
+            "name": "MarkdownElement",
+            "sourceModule": "@mui/docs/MarkdownElement",
+            "isDefault": false,
+            "namedImports": [
+              "MarkdownElement"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ErrorDecoder",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ErrorDecoder",
+            "type": "function",
+            "signature": "function ErrorDecoder()"
+          },
+          {
+            "name": "E",
+            "type": "const",
+            "signature": "const E"
+          },
+          {
+            "name": "E",
+            "type": "const",
+            "signature": "const E"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "docs/src/pages/production-error/ErrorDecoder.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/pages/production-error/ErrorDecoder.js",
+          "to": "next/router",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/pages/production-error/ErrorDecoder.js",
+          "to": "@mui/material/Link",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/pages/production-error/ErrorDecoder.js",
+          "to": "@mui/material/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/pages/production-error/ErrorDecoder.js",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/pages/production-error/ErrorDecoder.js",
+          "to": "@mui/internal-markdown",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/pages/production-error/ErrorDecoder.js",
+          "to": "@mui/docs/MarkdownElement",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

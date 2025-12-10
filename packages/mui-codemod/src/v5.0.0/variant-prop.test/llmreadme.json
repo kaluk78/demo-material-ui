@@ -1,0 +1,677 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:12:44.070Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:12:44.070Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "variant-prop.test",
+      "path": "packages/mui-codemod/src/v5.0.0/variant-prop.test",
+      "purpose": "Enhanced directory analysis of variant-prop.test",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "expected.js",
+        "path": "packages/mui-codemod/src/v5.0.0/variant-prop.test/expected.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 42,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-codemod/src/v5.0.0/variant-prop.test/expected.js",
+            "functionName": "Select2",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "TextField",
+                  "source": "@material-ui/core/TextField",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Select",
+                  "source": "@material-ui/core/Select",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "FormControl",
+                  "source": "@material-ui/core/FormControl",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "MuiTextField2",
+                  "source": "@mui/material/TextField",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MuiSelect2",
+                  "source": "@mui/material/Select",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MuiFormControl2",
+                  "source": "@mui/material",
+                  "line": 8,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-codemod/src/v5.0.0/variant-prop.test/expected.js",
+            "functionName": "TextFieldComponent",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 12,
+              "endLine": 41
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "TextField",
+                  "source": "@material-ui/core/TextField",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Select",
+                  "source": "@material-ui/core/Select",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "FormControl",
+                  "source": "@material-ui/core/FormControl",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "MuiTextField2",
+                  "source": "@mui/material/TextField",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MuiSelect2",
+                  "source": "@mui/material/Select",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MuiFormControl2",
+                  "source": "@mui/material",
+                  "line": 8,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "TextField",
+            "sourceModule": "@material-ui/core/TextField",
+            "isDefault": true
+          },
+          {
+            "name": "Select",
+            "sourceModule": "@material-ui/core/Select",
+            "isDefault": true
+          },
+          {
+            "name": "FormControl",
+            "sourceModule": "@material-ui/core/FormControl",
+            "isDefault": true
+          },
+          {
+            "name": "MuiTextField2",
+            "sourceModule": "@mui/material/TextField",
+            "isDefault": true
+          },
+          {
+            "name": "MuiSelect2",
+            "sourceModule": "@mui/material/Select",
+            "isDefault": true
+          },
+          {
+            "name": "MuiFormControl2",
+            "sourceModule": "@mui/material",
+            "isDefault": false,
+            "namedImports": [
+              "MuiFormControl2"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TextFieldComponent",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TextFieldComponent",
+            "type": "function",
+            "signature": "function TextFieldComponent()"
+          },
+          {
+            "name": "Select2",
+            "type": "function",
+            "signature": "const Select2 = () =>"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          }
+        ]
+      },
+      {
+        "name": "actual.js",
+        "path": "packages/mui-codemod/src/v5.0.0/variant-prop.test/actual.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 43,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-codemod/src/v5.0.0/variant-prop.test/actual.js",
+            "functionName": "Select2",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "TextField",
+                  "source": "@material-ui/core/TextField",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Select",
+                  "source": "@material-ui/core/Select",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "FormControl",
+                  "source": "@material-ui/core/FormControl",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "MuiTextField2",
+                  "source": "@mui/material/TextField",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MuiSelect2",
+                  "source": "@mui/material/Select",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MuiFormControl2",
+                  "source": "@mui/material",
+                  "line": 8,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-codemod/src/v5.0.0/variant-prop.test/actual.js",
+            "functionName": "TextFieldComponent",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 12,
+              "endLine": 42
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "TextField",
+                  "source": "@material-ui/core/TextField",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Select",
+                  "source": "@material-ui/core/Select",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "FormControl",
+                  "source": "@material-ui/core/FormControl",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "MuiTextField2",
+                  "source": "@mui/material/TextField",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MuiSelect2",
+                  "source": "@mui/material/Select",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MuiFormControl2",
+                  "source": "@mui/material",
+                  "line": 8,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "TextField",
+            "sourceModule": "@material-ui/core/TextField",
+            "isDefault": true
+          },
+          {
+            "name": "Select",
+            "sourceModule": "@material-ui/core/Select",
+            "isDefault": true
+          },
+          {
+            "name": "FormControl",
+            "sourceModule": "@material-ui/core/FormControl",
+            "isDefault": true
+          },
+          {
+            "name": "MuiTextField2",
+            "sourceModule": "@mui/material/TextField",
+            "isDefault": true
+          },
+          {
+            "name": "MuiSelect2",
+            "sourceModule": "@mui/material/Select",
+            "isDefault": true
+          },
+          {
+            "name": "MuiFormControl2",
+            "sourceModule": "@mui/material",
+            "isDefault": false,
+            "namedImports": [
+              "MuiFormControl2"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TextFieldComponent",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TextFieldComponent",
+            "type": "function",
+            "signature": "function TextFieldComponent()"
+          },
+          {
+            "name": "Select2",
+            "type": "function",
+            "signature": "const Select2 = () =>"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/variant-prop.test/expected.js",
+          "to": "@material-ui/core/TextField",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/variant-prop.test/expected.js",
+          "to": "@material-ui/core/Select",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/variant-prop.test/expected.js",
+          "to": "@material-ui/core/FormControl",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/variant-prop.test/expected.js",
+          "to": "@mui/material/TextField",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/variant-prop.test/expected.js",
+          "to": "@mui/material/Select",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/variant-prop.test/expected.js",
+          "to": "@mui/material",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/variant-prop.test/actual.js",
+          "to": "@material-ui/core/TextField",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/variant-prop.test/actual.js",
+          "to": "@material-ui/core/Select",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/variant-prop.test/actual.js",
+          "to": "@material-ui/core/FormControl",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/variant-prop.test/actual.js",
+          "to": "@mui/material/TextField",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/variant-prop.test/actual.js",
+          "to": "@mui/material/Select",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/variant-prop.test/actual.js",
+          "to": "@mui/material",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

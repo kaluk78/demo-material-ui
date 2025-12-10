@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:23:37.254Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:23:37.254Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "test",
+      "path": "test",
+      "purpose": "Enhanced directory analysis of test",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "cli.js",
+        "path": "test/cli.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 127,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/cli.js",
+            "functionName": "run",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Very generic function name",
+              "Contains throw statement",
+              "Utility function with clear purpose; Intentionally unused parameter/variable (prefixed with _); Mutates state or has side effects; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 8,
+              "endLine": 77
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 9,
+              "commentAnalysis": 0,
+              "contextFilter": -78,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "run",
+            "type": "function",
+            "signature": "function run()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "assets",
+        "relativePath": "assets",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of assets",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "bundle-size",
+        "relativePath": "bundle-size",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of bundle-size",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "bundling",
+        "relativePath": "bundling",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of bundling",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "e2e",
+        "relativePath": "e2e",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of e2e",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "e2e-website",
+        "relativePath": "e2e-website",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of e2e-website",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "integration",
+        "relativePath": "integration",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of integration",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "moduleResolution",
+        "relativePath": "moduleResolution",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of moduleResolution",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "regressions",
+        "relativePath": "regressions",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of regressions",
+        "keyElementsFromChild": []
+      }
+    ],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

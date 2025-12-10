@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:12:28.443Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:12:28.443Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "grid-list-component.test",
+      "path": "packages/mui-codemod/src/v5.0.0/grid-list-component.test",
+      "purpose": "Enhanced directory analysis of grid-list-component.test",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "expected.js",
+        "path": "packages/mui-codemod/src/v5.0.0/grid-list-component.test/expected.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 15,
+        "importedModules": [
+          {
+            "name": "ImageList",
+            "sourceModule": "@material-ui/core",
+            "isDefault": false,
+            "namedImports": [
+              "ImageList",
+              "ImageListItem"
+            ]
+          },
+          {
+            "name": "ImageListItemBar",
+            "sourceModule": "@material-ui/core/ImageListItemBar",
+            "isDefault": true
+          },
+          {
+            "name": "LinksGridList",
+            "sourceModule": "./other",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "actual.js",
+        "path": "packages/mui-codemod/src/v5.0.0/grid-list-component.test/actual.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 15,
+        "importedModules": [
+          {
+            "name": "GridList",
+            "sourceModule": "@material-ui/core",
+            "isDefault": false,
+            "namedImports": [
+              "GridList",
+              "GridListTile"
+            ]
+          },
+          {
+            "name": "GridListTileBar",
+            "sourceModule": "@material-ui/core/GridListTileBar",
+            "isDefault": true
+          },
+          {
+            "name": "LinksGridList",
+            "sourceModule": "./other",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/grid-list-component.test/expected.js",
+          "to": "@material-ui/core",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/grid-list-component.test/expected.js",
+          "to": "@material-ui/core/ImageListItemBar",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/grid-list-component.test/actual.js",
+          "to": "@material-ui/core",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/grid-list-component.test/actual.js",
+          "to": "@material-ui/core/GridListTileBar",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

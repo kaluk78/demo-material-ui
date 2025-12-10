@@ -1,0 +1,978 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:20:40.357Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:20:40.357Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "ToggleButtonGroup",
+      "path": "packages/mui-material/src/ToggleButtonGroup",
+      "purpose": "Enhanced directory analysis of ToggleButtonGroup",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "toggleButtonGroupClasses.ts",
+        "path": "packages/mui-material/src/ToggleButtonGroup/toggleButtonGroupClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 60,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/ToggleButtonGroup/toggleButtonGroupClasses.ts",
+            "functionName": "getToggleButtonGroupUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 37,
+              "endLine": 39
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "generateUtilityClasses",
+                  "source": "@mui/utils/generateUtilityClasses",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "generateUtilityClass",
+                  "source": "@mui/utils/generateUtilityClass",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClasses",
+            "sourceModule": "@mui/utils/generateUtilityClasses",
+            "isDefault": true
+          },
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "@mui/utils/generateUtilityClass",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ToggleButtonGroupClasses",
+            "type": "interface"
+          },
+          {
+            "name": "ToggleButtonGroupClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getToggleButtonGroupUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getToggleButtonGroupUtilityClass",
+            "type": "function",
+            "signature": "function getToggleButtonGroupUtilityClass()"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "ToggleButtonGroupClasses",
+            "type": "interface",
+            "signature": "interface ToggleButtonGroupClasses"
+          },
+          {
+            "name": "ToggleButtonGroupClassKey",
+            "type": "type",
+            "signature": "type ToggleButtonGroupClassKey"
+          }
+        ]
+      },
+      {
+        "name": "isValueSelected.test.js",
+        "path": "packages/mui-material/src/ToggleButtonGroup/isValueSelected.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 41,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "isValueSelected",
+            "sourceModule": "./isValueSelected",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "isValueSelected.js",
+        "path": "packages/mui-material/src/ToggleButtonGroup/isValueSelected.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 14,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/ToggleButtonGroup/isValueSelected.js",
+            "functionName": "isValueSelected",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return false;\"",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score; Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 3,
+              "endLine": 13
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -57,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "isValueSelected",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "isValueSelected",
+            "type": "function",
+            "signature": "function isValueSelected()"
+          }
+        ]
+      },
+      {
+        "name": "index.js",
+        "path": "packages/mui-material/src/ToggleButtonGroup/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "toggleButtonGroupClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "index.d.ts",
+        "path": "packages/mui-material/src/ToggleButtonGroup/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 6,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "toggleButtonGroupClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "ToggleButtonGroupContext.ts",
+        "path": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroupContext.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 25,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "ToggleButtonGroupProps",
+            "sourceModule": "./ToggleButtonGroup",
+            "isDefault": false,
+            "namedImports": [
+              "ToggleButtonGroupProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "ToggleButtonGroupContextType",
+            "type": "interface",
+            "signature": "interface ToggleButtonGroupContextType"
+          }
+        ]
+      },
+      {
+        "name": "ToggleButtonGroupButtonContext.ts",
+        "path": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroupButtonContext.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 18,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "ToggleButtonPositionClassName",
+            "type": "type",
+            "signature": "type ToggleButtonPositionClassName"
+          }
+        ]
+      },
+      {
+        "name": "ToggleButtonGroup.test.js",
+        "path": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 302,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "spy",
+            "sourceModule": "sinon",
+            "isDefault": false,
+            "namedImports": [
+              "spy"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "screen"
+            ]
+          },
+          {
+            "name": "ToggleButtonGroup",
+            "sourceModule": "@mui/material/ToggleButtonGroup",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "ToggleButton",
+            "sourceModule": "@mui/material/ToggleButton",
+            "isDefault": true,
+            "namedImports": [
+              "toggleButtonClasses"
+            ]
+          },
+          {
+            "name": "Tooltip",
+            "sourceModule": "@mui/material/Tooltip",
+            "isDefault": true
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "ToggleButtonGroup.js",
+        "path": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 340,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.js",
+            "functionName": "getButtonPositionClassName",
+            "classification": "definite-legitimate",
+            "confidence": 15,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return '';\"",
+              "Legitimate simple function pattern (getter/setter/utility)"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ToggleButtonGroupContext",
+                  "source": "./ToggleButtonGroupContext",
+                  "line": 15,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ToggleButtonGroupButtonContext",
+                  "source": "./ToggleButtonGroupButtonContext",
+                  "line": 16,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.js",
+            "functionName": "ToggleButtonGroup",
+            "classification": "definite-legitimate",
+            "confidence": 3,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return '';\"",
+              "Moderate context score; Event handler or callback function; Mutates state or has side effects"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ToggleButtonGroupContext",
+                  "source": "./ToggleButtonGroupContext",
+                  "line": 15,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ToggleButtonGroupButtonContext",
+                  "source": "./ToggleButtonGroupButtonContext",
+                  "line": 16,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.js",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ToggleButtonGroupContext",
+                  "source": "./ToggleButtonGroupContext",
+                  "line": 15,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ToggleButtonGroupButtonContext",
+                  "source": "./ToggleButtonGroupButtonContext",
+                  "line": 16,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "isFragment",
+            "sourceModule": "react-is",
+            "isDefault": false,
+            "namedImports": [
+              "isFragment"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/utils/composeClasses",
+            "isDefault": true
+          },
+          {
+            "name": "getValidReactChildren",
+            "sourceModule": "@mui/utils/getValidReactChildren",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../zero-styled",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          },
+          {
+            "name": "memoTheme",
+            "sourceModule": "../utils/memoTheme",
+            "isDefault": true
+          },
+          {
+            "name": "useDefaultProps",
+            "sourceModule": "../DefaultPropsProvider",
+            "isDefault": false,
+            "namedImports": [
+              "useDefaultProps"
+            ]
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "../utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "toggleButtonGroupClasses",
+            "sourceModule": "./toggleButtonGroupClasses",
+            "isDefault": true,
+            "namedImports": [
+              "getToggleButtonGroupUtilityClass"
+            ]
+          },
+          {
+            "name": "ToggleButtonGroupContext",
+            "sourceModule": "./ToggleButtonGroupContext",
+            "isDefault": true
+          },
+          {
+            "name": "ToggleButtonGroupButtonContext",
+            "sourceModule": "./ToggleButtonGroupButtonContext",
+            "isDefault": true
+          },
+          {
+            "name": "toggleButtonClasses",
+            "sourceModule": "../ToggleButton/toggleButtonClasses",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ToggleButtonGroup",
+            "type": "function",
+            "signature": "function ToggleButtonGroup()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "getButtonPositionClassName",
+            "type": "function",
+            "signature": "const getButtonPositionClassName = () =>"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "ToggleButtonGroup.d.ts",
+        "path": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 90,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion"
+            ]
+          },
+          {
+            "name": "Theme",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "Theme"
+            ]
+          },
+          {
+            "name": "StandardProps",
+            "sourceModule": "../internal",
+            "isDefault": false,
+            "namedImports": [
+              "StandardProps"
+            ]
+          },
+          {
+            "name": "ToggleButtonGroupClasses",
+            "sourceModule": "./toggleButtonGroupClasses",
+            "isDefault": false,
+            "namedImports": [
+              "ToggleButtonGroupClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ToggleButtonGroupPropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "ToggleButtonGroupPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "ToggleButtonGroupProps",
+            "type": "interface"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ToggleButtonGroup",
+            "type": "function",
+            "signature": "function ToggleButtonGroup()"
+          },
+          {
+            "name": "ToggleButtonGroupPropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface ToggleButtonGroupPropsSizeOverrides"
+          },
+          {
+            "name": "ToggleButtonGroupPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface ToggleButtonGroupPropsColorOverrides"
+          },
+          {
+            "name": "ToggleButtonGroupProps",
+            "type": "interface",
+            "signature": "interface ToggleButtonGroupProps"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/toggleButtonGroupClasses.ts",
+          "to": "@mui/utils/generateUtilityClasses",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/toggleButtonGroupClasses.ts",
+          "to": "@mui/utils/generateUtilityClass",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/isValueSelected.test.js",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/isValueSelected.test.js",
+          "to": "packages/mui-material/src/ToggleButtonGroup/isValueSelected.js",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroupContext.ts",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroupContext.ts",
+          "to": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.js",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroupButtonContext.ts",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.test.js",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.test.js",
+          "to": "sinon",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.test.js",
+          "to": "@mui/internal-test-utils",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.test.js",
+          "to": "@mui/material/ToggleButtonGroup",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.test.js",
+          "to": "@mui/material/ToggleButton",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.test.js",
+          "to": "@mui/material/Tooltip",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.js",
+          "to": "react-is",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.js",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.js",
+          "to": "clsx",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.js",
+          "to": "@mui/utils/composeClasses",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.js",
+          "to": "@mui/utils/getValidReactChildren",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.js",
+          "to": "packages/mui-material/src/ToggleButtonGroup/toggleButtonGroupClasses.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.js",
+          "to": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroupContext.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.js",
+          "to": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroupButtonContext.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.d.ts",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.d.ts",
+          "to": "@mui/system",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.d.ts",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.d.ts",
+          "to": "packages/mui-material/src/ToggleButtonGroup/toggleButtonGroupClasses.ts",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": [
+        [
+          "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroupContext.ts",
+          "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroup.js",
+          "packages/mui-material/src/ToggleButtonGroup/ToggleButtonGroupContext.ts"
+        ]
+      ]
+    }
+  },
+  "verificationSummary": null
+}

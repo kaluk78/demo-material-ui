@@ -1,0 +1,455 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:23:33.426Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:23:33.426Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "StepLabel",
+      "path": "test/regressions/fixtures/StepLabel",
+      "purpose": "Enhanced directory analysis of StepLabel",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "NoShrinkIcon.js",
+        "path": "test/regressions/fixtures/StepLabel/NoShrinkIcon.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 25,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/StepLabel/NoShrinkIcon.js",
+            "functionName": "NoShrinkIcon",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 12,
+              "endLine": 24
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Stepper",
+                  "source": "@mui/material/Stepper",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Step",
+                  "source": "@mui/material/Step",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "StepLabel",
+                  "source": "@mui/material/StepLabel",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/test/regressions/fixtures/StepLabel/NoShrinkIcon.js",
+            "functionName": "TestIcon",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 6,
+              "endLine": 8
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Stepper",
+                  "source": "@mui/material/Stepper",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Step",
+                  "source": "@mui/material/Step",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "StepLabel",
+                  "source": "@mui/material/StepLabel",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Stepper",
+            "sourceModule": "@mui/material/Stepper",
+            "isDefault": true
+          },
+          {
+            "name": "Step",
+            "sourceModule": "@mui/material/Step",
+            "isDefault": true
+          },
+          {
+            "name": "StepLabel",
+            "sourceModule": "@mui/material/StepLabel",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "NoShrinkIcon",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TestIcon",
+            "type": "function",
+            "signature": "function TestIcon()"
+          },
+          {
+            "name": "NoShrinkIcon",
+            "type": "function",
+            "signature": "function NoShrinkIcon()"
+          }
+        ]
+      },
+      {
+        "name": "AlternativeLabelOptionalText.js",
+        "path": "test/regressions/fixtures/StepLabel/AlternativeLabelOptionalText.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 22,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/StepLabel/AlternativeLabelOptionalText.js",
+            "functionName": "AlternativeLabelOptionalText",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 9,
+              "endLine": 21
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Stepper",
+                  "source": "@mui/material/Stepper",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Step",
+                  "source": "@mui/material/Step",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "StepLabel",
+                  "source": "@mui/material/StepLabel",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Stepper",
+            "sourceModule": "@mui/material/Stepper",
+            "isDefault": true
+          },
+          {
+            "name": "Step",
+            "sourceModule": "@mui/material/Step",
+            "isDefault": true
+          },
+          {
+            "name": "StepLabel",
+            "sourceModule": "@mui/material/StepLabel",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "AlternativeLabelOptionalText",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "AlternativeLabelOptionalText",
+            "type": "function",
+            "signature": "function AlternativeLabelOptionalText()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "test/regressions/fixtures/StepLabel/NoShrinkIcon.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/StepLabel/NoShrinkIcon.js",
+          "to": "@mui/material/Stepper",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/StepLabel/NoShrinkIcon.js",
+          "to": "@mui/material/Step",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/StepLabel/NoShrinkIcon.js",
+          "to": "@mui/material/StepLabel",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/StepLabel/AlternativeLabelOptionalText.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/StepLabel/AlternativeLabelOptionalText.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/StepLabel/AlternativeLabelOptionalText.js",
+          "to": "@mui/material/Stepper",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/StepLabel/AlternativeLabelOptionalText.js",
+          "to": "@mui/material/Step",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/StepLabel/AlternativeLabelOptionalText.js",
+          "to": "@mui/material/StepLabel",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

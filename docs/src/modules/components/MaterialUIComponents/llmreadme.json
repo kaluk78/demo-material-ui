@@ -1,0 +1,1106 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:09:30.995Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:09:30.995Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "MaterialUIComponents",
+      "path": "docs/src/modules/components/MaterialUIComponents",
+      "purpose": "Enhanced directory analysis of MaterialUIComponents",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "MaterialUtilComponents.js",
+        "path": "docs/src/modules/components/MaterialUIComponents/MaterialUtilComponents.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 78,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/modules/components/MaterialUIComponents/MaterialUtilComponents.js",
+            "functionName": "MaterialUtilComponents",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 67,
+              "endLine": 77
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Grid",
+                  "source": "@mui/material/Grid",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "InfoCard",
+                  "source": "@mui/docs/InfoCard",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HighlightAltRoundedIcon",
+                  "source": "@mui/icons-material/HighlightAltRounded",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CssRoundedIcon",
+                  "source": "@mui/icons-material/CssRounded",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "DnsRoundedIcon",
+                  "source": "@mui/icons-material/DnsRounded",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "PictureInPictureRoundedIcon",
+                  "source": "@mui/icons-material/PictureInPictureRounded",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "MenuOpenRoundedIcon",
+                  "source": "@mui/icons-material/MenuOpenRounded",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "MoveUpRoundedIcon",
+                  "source": "@mui/icons-material/MoveUpRounded",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "TextFieldsRoundedIcon",
+                  "source": "@mui/icons-material/TextFieldsRounded",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FlipToFrontRoundedIcon",
+                  "source": "@mui/icons-material/FlipToFrontRounded",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ZoomOutMapRoundedIcon",
+                  "source": "@mui/icons-material/ZoomOutMapRounded",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "DevicesOtherRoundedIcon",
+                  "source": "@mui/icons-material/DevicesOtherRounded",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Grid",
+            "sourceModule": "@mui/material/Grid",
+            "isDefault": true
+          },
+          {
+            "name": "InfoCard",
+            "sourceModule": "@mui/docs/InfoCard",
+            "isDefault": false,
+            "namedImports": [
+              "InfoCard"
+            ]
+          },
+          {
+            "name": "HighlightAltRoundedIcon",
+            "sourceModule": "@mui/icons-material/HighlightAltRounded",
+            "isDefault": true
+          },
+          {
+            "name": "CssRoundedIcon",
+            "sourceModule": "@mui/icons-material/CssRounded",
+            "isDefault": true
+          },
+          {
+            "name": "DnsRoundedIcon",
+            "sourceModule": "@mui/icons-material/DnsRounded",
+            "isDefault": true
+          },
+          {
+            "name": "PictureInPictureRoundedIcon",
+            "sourceModule": "@mui/icons-material/PictureInPictureRounded",
+            "isDefault": true
+          },
+          {
+            "name": "MenuOpenRoundedIcon",
+            "sourceModule": "@mui/icons-material/MenuOpenRounded",
+            "isDefault": true
+          },
+          {
+            "name": "MoveUpRoundedIcon",
+            "sourceModule": "@mui/icons-material/MoveUpRounded",
+            "isDefault": true
+          },
+          {
+            "name": "TextFieldsRoundedIcon",
+            "sourceModule": "@mui/icons-material/TextFieldsRounded",
+            "isDefault": true
+          },
+          {
+            "name": "FlipToFrontRoundedIcon",
+            "sourceModule": "@mui/icons-material/FlipToFrontRounded",
+            "isDefault": true
+          },
+          {
+            "name": "ZoomOutMapRoundedIcon",
+            "sourceModule": "@mui/icons-material/ZoomOutMapRounded",
+            "isDefault": true
+          },
+          {
+            "name": "DevicesOtherRoundedIcon",
+            "sourceModule": "@mui/icons-material/DevicesOtherRounded",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "MaterialUtilComponents",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "MaterialUtilComponents",
+            "type": "function",
+            "signature": "function MaterialUtilComponents()"
+          }
+        ]
+      },
+      {
+        "name": "MaterialSurfaceComponents.js",
+        "path": "docs/src/modules/components/MaterialUIComponents/MaterialSurfaceComponents.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 74,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/modules/components/MaterialUIComponents/MaterialSurfaceComponents.js",
+            "functionName": "MaterialSurfaceComponents",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 47,
+              "endLine": 73
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Grid",
+                  "source": "@mui/material/Grid",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ComponentShowcaseCard",
+                  "source": "docs/src/components/action/ComponentShowcaseCard",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Grid",
+            "sourceModule": "@mui/material/Grid",
+            "isDefault": true
+          },
+          {
+            "name": "ComponentShowcaseCard",
+            "sourceModule": "docs/src/components/action/ComponentShowcaseCard",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "MaterialSurfaceComponents",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "MaterialSurfaceComponents",
+            "type": "function",
+            "signature": "function MaterialSurfaceComponents()"
+          }
+        ]
+      },
+      {
+        "name": "MaterialNavigationComponents.js",
+        "path": "docs/src/modules/components/MaterialUIComponents/MaterialNavigationComponents.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 126,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/modules/components/MaterialUIComponents/MaterialNavigationComponents.js",
+            "functionName": "MaterialNavigationComponents",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 97,
+              "endLine": 125
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Grid",
+                  "source": "@mui/material/Grid",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ComponentShowcaseCard",
+                  "source": "docs/src/components/action/ComponentShowcaseCard",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Grid",
+            "sourceModule": "@mui/material/Grid",
+            "isDefault": true
+          },
+          {
+            "name": "ComponentShowcaseCard",
+            "sourceModule": "docs/src/components/action/ComponentShowcaseCard",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "MaterialNavigationComponents",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "MaterialNavigationComponents",
+            "type": "function",
+            "signature": "function MaterialNavigationComponents()"
+          }
+        ]
+      },
+      {
+        "name": "MaterialLayoutComponents.js",
+        "path": "docs/src/modules/components/MaterialUIComponents/MaterialLayoutComponents.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 94,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/modules/components/MaterialUIComponents/MaterialLayoutComponents.js",
+            "functionName": "MaterialLayoutComponents",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 67,
+              "endLine": 93
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Grid",
+                  "source": "@mui/material/Grid",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ComponentShowcaseCard",
+                  "source": "docs/src/components/action/ComponentShowcaseCard",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Grid",
+            "sourceModule": "@mui/material/Grid",
+            "isDefault": true
+          },
+          {
+            "name": "ComponentShowcaseCard",
+            "sourceModule": "docs/src/components/action/ComponentShowcaseCard",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "MaterialLayoutComponents",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "MaterialLayoutComponents",
+            "type": "function",
+            "signature": "function MaterialLayoutComponents()"
+          }
+        ]
+      },
+      {
+        "name": "MaterialLabComponents.js",
+        "path": "docs/src/modules/components/MaterialUIComponents/MaterialLabComponents.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 54,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/modules/components/MaterialUIComponents/MaterialLabComponents.js",
+            "functionName": "MaterialLabComponents",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 27,
+              "endLine": 53
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Grid",
+                  "source": "@mui/material/Grid",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ComponentShowcaseCard",
+                  "source": "docs/src/components/action/ComponentShowcaseCard",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Grid",
+            "sourceModule": "@mui/material/Grid",
+            "isDefault": true
+          },
+          {
+            "name": "ComponentShowcaseCard",
+            "sourceModule": "docs/src/components/action/ComponentShowcaseCard",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "MaterialLabComponents",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "MaterialLabComponents",
+            "type": "function",
+            "signature": "function MaterialLabComponents()"
+          }
+        ]
+      },
+      {
+        "name": "MaterialInputComponents.js",
+        "path": "docs/src/modules/components/MaterialUIComponents/MaterialInputComponents.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 165,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/modules/components/MaterialUIComponents/MaterialInputComponents.js",
+            "functionName": "MaterialInputComponents",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 137,
+              "endLine": 164
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Grid",
+                  "source": "@mui/material/Grid",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ComponentShowcaseCard",
+                  "source": "docs/src/components/action/ComponentShowcaseCard",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Grid",
+            "sourceModule": "@mui/material/Grid",
+            "isDefault": true
+          },
+          {
+            "name": "ComponentShowcaseCard",
+            "sourceModule": "docs/src/components/action/ComponentShowcaseCard",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "MaterialInputComponents",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "MaterialInputComponents",
+            "type": "function",
+            "signature": "function MaterialInputComponents()"
+          }
+        ]
+      },
+      {
+        "name": "MaterialFeedbackComponents.js",
+        "path": "docs/src/modules/components/MaterialUIComponents/MaterialFeedbackComponents.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 94,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/modules/components/MaterialUIComponents/MaterialFeedbackComponents.js",
+            "functionName": "MaterialFeedbackComponents",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 67,
+              "endLine": 93
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Grid",
+                  "source": "@mui/material/Grid",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ComponentShowcaseCard",
+                  "source": "docs/src/components/action/ComponentShowcaseCard",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Grid",
+            "sourceModule": "@mui/material/Grid",
+            "isDefault": true
+          },
+          {
+            "name": "ComponentShowcaseCard",
+            "sourceModule": "docs/src/components/action/ComponentShowcaseCard",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "MaterialFeedbackComponents",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "MaterialFeedbackComponents",
+            "type": "function",
+            "signature": "function MaterialFeedbackComponents()"
+          }
+        ]
+      },
+      {
+        "name": "MaterialDataDisplayComponents.js",
+        "path": "docs/src/modules/components/MaterialUIComponents/MaterialDataDisplayComponents.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 136,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/modules/components/MaterialUIComponents/MaterialDataDisplayComponents.js",
+            "functionName": "MaterialDataDisplayComponents",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 107,
+              "endLine": 135
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Grid",
+                  "source": "@mui/material/Grid",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ComponentShowcaseCard",
+                  "source": "docs/src/components/action/ComponentShowcaseCard",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Grid",
+            "sourceModule": "@mui/material/Grid",
+            "isDefault": true
+          },
+          {
+            "name": "ComponentShowcaseCard",
+            "sourceModule": "docs/src/components/action/ComponentShowcaseCard",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "MaterialDataDisplayComponents",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "MaterialDataDisplayComponents",
+            "type": "function",
+            "signature": "function MaterialDataDisplayComponents()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialUtilComponents.js",
+          "to": "@mui/material/Grid",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialUtilComponents.js",
+          "to": "@mui/docs/InfoCard",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialUtilComponents.js",
+          "to": "@mui/icons-material/HighlightAltRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialUtilComponents.js",
+          "to": "@mui/icons-material/CssRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialUtilComponents.js",
+          "to": "@mui/icons-material/DnsRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialUtilComponents.js",
+          "to": "@mui/icons-material/PictureInPictureRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialUtilComponents.js",
+          "to": "@mui/icons-material/MenuOpenRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialUtilComponents.js",
+          "to": "@mui/icons-material/MoveUpRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialUtilComponents.js",
+          "to": "@mui/icons-material/TextFieldsRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialUtilComponents.js",
+          "to": "@mui/icons-material/FlipToFrontRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialUtilComponents.js",
+          "to": "@mui/icons-material/ZoomOutMapRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialUtilComponents.js",
+          "to": "@mui/icons-material/DevicesOtherRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialSurfaceComponents.js",
+          "to": "@mui/material/Grid",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialSurfaceComponents.js",
+          "to": "docs/src/components/action/ComponentShowcaseCard",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialNavigationComponents.js",
+          "to": "@mui/material/Grid",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialNavigationComponents.js",
+          "to": "docs/src/components/action/ComponentShowcaseCard",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialLayoutComponents.js",
+          "to": "@mui/material/Grid",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialLayoutComponents.js",
+          "to": "docs/src/components/action/ComponentShowcaseCard",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialLabComponents.js",
+          "to": "@mui/material/Grid",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialLabComponents.js",
+          "to": "docs/src/components/action/ComponentShowcaseCard",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialInputComponents.js",
+          "to": "@mui/material/Grid",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialInputComponents.js",
+          "to": "docs/src/components/action/ComponentShowcaseCard",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialFeedbackComponents.js",
+          "to": "@mui/material/Grid",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialFeedbackComponents.js",
+          "to": "docs/src/components/action/ComponentShowcaseCard",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialDataDisplayComponents.js",
+          "to": "@mui/material/Grid",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/MaterialUIComponents/MaterialDataDisplayComponents.js",
+          "to": "docs/src/components/action/ComponentShowcaseCard",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

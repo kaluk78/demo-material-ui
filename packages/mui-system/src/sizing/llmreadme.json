@@ -1,0 +1,517 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:21:21.706Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:21:21.706Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "sizing",
+      "path": "packages/mui-system/src/sizing",
+      "purpose": "Enhanced directory analysis of sizing",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "sizing.test.js",
+        "path": "packages/mui-system/src/sizing/sizing.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 46,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createTheme",
+            "sourceModule": "@mui/system/createTheme",
+            "isDefault": true
+          },
+          {
+            "name": "sizing",
+            "sourceModule": "./sizing",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "sizing.js",
+        "path": "packages/mui-system/src/sizing/sizing.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 81,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-system/src/sizing/sizing.js",
+            "functionName": "maxWidth",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "High context score suggests legitimate implementation; Properly uses assigned variables; Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -72,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "style",
+                  "source": "../style",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "compose",
+                  "source": "../compose",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "handleBreakpoints",
+                  "source": "../breakpoints",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "values",
+                  "source": "../breakpoints",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/sizing/sizing.js",
+            "functionName": "sizingTransform",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Very short function (3 lines)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 7
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 6,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "style",
+                  "source": "../style",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "compose",
+                  "source": "../compose",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "handleBreakpoints",
+                  "source": "../breakpoints",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "values",
+                  "source": "../breakpoints",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-system/src/sizing/sizing.js",
+            "functionName": "styleFromPropValue",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "style",
+                  "source": "../style",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "compose",
+                  "source": "../compose",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "handleBreakpoints",
+                  "source": "../breakpoints",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "values",
+                  "source": "../breakpoints",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "style",
+            "sourceModule": "../style",
+            "isDefault": true
+          },
+          {
+            "name": "compose",
+            "sourceModule": "../compose",
+            "isDefault": true
+          },
+          {
+            "name": "handleBreakpoints",
+            "sourceModule": "../breakpoints",
+            "isDefault": false,
+            "namedImports": [
+              "handleBreakpoints",
+              "breakpointsValues"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "sizingTransform",
+            "type": "function"
+          },
+          {
+            "name": "width",
+            "type": "const"
+          },
+          {
+            "name": "maxWidth",
+            "type": "const"
+          },
+          {
+            "name": "minWidth",
+            "type": "const"
+          },
+          {
+            "name": "height",
+            "type": "const"
+          },
+          {
+            "name": "maxHeight",
+            "type": "const"
+          },
+          {
+            "name": "minHeight",
+            "type": "const"
+          },
+          {
+            "name": "sizeWidth",
+            "type": "const"
+          },
+          {
+            "name": "sizeHeight",
+            "type": "const"
+          },
+          {
+            "name": "boxSizing",
+            "type": "const"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "sizingTransform",
+            "type": "function",
+            "signature": "function sizingTransform()"
+          },
+          {
+            "name": "maxWidth",
+            "type": "function",
+            "signature": "const maxWidth = () =>"
+          },
+          {
+            "name": "styleFromPropValue",
+            "type": "function",
+            "signature": "const styleFromPropValue = () =>"
+          }
+        ]
+      },
+      {
+        "name": "sizing.d.ts",
+        "path": "packages/mui-system/src/sizing/sizing.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 28,
+        "importedModules": [
+          {
+            "name": "PropsFor",
+            "sourceModule": "../style",
+            "isDefault": false,
+            "namedImports": [
+              "PropsFor",
+              "SimpleStyleFunction"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "width",
+            "type": "const"
+          },
+          {
+            "name": "maxWidth",
+            "type": "const"
+          },
+          {
+            "name": "minWidth",
+            "type": "const"
+          },
+          {
+            "name": "height",
+            "type": "const"
+          },
+          {
+            "name": "maxHeight",
+            "type": "const"
+          },
+          {
+            "name": "minHeight",
+            "type": "const"
+          },
+          {
+            "name": "sizeWidth",
+            "type": "const"
+          },
+          {
+            "name": "sizeHeight",
+            "type": "const"
+          },
+          {
+            "name": "boxSizing",
+            "type": "const"
+          },
+          {
+            "name": "SizingProps",
+            "type": "type"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "SizingProps",
+            "type": "type",
+            "signature": "type SizingProps"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-system/src/sizing/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 3,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-system/src/sizing/sizing.test.js",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-system/src/sizing/sizing.test.js",
+          "to": "@mui/system/createTheme",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-system/src/sizing/sizing.test.js",
+          "to": "packages/mui-system/src/sizing/sizing.js",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

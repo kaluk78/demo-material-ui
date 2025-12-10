@@ -1,0 +1,820 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:19:23.286Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:19:23.286Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "ChipDelete",
+      "path": "packages/mui-joy/src/ChipDelete",
+      "purpose": "Enhanced directory analysis of ChipDelete",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/ChipDelete/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "chipDeleteClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "chipDeleteClasses.ts",
+        "path": "packages/mui-joy/src/ChipDelete/chipDeleteClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 53,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/ChipDelete/chipDeleteClasses.ts",
+            "functionName": "getChipDeleteUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 32,
+              "endLine": 34
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "generateUtilityClass",
+                  "source": "../className",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "generateUtilityClasses",
+                  "source": "../className",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "../className",
+            "isDefault": false,
+            "namedImports": [
+              "generateUtilityClass",
+              "generateUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ChipDeleteClasses",
+            "type": "interface"
+          },
+          {
+            "name": "getChipDeleteUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getChipDeleteUtilityClass",
+            "type": "function",
+            "signature": "function getChipDeleteUtilityClass()"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "applied",
+            "type": "class",
+            "signature": "class applied"
+          },
+          {
+            "name": "ChipDeleteClasses",
+            "type": "interface",
+            "signature": "interface ChipDeleteClasses"
+          }
+        ]
+      },
+      {
+        "name": "ChipDeleteProps.ts",
+        "path": "packages/mui-joy/src/ChipDelete/ChipDeleteProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 74,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "ColorPaletteProp",
+            "sourceModule": "../styles/types",
+            "isDefault": false,
+            "namedImports": [
+              "ColorPaletteProp",
+              "VariantProp",
+              "SxProps",
+              "ApplyColorInversion"
+            ]
+          },
+          {
+            "name": "SlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "SlotProps",
+              "CreateSlotsAndSlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ChipDeleteSlot",
+            "type": "type"
+          },
+          {
+            "name": "ChipDeleteSlots",
+            "type": "interface"
+          },
+          {
+            "name": "ChipDeleteSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "ChipDeletePropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "ChipDeletePropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "ChipDeleteTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "ChipDeleteProps",
+            "type": "type"
+          },
+          {
+            "name": "ChipDeleteOwnerState",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ChipDeleteSlots",
+            "type": "interface",
+            "signature": "interface ChipDeleteSlots"
+          },
+          {
+            "name": "ChipDeletePropsColorOverrides",
+            "type": "interface",
+            "signature": "interface ChipDeletePropsColorOverrides"
+          },
+          {
+            "name": "ChipDeletePropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface ChipDeletePropsVariantOverrides"
+          },
+          {
+            "name": "ChipDeleteTypeMap",
+            "type": "interface",
+            "signature": "interface ChipDeleteTypeMap"
+          },
+          {
+            "name": "ChipDeleteOwnerState",
+            "type": "interface",
+            "signature": "interface ChipDeleteOwnerState"
+          },
+          {
+            "name": "ChipDeleteSlot",
+            "type": "type",
+            "signature": "type ChipDeleteSlot"
+          },
+          {
+            "name": "ChipDeleteSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type ChipDeleteSlotsAndSlotProps"
+          },
+          {
+            "name": "ChipDeleteProps",
+            "type": "type",
+            "signature": "type ChipDeleteProps"
+          }
+        ]
+      },
+      {
+        "name": "ChipDelete.tsx",
+        "path": "packages/mui-joy/src/ChipDelete/ChipDelete.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 222,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/ChipDelete/ChipDelete.tsx",
+            "functionName": "ChipDelete",
+            "classification": "definite-legitimate",
+            "confidence": 7.600000000000001,
+            "isPlaceholder": false,
+            "reasons": [
+              "[FALLBACK] 2 AI-suspicious unused variables: SlotRoot, excludeOnDelete",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Moderate context score; Event handler or callback function"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 9.600000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Cancel",
+                  "source": "../internal/svg-icons/Cancel",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "SlotRoot",
+                  "line": 130,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                },
+                {
+                  "name": "excludeOnDelete",
+                  "line": 144,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 6,
+                    "reason": "Important business variable - may indicate incomplete logic"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/ChipDelete/ChipDelete.tsx",
+            "functionName": "handleClickDelete",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Cancel",
+                  "source": "../internal/svg-icons/Cancel",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/ChipDelete/ChipDelete.tsx",
+            "functionName": "handleKeyDelete",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Cancel",
+                  "source": "../internal/svg-icons/Cancel",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/ChipDelete/ChipDelete.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Cancel",
+                  "source": "../internal/svg-icons/Cancel",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent"
+            ]
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "useForkRef",
+            "sourceModule": "@mui/utils/useForkRef",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/base/composeClasses",
+            "isDefault": false,
+            "namedImports": [
+              "composeClasses"
+            ]
+          },
+          {
+            "name": "useButton",
+            "sourceModule": "@mui/base/useButton",
+            "isDefault": false,
+            "namedImports": [
+              "useButton"
+            ]
+          },
+          {
+            "name": "useThemeProps",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "useThemeProps"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../styles/styled",
+            "isDefault": true
+          },
+          {
+            "name": "useVariantColor",
+            "sourceModule": "../styles/variantColorInheritance",
+            "isDefault": false,
+            "namedImports": [
+              "useVariantColor"
+            ]
+          },
+          {
+            "name": "Cancel",
+            "sourceModule": "../internal/svg-icons/Cancel",
+            "isDefault": true
+          },
+          {
+            "name": "getChipDeleteUtilityClass",
+            "sourceModule": "./chipDeleteClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getChipDeleteUtilityClass"
+            ]
+          },
+          {
+            "name": "ChipDeleteProps",
+            "sourceModule": "./ChipDeleteProps",
+            "isDefault": false,
+            "namedImports": [
+              "ChipDeleteProps",
+              "ChipDeleteOwnerState",
+              "ChipDeleteTypeMap"
+            ]
+          },
+          {
+            "name": "ChipContext",
+            "sourceModule": "../Chip/ChipContext",
+            "isDefault": true
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          },
+          {
+            "name": "StyledIconButton",
+            "sourceModule": "../IconButton/IconButton",
+            "isDefault": false,
+            "namedImports": [
+              "StyledIconButton"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ChipDelete",
+            "type": "function",
+            "signature": "function ChipDelete()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "handleClickDelete",
+            "type": "function",
+            "signature": "const handleClickDelete = () =>"
+          },
+          {
+            "name": "handleKeyDelete",
+            "type": "function",
+            "signature": "const handleKeyDelete = () =>"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "ChipDelete.test.tsx",
+        "path": "packages/mui-joy/src/ChipDelete/ChipDelete.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 111,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "spy",
+            "sourceModule": "sinon",
+            "isDefault": false,
+            "namedImports": [
+              "spy"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "act",
+              "fireEvent",
+              "screen"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "Chip",
+            "sourceModule": "@mui/joy/Chip",
+            "isDefault": true
+          },
+          {
+            "name": "ChipDelete",
+            "sourceModule": "@mui/joy/ChipDelete",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-joy/src/ChipDelete/ChipDeleteProps.ts",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ChipDelete/ChipDeleteProps.ts",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ChipDelete/ChipDelete.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ChipDelete/ChipDelete.tsx",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ChipDelete/ChipDelete.tsx",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ChipDelete/ChipDelete.tsx",
+          "to": "@mui/utils/capitalize",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ChipDelete/ChipDelete.tsx",
+          "to": "@mui/utils/useForkRef",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ChipDelete/ChipDelete.tsx",
+          "to": "@mui/base/composeClasses",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ChipDelete/ChipDelete.tsx",
+          "to": "@mui/base/useButton",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ChipDelete/ChipDelete.tsx",
+          "to": "packages/mui-joy/src/ChipDelete/chipDeleteClasses.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ChipDelete/ChipDelete.tsx",
+          "to": "packages/mui-joy/src/ChipDelete/ChipDeleteProps.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ChipDelete/ChipDelete.test.tsx",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ChipDelete/ChipDelete.test.tsx",
+          "to": "sinon",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ChipDelete/ChipDelete.test.tsx",
+          "to": "@mui/internal-test-utils",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ChipDelete/ChipDelete.test.tsx",
+          "to": "@mui/joy/styles",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ChipDelete/ChipDelete.test.tsx",
+          "to": "@mui/joy/Chip",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ChipDelete/ChipDelete.test.tsx",
+          "to": "@mui/joy/ChipDelete",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

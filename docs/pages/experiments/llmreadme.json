@@ -1,0 +1,509 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:08:10.411Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:08:10.411Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "experiments",
+      "path": "docs/pages/experiments",
+      "purpose": "Enhanced directory analysis of experiments",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.js",
+        "path": "docs/pages/experiments/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 155,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/pages/experiments/index.js",
+            "functionName": "Experiments",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Mutates state or has side effects",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 13,
+              "endLine": 139
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "List",
+                  "source": "@mui/material/List",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListItem",
+                  "source": "@mui/material/ListItem",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListItemButton",
+                  "source": "@mui/material/ListItemButton",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Container",
+                  "source": "@mui/material/Container",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowRightRounded",
+                  "source": "@mui/icons-material/KeyboardArrowRightRounded",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "GradientText",
+                  "source": "docs/src/components/typography/GradientText",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "BrandingCssVarsProvider",
+                  "source": "docs/src/BrandingCssVarsProvider",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/pages/experiments/index.js",
+            "functionName": "getStaticProps",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); High context score suggests legitimate implementation; Mutates state or has side effects; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 141,
+              "endLine": 154
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "List",
+                  "source": "@mui/material/List",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListItem",
+                  "source": "@mui/material/ListItem",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListItemButton",
+                  "source": "@mui/material/ListItemButton",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Container",
+                  "source": "@mui/material/Container",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowRightRounded",
+                  "source": "@mui/icons-material/KeyboardArrowRightRounded",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "GradientText",
+                  "source": "docs/src/components/typography/GradientText",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "BrandingCssVarsProvider",
+                  "source": "docs/src/BrandingCssVarsProvider",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/material/utils",
+            "isDefault": false,
+            "namedImports": [
+              "capitalize"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "List",
+            "sourceModule": "@mui/material/List",
+            "isDefault": true
+          },
+          {
+            "name": "ListItem",
+            "sourceModule": "@mui/material/ListItem",
+            "isDefault": true
+          },
+          {
+            "name": "ListItemButton",
+            "sourceModule": "@mui/material/ListItemButton",
+            "isDefault": true
+          },
+          {
+            "name": "Container",
+            "sourceModule": "@mui/material/Container",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "KeyboardArrowRightRounded",
+            "sourceModule": "@mui/icons-material/KeyboardArrowRightRounded",
+            "isDefault": true
+          },
+          {
+            "name": "GradientText",
+            "sourceModule": "docs/src/components/typography/GradientText",
+            "isDefault": true
+          },
+          {
+            "name": "Link",
+            "sourceModule": "@mui/docs/Link",
+            "isDefault": false,
+            "namedImports": [
+              "Link"
+            ]
+          },
+          {
+            "name": "BrandingCssVarsProvider",
+            "sourceModule": "docs/src/BrandingCssVarsProvider",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "Experiments",
+            "type": "function"
+          },
+          {
+            "name": "getStaticProps",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Experiments",
+            "type": "function",
+            "signature": "function Experiments()"
+          },
+          {
+            "name": "getStaticProps",
+            "type": "function",
+            "signature": "function getStaticProps()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "blog",
+        "relativePath": "blog",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of blog",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "docs",
+        "relativePath": "docs",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of docs",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "joy",
+        "relativePath": "joy",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of joy",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "website",
+        "relativePath": "website",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of website",
+        "keyElementsFromChild": []
+      }
+    ],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "docs/pages/experiments/index.js",
+          "to": "@mui/material/utils",
+          "type": "imports"
+        },
+        {
+          "from": "docs/pages/experiments/index.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/pages/experiments/index.js",
+          "to": "@mui/material/List",
+          "type": "imports"
+        },
+        {
+          "from": "docs/pages/experiments/index.js",
+          "to": "@mui/material/ListItem",
+          "type": "imports"
+        },
+        {
+          "from": "docs/pages/experiments/index.js",
+          "to": "@mui/material/ListItemButton",
+          "type": "imports"
+        },
+        {
+          "from": "docs/pages/experiments/index.js",
+          "to": "@mui/material/Container",
+          "type": "imports"
+        },
+        {
+          "from": "docs/pages/experiments/index.js",
+          "to": "@mui/material/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "docs/pages/experiments/index.js",
+          "to": "@mui/icons-material/KeyboardArrowRightRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/pages/experiments/index.js",
+          "to": "docs/src/components/typography/GradientText",
+          "type": "imports"
+        },
+        {
+          "from": "docs/pages/experiments/index.js",
+          "to": "@mui/docs/Link",
+          "type": "imports"
+        },
+        {
+          "from": "docs/pages/experiments/index.js",
+          "to": "docs/src/BrandingCssVarsProvider",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

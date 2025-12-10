@@ -1,0 +1,1455 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:05:53.259Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:05:53.259Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "components",
+      "path": "docs/data/material/components/number-field/components",
+      "purpose": "Enhanced directory analysis of components",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "NumberSpinner.tsx",
+        "path": "docs/data/material/components/number-field/components/NumberSpinner.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 152,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/number-field/components/NumberSpinner.tsx",
+            "functionName": "NumberSpinner",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 12,
+              "endLine": 151
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormControl",
+                  "source": "@mui/material/FormControl",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormLabel",
+                  "source": "@mui/material/FormLabel",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "AddIcon",
+                  "source": "@mui/icons-material/Add",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "RemoveIcon",
+                  "source": "@mui/icons-material/Remove",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "OutlinedInput",
+                  "source": "@mui/material/OutlinedInput",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "OpenInFullIcon",
+                  "source": "@mui/icons-material/OpenInFull",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "BaseNumberField",
+            "sourceModule": "@base-ui-components/react/number-field",
+            "isDefault": false,
+            "namedImports": [
+              "BaseNumberField"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "FormControl",
+            "sourceModule": "@mui/material/FormControl",
+            "isDefault": true
+          },
+          {
+            "name": "FormLabel",
+            "sourceModule": "@mui/material/FormLabel",
+            "isDefault": true
+          },
+          {
+            "name": "AddIcon",
+            "sourceModule": "@mui/icons-material/Add",
+            "isDefault": true
+          },
+          {
+            "name": "RemoveIcon",
+            "sourceModule": "@mui/icons-material/Remove",
+            "isDefault": true
+          },
+          {
+            "name": "OutlinedInput",
+            "sourceModule": "@mui/material/OutlinedInput",
+            "isDefault": true
+          },
+          {
+            "name": "OpenInFullIcon",
+            "sourceModule": "@mui/icons-material/OpenInFull",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "NumberSpinner",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "NumberSpinner",
+            "type": "function",
+            "signature": "function NumberSpinner()"
+          }
+        ]
+      },
+      {
+        "name": "NumberSpinner.js",
+        "path": "docs/data/material/components/number-field/components/NumberSpinner.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 158,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/number-field/components/NumberSpinner.js",
+            "functionName": "NumberSpinner",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 13,
+              "endLine": 141
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseNumberField",
+                  "source": "@base-ui-components/react/number-field",
+                  "line": 3,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormControl",
+                  "source": "@mui/material/FormControl",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormLabel",
+                  "source": "@mui/material/FormLabel",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "AddIcon",
+                  "source": "@mui/icons-material/Add",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "RemoveIcon",
+                  "source": "@mui/icons-material/Remove",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "OutlinedInput",
+                  "source": "@mui/material/OutlinedInput",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "OpenInFullIcon",
+                  "source": "@mui/icons-material/OpenInFull",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "BaseNumberField",
+            "sourceModule": "@base-ui-components/react/number-field",
+            "isDefault": false,
+            "namedImports": [
+              "BaseNumberField"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "FormControl",
+            "sourceModule": "@mui/material/FormControl",
+            "isDefault": true
+          },
+          {
+            "name": "FormLabel",
+            "sourceModule": "@mui/material/FormLabel",
+            "isDefault": true
+          },
+          {
+            "name": "AddIcon",
+            "sourceModule": "@mui/icons-material/Add",
+            "isDefault": true
+          },
+          {
+            "name": "RemoveIcon",
+            "sourceModule": "@mui/icons-material/Remove",
+            "isDefault": true
+          },
+          {
+            "name": "OutlinedInput",
+            "sourceModule": "@mui/material/OutlinedInput",
+            "isDefault": true
+          },
+          {
+            "name": "OpenInFullIcon",
+            "sourceModule": "@mui/icons-material/OpenInFull",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "NumberSpinner",
+            "type": "function",
+            "signature": "function NumberSpinner()"
+          }
+        ]
+      },
+      {
+        "name": "NumberField.tsx",
+        "path": "docs/data/material/components/number-field/components/NumberField.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 114,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/number-field/components/NumberField.tsx",
+            "functionName": "NumberField",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 20,
+              "endLine": 113
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormControl",
+                  "source": "@mui/material/FormControl",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormHelperText",
+                  "source": "@mui/material/FormHelperText",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "OutlinedInput",
+                  "source": "@mui/material/OutlinedInput",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "InputAdornment",
+                  "source": "@mui/material/InputAdornment",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "InputLabel",
+                  "source": "@mui/material/InputLabel",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowUpIcon",
+                  "source": "@mui/icons-material/KeyboardArrowUp",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowDownIcon",
+                  "source": "@mui/icons-material/KeyboardArrowDown",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/components/number-field/components/NumberField.tsx",
+            "functionName": "SSRInitialFilled",
+            "classification": "definite-placeholder",
+            "confidence": 90,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"placeholder\"",
+              "Function contains only a return statement",
+              "Returns hardcoded value: \"return null;\"",
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Very short function (3 lines)",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 15,
+              "endLine": 17
+            },
+            "detectionMethods": {
+              "explicitMarkers": 75,
+              "namingPatterns": 0,
+              "astAnalysis": 30,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormControl",
+                  "source": "@mui/material/FormControl",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormHelperText",
+                  "source": "@mui/material/FormHelperText",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "OutlinedInput",
+                  "source": "@mui/material/OutlinedInput",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "InputAdornment",
+                  "source": "@mui/material/InputAdornment",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "InputLabel",
+                  "source": "@mui/material/InputLabel",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowUpIcon",
+                  "source": "@mui/icons-material/KeyboardArrowUp",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowDownIcon",
+                  "source": "@mui/icons-material/KeyboardArrowDown",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "BaseNumberField",
+            "sourceModule": "@base-ui-components/react/number-field",
+            "isDefault": false,
+            "namedImports": [
+              "BaseNumberField"
+            ]
+          },
+          {
+            "name": "IconButton",
+            "sourceModule": "@mui/material/IconButton",
+            "isDefault": true
+          },
+          {
+            "name": "FormControl",
+            "sourceModule": "@mui/material/FormControl",
+            "isDefault": true
+          },
+          {
+            "name": "FormHelperText",
+            "sourceModule": "@mui/material/FormHelperText",
+            "isDefault": true
+          },
+          {
+            "name": "OutlinedInput",
+            "sourceModule": "@mui/material/OutlinedInput",
+            "isDefault": true
+          },
+          {
+            "name": "InputAdornment",
+            "sourceModule": "@mui/material/InputAdornment",
+            "isDefault": true
+          },
+          {
+            "name": "InputLabel",
+            "sourceModule": "@mui/material/InputLabel",
+            "isDefault": true
+          },
+          {
+            "name": "KeyboardArrowUpIcon",
+            "sourceModule": "@mui/icons-material/KeyboardArrowUp",
+            "isDefault": true
+          },
+          {
+            "name": "KeyboardArrowDownIcon",
+            "sourceModule": "@mui/icons-material/KeyboardArrowDown",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "NumberField",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "SSRInitialFilled",
+            "type": "function",
+            "signature": "function SSRInitialFilled()"
+          },
+          {
+            "name": "NumberField",
+            "type": "function",
+            "signature": "function NumberField()"
+          }
+        ]
+      },
+      {
+        "name": "NumberField.js",
+        "path": "docs/data/material/components/number-field/components/NumberField.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 117,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/material/components/number-field/components/NumberField.js",
+            "functionName": "NumberField",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 21,
+              "endLine": 104
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseNumberField",
+                  "source": "@base-ui-components/react/number-field",
+                  "line": 3,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormControl",
+                  "source": "@mui/material/FormControl",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormHelperText",
+                  "source": "@mui/material/FormHelperText",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "OutlinedInput",
+                  "source": "@mui/material/OutlinedInput",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "InputAdornment",
+                  "source": "@mui/material/InputAdornment",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "InputLabel",
+                  "source": "@mui/material/InputLabel",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowUpIcon",
+                  "source": "@mui/icons-material/KeyboardArrowUp",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowDownIcon",
+                  "source": "@mui/icons-material/KeyboardArrowDown",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/material/components/number-field/components/NumberField.js",
+            "functionName": "SSRInitialFilled",
+            "classification": "definite-placeholder",
+            "confidence": 100,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"placeholder\"",
+              "Function contains only a return statement",
+              "Returns hardcoded value: \"return null;\"",
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Very short function (3 lines)"
+            ],
+            "location": {
+              "startLine": 16,
+              "endLine": 18
+            },
+            "detectionMethods": {
+              "explicitMarkers": 75,
+              "namingPatterns": 0,
+              "astAnalysis": 30,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseNumberField",
+                  "source": "@base-ui-components/react/number-field",
+                  "line": 3,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormControl",
+                  "source": "@mui/material/FormControl",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormHelperText",
+                  "source": "@mui/material/FormHelperText",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "OutlinedInput",
+                  "source": "@mui/material/OutlinedInput",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "InputAdornment",
+                  "source": "@mui/material/InputAdornment",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "InputLabel",
+                  "source": "@mui/material/InputLabel",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowUpIcon",
+                  "source": "@mui/icons-material/KeyboardArrowUp",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowDownIcon",
+                  "source": "@mui/icons-material/KeyboardArrowDown",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "BaseNumberField",
+            "sourceModule": "@base-ui-components/react/number-field",
+            "isDefault": false,
+            "namedImports": [
+              "BaseNumberField"
+            ]
+          },
+          {
+            "name": "IconButton",
+            "sourceModule": "@mui/material/IconButton",
+            "isDefault": true
+          },
+          {
+            "name": "FormControl",
+            "sourceModule": "@mui/material/FormControl",
+            "isDefault": true
+          },
+          {
+            "name": "FormHelperText",
+            "sourceModule": "@mui/material/FormHelperText",
+            "isDefault": true
+          },
+          {
+            "name": "OutlinedInput",
+            "sourceModule": "@mui/material/OutlinedInput",
+            "isDefault": true
+          },
+          {
+            "name": "InputAdornment",
+            "sourceModule": "@mui/material/InputAdornment",
+            "isDefault": true
+          },
+          {
+            "name": "InputLabel",
+            "sourceModule": "@mui/material/InputLabel",
+            "isDefault": true
+          },
+          {
+            "name": "KeyboardArrowUpIcon",
+            "sourceModule": "@mui/icons-material/KeyboardArrowUp",
+            "isDefault": true
+          },
+          {
+            "name": "KeyboardArrowDownIcon",
+            "sourceModule": "@mui/icons-material/KeyboardArrowDown",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "SSRInitialFilled",
+            "type": "function",
+            "signature": "function SSRInitialFilled()"
+          },
+          {
+            "name": "NumberField",
+            "type": "function",
+            "signature": "function NumberField()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "docs/data/material/components/number-field/components/NumberSpinner.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberSpinner.tsx",
+          "to": "@base-ui-components/react/number-field",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberSpinner.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberSpinner.tsx",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberSpinner.tsx",
+          "to": "@mui/material/FormControl",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberSpinner.tsx",
+          "to": "@mui/material/FormLabel",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberSpinner.tsx",
+          "to": "@mui/icons-material/Add",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberSpinner.tsx",
+          "to": "@mui/icons-material/Remove",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberSpinner.tsx",
+          "to": "@mui/material/OutlinedInput",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberSpinner.tsx",
+          "to": "@mui/icons-material/OpenInFull",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberSpinner.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberSpinner.js",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberSpinner.js",
+          "to": "@base-ui-components/react/number-field",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberSpinner.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberSpinner.js",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberSpinner.js",
+          "to": "@mui/material/FormControl",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberSpinner.js",
+          "to": "@mui/material/FormLabel",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberSpinner.js",
+          "to": "@mui/icons-material/Add",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberSpinner.js",
+          "to": "@mui/icons-material/Remove",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberSpinner.js",
+          "to": "@mui/material/OutlinedInput",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberSpinner.js",
+          "to": "@mui/icons-material/OpenInFull",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberField.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberField.tsx",
+          "to": "@base-ui-components/react/number-field",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberField.tsx",
+          "to": "@mui/material/IconButton",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberField.tsx",
+          "to": "@mui/material/FormControl",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberField.tsx",
+          "to": "@mui/material/FormHelperText",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberField.tsx",
+          "to": "@mui/material/OutlinedInput",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberField.tsx",
+          "to": "@mui/material/InputAdornment",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberField.tsx",
+          "to": "@mui/material/InputLabel",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberField.tsx",
+          "to": "@mui/icons-material/KeyboardArrowUp",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberField.tsx",
+          "to": "@mui/icons-material/KeyboardArrowDown",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberField.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberField.js",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberField.js",
+          "to": "@base-ui-components/react/number-field",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberField.js",
+          "to": "@mui/material/IconButton",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberField.js",
+          "to": "@mui/material/FormControl",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberField.js",
+          "to": "@mui/material/FormHelperText",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberField.js",
+          "to": "@mui/material/OutlinedInput",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberField.js",
+          "to": "@mui/material/InputAdornment",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberField.js",
+          "to": "@mui/material/InputLabel",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberField.js",
+          "to": "@mui/icons-material/KeyboardArrowUp",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/material/components/number-field/components/NumberField.js",
+          "to": "@mui/icons-material/KeyboardArrowDown",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

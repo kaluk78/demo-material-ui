@@ -1,0 +1,2480 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:09:07.035Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:09:07.035Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "action",
+      "path": "docs/src/components/action",
+      "purpose": "Enhanced directory analysis of action",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "NpmCopyButton.tsx",
+        "path": "docs/src/components/action/NpmCopyButton.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 93,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/components/action/NpmCopyButton.tsx",
+            "functionName": "handleCopy",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ContentCopyRounded",
+                  "source": "@mui/icons-material/ContentCopyRounded",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CheckRounded",
+                  "source": "@mui/icons-material/CheckRounded",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/src/components/action/NpmCopyButton.tsx",
+            "functionName": "NpmCopyButton",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "[FALLBACK] 1 AI-suspicious unused variables: sx",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Moderate context score; Event handler or callback function"
+            ],
+            "location": {
+              "startLine": 65,
+              "endLine": 92
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 4.800000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ContentCopyRounded",
+                  "source": "@mui/icons-material/ContentCopyRounded",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CheckRounded",
+                  "source": "@mui/icons-material/CheckRounded",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "sx",
+                  "line": 68,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "copy",
+            "sourceModule": "clipboard-copy",
+            "isDefault": true
+          },
+          {
+            "name": "SxProps",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "SxProps"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "styled",
+              "alpha",
+              "Theme"
+            ]
+          },
+          {
+            "name": "ContentCopyRounded",
+            "sourceModule": "@mui/icons-material/ContentCopyRounded",
+            "isDefault": true
+          },
+          {
+            "name": "CheckRounded",
+            "sourceModule": "@mui/icons-material/CheckRounded",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "NpmCopyButton",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "NpmCopyButton",
+            "type": "function",
+            "signature": "function NpmCopyButton()"
+          },
+          {
+            "name": "handleCopy",
+            "type": "function",
+            "signature": "const handleCopy = () =>"
+          },
+          {
+            "name": "B",
+            "type": "const",
+            "signature": "const B"
+          }
+        ]
+      },
+      {
+        "name": "MoreInfoBox.tsx",
+        "path": "docs/src/components/action/MoreInfoBox.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 111,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/components/action/MoreInfoBox.tsx",
+            "functionName": "AppearingInfoBox",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "High context score suggests legitimate implementation; Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 10,
+              "endLine": 62
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -37,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowUpRounded",
+                  "source": "@mui/icons-material/KeyboardArrowUpRounded",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowDownRounded",
+                  "source": "@mui/icons-material/KeyboardArrowDownRounded",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/src/components/action/MoreInfoBox.tsx",
+            "functionName": "MoreInfoBox",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 64,
+              "endLine": 110
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowUpRounded",
+                  "source": "@mui/icons-material/KeyboardArrowUpRounded",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowDownRounded",
+                  "source": "@mui/icons-material/KeyboardArrowDownRounded",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "alpha",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "alpha"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true,
+            "namedImports": [
+              "BoxProps"
+            ]
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Link",
+            "sourceModule": "@mui/docs/Link",
+            "isDefault": false,
+            "namedImports": [
+              "Link"
+            ]
+          },
+          {
+            "name": "IconButton",
+            "sourceModule": "@mui/material/IconButton",
+            "isDefault": true
+          },
+          {
+            "name": "KeyboardArrowUpRounded",
+            "sourceModule": "@mui/icons-material/KeyboardArrowUpRounded",
+            "isDefault": true
+          },
+          {
+            "name": "KeyboardArrowDownRounded",
+            "sourceModule": "@mui/icons-material/KeyboardArrowDownRounded",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "AppearingInfoBox",
+            "type": "function"
+          },
+          {
+            "name": "MoreInfoBox",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "AppearingInfoBox",
+            "type": "function",
+            "signature": "function AppearingInfoBox()"
+          },
+          {
+            "name": "MoreInfoBox",
+            "type": "function",
+            "signature": "function MoreInfoBox()"
+          }
+        ]
+      },
+      {
+        "name": "More.tsx",
+        "path": "docs/src/components/action/More.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 82,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/components/action/More.tsx",
+            "functionName": "More",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "AddCircleRoundedIcon",
+                  "source": "@mui/icons-material/AddCircleRounded",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowRightRounded",
+                  "source": "@mui/icons-material/KeyboardArrowRightRounded",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "alpha",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "alpha"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "ButtonBase",
+            "sourceModule": "@mui/material/ButtonBase",
+            "isDefault": true,
+            "namedImports": [
+              "ButtonBaseProps"
+            ]
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "AddCircleRoundedIcon",
+            "sourceModule": "@mui/icons-material/AddCircleRounded",
+            "isDefault": true
+          },
+          {
+            "name": "KeyboardArrowRightRounded",
+            "sourceModule": "@mui/icons-material/KeyboardArrowRightRounded",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "More",
+            "type": "function",
+            "signature": "function More()"
+          }
+        ]
+      },
+      {
+        "name": "MaterialVsCustomToggle.tsx",
+        "path": "docs/src/components/action/MaterialVsCustomToggle.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 62,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/components/action/MaterialVsCustomToggle.tsx",
+            "functionName": "MaterialVsCustomToggle",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 11,
+              "endLine": 61
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "alpha",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "alpha"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true,
+            "namedImports": [
+              "buttonClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "MaterialVsCustomToggle",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "MaterialVsCustomToggle",
+            "type": "function",
+            "signature": "function MaterialVsCustomToggle()"
+          },
+          {
+            "name": "MaterialVsCustomToggleProps",
+            "type": "interface",
+            "signature": "interface MaterialVsCustomToggleProps"
+          }
+        ]
+      },
+      {
+        "name": "LogoWithCopyMenu.tsx",
+        "path": "docs/src/components/action/LogoWithCopyMenu.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 125,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/components/action/LogoWithCopyMenu.tsx",
+            "functionName": "handleClose",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Portal",
+                  "source": "@mui/base/Portal",
+                  "line": 4,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Snackbar",
+                  "source": "@mui/material/Snackbar",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Menu",
+                  "source": "@mui/material/Menu",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "TextFieldsRoundedIcon",
+                  "source": "@mui/icons-material/TextFieldsRounded",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CheckCircleRoundedIcon",
+                  "source": "@mui/icons-material/CheckCircleRounded",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/src/components/action/LogoWithCopyMenu.tsx",
+            "functionName": "handleContextMenu",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Portal",
+                  "source": "@mui/base/Portal",
+                  "line": 4,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Snackbar",
+                  "source": "@mui/material/Snackbar",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Menu",
+                  "source": "@mui/material/Menu",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "TextFieldsRoundedIcon",
+                  "source": "@mui/icons-material/TextFieldsRounded",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CheckCircleRoundedIcon",
+                  "source": "@mui/icons-material/CheckCircleRounded",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/src/components/action/LogoWithCopyMenu.tsx",
+            "functionName": "handleCopy",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility); Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Portal",
+                  "source": "@mui/base/Portal",
+                  "line": 4,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Snackbar",
+                  "source": "@mui/material/Snackbar",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Menu",
+                  "source": "@mui/material/Menu",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "TextFieldsRoundedIcon",
+                  "source": "@mui/icons-material/TextFieldsRounded",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CheckCircleRoundedIcon",
+                  "source": "@mui/icons-material/CheckCircleRounded",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/src/components/action/LogoWithCopyMenu.tsx",
+            "functionName": "LogoWithCopyMenu",
+            "classification": "definite-legitimate",
+            "confidence": 3,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 25,
+              "endLine": 124
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Portal",
+                  "source": "@mui/base/Portal",
+                  "line": 4,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Snackbar",
+                  "source": "@mui/material/Snackbar",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Menu",
+                  "source": "@mui/material/Menu",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "TextFieldsRoundedIcon",
+                  "source": "@mui/icons-material/TextFieldsRounded",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CheckCircleRoundedIcon",
+                  "source": "@mui/icons-material/CheckCircleRounded",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "copy",
+            "sourceModule": "clipboard-copy",
+            "isDefault": true
+          },
+          {
+            "name": "Link",
+            "sourceModule": "@mui/docs/Link",
+            "isDefault": false,
+            "namedImports": [
+              "Link"
+            ]
+          },
+          {
+            "name": "Portal",
+            "sourceModule": "@mui/base/Portal",
+            "isDefault": false,
+            "namedImports": [
+              "Portal"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Snackbar",
+            "sourceModule": "@mui/material/Snackbar",
+            "isDefault": true
+          },
+          {
+            "name": "Menu",
+            "sourceModule": "@mui/material/Menu",
+            "isDefault": true
+          },
+          {
+            "name": "MenuItem",
+            "sourceModule": "@mui/material/MenuItem",
+            "isDefault": true
+          },
+          {
+            "name": "Slide",
+            "sourceModule": "@mui/material/Slide",
+            "isDefault": true
+          },
+          {
+            "name": "TextFieldsRoundedIcon",
+            "sourceModule": "@mui/icons-material/TextFieldsRounded",
+            "isDefault": true
+          },
+          {
+            "name": "CheckCircleRoundedIcon",
+            "sourceModule": "@mui/icons-material/CheckCircleRounded",
+            "isDefault": true
+          },
+          {
+            "name": "RootSvgProps",
+            "sourceModule": "docs/src/icons/RootSvg",
+            "isDefault": false,
+            "namedImports": [
+              "RootSvgProps"
+            ]
+          },
+          {
+            "name": "SvgMuiLogomark",
+            "sourceModule": "docs/src/icons/SvgMuiLogomark",
+            "isDefault": true,
+            "namedImports": [
+              "muiSvgLogoString",
+              "muiSvgWordmarkString"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "LogoWithCopyMenu",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "LogoWithCopyMenu",
+            "type": "function",
+            "signature": "function LogoWithCopyMenu()"
+          },
+          {
+            "name": "handleContextMenu",
+            "type": "function",
+            "signature": "const handleContextMenu = () =>"
+          },
+          {
+            "name": "handleClose",
+            "type": "function",
+            "signature": "const handleClose = () =>"
+          },
+          {
+            "name": "handleCopy",
+            "type": "function",
+            "signature": "const handleCopy = () =>"
+          },
+          {
+            "name": "LogoWithCopyMenuProps",
+            "type": "interface",
+            "signature": "interface LogoWithCopyMenuProps"
+          }
+        ]
+      },
+      {
+        "name": "Item.tsx",
+        "path": "docs/src/components/action/Item.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 120,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/components/action/Item.tsx",
+            "functionName": "Group",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 6,
+              "endLine": 72
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/src/components/action/Item.tsx",
+            "functionName": "Item",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 74,
+              "endLine": 119
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "useTheme",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "useTheme"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true,
+            "namedImports": [
+              "BoxProps"
+            ]
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "Group",
+            "type": "function"
+          },
+          {
+            "name": "Item",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Group",
+            "type": "function",
+            "signature": "function Group()"
+          },
+          {
+            "name": "Item",
+            "type": "function",
+            "signature": "function Item()"
+          }
+        ]
+      },
+      {
+        "name": "Highlighter.tsx",
+        "path": "docs/src/components/action/Highlighter.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 107,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/components/action/Highlighter.tsx",
+            "functionName": "Highlighter",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 106
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ButtonBase",
+                  "source": "@mui/material/ButtonBase",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "ButtonBase",
+            "sourceModule": "@mui/material/ButtonBase",
+            "isDefault": true,
+            "namedImports": [
+              "ButtonBaseProps"
+            ]
+          },
+          {
+            "name": "alpha",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "alpha"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "Highlighter",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Highlighter",
+            "type": "function",
+            "signature": "function Highlighter()"
+          }
+        ]
+      },
+      {
+        "name": "Frame.tsx",
+        "path": "docs/src/components/action/Frame.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 83,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/components/action/Frame.tsx",
+            "functionName": "Frame",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/src/components/action/Frame.tsx",
+            "functionName": "FrameDemo",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/src/components/action/Frame.tsx",
+            "functionName": "FrameInfo",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true,
+            "namedImports": [
+              "BoxProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "FrameDemo",
+            "type": "function",
+            "signature": "function FrameDemo()"
+          },
+          {
+            "name": "FrameInfo",
+            "type": "function",
+            "signature": "function FrameInfo()"
+          },
+          {
+            "name": "Frame",
+            "type": "function",
+            "signature": "function Frame()"
+          },
+          {
+            "name": "F",
+            "type": "const",
+            "signature": "const F"
+          },
+          {
+            "name": "F",
+            "type": "const",
+            "signature": "const F"
+          },
+          {
+            "name": "F",
+            "type": "const",
+            "signature": "const F"
+          }
+        ]
+      },
+      {
+        "name": "ComponentShowcaseCard.tsx",
+        "path": "docs/src/components/action/ComponentShowcaseCard.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 77,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/components/action/ComponentShowcaseCard.tsx",
+            "functionName": "ComponentShowcaseCard",
+            "classification": "likely-legitimate",
+            "confidence": 27,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 22,
+              "endLine": 76
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Stack",
+                  "source": "@mui/material/Stack",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Card",
+                  "source": "@mui/material/Card",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CardMedia",
+                  "source": "@mui/material/CardMedia",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/material/Typography",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Chip",
+                  "source": "@mui/material/Chip",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "alpha",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "alpha"
+            ]
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/material/Stack",
+            "isDefault": true
+          },
+          {
+            "name": "Card",
+            "sourceModule": "@mui/material/Card",
+            "isDefault": true
+          },
+          {
+            "name": "CardMedia",
+            "sourceModule": "@mui/material/CardMedia",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/material/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "Chip",
+            "sourceModule": "@mui/material/Chip",
+            "isDefault": true
+          },
+          {
+            "name": "Link",
+            "sourceModule": "@mui/docs/Link",
+            "isDefault": false,
+            "namedImports": [
+              "Link"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ComponentShowcaseCard",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ComponentShowcaseCard",
+            "type": "function",
+            "signature": "function ComponentShowcaseCard()"
+          },
+          {
+            "name": "ComponentShowcaseCardProps",
+            "type": "interface",
+            "signature": "interface ComponentShowcaseCardProps"
+          }
+        ]
+      },
+      {
+        "name": "ArrowButton.tsx",
+        "path": "docs/src/components/action/ArrowButton.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 55,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/components/action/ArrowButton.tsx",
+            "functionName": "ArrowButton",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 54
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 1,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowLeftRounded",
+                  "source": "@mui/icons-material/KeyboardArrowLeftRounded",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowRightRounded",
+                  "source": "@mui/icons-material/KeyboardArrowRightRounded",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "IconButton",
+            "sourceModule": "@mui/material/IconButton",
+            "isDefault": true,
+            "namedImports": [
+              "IconButtonProps"
+            ]
+          },
+          {
+            "name": "KeyboardArrowLeftRounded",
+            "sourceModule": "@mui/icons-material/KeyboardArrowLeftRounded",
+            "isDefault": true
+          },
+          {
+            "name": "KeyboardArrowRightRounded",
+            "sourceModule": "@mui/icons-material/KeyboardArrowRightRounded",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ArrowButton",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ArrowButton",
+            "type": "function",
+            "signature": "function ArrowButton()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "docs/src/components/action/NpmCopyButton.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/NpmCopyButton.tsx",
+          "to": "clipboard-copy",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/NpmCopyButton.tsx",
+          "to": "@mui/system",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/NpmCopyButton.tsx",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/NpmCopyButton.tsx",
+          "to": "@mui/icons-material/ContentCopyRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/NpmCopyButton.tsx",
+          "to": "@mui/icons-material/CheckRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/MoreInfoBox.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/MoreInfoBox.tsx",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/MoreInfoBox.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/MoreInfoBox.tsx",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/MoreInfoBox.tsx",
+          "to": "@mui/docs/Link",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/MoreInfoBox.tsx",
+          "to": "@mui/material/IconButton",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/MoreInfoBox.tsx",
+          "to": "@mui/icons-material/KeyboardArrowUpRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/MoreInfoBox.tsx",
+          "to": "@mui/icons-material/KeyboardArrowDownRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/More.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/More.tsx",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/More.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/More.tsx",
+          "to": "@mui/material/ButtonBase",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/More.tsx",
+          "to": "@mui/material/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/More.tsx",
+          "to": "@mui/icons-material/AddCircleRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/More.tsx",
+          "to": "@mui/icons-material/KeyboardArrowRightRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/MaterialVsCustomToggle.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/MaterialVsCustomToggle.tsx",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/MaterialVsCustomToggle.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/MaterialVsCustomToggle.tsx",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/LogoWithCopyMenu.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/LogoWithCopyMenu.tsx",
+          "to": "clipboard-copy",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/LogoWithCopyMenu.tsx",
+          "to": "@mui/docs/Link",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/LogoWithCopyMenu.tsx",
+          "to": "@mui/base/Portal",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/LogoWithCopyMenu.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/LogoWithCopyMenu.tsx",
+          "to": "@mui/material/Snackbar",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/LogoWithCopyMenu.tsx",
+          "to": "@mui/material/Menu",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/LogoWithCopyMenu.tsx",
+          "to": "@mui/material/MenuItem",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/LogoWithCopyMenu.tsx",
+          "to": "@mui/material/Slide",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/LogoWithCopyMenu.tsx",
+          "to": "@mui/icons-material/TextFieldsRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/LogoWithCopyMenu.tsx",
+          "to": "@mui/icons-material/CheckCircleRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/LogoWithCopyMenu.tsx",
+          "to": "docs/src/icons/RootSvg",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/LogoWithCopyMenu.tsx",
+          "to": "docs/src/icons/SvgMuiLogomark",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/Item.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/Item.tsx",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/Item.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/Item.tsx",
+          "to": "@mui/material/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/Highlighter.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/Highlighter.tsx",
+          "to": "@mui/material/ButtonBase",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/Highlighter.tsx",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/Frame.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/Frame.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/ComponentShowcaseCard.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/ComponentShowcaseCard.tsx",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/ComponentShowcaseCard.tsx",
+          "to": "@mui/material/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/ComponentShowcaseCard.tsx",
+          "to": "@mui/material/Card",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/ComponentShowcaseCard.tsx",
+          "to": "@mui/material/CardMedia",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/ComponentShowcaseCard.tsx",
+          "to": "@mui/material/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/ComponentShowcaseCard.tsx",
+          "to": "@mui/material/Chip",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/ComponentShowcaseCard.tsx",
+          "to": "@mui/docs/Link",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/ArrowButton.tsx",
+          "to": "@mui/material/IconButton",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/ArrowButton.tsx",
+          "to": "@mui/icons-material/KeyboardArrowLeftRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/components/action/ArrowButton.tsx",
+          "to": "@mui/icons-material/KeyboardArrowRightRounded",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

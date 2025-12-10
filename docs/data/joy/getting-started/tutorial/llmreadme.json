@@ -1,0 +1,557 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:05:13.737Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:05:13.737Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "tutorial",
+      "path": "docs/data/joy/getting-started/tutorial",
+      "purpose": "Enhanced directory analysis of tutorial",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "LoginFinal.js",
+        "path": "docs/data/joy/getting-started/tutorial/LoginFinal.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 100,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/joy/getting-started/tutorial/LoginFinal.js",
+            "functionName": "LoginFinal",
+            "classification": "likely-legitimate",
+            "confidence": 37,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"placeholder\"",
+              "Low cyclomatic complexity (1)",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 43,
+              "endLine": 99
+            },
+            "detectionMethods": {
+              "explicitMarkers": 40,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "CssVarsProvider",
+                  "source": "@mui/joy/styles",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Sheet",
+                  "source": "@mui/joy/Sheet",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CssBaseline",
+                  "source": "@mui/joy/CssBaseline",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/joy/Typography",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "FormControl",
+                  "source": "@mui/joy/FormControl",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormLabel",
+                  "source": "@mui/joy/FormLabel",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Input",
+                  "source": "@mui/joy/Input",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/joy/Button",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Link",
+                  "source": "@mui/joy/Link",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Select",
+                  "source": "@mui/joy/Select",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Option",
+                  "source": "@mui/joy/Option",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/joy/getting-started/tutorial/LoginFinal.js",
+            "functionName": "ModeToggle",
+            "classification": "definite-legitimate",
+            "confidence": 4.800000000000001,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "[FALLBACK] 1 AI-suspicious unused variables: mounted",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Event handler or callback function"
+            ],
+            "location": {
+              "startLine": 14,
+              "endLine": 41
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 4.800000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "CssVarsProvider",
+                  "source": "@mui/joy/styles",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Sheet",
+                  "source": "@mui/joy/Sheet",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CssBaseline",
+                  "source": "@mui/joy/CssBaseline",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/joy/Typography",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "FormControl",
+                  "source": "@mui/joy/FormControl",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormLabel",
+                  "source": "@mui/joy/FormLabel",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Input",
+                  "source": "@mui/joy/Input",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/joy/Button",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Link",
+                  "source": "@mui/joy/Link",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Select",
+                  "source": "@mui/joy/Select",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Option",
+                  "source": "@mui/joy/Option",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "mounted",
+                  "line": 16,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "CssVarsProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "CssVarsProvider",
+              "useColorScheme"
+            ]
+          },
+          {
+            "name": "Sheet",
+            "sourceModule": "@mui/joy/Sheet",
+            "isDefault": true
+          },
+          {
+            "name": "CssBaseline",
+            "sourceModule": "@mui/joy/CssBaseline",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/joy/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "FormControl",
+            "sourceModule": "@mui/joy/FormControl",
+            "isDefault": true
+          },
+          {
+            "name": "FormLabel",
+            "sourceModule": "@mui/joy/FormLabel",
+            "isDefault": true
+          },
+          {
+            "name": "Input",
+            "sourceModule": "@mui/joy/Input",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/joy/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Link",
+            "sourceModule": "@mui/joy/Link",
+            "isDefault": true
+          },
+          {
+            "name": "Select",
+            "sourceModule": "@mui/joy/Select",
+            "isDefault": true
+          },
+          {
+            "name": "Option",
+            "sourceModule": "@mui/joy/Option",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "LoginFinal",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ModeToggle",
+            "type": "function",
+            "signature": "function ModeToggle()"
+          },
+          {
+            "name": "LoginFinal",
+            "type": "function",
+            "signature": "function LoginFinal()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "docs/data/joy/getting-started/tutorial/LoginFinal.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/tutorial/LoginFinal.js",
+          "to": "@mui/joy/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/tutorial/LoginFinal.js",
+          "to": "@mui/joy/Sheet",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/tutorial/LoginFinal.js",
+          "to": "@mui/joy/CssBaseline",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/tutorial/LoginFinal.js",
+          "to": "@mui/joy/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/tutorial/LoginFinal.js",
+          "to": "@mui/joy/FormControl",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/tutorial/LoginFinal.js",
+          "to": "@mui/joy/FormLabel",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/tutorial/LoginFinal.js",
+          "to": "@mui/joy/Input",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/tutorial/LoginFinal.js",
+          "to": "@mui/joy/Button",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/tutorial/LoginFinal.js",
+          "to": "@mui/joy/Link",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/tutorial/LoginFinal.js",
+          "to": "@mui/joy/Select",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/tutorial/LoginFinal.js",
+          "to": "@mui/joy/Option",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

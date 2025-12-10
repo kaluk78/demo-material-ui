@@ -1,0 +1,1562 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:23:29.538Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:23:29.538Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "CssVarsProvider",
+      "path": "test/regressions/fixtures/CssVarsProvider",
+      "purpose": "Enhanced directory analysis of CssVarsProvider",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "NestedCssVarsProviders.js",
+        "path": "test/regressions/fixtures/CssVarsProvider/NestedCssVarsProviders.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 94,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/CssVarsProvider/NestedCssVarsProviders.js",
+            "functionName": "NestedCssVarsProviders",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 44,
+              "endLine": 93
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "createCssVarsProvider",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "createCssVarsProvider",
+              "createCssVarsTheme"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "NestedCssVarsProviders",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "NestedCssVarsProviders",
+            "type": "function",
+            "signature": "function NestedCssVarsProviders()"
+          }
+        ]
+      },
+      {
+        "name": "MaterialUIDefaultDarkToLight.js",
+        "path": "test/regressions/fixtures/CssVarsProvider/MaterialUIDefaultDarkToLight.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 45,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/CssVarsProvider/MaterialUIDefaultDarkToLight.js",
+            "functionName": "LightMode",
+            "classification": "likely-placeholder",
+            "confidence": 73,
+            "isPlaceholder": true,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Function takes no parameters"
+            ],
+            "location": {
+              "startLine": 8,
+              "endLine": 14
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 28,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "CssVarsProvider",
+                  "source": "@mui/material/styles",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "AppBar",
+                  "source": "@mui/material/AppBar",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Paper",
+                  "source": "@mui/material/Paper",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Toolbar",
+                  "source": "@mui/material/Toolbar",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/test/regressions/fixtures/CssVarsProvider/MaterialUIDefaultDarkToLight.js",
+            "functionName": "MaterialUIDefaultDark",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 18,
+              "endLine": 44
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "CssVarsProvider",
+                  "source": "@mui/material/styles",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "AppBar",
+                  "source": "@mui/material/AppBar",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Paper",
+                  "source": "@mui/material/Paper",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Toolbar",
+                  "source": "@mui/material/Toolbar",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "CssVarsProvider",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "CssVarsProvider",
+              "extendTheme",
+              "useColorScheme"
+            ]
+          },
+          {
+            "name": "AppBar",
+            "sourceModule": "@mui/material/AppBar",
+            "isDefault": true
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Paper",
+            "sourceModule": "@mui/material/Paper",
+            "isDefault": true
+          },
+          {
+            "name": "Toolbar",
+            "sourceModule": "@mui/material/Toolbar",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "MaterialUIDefaultDark",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "LightMode",
+            "type": "function",
+            "signature": "function LightMode()"
+          },
+          {
+            "name": "MaterialUIDefaultDark",
+            "type": "function",
+            "signature": "function MaterialUIDefaultDark()"
+          }
+        ]
+      },
+      {
+        "name": "MaterialUIDefaultDark.js",
+        "path": "test/regressions/fixtures/CssVarsProvider/MaterialUIDefaultDark.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 42,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/CssVarsProvider/MaterialUIDefaultDark.js",
+            "functionName": "MaterialUIDefaultDark",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 10,
+              "endLine": 41
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "CssVarsProvider",
+                  "source": "@mui/material/styles",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "AppBar",
+                  "source": "@mui/material/AppBar",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Paper",
+                  "source": "@mui/material/Paper",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Toolbar",
+                  "source": "@mui/material/Toolbar",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "CssVarsProvider",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "CssVarsProvider",
+              "extendTheme"
+            ]
+          },
+          {
+            "name": "AppBar",
+            "sourceModule": "@mui/material/AppBar",
+            "isDefault": true
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Paper",
+            "sourceModule": "@mui/material/Paper",
+            "isDefault": true
+          },
+          {
+            "name": "Toolbar",
+            "sourceModule": "@mui/material/Toolbar",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "MaterialUIDefaultDark",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "MaterialUIDefaultDark",
+            "type": "function",
+            "signature": "function MaterialUIDefaultDark()"
+          }
+        ]
+      },
+      {
+        "name": "InjectFirstWithThemeVars.js",
+        "path": "test/regressions/fixtures/CssVarsProvider/InjectFirstWithThemeVars.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 42,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/CssVarsProvider/InjectFirstWithThemeVars.js",
+            "functionName": "AutoDark",
+            "classification": "likely-placeholder",
+            "confidence": 73,
+            "isPlaceholder": true,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Function takes no parameters"
+            ],
+            "location": {
+              "startLine": 15,
+              "endLine": 21
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 28,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ThemeProvider",
+                  "source": "@mui/material/styles",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "StyledEngineProvider",
+                  "source": "@mui/material/styles",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/test/regressions/fixtures/CssVarsProvider/InjectFirstWithThemeVars.js",
+            "functionName": "InjectFirstWithThemeVars",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 23,
+              "endLine": 41
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ThemeProvider",
+                  "source": "@mui/material/styles",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "StyledEngineProvider",
+                  "source": "@mui/material/styles",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider",
+              "createTheme",
+              "StyledEngineProvider",
+              "useColorScheme"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "InjectFirstWithThemeVars",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "AutoDark",
+            "type": "function",
+            "signature": "function AutoDark()"
+          },
+          {
+            "name": "InjectFirstWithThemeVars",
+            "type": "function",
+            "signature": "function InjectFirstWithThemeVars()"
+          }
+        ]
+      },
+      {
+        "name": "IndependentCssVarsProviders.js",
+        "path": "test/regressions/fixtures/CssVarsProvider/IndependentCssVarsProviders.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 82,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/CssVarsProvider/IndependentCssVarsProviders.js",
+            "functionName": "DarkMode",
+            "classification": "likely-placeholder",
+            "confidence": 73,
+            "isPlaceholder": true,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Function takes no parameters"
+            ],
+            "location": {
+              "startLine": 45,
+              "endLine": 51
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 28,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "unstable_createCssVarsProvider",
+                  "source": "@mui/system",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "unstable_createCssVarsTheme",
+                  "source": "@mui/system",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/test/regressions/fixtures/CssVarsProvider/IndependentCssVarsProviders.js",
+            "functionName": "IndependentCssVarsProviders",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 53,
+              "endLine": 81
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "unstable_createCssVarsProvider",
+                  "source": "@mui/system",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "unstable_createCssVarsTheme",
+                  "source": "@mui/system",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "createCssVarsProvider",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "createCssVarsProvider",
+              "createCssVarsTheme"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "IndependentCssVarsProviders",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "DarkMode",
+            "type": "function",
+            "signature": "function DarkMode()"
+          },
+          {
+            "name": "IndependentCssVarsProviders",
+            "type": "function",
+            "signature": "function IndependentCssVarsProviders()"
+          }
+        ]
+      },
+      {
+        "name": "ForceColorSchemes.js",
+        "path": "test/regressions/fixtures/CssVarsProvider/ForceColorSchemes.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 55,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/CssVarsProvider/ForceColorSchemes.js",
+            "functionName": "ForceColorSchemes",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 28,
+              "endLine": 54
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "createCssVarsProvider",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "createCssVarsProvider",
+              "createCssVarsTheme"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ForceColorSchemes",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ForceColorSchemes",
+            "type": "function",
+            "signature": "function ForceColorSchemes()"
+          }
+        ]
+      },
+      {
+        "name": "DarkModeSpecificity.js",
+        "path": "test/regressions/fixtures/CssVarsProvider/DarkModeSpecificity.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 47,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/CssVarsProvider/DarkModeSpecificity.js",
+            "functionName": "DarkMode",
+            "classification": "likely-placeholder",
+            "confidence": 73,
+            "isPlaceholder": true,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Function takes no parameters"
+            ],
+            "location": {
+              "startLine": 29,
+              "endLine": 35
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 28,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "unstable_createCssVarsProvider",
+                  "source": "@mui/system",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "unstable_createCssVarsTheme",
+                  "source": "@mui/system",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/test/regressions/fixtures/CssVarsProvider/DarkModeSpecificity.js",
+            "functionName": "DarkModeSpecificity",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 37,
+              "endLine": 46
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "unstable_createCssVarsProvider",
+                  "source": "@mui/system",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "unstable_createCssVarsTheme",
+                  "source": "@mui/system",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "createCssVarsProvider",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "createCssVarsProvider",
+              "createCssVarsTheme"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "DarkModeSpecificity",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "DarkMode",
+            "type": "function",
+            "signature": "function DarkMode()"
+          },
+          {
+            "name": "DarkModeSpecificity",
+            "type": "function",
+            "signature": "function DarkModeSpecificity()"
+          }
+        ]
+      },
+      {
+        "name": "CssVarsProviderJoy.js",
+        "path": "test/regressions/fixtures/CssVarsProvider/CssVarsProviderJoy.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 22,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/CssVarsProvider/CssVarsProviderJoy.js",
+            "functionName": "VariantColorJoy",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 7,
+              "endLine": 21
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CssVarsProvider",
+                  "source": "@mui/joy/styles",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/joy/Box",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/joy/Button",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "CssVarsProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "CssVarsProvider",
+              "extendTheme"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/joy/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/joy/Button",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "VariantColorJoy",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "VariantColorJoy",
+            "type": "function",
+            "signature": "function VariantColorJoy()"
+          }
+        ]
+      },
+      {
+        "name": "ColorSchemeSelector.js",
+        "path": "test/regressions/fixtures/CssVarsProvider/ColorSchemeSelector.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 40,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/CssVarsProvider/ColorSchemeSelector.js",
+            "functionName": "ColorSchemeSelector",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 23,
+              "endLine": 39
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "createCssVarsProvider",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "createCssVarsProvider",
+              "createBox"
+            ]
+          },
+          {
+            "name": "createCssVarsTheme",
+            "sourceModule": "@mui/system/cssVars",
+            "isDefault": false,
+            "namedImports": [
+              "createCssVarsTheme"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ColorSchemeSelector",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ColorSchemeSelector",
+            "type": "function",
+            "signature": "function ColorSchemeSelector()"
+          },
+          {
+            "name": "B",
+            "type": "const",
+            "signature": "const B"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/NestedCssVarsProviders.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/NestedCssVarsProviders.js",
+          "to": "@mui/system",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/MaterialUIDefaultDarkToLight.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/MaterialUIDefaultDarkToLight.js",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/MaterialUIDefaultDarkToLight.js",
+          "to": "@mui/material/AppBar",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/MaterialUIDefaultDarkToLight.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/MaterialUIDefaultDarkToLight.js",
+          "to": "@mui/material/Paper",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/MaterialUIDefaultDarkToLight.js",
+          "to": "@mui/material/Toolbar",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/MaterialUIDefaultDark.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/MaterialUIDefaultDark.js",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/MaterialUIDefaultDark.js",
+          "to": "@mui/material/AppBar",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/MaterialUIDefaultDark.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/MaterialUIDefaultDark.js",
+          "to": "@mui/material/Paper",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/MaterialUIDefaultDark.js",
+          "to": "@mui/material/Toolbar",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/InjectFirstWithThemeVars.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/InjectFirstWithThemeVars.js",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/InjectFirstWithThemeVars.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/IndependentCssVarsProviders.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/IndependentCssVarsProviders.js",
+          "to": "@mui/system",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/ForceColorSchemes.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/ForceColorSchemes.js",
+          "to": "@mui/system",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/DarkModeSpecificity.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/DarkModeSpecificity.js",
+          "to": "@mui/system",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/CssVarsProviderJoy.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/CssVarsProviderJoy.js",
+          "to": "@mui/joy/styles",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/CssVarsProviderJoy.js",
+          "to": "@mui/joy/Box",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/CssVarsProviderJoy.js",
+          "to": "@mui/joy/Button",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/ColorSchemeSelector.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/ColorSchemeSelector.js",
+          "to": "@mui/system",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/CssVarsProvider/ColorSchemeSelector.js",
+          "to": "@mui/system/cssVars",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

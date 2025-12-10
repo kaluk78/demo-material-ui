@@ -1,0 +1,673 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:23:32.133Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:23:32.133Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "Select",
+      "path": "test/regressions/fixtures/Select",
+      "purpose": "Enhanced directory analysis of Select",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "SelectOverflow.js",
+        "path": "test/regressions/fixtures/Select/SelectOverflow.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 15,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Select/SelectOverflow.js",
+            "functionName": "SelectOverflow",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 14
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Select",
+                  "source": "@mui/material/Select",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "MenuItem",
+            "sourceModule": "@mui/material/MenuItem",
+            "isDefault": true
+          },
+          {
+            "name": "Select",
+            "sourceModule": "@mui/material/Select",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "SelectOverflow",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "SelectOverflow",
+            "type": "function",
+            "signature": "function SelectOverflow()"
+          }
+        ]
+      },
+      {
+        "name": "SelectMissingValue.js",
+        "path": "test/regressions/fixtures/Select/SelectMissingValue.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 13,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Select/SelectMissingValue.js",
+            "functionName": "SelectMissingValue",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 12
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Select",
+                  "source": "@mui/material/Select",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "MenuItem",
+            "sourceModule": "@mui/material/MenuItem",
+            "isDefault": true
+          },
+          {
+            "name": "Select",
+            "sourceModule": "@mui/material/Select",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "SelectMissingValue",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "SelectMissingValue",
+            "type": "function",
+            "signature": "function SelectMissingValue()"
+          }
+        ]
+      },
+      {
+        "name": "SelectChips.js",
+        "path": "test/regressions/fixtures/Select/SelectChips.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 30,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Select/SelectChips.js",
+            "functionName": "SelectChips",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 8,
+              "endLine": 29
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Select",
+                  "source": "@mui/material/Select",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Chip",
+                  "source": "@mui/material/Chip",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "MenuItem",
+            "sourceModule": "@mui/material/MenuItem",
+            "isDefault": true
+          },
+          {
+            "name": "Select",
+            "sourceModule": "@mui/material/Select",
+            "isDefault": true
+          },
+          {
+            "name": "Chip",
+            "sourceModule": "@mui/material/Chip",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "SelectChips",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "SelectChips",
+            "type": "function",
+            "signature": "function SelectChips()"
+          }
+        ]
+      },
+      {
+        "name": "SelectAlignment.js",
+        "path": "test/regressions/fixtures/Select/SelectAlignment.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 44,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Select/SelectAlignment.js",
+            "functionName": "SelectAlignment",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 9,
+              "endLine": 43
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "OutlinedInput",
+                  "source": "@mui/material/OutlinedInput",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "InputLabel",
+                  "source": "@mui/material/InputLabel",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "FormHelperText",
+                  "source": "@mui/material/FormHelperText",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormControl",
+                  "source": "@mui/material/FormControl",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Select",
+                  "source": "@mui/material/Select",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OutlinedInput",
+            "sourceModule": "@mui/material/OutlinedInput",
+            "isDefault": true
+          },
+          {
+            "name": "InputLabel",
+            "sourceModule": "@mui/material/InputLabel",
+            "isDefault": true
+          },
+          {
+            "name": "MenuItem",
+            "sourceModule": "@mui/material/MenuItem",
+            "isDefault": true
+          },
+          {
+            "name": "FormHelperText",
+            "sourceModule": "@mui/material/FormHelperText",
+            "isDefault": true
+          },
+          {
+            "name": "FormControl",
+            "sourceModule": "@mui/material/FormControl",
+            "isDefault": true
+          },
+          {
+            "name": "Select",
+            "sourceModule": "@mui/material/Select",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "SelectAlignment",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "SelectAlignment",
+            "type": "function",
+            "signature": "function SelectAlignment()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "test/regressions/fixtures/Select/SelectOverflow.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Select/SelectOverflow.js",
+          "to": "@mui/material/MenuItem",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Select/SelectOverflow.js",
+          "to": "@mui/material/Select",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Select/SelectMissingValue.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Select/SelectMissingValue.js",
+          "to": "@mui/material/MenuItem",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Select/SelectMissingValue.js",
+          "to": "@mui/material/Select",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Select/SelectChips.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Select/SelectChips.js",
+          "to": "@mui/material/MenuItem",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Select/SelectChips.js",
+          "to": "@mui/material/Select",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Select/SelectChips.js",
+          "to": "@mui/material/Chip",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Select/SelectAlignment.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Select/SelectAlignment.js",
+          "to": "@mui/material/OutlinedInput",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Select/SelectAlignment.js",
+          "to": "@mui/material/InputLabel",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Select/SelectAlignment.js",
+          "to": "@mui/material/MenuItem",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Select/SelectAlignment.js",
+          "to": "@mui/material/FormHelperText",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Select/SelectAlignment.js",
+          "to": "@mui/material/FormControl",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Select/SelectAlignment.js",
+          "to": "@mui/material/Select",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

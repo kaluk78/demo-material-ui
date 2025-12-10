@@ -1,0 +1,764 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:09:28.600Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:09:28.600Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "table",
+      "path": "docs/src/modules/components/ApiPage/table",
+      "purpose": "Enhanced directory analysis of table",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "StyledTableContainer.tsx",
+        "path": "docs/src/modules/components/ApiPage/table/StyledTableContainer.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 54,
+        "importedModules": [
+          {
+            "name": "styled",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "styled",
+              "alpha"
+            ]
+          },
+          {
+            "name": "darkTheme",
+            "sourceModule": "@mui/docs/branding",
+            "isDefault": false,
+            "namedImports": [
+              "darkTheme"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          }
+        ]
+      },
+      {
+        "name": "SlotsTable.tsx",
+        "path": "docs/src/modules/components/ApiPage/table/SlotsTable.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 118,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/modules/components/ApiPage/table/SlotsTable.tsx",
+            "functionName": "SlotsTable",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score; Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 73,
+              "endLine": 117
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -40,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "StyledTableContainer",
+                  "source": "docs/src/modules/components/ApiPage/table/StyledTableContainer",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "useTranslate",
+            "sourceModule": "@mui/docs/i18n",
+            "isDefault": false,
+            "namedImports": [
+              "useTranslate"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "styled",
+              "alpha"
+            ]
+          },
+          {
+            "name": "darkTheme",
+            "sourceModule": "@mui/docs/branding",
+            "isDefault": false,
+            "namedImports": [
+              "darkTheme",
+              "lightTheme"
+            ]
+          },
+          {
+            "name": "StyledTableContainer",
+            "sourceModule": "docs/src/modules/components/ApiPage/table/StyledTableContainer",
+            "isDefault": true
+          },
+          {
+            "name": "SlotDefinition",
+            "sourceModule": "docs/src/modules/components/ApiPage/definitions/slots",
+            "isDefault": false,
+            "namedImports": [
+              "SlotDefinition"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "SlotsTable",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "SlotsTable",
+            "type": "function",
+            "signature": "function SlotsTable()"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "SlotsTableProps",
+            "type": "interface",
+            "signature": "interface SlotsTableProps"
+          }
+        ]
+      },
+      {
+        "name": "PropertiesTable.tsx",
+        "path": "docs/src/modules/components/ApiPage/table/PropertiesTable.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 316,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/modules/components/ApiPage/table/PropertiesTable.tsx",
+            "functionName": "PropDescription",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "[FALLBACK] 1 AI-suspicious unused variables: ComponentToRender",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Intentionally unused parameter/variable (prefixed with _)"
+            ],
+            "location": {
+              "startLine": 122,
+              "endLine": 135
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 4.800000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Tooltip",
+                  "source": "@mui/material/Tooltip",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "StyledTableContainer",
+                  "source": "docs/src/modules/components/ApiPage/table/StyledTableContainer",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ApiWarningAlert",
+                  "source": "docs/src/modules/components/ApiPage/ApiWarningAlert",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "ComponentToRender",
+                  "line": 125,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 6,
+                    "reason": "Important business variable - may indicate incomplete logic"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/src/modules/components/ApiPage/table/PropertiesTable.tsx",
+            "functionName": "PropertiesTable",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 141,
+              "endLine": 315
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -40,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Tooltip",
+                  "source": "@mui/material/Tooltip",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "StyledTableContainer",
+                  "source": "docs/src/modules/components/ApiPage/table/StyledTableContainer",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ApiWarningAlert",
+                  "source": "docs/src/modules/components/ApiPage/ApiWarningAlert",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "styled",
+              "alpha"
+            ]
+          },
+          {
+            "name": "Tooltip",
+            "sourceModule": "@mui/material/Tooltip",
+            "isDefault": true
+          },
+          {
+            "name": "useTranslate",
+            "sourceModule": "@mui/docs/i18n",
+            "isDefault": false,
+            "namedImports": [
+              "useTranslate"
+            ]
+          },
+          {
+            "name": "darkTheme",
+            "sourceModule": "@mui/docs/branding",
+            "isDefault": false,
+            "namedImports": [
+              "darkTheme",
+              "lightTheme"
+            ]
+          },
+          {
+            "name": "PropertyDefinition",
+            "sourceModule": "docs/src/modules/components/ApiPage/definitions/properties",
+            "isDefault": false,
+            "namedImports": [
+              "PropertyDefinition"
+            ]
+          },
+          {
+            "name": "StyledTableContainer",
+            "sourceModule": "docs/src/modules/components/ApiPage/table/StyledTableContainer",
+            "isDefault": true
+          },
+          {
+            "name": "ApiWarningAlert",
+            "sourceModule": "docs/src/modules/components/ApiPage/ApiWarningAlert",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "PropertiesTable",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "PropDescription",
+            "type": "function",
+            "signature": "function PropDescription()"
+          },
+          {
+            "name": "PropertiesTable",
+            "type": "function",
+            "signature": "function PropertiesTable()"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          },
+          {
+            "name": "PropertiesTableProps",
+            "type": "interface",
+            "signature": "interface PropertiesTableProps"
+          }
+        ]
+      },
+      {
+        "name": "ClassesTable.tsx",
+        "path": "docs/src/modules/components/ApiPage/table/ClassesTable.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 116,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/src/modules/components/ApiPage/table/ClassesTable.tsx",
+            "functionName": "ClassesTable",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "[FALLBACK] 1 AI-suspicious unused variables: isGlobal",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Moderate context score; Intentionally unused parameter/variable (prefixed with _)"
+            ],
+            "location": {
+              "startLine": 59,
+              "endLine": 115
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -40,
+              "unusedCodeAnalysis": 4.800000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "StyledTableContainer",
+                  "source": "docs/src/modules/components/ApiPage/table/StyledTableContainer",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ApiWarningAlert",
+                  "source": "docs/src/modules/components/ApiPage/ApiWarningAlert",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "isGlobal",
+                  "line": 75,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "useTranslate",
+            "sourceModule": "@mui/docs/i18n",
+            "isDefault": false,
+            "namedImports": [
+              "useTranslate"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "styled",
+              "alpha"
+            ]
+          },
+          {
+            "name": "darkTheme",
+            "sourceModule": "@mui/docs/branding",
+            "isDefault": false,
+            "namedImports": [
+              "darkTheme",
+              "lightTheme"
+            ]
+          },
+          {
+            "name": "ClassDefinition",
+            "sourceModule": "docs/src/modules/components/ApiPage/definitions/classes",
+            "isDefault": false,
+            "namedImports": [
+              "ClassDefinition"
+            ]
+          },
+          {
+            "name": "StyledTableContainer",
+            "sourceModule": "docs/src/modules/components/ApiPage/table/StyledTableContainer",
+            "isDefault": true
+          },
+          {
+            "name": "ApiWarningAlert",
+            "sourceModule": "docs/src/modules/components/ApiPage/ApiWarningAlert",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ClassesTable",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ClassesTable",
+            "type": "function",
+            "signature": "function ClassesTable()"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "ClassesTableProps",
+            "type": "interface",
+            "signature": "interface ClassesTableProps"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "docs/src/modules/components/ApiPage/table/StyledTableContainer.tsx",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/ApiPage/table/StyledTableContainer.tsx",
+          "to": "@mui/docs/branding",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/ApiPage/table/SlotsTable.tsx",
+          "to": "@mui/docs/i18n",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/ApiPage/table/SlotsTable.tsx",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/ApiPage/table/SlotsTable.tsx",
+          "to": "@mui/docs/branding",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/ApiPage/table/SlotsTable.tsx",
+          "to": "docs/src/modules/components/ApiPage/table/StyledTableContainer",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/ApiPage/table/SlotsTable.tsx",
+          "to": "docs/src/modules/components/ApiPage/definitions/slots",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/ApiPage/table/PropertiesTable.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/ApiPage/table/PropertiesTable.tsx",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/ApiPage/table/PropertiesTable.tsx",
+          "to": "@mui/material/Tooltip",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/ApiPage/table/PropertiesTable.tsx",
+          "to": "@mui/docs/i18n",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/ApiPage/table/PropertiesTable.tsx",
+          "to": "@mui/docs/branding",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/ApiPage/table/PropertiesTable.tsx",
+          "to": "docs/src/modules/components/ApiPage/definitions/properties",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/ApiPage/table/PropertiesTable.tsx",
+          "to": "docs/src/modules/components/ApiPage/table/StyledTableContainer",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/ApiPage/table/PropertiesTable.tsx",
+          "to": "docs/src/modules/components/ApiPage/ApiWarningAlert",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/ApiPage/table/ClassesTable.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/ApiPage/table/ClassesTable.tsx",
+          "to": "@mui/docs/i18n",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/ApiPage/table/ClassesTable.tsx",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/ApiPage/table/ClassesTable.tsx",
+          "to": "@mui/docs/branding",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/ApiPage/table/ClassesTable.tsx",
+          "to": "docs/src/modules/components/ApiPage/definitions/classes",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/ApiPage/table/ClassesTable.tsx",
+          "to": "docs/src/modules/components/ApiPage/table/StyledTableContainer",
+          "type": "imports"
+        },
+        {
+          "from": "docs/src/modules/components/ApiPage/table/ClassesTable.tsx",
+          "to": "docs/src/modules/components/ApiPage/ApiWarningAlert",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

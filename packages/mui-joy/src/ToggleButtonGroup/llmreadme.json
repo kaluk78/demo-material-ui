@@ -1,0 +1,1157 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:19:37.162Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:19:37.162Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "ToggleButtonGroup",
+      "path": "packages/mui-joy/src/ToggleButtonGroup",
+      "purpose": "Enhanced directory analysis of ToggleButtonGroup",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "toggleButtonGroupClasses.ts",
+        "path": "packages/mui-joy/src/ToggleButtonGroup/toggleButtonGroupClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 67,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/ToggleButtonGroup/toggleButtonGroupClasses.ts",
+            "functionName": "getToggleButtonGroupUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 40,
+              "endLine": 42
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "generateUtilityClass",
+                  "source": "../className",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "generateUtilityClasses",
+                  "source": "../className",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "../className",
+            "isDefault": false,
+            "namedImports": [
+              "generateUtilityClass",
+              "generateUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ToggleButtonGroupClasses",
+            "type": "interface"
+          },
+          {
+            "name": "ToggleButtonGroupClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getToggleButtonGroupUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getToggleButtonGroupUtilityClass",
+            "type": "function",
+            "signature": "function getToggleButtonGroupUtilityClass()"
+          },
+          {
+            "name": "ToggleButtonGroupClasses",
+            "type": "interface",
+            "signature": "interface ToggleButtonGroupClasses"
+          },
+          {
+            "name": "ToggleButtonGroupClassKey",
+            "type": "type",
+            "signature": "type ToggleButtonGroupClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/ToggleButtonGroup/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "toggleButtonGroupClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "ToggleButtonGroupProps.ts",
+        "path": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroupProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 121,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Breakpoint",
+            "sourceModule": "@mui/system",
+            "isDefault": false,
+            "namedImports": [
+              "Breakpoint"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "ColorPaletteProp",
+            "sourceModule": "../styles/types",
+            "isDefault": false,
+            "namedImports": [
+              "ColorPaletteProp",
+              "VariantProp",
+              "SxProps",
+              "ApplyColorInversion"
+            ]
+          },
+          {
+            "name": "SlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "SlotProps",
+              "CreateSlotsAndSlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "SupportedValue",
+            "type": "type"
+          },
+          {
+            "name": "ToggleButtonGroupSlot",
+            "type": "type"
+          },
+          {
+            "name": "ToggleButtonGroupSlots",
+            "type": "interface"
+          },
+          {
+            "name": "ToggleButtonGroupSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "ToggleButtonGroupPropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "ToggleButtonGroupPropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "ToggleButtonGroupPropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "ToggleButtonGroupStaticProps",
+            "type": "interface"
+          },
+          {
+            "name": "ToggleButtonGroupOwnProps",
+            "type": "interface"
+          },
+          {
+            "name": "ToggleButtonGroupTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "ToggleButtonGroupProps",
+            "type": "type"
+          },
+          {
+            "name": "ToggleButtonGroupOwnerState",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ToggleButtonGroupSlots",
+            "type": "interface",
+            "signature": "interface ToggleButtonGroupSlots"
+          },
+          {
+            "name": "ToggleButtonGroupPropsColorOverrides",
+            "type": "interface",
+            "signature": "interface ToggleButtonGroupPropsColorOverrides"
+          },
+          {
+            "name": "ToggleButtonGroupPropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface ToggleButtonGroupPropsVariantOverrides"
+          },
+          {
+            "name": "ToggleButtonGroupPropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface ToggleButtonGroupPropsSizeOverrides"
+          },
+          {
+            "name": "ToggleButtonGroupStaticProps",
+            "type": "interface",
+            "signature": "interface ToggleButtonGroupStaticProps"
+          },
+          {
+            "name": "ToggleButtonGroupOwnProps",
+            "type": "interface",
+            "signature": "interface ToggleButtonGroupOwnProps"
+          },
+          {
+            "name": "ToggleButtonGroupTypeMap",
+            "type": "interface",
+            "signature": "interface ToggleButtonGroupTypeMap"
+          },
+          {
+            "name": "ToggleButtonGroupOwnerState",
+            "type": "interface",
+            "signature": "interface ToggleButtonGroupOwnerState"
+          },
+          {
+            "name": "ResponsiveStyleValue",
+            "type": "type",
+            "signature": "type ResponsiveStyleValue"
+          },
+          {
+            "name": "SupportedValue",
+            "type": "type",
+            "signature": "type SupportedValue"
+          },
+          {
+            "name": "ToggleButtonGroupSlot",
+            "type": "type",
+            "signature": "type ToggleButtonGroupSlot"
+          },
+          {
+            "name": "ToggleButtonGroupSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type ToggleButtonGroupSlotsAndSlotProps"
+          },
+          {
+            "name": "ToggleButtonGroupProps",
+            "type": "type",
+            "signature": "type ToggleButtonGroupProps"
+          }
+        ]
+      },
+      {
+        "name": "ToggleButtonGroupContext.tsx",
+        "path": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroupContext.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 25,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "SupportedValue",
+            "sourceModule": "./ToggleButtonGroupProps",
+            "isDefault": false,
+            "namedImports": [
+              "SupportedValue",
+              "ToggleButtonGroupProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "ToggleButtonGroupContextType",
+            "type": "interface",
+            "signature": "interface ToggleButtonGroupContextType"
+          }
+        ]
+      },
+      {
+        "name": "ToggleButtonGroup.tsx",
+        "path": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 315,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.tsx",
+            "functionName": "ToggleButtonGroup",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "[FALLBACK] 1 AI-suspicious unused variables: SlotRoot",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Event handler or callback function; Returns computed value from external calls or processing"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -24,
+              "unusedCodeAnalysis": 4.800000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ButtonGroupContext",
+                  "source": "../ButtonGroup/ButtonGroupContext",
+                  "line": 20,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ToggleButtonGroupContext",
+                  "source": "./ToggleButtonGroupContext",
+                  "line": 21,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "SlotRoot",
+                  "line": 99,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ButtonGroupContext",
+                  "source": "../ButtonGroup/ButtonGroupContext",
+                  "line": 20,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ToggleButtonGroupContext",
+                  "source": "./ToggleButtonGroupContext",
+                  "line": 21,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "clsx",
+            "sourceModule": "clsx",
+            "isDefault": true
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "isMuiElement",
+            "sourceModule": "@mui/utils/isMuiElement",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/base",
+            "isDefault": false,
+            "namedImports": [
+              "composeClasses"
+            ]
+          },
+          {
+            "name": "OverrideProps",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverrideProps",
+              "DefaultComponentProps"
+            ]
+          },
+          {
+            "name": "useThemeProps",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "useThemeProps"
+            ]
+          },
+          {
+            "name": "styled",
+            "sourceModule": "../styles/styled",
+            "isDefault": true
+          },
+          {
+            "name": "getToggleButtonGroupUtilityClass",
+            "sourceModule": "./toggleButtonGroupClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getToggleButtonGroupUtilityClass"
+            ]
+          },
+          {
+            "name": "ToggleButtonGroupProps",
+            "sourceModule": "./ToggleButtonGroupProps",
+            "isDefault": false,
+            "namedImports": [
+              "ToggleButtonGroupProps",
+              "ToggleButtonGroupTypeMap",
+              "SupportedValue",
+              "ToggleButtonGroupOwnerState"
+            ]
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          },
+          {
+            "name": "StyledButtonGroup",
+            "sourceModule": "../ButtonGroup/ButtonGroup",
+            "isDefault": false,
+            "namedImports": [
+              "StyledButtonGroup"
+            ]
+          },
+          {
+            "name": "ButtonGroupContext",
+            "sourceModule": "../ButtonGroup/ButtonGroupContext",
+            "isDefault": true
+          },
+          {
+            "name": "ToggleButtonGroupContext",
+            "sourceModule": "./ToggleButtonGroupContext",
+            "isDefault": true
+          },
+          {
+            "name": "DividerProps",
+            "sourceModule": "../Divider",
+            "isDefault": false,
+            "namedImports": [
+              "DividerProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "InternalChangeEventHandler",
+            "type": "interface",
+            "signature": "interface InternalChangeEventHandler"
+          },
+          {
+            "name": "ToggleButtonGroupComponent",
+            "type": "interface",
+            "signature": "interface ToggleButtonGroupComponent"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "ToggleButtonGroup.test.tsx",
+        "path": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 258,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.test.tsx",
+            "functionName": "CustomButton",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 50,
+              "endLine": 52
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ToggleButtonGroup",
+                  "source": "@mui/joy/ToggleButtonGroup",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/joy/Button",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/joy/IconButton",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Tooltip",
+                  "source": "@mui/joy/Tooltip",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.test.tsx",
+            "functionName": "CustomIconButton",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 53,
+              "endLine": 55
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ToggleButtonGroup",
+                  "source": "@mui/joy/ToggleButtonGroup",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/joy/Button",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/joy/IconButton",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Tooltip",
+                  "source": "@mui/joy/Tooltip",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.test.tsx",
+            "functionName": "ToggleGroup",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Event handler or callback function; Mutates state or has side effects; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 58,
+              "endLine": 78
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ToggleButtonGroup",
+                  "source": "@mui/joy/ToggleButtonGroup",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/joy/Button",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/joy/IconButton",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Tooltip",
+                  "source": "@mui/joy/Tooltip",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "spy",
+            "sourceModule": "sinon",
+            "isDefault": false,
+            "namedImports": [
+              "spy"
+            ]
+          },
+          {
+            "name": "act",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "act",
+              "createRenderer",
+              "screen"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "ToggleButtonGroup",
+            "sourceModule": "@mui/joy/ToggleButtonGroup",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/joy/Button",
+            "isDefault": true
+          },
+          {
+            "name": "IconButton",
+            "sourceModule": "@mui/joy/IconButton",
+            "isDefault": true
+          },
+          {
+            "name": "Tooltip",
+            "sourceModule": "@mui/joy/Tooltip",
+            "isDefault": true
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "CustomButton",
+            "type": "function",
+            "signature": "function CustomButton()"
+          },
+          {
+            "name": "CustomIconButton",
+            "type": "function",
+            "signature": "function CustomIconButton()"
+          },
+          {
+            "name": "ToggleGroup",
+            "type": "function",
+            "signature": "function ToggleGroup()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroupProps.ts",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroupProps.ts",
+          "to": "@mui/system",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroupProps.ts",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroupContext.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroupContext.tsx",
+          "to": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroupProps.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.tsx",
+          "to": "clsx",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.tsx",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.tsx",
+          "to": "@mui/utils/capitalize",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.tsx",
+          "to": "@mui/utils/isMuiElement",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.tsx",
+          "to": "@mui/base",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.tsx",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.tsx",
+          "to": "packages/mui-joy/src/ToggleButtonGroup/toggleButtonGroupClasses.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.tsx",
+          "to": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroupProps.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.test.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.test.tsx",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.test.tsx",
+          "to": "sinon",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.test.tsx",
+          "to": "@mui/internal-test-utils",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.test.tsx",
+          "to": "@mui/joy/styles",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.test.tsx",
+          "to": "@mui/joy/ToggleButtonGroup",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.test.tsx",
+          "to": "@mui/joy/Button",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.test.tsx",
+          "to": "@mui/joy/IconButton",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ToggleButtonGroup/ToggleButtonGroup.test.tsx",
+          "to": "@mui/joy/Tooltip",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

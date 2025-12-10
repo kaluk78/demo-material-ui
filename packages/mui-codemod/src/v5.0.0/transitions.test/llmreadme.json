@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:12:42.741Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:12:42.741Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "transitions.test",
+      "path": "packages/mui-codemod/src/v5.0.0/transitions.test",
+      "purpose": "Enhanced directory analysis of transitions.test",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "expected.js",
+        "path": "packages/mui-codemod/src/v5.0.0/transitions.test/expected.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 21,
+        "importedModules": [
+          {
+            "name": "createTransitions",
+            "sourceModule": "@material-ui/core/styles/createTransitions",
+            "isDefault": true,
+            "namedImports": [
+              "Easing",
+              "TransitionDuration"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "MuiButtonBaseStyleOverrides",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "M",
+            "type": "const",
+            "signature": "const M"
+          },
+          {
+            "name": "A",
+            "type": "type",
+            "signature": "type A"
+          }
+        ]
+      },
+      {
+        "name": "actual.js",
+        "path": "packages/mui-codemod/src/v5.0.0/transitions.test/actual.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 19,
+        "importedModules": [
+          {
+            "name": "transitions",
+            "sourceModule": "@material-ui/core/styles/transitions",
+            "isDefault": true,
+            "namedImports": [
+              "Easing",
+              "TransitionDuration"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "MuiButtonBaseStyleOverrides",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "M",
+            "type": "const",
+            "signature": "const M"
+          },
+          {
+            "name": "A",
+            "type": "type",
+            "signature": "type A"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/transitions.test/expected.js",
+          "to": "@material-ui/core/styles/createTransitions",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v5.0.0/transitions.test/actual.js",
+          "to": "@material-ui/core/styles/transitions",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

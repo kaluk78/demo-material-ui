@@ -1,0 +1,385 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:11:26.972Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:11:26.972Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "app",
+      "path": "examples/joy-ui-nextjs-ts/src/app",
+      "purpose": "Enhanced directory analysis of app",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "page.tsx",
+        "path": "examples/joy-ui-nextjs-ts/src/app/page.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 64,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/examples/joy-ui-nextjs-ts/src/app/page.tsx",
+            "functionName": "Home",
+            "classification": "uncertain",
+            "confidence": 56,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"placeholder\"",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters"
+            ],
+            "location": {
+              "startLine": 10,
+              "endLine": 63
+            },
+            "detectionMethods": {
+              "explicitMarkers": 40,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Sheet",
+                  "source": "@mui/joy/Sheet",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/joy/Typography",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "FormControl",
+                  "source": "@mui/joy/FormControl",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FormLabel",
+                  "source": "@mui/joy/FormLabel",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Input",
+                  "source": "@mui/joy/Input",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/joy/Button",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Link",
+                  "source": "@mui/joy/Link",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Sheet",
+            "sourceModule": "@mui/joy/Sheet",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/joy/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "FormControl",
+            "sourceModule": "@mui/joy/FormControl",
+            "isDefault": true
+          },
+          {
+            "name": "FormLabel",
+            "sourceModule": "@mui/joy/FormLabel",
+            "isDefault": true
+          },
+          {
+            "name": "Input",
+            "sourceModule": "@mui/joy/Input",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/joy/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Link",
+            "sourceModule": "@mui/joy/Link",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "Home",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Home",
+            "type": "function",
+            "signature": "function Home()"
+          }
+        ]
+      },
+      {
+        "name": "layout.tsx",
+        "path": "examples/joy-ui-nextjs-ts/src/app/layout.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 18,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/examples/joy-ui-nextjs-ts/src/app/layout.tsx",
+            "functionName": "RootLayout",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 9,
+              "endLine": 17
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ThemeRegistry",
+                  "source": "@/components/ThemeRegistry/ThemeRegistry",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "ThemeRegistry",
+            "sourceModule": "@/components/ThemeRegistry/ThemeRegistry",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "metadata",
+            "type": "const"
+          },
+          {
+            "name": "RootLayout",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "RootLayout",
+            "type": "function",
+            "signature": "function RootLayout()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "sign-up",
+        "relativePath": "sign-up",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of sign-up",
+        "keyElementsFromChild": []
+      }
+    ],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "examples/joy-ui-nextjs-ts/src/app/page.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "examples/joy-ui-nextjs-ts/src/app/page.tsx",
+          "to": "@mui/joy/Sheet",
+          "type": "imports"
+        },
+        {
+          "from": "examples/joy-ui-nextjs-ts/src/app/page.tsx",
+          "to": "@mui/joy/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "examples/joy-ui-nextjs-ts/src/app/page.tsx",
+          "to": "@mui/joy/FormControl",
+          "type": "imports"
+        },
+        {
+          "from": "examples/joy-ui-nextjs-ts/src/app/page.tsx",
+          "to": "@mui/joy/FormLabel",
+          "type": "imports"
+        },
+        {
+          "from": "examples/joy-ui-nextjs-ts/src/app/page.tsx",
+          "to": "@mui/joy/Input",
+          "type": "imports"
+        },
+        {
+          "from": "examples/joy-ui-nextjs-ts/src/app/page.tsx",
+          "to": "@mui/joy/Button",
+          "type": "imports"
+        },
+        {
+          "from": "examples/joy-ui-nextjs-ts/src/app/page.tsx",
+          "to": "@mui/joy/Link",
+          "type": "imports"
+        },
+        {
+          "from": "examples/joy-ui-nextjs-ts/src/app/layout.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "examples/joy-ui-nextjs-ts/src/app/layout.tsx",
+          "to": "@/components/ThemeRegistry/ThemeRegistry",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

@@ -1,0 +1,669 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:13:04.679Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:13:04.679Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "test-cases",
+      "path": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases",
+      "purpose": "Enhanced directory analysis of test-cases",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "opacity-var.expected.js",
+        "path": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/opacity-var.expected.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 39,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/opacity-var.expected.js",
+            "functionName": "transform",
+            "classification": "likely-legitimate",
+            "confidence": 24.8,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "[FALLBACK] 1 AI-suspicious unused variables: backgroundBackdrop",
+              "Note: Using custom analysis - TS/ESLint would be more accurate"
+            ],
+            "location": {
+              "startLine": 33,
+              "endLine": 38
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 4.800000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [
+                {
+                  "name": "backgroundBackdrop",
+                  "line": 34,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 10,
+                    "reason": "Critical service variable - likely missing core functionality"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "DigitalClockItem",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "transform",
+            "type": "function",
+            "signature": "function transform()"
+          },
+          {
+            "name": "D",
+            "type": "const",
+            "signature": "const D"
+          }
+        ]
+      },
+      {
+        "name": "opacity-var.actual.js",
+        "path": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/opacity-var.actual.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 38,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/opacity-var.actual.js",
+            "functionName": "transform",
+            "classification": "definite-legitimate",
+            "confidence": 12.8,
+            "isPlaceholder": false,
+            "reasons": [
+              "[FALLBACK] 1 AI-suspicious unused variables: backgroundBackdrop",
+              "Note: Using custom analysis - TS/ESLint would be more accurate"
+            ],
+            "location": {
+              "startLine": 33,
+              "endLine": 37
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 4.800000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "alpha",
+                  "source": "@mui/system/colorManipulator",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "backgroundBackdrop",
+                  "line": 34,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 10,
+                    "reason": "Critical service variable - likely missing core functionality"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "alpha",
+            "sourceModule": "@mui/system/colorManipulator",
+            "isDefault": false,
+            "namedImports": [
+              "alpha"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "DigitalClockItem",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "transform",
+            "type": "function",
+            "signature": "function transform()"
+          },
+          {
+            "name": "D",
+            "type": "const",
+            "signature": "const D"
+          }
+        ]
+      },
+      {
+        "name": "opacity-calc.expected.js",
+        "path": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/opacity-calc.expected.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 61,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "TreeItemContent",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          }
+        ]
+      },
+      {
+        "name": "opacity-calc.actual.js",
+        "path": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/opacity-calc.actual.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 65,
+        "importedModules": [
+          {
+            "name": "alpha",
+            "sourceModule": "@mui/system/colorManipulator",
+            "isDefault": false,
+            "namedImports": [
+              "alpha"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TreeItemContent",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          }
+        ]
+      },
+      {
+        "name": "no-import.expected.js",
+        "path": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/no-import.expected.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 7,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          }
+        ]
+      },
+      {
+        "name": "no-import.actual.js",
+        "path": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/no-import.actual.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 7,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          }
+        ]
+      },
+      {
+        "name": "mui-material-styles.expected.js",
+        "path": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/mui-material-styles.expected.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 9,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "Component",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          }
+        ]
+      },
+      {
+        "name": "mui-material-styles.actual.js",
+        "path": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/mui-material-styles.actual.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 13,
+        "importedModules": [
+          {
+            "name": "alpha",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "alpha",
+              "lighten",
+              "darken"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "Component",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          }
+        ]
+      },
+      {
+        "name": "mixed-imports.expected.js",
+        "path": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/mixed-imports.expected.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 11,
+        "importedModules": [
+          {
+            "name": "styled",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "Component",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          }
+        ]
+      },
+      {
+        "name": "mixed-imports.actual.js",
+        "path": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/mixed-imports.actual.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 14,
+        "importedModules": [
+          {
+            "name": "alpha",
+            "sourceModule": "@mui/system/colorManipulator",
+            "isDefault": false,
+            "namedImports": [
+              "alpha"
+            ]
+          },
+          {
+            "name": "lighten",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "lighten",
+              "darken",
+              "styled"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "Component",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          }
+        ]
+      },
+      {
+        "name": "mixed-functions.expected.js",
+        "path": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/mixed-functions.expected.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 12,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          }
+        ]
+      },
+      {
+        "name": "mixed-functions.actual.js",
+        "path": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/mixed-functions.actual.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 18,
+        "importedModules": [
+          {
+            "name": "alpha",
+            "sourceModule": "@mui/system/colorManipulator",
+            "isDefault": false,
+            "namedImports": [
+              "alpha",
+              "lighten",
+              "darken"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          }
+        ]
+      },
+      {
+        "name": "lighten-basic.expected.js",
+        "path": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/lighten-basic.expected.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 8,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          }
+        ]
+      },
+      {
+        "name": "lighten-basic.actual.js",
+        "path": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/lighten-basic.actual.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 10,
+        "importedModules": [
+          {
+            "name": "lighten",
+            "sourceModule": "@mui/system/colorManipulator",
+            "isDefault": false,
+            "namedImports": [
+              "lighten"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          }
+        ]
+      },
+      {
+        "name": "expected.js",
+        "path": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/expected.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 17,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "V",
+            "type": "const",
+            "signature": "const V"
+          }
+        ]
+      },
+      {
+        "name": "darken-basic.expected.js",
+        "path": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/darken-basic.expected.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 14,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "B",
+            "type": "const",
+            "signature": "const B"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          }
+        ]
+      },
+      {
+        "name": "darken-basic.actual.js",
+        "path": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/darken-basic.actual.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 16,
+        "importedModules": [
+          {
+            "name": "darken",
+            "sourceModule": "@mui/system/colorManipulator",
+            "isDefault": false,
+            "namedImports": [
+              "darken"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "B",
+            "type": "const",
+            "signature": "const B"
+          },
+          {
+            "name": "C",
+            "type": "const",
+            "signature": "const C"
+          }
+        ]
+      },
+      {
+        "name": "actual.js",
+        "path": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/actual.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 23,
+        "importedModules": [
+          {
+            "name": "alpha",
+            "sourceModule": "@mui/system/colorManipulator",
+            "isDefault": false,
+            "namedImports": [
+              "alpha"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "V",
+            "type": "const",
+            "signature": "const V"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/opacity-var.actual.js",
+          "to": "@mui/system/colorManipulator",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/opacity-calc.actual.js",
+          "to": "@mui/system/colorManipulator",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/mui-material-styles.actual.js",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/mixed-imports.expected.js",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/mixed-imports.actual.js",
+          "to": "@mui/system/colorManipulator",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/mixed-imports.actual.js",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/mixed-functions.actual.js",
+          "to": "@mui/system/colorManipulator",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/lighten-basic.actual.js",
+          "to": "@mui/system/colorManipulator",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/darken-basic.actual.js",
+          "to": "@mui/system/colorManipulator",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-codemod/src/v7.0.0/theme-color-functions/test-cases/actual.js",
+          "to": "@mui/system/colorManipulator",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

@@ -1,0 +1,209 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:19:26.848Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:19:26.848Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "InitColorSchemeScript",
+      "path": "packages/mui-joy/src/InitColorSchemeScript",
+      "purpose": "Enhanced directory analysis of InitColorSchemeScript",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/InitColorSchemeScript/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 2,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "InitColorSchemeScript.tsx",
+        "path": "packages/mui-joy/src/InitColorSchemeScript/InitColorSchemeScript.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 14,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/InitColorSchemeScript/InitColorSchemeScript.tsx",
+            "functionName": "InitColorSchemeScript",
+            "classification": "definite-legitimate",
+            "confidence": 3,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "SystemInitColorSchemeScript",
+                  "source": "@mui/system/InitColorSchemeScript",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "SystemInitColorSchemeScript",
+            "sourceModule": "@mui/system/InitColorSchemeScript",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "defaultConfig",
+            "type": "const"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "InitColorSchemeScript",
+            "type": "function",
+            "signature": "function InitColorSchemeScript()"
+          }
+        ]
+      },
+      {
+        "name": "InitColorSchemeScript.test.tsx",
+        "path": "packages/mui-joy/src/InitColorSchemeScript/InitColorSchemeScript.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 13,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer"
+            ]
+          },
+          {
+            "name": "InitColorSchemeScript",
+            "sourceModule": "@mui/joy/InitColorSchemeScript",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "InitColorSchemeScript.spec.tsx",
+        "path": "packages/mui-joy/src/InitColorSchemeScript/InitColorSchemeScript.spec.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 4,
+        "importedModules": [
+          {
+            "name": "InitColorSchemeScript",
+            "sourceModule": "@mui/joy/InitColorSchemeScript",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-joy/src/InitColorSchemeScript/InitColorSchemeScript.tsx",
+          "to": "@mui/system/InitColorSchemeScript",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/InitColorSchemeScript/InitColorSchemeScript.test.tsx",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/InitColorSchemeScript/InitColorSchemeScript.test.tsx",
+          "to": "@mui/internal-test-utils",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/InitColorSchemeScript/InitColorSchemeScript.test.tsx",
+          "to": "@mui/joy/InitColorSchemeScript",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/InitColorSchemeScript/InitColorSchemeScript.spec.tsx",
+          "to": "@mui/joy/InitColorSchemeScript",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

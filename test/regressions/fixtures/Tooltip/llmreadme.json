@@ -1,0 +1,499 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:23:34.623Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:23:34.623Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "Tooltip",
+      "path": "test/regressions/fixtures/Tooltip",
+      "purpose": "Enhanced directory analysis of Tooltip",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "PositionedTooltipsRtl.js",
+        "path": "test/regressions/fixtures/Tooltip/PositionedTooltipsRtl.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 91,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Tooltip/PositionedTooltipsRtl.js",
+            "functionName": "PositionedTooltipsRtl",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 21,
+              "endLine": 90
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Grid",
+                  "source": "@mui/material/Grid",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Tooltip",
+                  "source": "@mui/material/Tooltip",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "StyleSheetManager",
+                  "source": "styled-components",
+                  "line": 8,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CacheProvider",
+                  "source": "@emotion/react",
+                  "line": 9,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ThemeProvider",
+                  "source": "@mui/material/styles",
+                  "line": 10,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Grid",
+            "sourceModule": "@mui/material/Grid",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Tooltip",
+            "sourceModule": "@mui/material/Tooltip",
+            "isDefault": true
+          },
+          {
+            "name": "prefixer",
+            "sourceModule": "stylis",
+            "isDefault": false,
+            "namedImports": [
+              "prefixer"
+            ]
+          },
+          {
+            "name": "rtlPlugin",
+            "sourceModule": "@mui/stylis-plugin-rtl",
+            "isDefault": true
+          },
+          {
+            "name": "StyleSheetManager",
+            "sourceModule": "styled-components",
+            "isDefault": false,
+            "namedImports": [
+              "StyleSheetManager"
+            ]
+          },
+          {
+            "name": "CacheProvider",
+            "sourceModule": "@emotion/react",
+            "isDefault": false,
+            "namedImports": [
+              "CacheProvider"
+            ]
+          },
+          {
+            "name": "createTheme",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "createTheme",
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "createCache",
+            "sourceModule": "@emotion/cache",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "PositionedTooltipsRtl",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "PositionedTooltipsRtl",
+            "type": "function",
+            "signature": "function PositionedTooltipsRtl()"
+          }
+        ]
+      },
+      {
+        "name": "PositionedTooltips.js",
+        "path": "test/regressions/fixtures/Tooltip/PositionedTooltips.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 74,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Tooltip/PositionedTooltips.js",
+            "functionName": "PositionedTooltips",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 8,
+              "endLine": 71
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Grid",
+                  "source": "@mui/material/Grid",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Tooltip",
+                  "source": "@mui/material/Tooltip",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Grid",
+            "sourceModule": "@mui/material/Grid",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Tooltip",
+            "sourceModule": "@mui/material/Tooltip",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "PositionedTooltips",
+            "type": "function",
+            "signature": "function PositionedTooltips()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "test/regressions/fixtures/Tooltip/PositionedTooltipsRtl.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tooltip/PositionedTooltipsRtl.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tooltip/PositionedTooltipsRtl.js",
+          "to": "@mui/material/Grid",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tooltip/PositionedTooltipsRtl.js",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tooltip/PositionedTooltipsRtl.js",
+          "to": "@mui/material/Tooltip",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tooltip/PositionedTooltipsRtl.js",
+          "to": "stylis",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tooltip/PositionedTooltipsRtl.js",
+          "to": "@mui/stylis-plugin-rtl",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tooltip/PositionedTooltipsRtl.js",
+          "to": "styled-components",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tooltip/PositionedTooltipsRtl.js",
+          "to": "@emotion/react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tooltip/PositionedTooltipsRtl.js",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tooltip/PositionedTooltipsRtl.js",
+          "to": "@emotion/cache",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tooltip/PositionedTooltips.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tooltip/PositionedTooltips.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tooltip/PositionedTooltips.js",
+          "to": "@mui/material/Grid",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tooltip/PositionedTooltips.js",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tooltip/PositionedTooltips.js",
+          "to": "@mui/material/Tooltip",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

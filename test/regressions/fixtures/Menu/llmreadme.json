@@ -1,0 +1,981 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:23:31.691Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:23:31.691Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "Menu",
+      "path": "test/regressions/fixtures/Menu",
+      "purpose": "Enhanced directory analysis of Menu",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "SimpleMenuList.js",
+        "path": "test/regressions/fixtures/Menu/SimpleMenuList.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 17,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Menu/SimpleMenuList.js",
+            "functionName": "SimpleMenuList",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 6,
+              "endLine": 16
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Paper",
+                  "source": "@mui/material/Paper",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MenuList",
+                  "source": "@mui/material/MenuList",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Paper",
+            "sourceModule": "@mui/material/Paper",
+            "isDefault": true
+          },
+          {
+            "name": "MenuList",
+            "sourceModule": "@mui/material/MenuList",
+            "isDefault": true
+          },
+          {
+            "name": "MenuItem",
+            "sourceModule": "@mui/material/MenuItem",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "SimpleMenuList",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "SimpleMenuList",
+            "type": "function",
+            "signature": "function SimpleMenuList()"
+          }
+        ]
+      },
+      {
+        "name": "MenuContentAnchors.js",
+        "path": "test/regressions/fixtures/Menu/MenuContentAnchors.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 56,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Menu/MenuContentAnchors.js",
+            "functionName": "MenuContentAnchors",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 44,
+              "endLine": 55
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Grid",
+                  "source": "@mui/material/Grid",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Menu",
+                  "source": "@mui/material/Menu",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/test/regressions/fixtures/Menu/MenuContentAnchors.js",
+            "functionName": "SimpleMenu",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 18,
+              "endLine": 40
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Grid",
+                  "source": "@mui/material/Grid",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/material/Button",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Menu",
+                  "source": "@mui/material/Menu",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "Grid",
+            "sourceModule": "@mui/material/Grid",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/material/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Menu",
+            "sourceModule": "@mui/material/Menu",
+            "isDefault": true
+          },
+          {
+            "name": "MenuItem",
+            "sourceModule": "@mui/material/MenuItem",
+            "isDefault": true
+          },
+          {
+            "name": "styled",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "styled"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "MenuContentAnchors",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "SimpleMenu",
+            "type": "function",
+            "signature": "function SimpleMenu()"
+          },
+          {
+            "name": "MenuContentAnchors",
+            "type": "function",
+            "signature": "function MenuContentAnchors()"
+          },
+          {
+            "name": "M",
+            "type": "const",
+            "signature": "const M"
+          }
+        ]
+      },
+      {
+        "name": "LongMenu.js",
+        "path": "test/regressions/fixtures/Menu/LongMenu.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 76,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Menu/LongMenu.js",
+            "functionName": "componentDidMount",
+            "classification": "definite-legitimate",
+            "confidence": 7,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Mutates state or has side effects",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 34,
+              "endLine": 36
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Menu",
+                  "source": "@mui/material/Menu",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MoreVertIcon",
+                  "source": "@mui/icons-material/MoreVert",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/test/regressions/fixtures/Menu/LongMenu.js",
+            "functionName": "render",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Event handler or callback function; Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 38,
+              "endLine": 72
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "IconButton",
+                  "source": "@mui/material/IconButton",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Menu",
+                  "source": "@mui/material/Menu",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MoreVertIcon",
+                  "source": "@mui/icons-material/MoreVert",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "IconButton",
+            "sourceModule": "@mui/material/IconButton",
+            "isDefault": true
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Menu",
+            "sourceModule": "@mui/material/Menu",
+            "isDefault": true
+          },
+          {
+            "name": "MenuItem",
+            "sourceModule": "@mui/material/MenuItem",
+            "isDefault": true
+          },
+          {
+            "name": "MoreVertIcon",
+            "sourceModule": "@mui/icons-material/MoreVert",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "LongMenu",
+            "type": "class",
+            "signature": "class LongMenu"
+          },
+          {
+            "name": "ITEM_HEIGHT",
+            "type": "const",
+            "signature": "const ITEM_HEIGHT"
+          }
+        ]
+      },
+      {
+        "name": "DenseMenu.js",
+        "path": "test/regressions/fixtures/Menu/DenseMenu.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 44,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Menu/DenseMenu.js",
+            "functionName": "DenseMenu",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 10,
+              "endLine": 43
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Paper",
+                  "source": "@mui/material/Paper",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Divider",
+                  "source": "@mui/material/Divider",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MenuList",
+                  "source": "@mui/material/MenuList",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MenuItem",
+                  "source": "@mui/material/MenuItem",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListItemIcon",
+                  "source": "@mui/material/ListItemIcon",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ListItemText",
+                  "source": "@mui/material/ListItemText",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Check",
+                  "source": "@mui/icons-material/Check",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "Paper",
+            "sourceModule": "@mui/material/Paper",
+            "isDefault": true
+          },
+          {
+            "name": "Divider",
+            "sourceModule": "@mui/material/Divider",
+            "isDefault": true
+          },
+          {
+            "name": "MenuList",
+            "sourceModule": "@mui/material/MenuList",
+            "isDefault": true
+          },
+          {
+            "name": "MenuItem",
+            "sourceModule": "@mui/material/MenuItem",
+            "isDefault": true
+          },
+          {
+            "name": "ListItemIcon",
+            "sourceModule": "@mui/material/ListItemIcon",
+            "isDefault": true
+          },
+          {
+            "name": "ListItemText",
+            "sourceModule": "@mui/material/ListItemText",
+            "isDefault": true
+          },
+          {
+            "name": "Check",
+            "sourceModule": "@mui/icons-material/Check",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "DenseMenu",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "DenseMenu",
+            "type": "function",
+            "signature": "function DenseMenu()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "test/regressions/fixtures/Menu/SimpleMenuList.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/SimpleMenuList.js",
+          "to": "@mui/material/Paper",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/SimpleMenuList.js",
+          "to": "@mui/material/MenuList",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/SimpleMenuList.js",
+          "to": "@mui/material/MenuItem",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/MenuContentAnchors.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/MenuContentAnchors.js",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/MenuContentAnchors.js",
+          "to": "@mui/material/Grid",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/MenuContentAnchors.js",
+          "to": "@mui/material/Button",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/MenuContentAnchors.js",
+          "to": "@mui/material/Menu",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/MenuContentAnchors.js",
+          "to": "@mui/material/MenuItem",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/MenuContentAnchors.js",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/LongMenu.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/LongMenu.js",
+          "to": "@mui/material/IconButton",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/LongMenu.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/LongMenu.js",
+          "to": "@mui/material/Menu",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/LongMenu.js",
+          "to": "@mui/material/MenuItem",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/LongMenu.js",
+          "to": "@mui/icons-material/MoreVert",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/DenseMenu.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/DenseMenu.js",
+          "to": "@mui/material/Paper",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/DenseMenu.js",
+          "to": "@mui/material/Divider",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/DenseMenu.js",
+          "to": "@mui/material/MenuList",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/DenseMenu.js",
+          "to": "@mui/material/MenuItem",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/DenseMenu.js",
+          "to": "@mui/material/ListItemIcon",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/DenseMenu.js",
+          "to": "@mui/material/ListItemText",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Menu/DenseMenu.js",
+          "to": "@mui/icons-material/Check",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

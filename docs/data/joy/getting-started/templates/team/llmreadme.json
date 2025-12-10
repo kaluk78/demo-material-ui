@@ -1,0 +1,819 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:05:12.535Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:05:12.535Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "team",
+      "path": "docs/data/joy/getting-started/templates/team",
+      "purpose": "Enhanced directory analysis of team",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "App.tsx",
+        "path": "docs/data/joy/getting-started/templates/team/App.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 475,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/joy/getting-started/templates/team/App.tsx",
+            "functionName": "TeamExample",
+            "classification": "likely-placeholder",
+            "confidence": 71,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"placeholder\"",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters"
+            ],
+            "location": {
+              "startLine": 40,
+              "endLine": 474
+            },
+            "detectionMethods": {
+              "explicitMarkers": 40,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "CssVarsProvider",
+                  "source": "@mui/joy/styles",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CssBaseline",
+                  "source": "@mui/joy/CssBaseline",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Autocomplete",
+                  "source": "@mui/joy/Autocomplete",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Avatar",
+                  "source": "@mui/joy/Avatar",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/joy/Box",
+                  "line": 6,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Chip",
+                  "source": "@mui/joy/Chip",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ChipDelete",
+                  "source": "@mui/joy/ChipDelete",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Typography",
+                  "source": "@mui/joy/Typography",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Button",
+                  "source": "@mui/joy/Button",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "List",
+                  "source": "@mui/joy/List",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "source": "@mui/joy/Stack",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Divider",
+                  "source": "@mui/joy/Divider",
+                  "line": 13,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListItem",
+                  "source": "@mui/joy/ListItem",
+                  "line": 14,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListItemDecorator",
+                  "source": "@mui/joy/ListItemDecorator",
+                  "line": 15,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ListItemContent",
+                  "source": "@mui/joy/ListItemContent",
+                  "line": 16,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "RadioGroup",
+                  "source": "@mui/joy/RadioGroup",
+                  "line": 17,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Radio",
+                  "source": "@mui/joy/Radio",
+                  "line": 18,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Slider",
+                  "source": "@mui/joy/Slider",
+                  "line": 19,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Sheet",
+                  "source": "@mui/joy/Sheet",
+                  "line": 20,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "AccordionGroup",
+                  "source": "@mui/joy/AccordionGroup",
+                  "line": 21,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Accordion",
+                  "source": "@mui/joy/Accordion",
+                  "line": 22,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "AccordionDetails",
+                  "source": "@mui/joy/AccordionDetails",
+                  "line": 23,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "AccordionSummary",
+                  "source": "@mui/joy/AccordionSummary",
+                  "line": 26,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "KeyboardArrowRightRoundedIcon",
+                  "source": "@mui/icons-material/KeyboardArrowRightRounded",
+                  "line": 30,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "EmailRoundedIcon",
+                  "source": "@mui/icons-material/EmailRounded",
+                  "line": 31,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "PeopleAltRoundedIcon",
+                  "source": "@mui/icons-material/PeopleAltRounded",
+                  "line": 32,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "FolderRoundedIcon",
+                  "source": "@mui/icons-material/FolderRounded",
+                  "line": 33,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "PersonRoundedIcon",
+                  "source": "@mui/icons-material/PersonRounded",
+                  "line": 34,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Layout",
+                  "source": "./components/Layout",
+                  "line": 36,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Header",
+                  "source": "./components/Header",
+                  "line": 37,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Navigation",
+                  "source": "./components/Navigation",
+                  "line": 38,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "CssVarsProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "CssVarsProvider"
+            ]
+          },
+          {
+            "name": "CssBaseline",
+            "sourceModule": "@mui/joy/CssBaseline",
+            "isDefault": true
+          },
+          {
+            "name": "Autocomplete",
+            "sourceModule": "@mui/joy/Autocomplete",
+            "isDefault": true
+          },
+          {
+            "name": "Avatar",
+            "sourceModule": "@mui/joy/Avatar",
+            "isDefault": true
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/joy/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Chip",
+            "sourceModule": "@mui/joy/Chip",
+            "isDefault": true
+          },
+          {
+            "name": "ChipDelete",
+            "sourceModule": "@mui/joy/ChipDelete",
+            "isDefault": true
+          },
+          {
+            "name": "Typography",
+            "sourceModule": "@mui/joy/Typography",
+            "isDefault": true
+          },
+          {
+            "name": "Button",
+            "sourceModule": "@mui/joy/Button",
+            "isDefault": true
+          },
+          {
+            "name": "List",
+            "sourceModule": "@mui/joy/List",
+            "isDefault": true
+          },
+          {
+            "name": "Stack",
+            "sourceModule": "@mui/joy/Stack",
+            "isDefault": true
+          },
+          {
+            "name": "Divider",
+            "sourceModule": "@mui/joy/Divider",
+            "isDefault": true
+          },
+          {
+            "name": "ListItem",
+            "sourceModule": "@mui/joy/ListItem",
+            "isDefault": true
+          },
+          {
+            "name": "ListItemDecorator",
+            "sourceModule": "@mui/joy/ListItemDecorator",
+            "isDefault": true
+          },
+          {
+            "name": "ListItemContent",
+            "sourceModule": "@mui/joy/ListItemContent",
+            "isDefault": true
+          },
+          {
+            "name": "RadioGroup",
+            "sourceModule": "@mui/joy/RadioGroup",
+            "isDefault": true
+          },
+          {
+            "name": "Radio",
+            "sourceModule": "@mui/joy/Radio",
+            "isDefault": true
+          },
+          {
+            "name": "Slider",
+            "sourceModule": "@mui/joy/Slider",
+            "isDefault": true
+          },
+          {
+            "name": "Sheet",
+            "sourceModule": "@mui/joy/Sheet",
+            "isDefault": true
+          },
+          {
+            "name": "AccordionGroup",
+            "sourceModule": "@mui/joy/AccordionGroup",
+            "isDefault": true
+          },
+          {
+            "name": "Accordion",
+            "sourceModule": "@mui/joy/Accordion",
+            "isDefault": true
+          },
+          {
+            "name": "AccordionDetails",
+            "sourceModule": "@mui/joy/AccordionDetails",
+            "isDefault": true,
+            "namedImports": [
+              "accordionDetailsClasses"
+            ]
+          },
+          {
+            "name": "AccordionSummary",
+            "sourceModule": "@mui/joy/AccordionSummary",
+            "isDefault": true,
+            "namedImports": [
+              "accordionSummaryClasses"
+            ]
+          },
+          {
+            "name": "KeyboardArrowRightRoundedIcon",
+            "sourceModule": "@mui/icons-material/KeyboardArrowRightRounded",
+            "isDefault": true
+          },
+          {
+            "name": "EmailRoundedIcon",
+            "sourceModule": "@mui/icons-material/EmailRounded",
+            "isDefault": true
+          },
+          {
+            "name": "PeopleAltRoundedIcon",
+            "sourceModule": "@mui/icons-material/PeopleAltRounded",
+            "isDefault": true
+          },
+          {
+            "name": "FolderRoundedIcon",
+            "sourceModule": "@mui/icons-material/FolderRounded",
+            "isDefault": true
+          },
+          {
+            "name": "PersonRoundedIcon",
+            "sourceModule": "@mui/icons-material/PersonRounded",
+            "isDefault": true
+          },
+          {
+            "name": "Layout",
+            "sourceModule": "./components/Layout",
+            "isDefault": true
+          },
+          {
+            "name": "Header",
+            "sourceModule": "./components/Header",
+            "isDefault": true
+          },
+          {
+            "name": "Navigation",
+            "sourceModule": "./components/Navigation",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TeamExample",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TeamExample",
+            "type": "function",
+            "signature": "function TeamExample()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "components",
+        "relativePath": "components",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of components",
+        "keyElementsFromChild": []
+      }
+    ],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/CssBaseline",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/Autocomplete",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/Avatar",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/Chip",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/ChipDelete",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/Typography",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/Button",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/List",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/Stack",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/Divider",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/ListItem",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/ListItemDecorator",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/ListItemContent",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/RadioGroup",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/Radio",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/Slider",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/Sheet",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/AccordionGroup",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/Accordion",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/AccordionDetails",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/joy/AccordionSummary",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/icons-material/KeyboardArrowRightRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/icons-material/EmailRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/icons-material/PeopleAltRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/icons-material/FolderRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/team/App.tsx",
+          "to": "@mui/icons-material/PersonRounded",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

@@ -1,0 +1,225 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:23:21.666Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:23:21.666Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "buildApiDocs",
+      "path": "scripts/buildApiDocs",
+      "purpose": "Enhanced directory analysis of buildApiDocs",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.ts",
+        "path": "scripts/buildApiDocs/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 46,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/scripts/buildApiDocs/index.ts",
+            "functionName": "run",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Very generic function name",
+              "Utility function with clear purpose; Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 17,
+              "endLine": 21
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 7,
+              "commentAnalysis": 0,
+              "contextFilter": -65,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "yargs",
+                  "source": "yargs",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ArgumentsCamelCase",
+                  "source": "yargs",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "ProjectSettings",
+                  "source": "@mui-internal/api-docs-builder",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "buildApi",
+                  "source": "@mui-internal/api-docs-builder",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "joyUiProjectSettings",
+                  "source": "@mui-internal/api-docs-builder-core",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "materialUiProjectSettings",
+                  "source": "@mui-internal/api-docs-builder-core",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "muiSystemProjectSettings",
+                  "source": "@mui-internal/api-docs-builder-core",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "yargs",
+            "sourceModule": "yargs",
+            "isDefault": true,
+            "namedImports": [
+              "ArgumentsCamelCase"
+            ]
+          },
+          {
+            "name": "ProjectSettings",
+            "sourceModule": "@mui-internal/api-docs-builder",
+            "isDefault": false,
+            "namedImports": [
+              "ProjectSettings",
+              "buildApi"
+            ]
+          },
+          {
+            "name": "joyUiProjectSettings",
+            "sourceModule": "@mui-internal/api-docs-builder-core",
+            "isDefault": false,
+            "namedImports": [
+              "joyUiProjectSettings",
+              "materialUiProjectSettings",
+              "muiSystemProjectSettings"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "run",
+            "type": "function",
+            "signature": "function run()"
+          },
+          {
+            "name": "CommandOptions",
+            "type": "type",
+            "signature": "type CommandOptions"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "scripts/buildApiDocs/index.ts",
+          "to": "yargs",
+          "type": "imports"
+        },
+        {
+          "from": "scripts/buildApiDocs/index.ts",
+          "to": "@mui-internal/api-docs-builder",
+          "type": "imports"
+        },
+        {
+          "from": "scripts/buildApiDocs/index.ts",
+          "to": "@mui-internal/api-docs-builder-core",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

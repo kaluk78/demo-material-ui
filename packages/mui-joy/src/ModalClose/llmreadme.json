@@ -1,0 +1,742 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:19:31.020Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:19:31.020Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "ModalClose",
+      "path": "packages/mui-joy/src/ModalClose",
+      "purpose": "Enhanced directory analysis of ModalClose",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "modalCloseClasses.ts",
+        "path": "packages/mui-joy/src/ModalClose/modalCloseClasses.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 58,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/ModalClose/modalCloseClasses.ts",
+            "functionName": "getModalCloseUtilityClass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 36,
+              "endLine": 38
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -42,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "generateUtilityClass",
+                  "source": "../className",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "generateUtilityClasses",
+                  "source": "../className",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "generateUtilityClass",
+            "sourceModule": "../className",
+            "isDefault": false,
+            "namedImports": [
+              "generateUtilityClass",
+              "generateUtilityClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ModalCloseClasses",
+            "type": "interface"
+          },
+          {
+            "name": "ModalCloseClassKey",
+            "type": "type"
+          },
+          {
+            "name": "getModalCloseUtilityClass",
+            "type": "function"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getModalCloseUtilityClass",
+            "type": "function",
+            "signature": "function getModalCloseUtilityClass()"
+          },
+          {
+            "name": "ModalCloseClasses",
+            "type": "interface",
+            "signature": "interface ModalCloseClasses"
+          },
+          {
+            "name": "ModalCloseClassKey",
+            "type": "type",
+            "signature": "type ModalCloseClassKey"
+          }
+        ]
+      },
+      {
+        "name": "index.ts",
+        "path": "packages/mui-joy/src/ModalClose/index.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          },
+          {
+            "name": "modalCloseClasses",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "ModalCloseProps.ts",
+        "path": "packages/mui-joy/src/ModalClose/ModalCloseProps.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 60,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "OverridableStringUnion",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableStringUnion",
+              "OverrideProps"
+            ]
+          },
+          {
+            "name": "ColorPaletteProp",
+            "sourceModule": "../styles/types",
+            "isDefault": false,
+            "namedImports": [
+              "ColorPaletteProp",
+              "SxProps",
+              "VariantProp",
+              "ApplyColorInversion"
+            ]
+          },
+          {
+            "name": "SlotProps",
+            "sourceModule": "../utils/types",
+            "isDefault": false,
+            "namedImports": [
+              "SlotProps",
+              "CreateSlotsAndSlotProps"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ModalCloseSlot",
+            "type": "type"
+          },
+          {
+            "name": "ModalCloseSlots",
+            "type": "interface"
+          },
+          {
+            "name": "ModalCloseSlotsAndSlotProps",
+            "type": "type"
+          },
+          {
+            "name": "ModalClosePropsColorOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "ModalClosePropsVariantOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "ModalClosePropsSizeOverrides",
+            "type": "interface"
+          },
+          {
+            "name": "ModalCloseTypeMap",
+            "type": "interface"
+          },
+          {
+            "name": "ModalCloseProps",
+            "type": "type"
+          },
+          {
+            "name": "ModalCloseOwnerState",
+            "type": "interface"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ModalCloseSlots",
+            "type": "interface",
+            "signature": "interface ModalCloseSlots"
+          },
+          {
+            "name": "ModalClosePropsColorOverrides",
+            "type": "interface",
+            "signature": "interface ModalClosePropsColorOverrides"
+          },
+          {
+            "name": "ModalClosePropsVariantOverrides",
+            "type": "interface",
+            "signature": "interface ModalClosePropsVariantOverrides"
+          },
+          {
+            "name": "ModalClosePropsSizeOverrides",
+            "type": "interface",
+            "signature": "interface ModalClosePropsSizeOverrides"
+          },
+          {
+            "name": "ModalCloseTypeMap",
+            "type": "interface",
+            "signature": "interface ModalCloseTypeMap"
+          },
+          {
+            "name": "ModalCloseOwnerState",
+            "type": "interface",
+            "signature": "interface ModalCloseOwnerState"
+          },
+          {
+            "name": "ModalCloseSlot",
+            "type": "type",
+            "signature": "type ModalCloseSlot"
+          },
+          {
+            "name": "ModalCloseSlotsAndSlotProps",
+            "type": "type",
+            "signature": "type ModalCloseSlotsAndSlotProps"
+          },
+          {
+            "name": "ModalCloseProps",
+            "type": "type",
+            "signature": "type ModalCloseProps"
+          }
+        ]
+      },
+      {
+        "name": "ModalClose.tsx",
+        "path": "packages/mui-joy/src/ModalClose/ModalClose.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 216,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages/mui-joy/src/ModalClose/ModalClose.tsx",
+            "functionName": "ModalClose",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "[FALLBACK] 1 AI-suspicious unused variables: SlotRoot",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Moderate context score; Event handler or callback function"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 4.800000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "CloseIcon",
+                  "source": "../internal/svg-icons/Close",
+                  "line": 13,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "SlotRoot",
+                  "line": 124,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages/mui-joy/src/ModalClose/ModalClose.tsx",
+            "functionName": "useUtilityClasses",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "CloseIcon",
+                  "source": "../internal/svg-icons/Close",
+                  "line": 13,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "PropTypes",
+            "sourceModule": "prop-types",
+            "isDefault": true
+          },
+          {
+            "name": "composeClasses",
+            "sourceModule": "@mui/base",
+            "isDefault": false,
+            "namedImports": [
+              "composeClasses"
+            ]
+          },
+          {
+            "name": "OverridableComponent",
+            "sourceModule": "@mui/types",
+            "isDefault": false,
+            "namedImports": [
+              "OverridableComponent"
+            ]
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "useButton",
+            "sourceModule": "@mui/base/useButton",
+            "isDefault": false,
+            "namedImports": [
+              "useButton"
+            ]
+          },
+          {
+            "name": "useSlot",
+            "sourceModule": "../utils/useSlot",
+            "isDefault": true
+          },
+          {
+            "name": "useThemeProps",
+            "sourceModule": "../styles",
+            "isDefault": false,
+            "namedImports": [
+              "useThemeProps",
+              "styled"
+            ]
+          },
+          {
+            "name": "StyledIconButton",
+            "sourceModule": "../IconButton/IconButton",
+            "isDefault": false,
+            "namedImports": [
+              "StyledIconButton"
+            ]
+          },
+          {
+            "name": "getModalCloseUtilityClass",
+            "sourceModule": "./modalCloseClasses",
+            "isDefault": false,
+            "namedImports": [
+              "getModalCloseUtilityClass"
+            ]
+          },
+          {
+            "name": "ModalCloseProps",
+            "sourceModule": "./ModalCloseProps",
+            "isDefault": false,
+            "namedImports": [
+              "ModalCloseProps",
+              "ModalCloseOwnerState",
+              "ModalCloseTypeMap"
+            ]
+          },
+          {
+            "name": "CloseIcon",
+            "sourceModule": "../internal/svg-icons/Close",
+            "isDefault": true
+          },
+          {
+            "name": "CloseModalContext",
+            "sourceModule": "../Modal/CloseModalContext",
+            "isDefault": true
+          },
+          {
+            "name": "ModalDialogSizeContext",
+            "sourceModule": "../ModalDialog/ModalDialogSizeContext",
+            "isDefault": true
+          },
+          {
+            "name": "ModalDialogProps",
+            "sourceModule": "../ModalDialog/ModalDialogProps",
+            "isDefault": false,
+            "namedImports": [
+              "ModalDialogProps"
+            ]
+          },
+          {
+            "name": "ModalDialogVariantColorContext",
+            "sourceModule": "../ModalDialog/ModalDialogVariantColorContext",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ModalCloseRoot",
+            "type": "const"
+          },
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ModalClose",
+            "type": "function",
+            "signature": "function ModalClose()"
+          },
+          {
+            "name": "useUtilityClasses",
+            "type": "function",
+            "signature": "const useUtilityClasses = () =>"
+          },
+          {
+            "name": "M",
+            "type": "const",
+            "signature": "const M"
+          },
+          {
+            "name": "M",
+            "type": "const",
+            "signature": "const M"
+          },
+          {
+            "name": "definitions",
+            "type": "type",
+            "signature": "type definitions"
+          }
+        ]
+      },
+      {
+        "name": "ModalClose.test.tsx",
+        "path": "packages/mui-joy/src/ModalClose/ModalClose.test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 108,
+        "importedModules": [
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "spy",
+            "sourceModule": "sinon",
+            "isDefault": false,
+            "namedImports": [
+              "spy"
+            ]
+          },
+          {
+            "name": "createRenderer",
+            "sourceModule": "@mui/internal-test-utils",
+            "isDefault": false,
+            "namedImports": [
+              "createRenderer",
+              "fireEvent",
+              "screen"
+            ]
+          },
+          {
+            "name": "capitalize",
+            "sourceModule": "@mui/utils/capitalize",
+            "isDefault": true
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "Modal",
+            "sourceModule": "@mui/joy/Modal",
+            "isDefault": true
+          },
+          {
+            "name": "ModalDialog",
+            "sourceModule": "@mui/joy/ModalDialog",
+            "isDefault": true
+          },
+          {
+            "name": "ModalClose",
+            "sourceModule": "@mui/joy/ModalClose",
+            "isDefault": true,
+            "namedImports": [
+              "classes"
+            ]
+          },
+          {
+            "name": "describeConformance",
+            "sourceModule": "../../test/describeConformance",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "by",
+            "type": "class",
+            "signature": "class by"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages/mui-joy/src/ModalClose/ModalCloseProps.ts",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ModalClose/ModalCloseProps.ts",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ModalClose/ModalClose.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ModalClose/ModalClose.tsx",
+          "to": "prop-types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ModalClose/ModalClose.tsx",
+          "to": "@mui/base",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ModalClose/ModalClose.tsx",
+          "to": "@mui/types",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ModalClose/ModalClose.tsx",
+          "to": "@mui/utils/capitalize",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ModalClose/ModalClose.tsx",
+          "to": "@mui/base/useButton",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ModalClose/ModalClose.tsx",
+          "to": "packages/mui-joy/src/ModalClose/modalCloseClasses.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ModalClose/ModalClose.tsx",
+          "to": "packages/mui-joy/src/ModalClose/ModalCloseProps.ts",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ModalClose/ModalClose.test.tsx",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ModalClose/ModalClose.test.tsx",
+          "to": "sinon",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ModalClose/ModalClose.test.tsx",
+          "to": "@mui/internal-test-utils",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ModalClose/ModalClose.test.tsx",
+          "to": "@mui/utils/capitalize",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ModalClose/ModalClose.test.tsx",
+          "to": "@mui/joy/styles",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ModalClose/ModalClose.test.tsx",
+          "to": "@mui/joy/Modal",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ModalClose/ModalClose.test.tsx",
+          "to": "@mui/joy/ModalDialog",
+          "type": "imports"
+        },
+        {
+          "from": "packages/mui-joy/src/ModalClose/ModalClose.test.tsx",
+          "to": "@mui/joy/ModalClose",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

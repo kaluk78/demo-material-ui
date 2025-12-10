@@ -1,0 +1,749 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:23:18.012Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:23:18.012Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "test",
+      "path": "packages-internal/scripts/typescript-to-proptypes/test",
+      "purpose": "Enhanced directory analysis of test",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "typescript-to-proptypes.test.ts",
+        "path": "packages-internal/scripts/typescript-to-proptypes/test/typescript-to-proptypes.test.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 124,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/test/typescript-to-proptypes.test.ts",
+            "functionName": "beforeHook",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Intentionally unused parameter/variable (prefixed with _); Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -45,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "path",
+                  "source": "path",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "fs",
+                  "source": "fs",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "expect",
+                  "source": "chai",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "glob",
+                  "source": "fast-glob",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "prettier",
+                  "source": "prettier",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "TypeScriptProject",
+                  "source": "@mui/internal-docs-utils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "createTypeScriptProjectBuilder",
+                  "source": "@mui/internal-docs-utils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "generatePropTypes",
+                  "source": "../src/generatePropTypes",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "injectPropTypesInFile",
+                  "source": "../src/injectPropTypesInFile",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "getPropTypesFromFile",
+                  "source": "../src/getPropTypesFromFile",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "TestOptions",
+                  "source": "./types",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/packages-internal/scripts/typescript-to-proptypes/test/typescript-to-proptypes.test.ts",
+            "functionName": "getProject",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function returns a parameter (simple pass-through)",
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility); Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 32,
+              "endLine": 34
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 34,
+              "commentAnalysis": 0,
+              "contextFilter": -50,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "path",
+                  "source": "path",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "fs",
+                  "source": "fs",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "expect",
+                  "source": "chai",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "glob",
+                  "source": "fast-glob",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "prettier",
+                  "source": "prettier",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "TypeScriptProject",
+                  "source": "@mui/internal-docs-utils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "createTypeScriptProjectBuilder",
+                  "source": "@mui/internal-docs-utils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "generatePropTypes",
+                  "source": "../src/generatePropTypes",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "injectPropTypesInFile",
+                  "source": "../src/injectPropTypesInFile",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "getPropTypesFromFile",
+                  "source": "../src/getPropTypesFromFile",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "TestOptions",
+                  "source": "./types",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "path",
+            "sourceModule": "path",
+            "isDefault": true
+          },
+          {
+            "name": "fs",
+            "sourceModule": "fs",
+            "isDefault": true
+          },
+          {
+            "name": "* as ts",
+            "sourceModule": "typescript",
+            "isDefault": false,
+            "namedImports": [
+              "* as ts"
+            ]
+          },
+          {
+            "name": "expect",
+            "sourceModule": "chai",
+            "isDefault": false,
+            "namedImports": [
+              "expect"
+            ]
+          },
+          {
+            "name": "glob",
+            "sourceModule": "fast-glob",
+            "isDefault": true
+          },
+          {
+            "name": "prettier",
+            "sourceModule": "prettier",
+            "isDefault": true
+          },
+          {
+            "name": "TypeScriptProject",
+            "sourceModule": "@mui/internal-docs-utils",
+            "isDefault": false,
+            "namedImports": [
+              "TypeScriptProject",
+              "createTypeScriptProjectBuilder"
+            ]
+          },
+          {
+            "name": "generatePropTypes",
+            "sourceModule": "../src/generatePropTypes",
+            "isDefault": false,
+            "namedImports": [
+              "generatePropTypes"
+            ]
+          },
+          {
+            "name": "injectPropTypesInFile",
+            "sourceModule": "../src/injectPropTypesInFile",
+            "isDefault": false,
+            "namedImports": [
+              "injectPropTypesInFile"
+            ]
+          },
+          {
+            "name": "getPropTypesFromFile",
+            "sourceModule": "../src/getPropTypesFromFile",
+            "isDefault": false,
+            "namedImports": [
+              "getPropTypesFromFile"
+            ]
+          },
+          {
+            "name": "TestOptions",
+            "sourceModule": "./types",
+            "isDefault": false,
+            "namedImports": [
+              "TestOptions"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getProject",
+            "type": "function",
+            "signature": "function getProject()"
+          },
+          {
+            "name": "beforeHook",
+            "type": "function",
+            "signature": "function beforeHook()"
+          }
+        ]
+      },
+      {
+        "name": "types.d.ts",
+        "path": "packages-internal/scripts/typescript-to-proptypes/test/types.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 12,
+        "importedModules": [
+          {
+            "name": "InjectPropTypesInFileOptions",
+            "sourceModule": "../src",
+            "isDefault": false,
+            "namedImports": [
+              "InjectPropTypesInFileOptions",
+              "GetPropTypesFromFileOptions",
+              "GeneratePropTypesOptions"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TestOptions",
+            "type": "type"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TestOptions",
+            "type": "type",
+            "signature": "type TestOptions"
+          }
+        ]
+      },
+      {
+        "name": "testSetup.js",
+        "path": "packages-internal/scripts/typescript-to-proptypes/test/testSetup.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 2,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "boolean-values-optional",
+        "relativePath": "boolean-values-optional",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of boolean-values-optional",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "boolean-values-required",
+        "relativePath": "boolean-values-required",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of boolean-values-required",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "code-order",
+        "relativePath": "code-order",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of code-order",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "component-type",
+        "relativePath": "component-type",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of component-type",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "default-value",
+        "relativePath": "default-value",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of default-value",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "generator-html-elements",
+        "relativePath": "generator-html-elements",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of generator-html-elements",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "generic",
+        "relativePath": "generic",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of generic",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "genericUnion",
+        "relativePath": "genericUnion",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of genericUnion",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "getThemeProps",
+        "relativePath": "getThemeProps",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of getThemeProps",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "injector-all-props-ignored",
+        "relativePath": "injector-all-props-ignored",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of injector-all-props-ignored",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "injector-should-include-component-based",
+        "relativePath": "injector-should-include-component-based",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of injector-should-include-component-based",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "injector-should-include-filename-based",
+        "relativePath": "injector-should-include-filename-based",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of injector-should-include-filename-based",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "injector-string-props",
+        "relativePath": "injector-string-props",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of injector-string-props",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "injector-whitelisted-props",
+        "relativePath": "injector-whitelisted-props",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of injector-whitelisted-props",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "interfaceUnion",
+        "relativePath": "interfaceUnion",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of interfaceUnion",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "jsdoc-interface",
+        "relativePath": "jsdoc-interface",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of jsdoc-interface",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "literal-autocomplete",
+        "relativePath": "literal-autocomplete",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of literal-autocomplete",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "mixed-literals",
+        "relativePath": "mixed-literals",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of mixed-literals",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "omit-conditional",
+        "relativePath": "omit-conditional",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of omit-conditional",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "options-test",
+        "relativePath": "options-test",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of options-test",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "overloaded-function-component",
+        "relativePath": "overloaded-function-component",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of overloaded-function-component",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "partial-any-props",
+        "relativePath": "partial-any-props",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of partial-any-props",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "propTypes-casting",
+        "relativePath": "propTypes-casting",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of propTypes-casting",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "reconcile-prop-types",
+        "relativePath": "reconcile-prop-types",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of reconcile-prop-types",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "remove-proptypes",
+        "relativePath": "remove-proptypes",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of remove-proptypes",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "sort-unions",
+        "relativePath": "sort-unions",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of sort-unions",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "type-unknown",
+        "relativePath": "type-unknown",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of type-unknown",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "union-props",
+        "relativePath": "union-props",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of union-props",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "unused-prop",
+        "relativePath": "unused-prop",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of unused-prop",
+        "keyElementsFromChild": []
+      }
+    ],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "packages-internal/scripts/typescript-to-proptypes/test/typescript-to-proptypes.test.ts",
+          "to": "path",
+          "type": "imports"
+        },
+        {
+          "from": "packages-internal/scripts/typescript-to-proptypes/test/typescript-to-proptypes.test.ts",
+          "to": "fs",
+          "type": "imports"
+        },
+        {
+          "from": "packages-internal/scripts/typescript-to-proptypes/test/typescript-to-proptypes.test.ts",
+          "to": "typescript",
+          "type": "imports"
+        },
+        {
+          "from": "packages-internal/scripts/typescript-to-proptypes/test/typescript-to-proptypes.test.ts",
+          "to": "chai",
+          "type": "imports"
+        },
+        {
+          "from": "packages-internal/scripts/typescript-to-proptypes/test/typescript-to-proptypes.test.ts",
+          "to": "fast-glob",
+          "type": "imports"
+        },
+        {
+          "from": "packages-internal/scripts/typescript-to-proptypes/test/typescript-to-proptypes.test.ts",
+          "to": "prettier",
+          "type": "imports"
+        },
+        {
+          "from": "packages-internal/scripts/typescript-to-proptypes/test/typescript-to-proptypes.test.ts",
+          "to": "@mui/internal-docs-utils",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

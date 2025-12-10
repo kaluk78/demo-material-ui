@@ -1,0 +1,750 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:05:05.835Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:05:05.835Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "framesx-web-blocks",
+      "path": "docs/data/joy/getting-started/templates/framesx-web-blocks",
+      "purpose": "Enhanced directory analysis of framesx-web-blocks",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "theme.tsx",
+        "path": "docs/data/joy/getting-started/templates/framesx-web-blocks/theme.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 73,
+        "importedModules": [
+          {
+            "name": "extendTheme",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "extendTheme"
+            ]
+          },
+          {
+            "name": "inputClasses",
+            "sourceModule": "@mui/joy/Input",
+            "isDefault": false,
+            "namedImports": [
+              "inputClasses"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "App.tsx",
+        "path": "docs/data/joy/getting-started/templates/framesx-web-blocks/App.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 87,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/data/joy/getting-started/templates/framesx-web-blocks/App.tsx",
+            "functionName": "ColorSchemeToggle",
+            "classification": "definite-legitimate",
+            "confidence": 19.8,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return null;\"",
+              "Function takes no parameters",
+              "[FALLBACK] 1 AI-suspicious unused variables: mounted",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Event handler or callback function"
+            ],
+            "location": {
+              "startLine": 22,
+              "endLine": 56
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 4.800000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "CssVarsProvider",
+                  "source": "@mui/joy/styles",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/joy/Box",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CssBaseline",
+                  "source": "@mui/joy/CssBaseline",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/joy/IconButton",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "DarkModeRoundedIcon",
+                  "source": "@mui/icons-material/DarkModeRounded",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "LightModeRoundedIcon",
+                  "source": "@mui/icons-material/LightModeRounded",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "HeroLeft01",
+                  "source": "./blocks/HeroLeft01",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HeroLeft02",
+                  "source": "./blocks/HeroLeft02",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HeroLeft03",
+                  "source": "./blocks/HeroLeft03",
+                  "line": 13,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HeroLeft04",
+                  "source": "./blocks/HeroLeft04",
+                  "line": 14,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HeroLeft05",
+                  "source": "./blocks/HeroLeft05",
+                  "line": 15,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HeroLeft06",
+                  "source": "./blocks/HeroLeft06",
+                  "line": 16,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HeroLeft07",
+                  "source": "./blocks/HeroLeft07",
+                  "line": 17,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HeroLeft08",
+                  "source": "./blocks/HeroLeft08",
+                  "line": 18,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HeroLeft09",
+                  "source": "./blocks/HeroLeft09",
+                  "line": 19,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HeroLeft10",
+                  "source": "./blocks/HeroLeft10",
+                  "line": 20,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "mounted",
+                  "line": 24,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/docs/data/joy/getting-started/templates/framesx-web-blocks/App.tsx",
+            "functionName": "TeamExample",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 58,
+              "endLine": 86
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "CssVarsProvider",
+                  "source": "@mui/joy/styles",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/joy/Box",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "CssBaseline",
+                  "source": "@mui/joy/CssBaseline",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "IconButton",
+                  "source": "@mui/joy/IconButton",
+                  "line": 5,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "DarkModeRoundedIcon",
+                  "source": "@mui/icons-material/DarkModeRounded",
+                  "line": 7,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "LightModeRoundedIcon",
+                  "source": "@mui/icons-material/LightModeRounded",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "HeroLeft01",
+                  "source": "./blocks/HeroLeft01",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HeroLeft02",
+                  "source": "./blocks/HeroLeft02",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HeroLeft03",
+                  "source": "./blocks/HeroLeft03",
+                  "line": 13,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HeroLeft04",
+                  "source": "./blocks/HeroLeft04",
+                  "line": 14,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HeroLeft05",
+                  "source": "./blocks/HeroLeft05",
+                  "line": 15,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HeroLeft06",
+                  "source": "./blocks/HeroLeft06",
+                  "line": 16,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HeroLeft07",
+                  "source": "./blocks/HeroLeft07",
+                  "line": 17,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HeroLeft08",
+                  "source": "./blocks/HeroLeft08",
+                  "line": 18,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HeroLeft09",
+                  "source": "./blocks/HeroLeft09",
+                  "line": 19,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HeroLeft10",
+                  "source": "./blocks/HeroLeft10",
+                  "line": 20,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "CssVarsProvider",
+            "sourceModule": "@mui/joy/styles",
+            "isDefault": false,
+            "namedImports": [
+              "CssVarsProvider",
+              "useColorScheme"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/joy/Box",
+            "isDefault": true
+          },
+          {
+            "name": "CssBaseline",
+            "sourceModule": "@mui/joy/CssBaseline",
+            "isDefault": true
+          },
+          {
+            "name": "IconButton",
+            "sourceModule": "@mui/joy/IconButton",
+            "isDefault": true
+          },
+          {
+            "name": "DarkModeRoundedIcon",
+            "sourceModule": "@mui/icons-material/DarkModeRounded",
+            "isDefault": true
+          },
+          {
+            "name": "LightModeRoundedIcon",
+            "sourceModule": "@mui/icons-material/LightModeRounded",
+            "isDefault": true
+          },
+          {
+            "name": "framesxTheme",
+            "sourceModule": "./theme",
+            "isDefault": true
+          },
+          {
+            "name": "HeroLeft01",
+            "sourceModule": "./blocks/HeroLeft01",
+            "isDefault": true
+          },
+          {
+            "name": "HeroLeft02",
+            "sourceModule": "./blocks/HeroLeft02",
+            "isDefault": true
+          },
+          {
+            "name": "HeroLeft03",
+            "sourceModule": "./blocks/HeroLeft03",
+            "isDefault": true
+          },
+          {
+            "name": "HeroLeft04",
+            "sourceModule": "./blocks/HeroLeft04",
+            "isDefault": true
+          },
+          {
+            "name": "HeroLeft05",
+            "sourceModule": "./blocks/HeroLeft05",
+            "isDefault": true
+          },
+          {
+            "name": "HeroLeft06",
+            "sourceModule": "./blocks/HeroLeft06",
+            "isDefault": true
+          },
+          {
+            "name": "HeroLeft07",
+            "sourceModule": "./blocks/HeroLeft07",
+            "isDefault": true
+          },
+          {
+            "name": "HeroLeft08",
+            "sourceModule": "./blocks/HeroLeft08",
+            "isDefault": true
+          },
+          {
+            "name": "HeroLeft09",
+            "sourceModule": "./blocks/HeroLeft09",
+            "isDefault": true
+          },
+          {
+            "name": "HeroLeft10",
+            "sourceModule": "./blocks/HeroLeft10",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "TeamExample",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ColorSchemeToggle",
+            "type": "function",
+            "signature": "function ColorSchemeToggle()"
+          },
+          {
+            "name": "TeamExample",
+            "type": "function",
+            "signature": "function TeamExample()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "blocks",
+        "relativePath": "blocks",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of blocks",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "components",
+        "relativePath": "components",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of components",
+        "keyElementsFromChild": []
+      }
+    ],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "docs/data/joy/getting-started/templates/framesx-web-blocks/theme.tsx",
+          "to": "@mui/joy/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/framesx-web-blocks/theme.tsx",
+          "to": "@mui/joy/Input",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/framesx-web-blocks/App.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/framesx-web-blocks/App.tsx",
+          "to": "@mui/joy/styles",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/framesx-web-blocks/App.tsx",
+          "to": "@mui/joy/Box",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/framesx-web-blocks/App.tsx",
+          "to": "@mui/joy/CssBaseline",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/framesx-web-blocks/App.tsx",
+          "to": "@mui/joy/IconButton",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/framesx-web-blocks/App.tsx",
+          "to": "@mui/icons-material/DarkModeRounded",
+          "type": "imports"
+        },
+        {
+          "from": "docs/data/joy/getting-started/templates/framesx-web-blocks/App.tsx",
+          "to": "@mui/icons-material/LightModeRounded",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

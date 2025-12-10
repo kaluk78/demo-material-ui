@@ -1,0 +1,504 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:11:26.329Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:11:26.329Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "docs",
+      "path": "docs",
+      "purpose": "Enhanced directory analysis of docs",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "postcss.config.js",
+        "path": "docs/postcss.config.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 7,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "nextConfigDocsInfra.js",
+        "path": "docs/nextConfigDocsInfra.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 102,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/nextConfigDocsInfra.js",
+            "functionName": "withDocsInfra",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function contains only a return statement",
+              "Moderate context score; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 51,
+              "endLine": 99
+            },
+            "detectionMethods": {
+              "explicitMarkers": 20,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "withDocsInfra",
+            "type": "function",
+            "signature": "function withDocsInfra()"
+          }
+        ]
+      },
+      {
+        "name": "next.config.ts",
+        "path": "docs/next.config.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 287,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/next.config.ts",
+            "functionName": "traverse",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Configuration file - simple functions expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 211,
+              "endLine": 243
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -50,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BundleAnalyzerPlugin",
+                  "source": "webpack-bundle-analyzer",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "createRequire",
+                  "source": "module",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "NextConfig",
+                  "source": "next",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "findPages",
+                  "source": "./src/modules/utils/find",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                },
+                {
+                  "name": "LANGUAGES",
+                  "source": "./config",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "LANGUAGES_SSR",
+                  "source": "./config",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "LANGUAGES_IGNORE_PAGES",
+                  "source": "./config",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "LANGUAGES_IN_PROGRESS",
+                  "source": "./config",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as path",
+            "sourceModule": "path",
+            "isDefault": false,
+            "namedImports": [
+              "* as path"
+            ]
+          },
+          {
+            "name": "* as url",
+            "sourceModule": "url",
+            "isDefault": false,
+            "namedImports": [
+              "* as url"
+            ]
+          },
+          {
+            "name": "* as fs",
+            "sourceModule": "fs",
+            "isDefault": false,
+            "namedImports": [
+              "* as fs"
+            ]
+          },
+          {
+            "name": "BundleAnalyzerPlugin",
+            "sourceModule": "webpack-bundle-analyzer",
+            "isDefault": false,
+            "namedImports": [
+              "BundleAnalyzerPlugin"
+            ]
+          },
+          {
+            "name": "createRequire",
+            "sourceModule": "module",
+            "isDefault": false,
+            "namedImports": [
+              "createRequire"
+            ]
+          },
+          {
+            "name": "NextConfig",
+            "sourceModule": "next",
+            "isDefault": false,
+            "namedImports": [
+              "NextConfig"
+            ]
+          },
+          {
+            "name": "findPages",
+            "sourceModule": "./src/modules/utils/find",
+            "isDefault": false,
+            "namedImports": [
+              "findPages"
+            ]
+          },
+          {
+            "name": "LANGUAGES",
+            "sourceModule": "./config",
+            "isDefault": false,
+            "namedImports": [
+              "LANGUAGES",
+              "LANGUAGES_SSR",
+              "LANGUAGES_IGNORE_PAGES",
+              "LANGUAGES_IN_PROGRESS"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "traverse",
+            "type": "function",
+            "signature": "function traverse()"
+          }
+        ]
+      },
+      {
+        "name": "config.ts",
+        "path": "docs/config.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 23,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/docs/config.ts",
+            "functionName": "LANGUAGES_IGNORE_PAGES",
+            "classification": "definite-legitimate",
+            "confidence": 15,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns hardcoded value: \"return false;\"",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 15,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "LANGUAGES",
+            "type": "const"
+          },
+          {
+            "name": "LANGUAGES_SSR",
+            "type": "const"
+          },
+          {
+            "name": "LANGUAGES_IN_PROGRESS",
+            "type": "const"
+          },
+          {
+            "name": "LANGUAGES_IGNORE_PAGES",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "LANGUAGES_IGNORE_PAGES",
+            "type": "function",
+            "signature": "const LANGUAGES_IGNORE_PAGES = () =>"
+          },
+          {
+            "name": "LANGUAGES",
+            "type": "const",
+            "signature": "const LANGUAGES"
+          },
+          {
+            "name": "LANGUAGES_SSR",
+            "type": "const",
+            "signature": "const LANGUAGES_SSR"
+          },
+          {
+            "name": "LANGUAGES_IN_PROGRESS",
+            "type": "const",
+            "signature": "const LANGUAGES_IN_PROGRESS"
+          },
+          {
+            "name": "LANGUAGES_IGNORE_PAGES",
+            "type": "const",
+            "signature": "const LANGUAGES_IGNORE_PAGES"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "data",
+        "relativePath": "data",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of data",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "lib",
+        "relativePath": "lib",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of lib",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "mui-vale",
+        "relativePath": "mui-vale",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of mui-vale",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "pages",
+        "relativePath": "pages",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of pages",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "public",
+        "relativePath": "public",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of public",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "scripts",
+        "relativePath": "scripts",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of scripts",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "src",
+        "relativePath": "src",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of src",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "translations",
+        "relativePath": "translations",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of translations",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "types",
+        "relativePath": "types",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of types",
+        "keyElementsFromChild": []
+      }
+    ],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "docs/next.config.ts",
+          "to": "path",
+          "type": "imports"
+        },
+        {
+          "from": "docs/next.config.ts",
+          "to": "url",
+          "type": "imports"
+        },
+        {
+          "from": "docs/next.config.ts",
+          "to": "fs",
+          "type": "imports"
+        },
+        {
+          "from": "docs/next.config.ts",
+          "to": "webpack-bundle-analyzer",
+          "type": "imports"
+        },
+        {
+          "from": "docs/next.config.ts",
+          "to": "module",
+          "type": "imports"
+        },
+        {
+          "from": "docs/next.config.ts",
+          "to": "next",
+          "type": "imports"
+        },
+        {
+          "from": "docs/next.config.ts",
+          "to": "docs/config.ts",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

@@ -1,0 +1,1241 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:11:32.337Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:11:32.337Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "app",
+      "path": "examples/material-ui-react-router-ts/app",
+      "purpose": "Enhanced directory analysis of app",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "theme.tsx",
+        "path": "examples/material-ui-react-router-ts/app/theme.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 25,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/examples/material-ui-react-router-ts/app/theme.tsx",
+            "functionName": "AppTheme",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 17,
+              "endLine": 24
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "ThemeProvider",
+                  "source": "@mui/material/styles",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CssBaseline",
+                  "source": "@mui/material/CssBaseline",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "createTheme",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "createTheme",
+              "ThemeProvider"
+            ]
+          },
+          {
+            "name": "CssBaseline",
+            "sourceModule": "@mui/material/CssBaseline",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "AppTheme",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "AppTheme",
+            "type": "function",
+            "signature": "function AppTheme()"
+          },
+          {
+            "name": "AppThemeProps",
+            "type": "interface",
+            "signature": "interface AppThemeProps"
+          }
+        ]
+      },
+      {
+        "name": "routes.ts",
+        "path": "examples/material-ui-react-router-ts/app/routes.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 7,
+        "importedModules": [
+          {
+            "name": "RouteConfig",
+            "sourceModule": "@react-router/dev/routes",
+            "isDefault": false,
+            "namedImports": [
+              "RouteConfig",
+              "index",
+              "route"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "RouteConfig",
+            "type": "type",
+            "signature": "type RouteConfig"
+          }
+        ]
+      },
+      {
+        "name": "root.tsx",
+        "path": "examples/material-ui-react-router-ts/app/root.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 93,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/examples/material-ui-react-router-ts/app/root.tsx",
+            "functionName": "App",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 50,
+              "endLine": 65
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Links",
+                  "source": "react-router",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Meta",
+                  "source": "react-router",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Outlet",
+                  "source": "react-router",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Scripts",
+                  "source": "react-router",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ScrollRestoration",
+                  "source": "react-router",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CacheProvider",
+                  "source": "@emotion/react",
+                  "line": 10,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "AppTheme",
+                  "source": "./theme",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/examples/material-ui-react-router-ts/app/root.tsx",
+            "functionName": "ErrorBoundary",
+            "classification": "definite-legitimate",
+            "confidence": 5,
+            "isPlaceholder": false,
+            "reasons": [
+              "High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 67,
+              "endLine": 92
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Links",
+                  "source": "react-router",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Meta",
+                  "source": "react-router",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Outlet",
+                  "source": "react-router",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Scripts",
+                  "source": "react-router",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ScrollRestoration",
+                  "source": "react-router",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CacheProvider",
+                  "source": "@emotion/react",
+                  "line": 10,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "AppTheme",
+                  "source": "./theme",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/examples/material-ui-react-router-ts/app/root.tsx",
+            "functionName": "Layout",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 30,
+              "endLine": 46
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Links",
+                  "source": "react-router",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Meta",
+                  "source": "react-router",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Outlet",
+                  "source": "react-router",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Scripts",
+                  "source": "react-router",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ScrollRestoration",
+                  "source": "react-router",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CacheProvider",
+                  "source": "@emotion/react",
+                  "line": 10,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "AppTheme",
+                  "source": "./theme",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/examples/material-ui-react-router-ts/app/root.tsx",
+            "functionName": "links",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -18,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "Links",
+                  "source": "react-router",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Meta",
+                  "source": "react-router",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Outlet",
+                  "source": "react-router",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Scripts",
+                  "source": "react-router",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ScrollRestoration",
+                  "source": "react-router",
+                  "line": 2,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CacheProvider",
+                  "source": "@emotion/react",
+                  "line": 10,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 11,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "AppTheme",
+                  "source": "./theme",
+                  "line": 12,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "isRouteErrorResponse",
+            "sourceModule": "react-router",
+            "isDefault": false,
+            "namedImports": [
+              "isRouteErrorResponse",
+              "Links",
+              "Meta",
+              "Outlet",
+              "Scripts",
+              "ScrollRestoration"
+            ]
+          },
+          {
+            "name": "CacheProvider",
+            "sourceModule": "@emotion/react",
+            "isDefault": false,
+            "namedImports": [
+              "CacheProvider"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "AppTheme",
+            "sourceModule": "./theme",
+            "isDefault": true
+          },
+          {
+            "name": "createEmotionCache",
+            "sourceModule": "./createCache",
+            "isDefault": true
+          },
+          {
+            "name": "Route",
+            "sourceModule": "./+types/root",
+            "isDefault": false,
+            "namedImports": [
+              "Route"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "links",
+            "type": "const"
+          },
+          {
+            "name": "Layout",
+            "type": "function"
+          },
+          {
+            "name": "App",
+            "type": "function"
+          },
+          {
+            "name": "ErrorBoundary",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Layout",
+            "type": "function",
+            "signature": "function Layout()"
+          },
+          {
+            "name": "App",
+            "type": "function",
+            "signature": "function App()"
+          },
+          {
+            "name": "ErrorBoundary",
+            "type": "function",
+            "signature": "function ErrorBoundary()"
+          }
+        ]
+      },
+      {
+        "name": "entry.server.tsx",
+        "path": "examples/material-ui-react-router-ts/app/entry.server.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 102,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/examples/material-ui-react-router-ts/app/entry.server.tsx",
+            "functionName": "handleRequest",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score; Event handler or callback function; Intentionally unused parameter/variable (prefixed with _); Properly uses assigned variables; Mutates state or has side effects",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 15,
+              "endLine": 101
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -80,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 3,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ServerRouter",
+                  "source": "react-router",
+                  "line": 6,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CacheProvider",
+                  "source": "@emotion/react",
+                  "line": 10,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Transform",
+            "sourceModule": "node:stream",
+            "isDefault": false,
+            "namedImports": [
+              "Transform"
+            ]
+          },
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "* as ReactDOMServer",
+            "sourceModule": "react-dom/server",
+            "isDefault": false,
+            "namedImports": [
+              "* as ReactDOMServer"
+            ]
+          },
+          {
+            "name": "EntryContext",
+            "sourceModule": "react-router",
+            "isDefault": false,
+            "namedImports": [
+              "EntryContext"
+            ]
+          },
+          {
+            "name": "ServerRouter",
+            "sourceModule": "react-router",
+            "isDefault": false,
+            "namedImports": [
+              "ServerRouter"
+            ]
+          },
+          {
+            "name": "createReadableStreamFromReadable",
+            "sourceModule": "@react-router/node",
+            "isDefault": false,
+            "namedImports": [
+              "createReadableStreamFromReadable"
+            ]
+          },
+          {
+            "name": "isbot",
+            "sourceModule": "isbot",
+            "isDefault": false,
+            "namedImports": [
+              "isbot"
+            ]
+          },
+          {
+            "name": "createEmotionServer",
+            "sourceModule": "@emotion/server/create-instance",
+            "isDefault": true
+          },
+          {
+            "name": "CacheProvider",
+            "sourceModule": "@emotion/react",
+            "isDefault": false,
+            "namedImports": [
+              "CacheProvider"
+            ]
+          },
+          {
+            "name": "createEmotionCache",
+            "sourceModule": "./createCache",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "streamTimeout",
+            "type": "const"
+          },
+          {
+            "name": "handleRequest",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "handleRequest",
+            "type": "function",
+            "signature": "function handleRequest()"
+          }
+        ]
+      },
+      {
+        "name": "entry.client.tsx",
+        "path": "examples/material-ui-react-router-ts/app/entry.client.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 13,
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "* as ReactDOM",
+            "sourceModule": "react-dom/client",
+            "isDefault": false,
+            "namedImports": [
+              "* as ReactDOM"
+            ]
+          },
+          {
+            "name": "HydratedRouter",
+            "sourceModule": "react-router/dom",
+            "isDefault": false,
+            "namedImports": [
+              "HydratedRouter"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "createCache.ts",
+        "path": "examples/material-ui-react-router-ts/app/createCache.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 16,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/examples/material-ui-react-router-ts/app/createCache.ts",
+            "functionName": "createEmotionCache",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score; Properly uses assigned variables; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 3,
+              "endLine": 15
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -62,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "createCache",
+                  "source": "@emotion/cache",
+                  "line": 0,
+                  "isDefault": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "createCache",
+            "sourceModule": "@emotion/cache",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "createEmotionCache",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "createEmotionCache",
+            "type": "function",
+            "signature": "function createEmotionCache()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "components",
+        "relativePath": "components",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of components",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "routes",
+        "relativePath": "routes",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of routes",
+        "keyElementsFromChild": []
+      }
+    ],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "examples/material-ui-react-router-ts/app/theme.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/theme.tsx",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/theme.tsx",
+          "to": "@mui/material/CssBaseline",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/routes.ts",
+          "to": "@react-router/dev/routes",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/root.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/root.tsx",
+          "to": "react-router",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/root.tsx",
+          "to": "@emotion/react",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/root.tsx",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/root.tsx",
+          "to": "examples/material-ui-react-router-ts/app/createCache.ts",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/entry.server.tsx",
+          "to": "node:stream",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/entry.server.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/entry.server.tsx",
+          "to": "react-dom/server",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/entry.server.tsx",
+          "to": "react-router",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/entry.server.tsx",
+          "to": "react-router",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/entry.server.tsx",
+          "to": "@react-router/node",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/entry.server.tsx",
+          "to": "isbot",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/entry.server.tsx",
+          "to": "@emotion/server/create-instance",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/entry.server.tsx",
+          "to": "@emotion/react",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/entry.server.tsx",
+          "to": "examples/material-ui-react-router-ts/app/createCache.ts",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/entry.client.tsx",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/entry.client.tsx",
+          "to": "react-dom/client",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/entry.client.tsx",
+          "to": "react-router/dom",
+          "type": "imports"
+        },
+        {
+          "from": "examples/material-ui-react-router-ts/app/createCache.ts",
+          "to": "@emotion/cache",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

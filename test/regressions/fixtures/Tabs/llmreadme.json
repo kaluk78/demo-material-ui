@@ -1,0 +1,299 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:23:33.924Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:23:33.924Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "Tabs",
+      "path": "test/regressions/fixtures/Tabs",
+      "purpose": "Enhanced directory analysis of Tabs",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "RTLVerticalTabs.js",
+        "path": "test/regressions/fixtures/Tabs/RTLVerticalTabs.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 37,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/Tabs/RTLVerticalTabs.js",
+            "functionName": "RTLVerticalTabs",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 18,
+              "endLine": 36
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "CacheProvider",
+                  "source": "@emotion/react",
+                  "line": 4,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "StyleSheetManager",
+                  "source": "styled-components",
+                  "line": 6,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "ThemeProvider",
+                  "source": "@mui/material/styles",
+                  "line": 7,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "Box",
+                  "source": "@mui/material/Box",
+                  "line": 8,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Tabs",
+                  "source": "@mui/material/Tabs",
+                  "line": 9,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Tab",
+                  "source": "@mui/material/Tab",
+                  "line": 10,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "prefixer",
+            "sourceModule": "stylis",
+            "isDefault": false,
+            "namedImports": [
+              "prefixer"
+            ]
+          },
+          {
+            "name": "rtlPlugin",
+            "sourceModule": "@mui/stylis-plugin-rtl",
+            "isDefault": true
+          },
+          {
+            "name": "CacheProvider",
+            "sourceModule": "@emotion/react",
+            "isDefault": false,
+            "namedImports": [
+              "CacheProvider"
+            ]
+          },
+          {
+            "name": "createCache",
+            "sourceModule": "@emotion/cache",
+            "isDefault": true
+          },
+          {
+            "name": "StyleSheetManager",
+            "sourceModule": "styled-components",
+            "isDefault": false,
+            "namedImports": [
+              "StyleSheetManager"
+            ]
+          },
+          {
+            "name": "ThemeProvider",
+            "sourceModule": "@mui/material/styles",
+            "isDefault": false,
+            "namedImports": [
+              "ThemeProvider",
+              "createTheme"
+            ]
+          },
+          {
+            "name": "Box",
+            "sourceModule": "@mui/material/Box",
+            "isDefault": true
+          },
+          {
+            "name": "Tabs",
+            "sourceModule": "@mui/material/Tabs",
+            "isDefault": true
+          },
+          {
+            "name": "Tab",
+            "sourceModule": "@mui/material/Tab",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "RTLVerticalTabs",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "RTLVerticalTabs",
+            "type": "function",
+            "signature": "function RTLVerticalTabs()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "test/regressions/fixtures/Tabs/RTLVerticalTabs.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tabs/RTLVerticalTabs.js",
+          "to": "stylis",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tabs/RTLVerticalTabs.js",
+          "to": "@mui/stylis-plugin-rtl",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tabs/RTLVerticalTabs.js",
+          "to": "@emotion/react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tabs/RTLVerticalTabs.js",
+          "to": "@emotion/cache",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tabs/RTLVerticalTabs.js",
+          "to": "styled-components",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tabs/RTLVerticalTabs.js",
+          "to": "@mui/material/styles",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tabs/RTLVerticalTabs.js",
+          "to": "@mui/material/Box",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tabs/RTLVerticalTabs.js",
+          "to": "@mui/material/Tabs",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/Tabs/RTLVerticalTabs.js",
+          "to": "@mui/material/Tab",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

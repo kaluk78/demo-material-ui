@@ -1,0 +1,750 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-10T07:23:34.128Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-10T07:23:34.128Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "TextField",
+      "path": "test/regressions/fixtures/TextField",
+      "purpose": "Enhanced directory analysis of TextField",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "OutlinedHiddenRequiredIndicator.js",
+        "path": "test/regressions/fixtures/TextField/OutlinedHiddenRequiredIndicator.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 17,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/TextField/OutlinedHiddenRequiredIndicator.js",
+            "functionName": "OutlinedHiddenRequiredIndicator",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 16
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "TextField",
+                  "source": "@mui/material/TextField",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "TextField",
+            "sourceModule": "@mui/material/TextField",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "OutlinedHiddenRequiredIndicator",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "OutlinedHiddenRequiredIndicator",
+            "type": "function",
+            "signature": "function OutlinedHiddenRequiredIndicator()"
+          }
+        ]
+      },
+      {
+        "name": "MultilineTextField.js",
+        "path": "test/regressions/fixtures/TextField/MultilineTextField.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 12,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/TextField/MultilineTextField.js",
+            "functionName": "MultilineTextField",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 11
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "TextField",
+                  "source": "@mui/material/TextField",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "TextField",
+            "sourceModule": "@mui/material/TextField",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "MultilineTextField",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "MultilineTextField",
+            "type": "function",
+            "signature": "function MultilineTextField()"
+          }
+        ]
+      },
+      {
+        "name": "FilledMultilineHiddenLabelTextField.js",
+        "path": "test/regressions/fixtures/TextField/FilledMultilineHiddenLabelTextField.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 27,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/TextField/FilledMultilineHiddenLabelTextField.js",
+            "functionName": "FilledMultilineHiddenLabelTextField",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 4,
+              "endLine": 26
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "TextField",
+                  "source": "@mui/material/TextField",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "TextField",
+            "sourceModule": "@mui/material/TextField",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "FilledMultilineHiddenLabelTextField",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "FilledMultilineHiddenLabelTextField",
+            "type": "function",
+            "signature": "function FilledMultilineHiddenLabelTextField()"
+          }
+        ]
+      },
+      {
+        "name": "FilledHiddenLabelInputAdornment.js",
+        "path": "test/regressions/fixtures/TextField/FilledHiddenLabelInputAdornment.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 18,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/TextField/FilledHiddenLabelInputAdornment.js",
+            "functionName": "FilledHiddenLabelInputAdornment",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 17
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "TextField",
+                  "source": "@mui/material/TextField",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "InputAdornment",
+                  "source": "@mui/material/InputAdornment",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "TextField",
+            "sourceModule": "@mui/material/TextField",
+            "isDefault": true
+          },
+          {
+            "name": "InputAdornment",
+            "sourceModule": "@mui/material/InputAdornment",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "FilledHiddenLabelInputAdornment",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "FilledHiddenLabelInputAdornment",
+            "type": "function",
+            "signature": "function FilledHiddenLabelInputAdornment()"
+          }
+        ]
+      },
+      {
+        "name": "ConstrainedTextField.js",
+        "path": "test/regressions/fixtures/TextField/ConstrainedTextField.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 17,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/TextField/ConstrainedTextField.js",
+            "functionName": "ConstrainedTextField",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 5,
+              "endLine": 16
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "TextField",
+                  "source": "@mui/material/TextField",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "TextField",
+            "sourceModule": "@mui/material/TextField",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ConstrainedTextField",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ConstrainedTextField",
+            "type": "function",
+            "signature": "function ConstrainedTextField()"
+          }
+        ]
+      },
+      {
+        "name": "BaselineAlignTextField.js",
+        "path": "test/regressions/fixtures/TextField/BaselineAlignTextField.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 56,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/regressions/fixtures/TextField/BaselineAlignTextField.js",
+            "functionName": "BaselineAlignTextField",
+            "classification": "uncertain",
+            "confidence": 56,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"placeholder\"",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters"
+            ],
+            "location": {
+              "startLine": 6,
+              "endLine": 55
+            },
+            "detectionMethods": {
+              "explicitMarkers": 40,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "React",
+                  "source": "react",
+                  "line": 1,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                },
+                {
+                  "name": "TextField",
+                  "source": "@mui/material/TextField",
+                  "line": 2,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "Visibility",
+                  "source": "@mui/icons-material/Visibility",
+                  "line": 3,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "InputAdornment",
+                  "source": "@mui/material/InputAdornment",
+                  "line": 4,
+                  "isDefault": true,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "MINOR",
+                    "score": 4,
+                    "reason": "UI or helper import - might be preparatory or cleanup needed"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "* as React",
+            "sourceModule": "react",
+            "isDefault": false,
+            "namedImports": [
+              "* as React"
+            ]
+          },
+          {
+            "name": "TextField",
+            "sourceModule": "@mui/material/TextField",
+            "isDefault": true
+          },
+          {
+            "name": "Visibility",
+            "sourceModule": "@mui/icons-material/Visibility",
+            "isDefault": true
+          },
+          {
+            "name": "InputAdornment",
+            "sourceModule": "@mui/material/InputAdornment",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "BaselineAlignTextField",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "BaselineAlignTextField",
+            "type": "function",
+            "signature": "function BaselineAlignTextField()"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "test/regressions/fixtures/TextField/OutlinedHiddenRequiredIndicator.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/TextField/OutlinedHiddenRequiredIndicator.js",
+          "to": "@mui/material/TextField",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/TextField/MultilineTextField.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/TextField/MultilineTextField.js",
+          "to": "@mui/material/TextField",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/TextField/FilledMultilineHiddenLabelTextField.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/TextField/FilledMultilineHiddenLabelTextField.js",
+          "to": "@mui/material/TextField",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/TextField/FilledHiddenLabelInputAdornment.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/TextField/FilledHiddenLabelInputAdornment.js",
+          "to": "@mui/material/TextField",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/TextField/FilledHiddenLabelInputAdornment.js",
+          "to": "@mui/material/InputAdornment",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/TextField/ConstrainedTextField.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/TextField/ConstrainedTextField.js",
+          "to": "@mui/material/TextField",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/TextField/BaselineAlignTextField.js",
+          "to": "react",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/TextField/BaselineAlignTextField.js",
+          "to": "@mui/material/TextField",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/TextField/BaselineAlignTextField.js",
+          "to": "@mui/icons-material/Visibility",
+          "type": "imports"
+        },
+        {
+          "from": "test/regressions/fixtures/TextField/BaselineAlignTextField.js",
+          "to": "@mui/material/InputAdornment",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}
